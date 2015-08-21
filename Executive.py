@@ -12,7 +12,7 @@ import math
 def is_ss(s):
     if s==1:
         return False
-    for i in range(2,int(sqrt(s)+1)):
+    for i in range(2,int(math.sqrt(s)+1)):
         if s%i==0:
             return False
     return True
