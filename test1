@@ -1,0 +1,21 @@
+# test1.py
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+
+#try:
+#    f = open('/Users/wuyinan/Documents/AppleScript教程.pdf', 'r')
+#    print f.read()
+#finally:
+#    if f:
+#        f.close()
+
+
+#with open('/Users/wuyinan/Documents/AppleScript教程.pdf', 'r') as f:
+#    print f.readlines()
+
+
+def add_end(L = []):
+	L.add_end('end')
+	return L
+
+
