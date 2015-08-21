@@ -4,11 +4,13 @@
 
 #import SetDef
 from collections import Iterable
+import os
 
 #for key,value in SetDef.d.iteritems():
 #	print key,value
 
-print [m * n for m in [1,2,3] for n in [4,5,6]]
+print [d for d in os.listdir('.')]
+	
 	
 	
 
