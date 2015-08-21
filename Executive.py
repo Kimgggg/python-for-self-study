@@ -3,13 +3,13 @@
 #!/usr/bin/env python
 
 #import SetDef
-#from collections import Iterable
+from collections import Iterable
 
 #for key,value in SetDef.d.iteritems():
 #	print key,value
 
-b = 10
-print [a*b for a in range(1,10)]
+print [m * n for m in [1,2,3] for n in [4,5,6]]
+	
 	
 
 
