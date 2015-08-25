@@ -1,14 +1,24 @@
 # testone.py
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
+# still running on Python 2.7
 
 #import SetDef
+from __future__ import division
+from __future__ import unicode_literals
 from collections import Iterable
 import os
 import Image
 
+print '\'xxx\' is unicode?', isinstance('xxx', unicode)
+print 'u\'xxx\' is unicode?', isinstance(u'xxx', unicode)
+print '\'xxx\' is str?', isinstance('xxx', str)
+print 'b\'xxx\' is str?', isinstance(b'xxx', str)
 
-im = Image.open('/Users/wuyinan/Desktop/IMG_1681.PNG')
-print im.format, im.size, im.mode
-im.thumbnail((200, 100))
-im.save('/Users/wuyinan/Desktop/thumb.PNG', 'PNG')
+
+print '10 / 3 =', 10 / 3
+print '10.0 / 3 =', 10.0 / 3
+print '10 // 3 =', 10 // 3
+print '10.0 // 3 =', 10 // 3
+print '10 // 3.0 =', 10 // 3
+
