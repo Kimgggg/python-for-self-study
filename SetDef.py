@@ -31,16 +31,25 @@ def fact_iter(num, product):
     return fact_iter(num - 1, num * product)
 
 
-def log(text):
+def log_text(text):
     def decorator(func):
+        @functools.wraps(func)
         def wrapper(*args, **kw):
             print '%s %s():' % (text, func.__name__)
             return func(*args, **kw)
         return wrapper
     return decorator
 
+def log(fn):
+    def wrapper():
+        print "begin call, %s" % fn.__name__
+        fn()
+        print "end call, %s" % fn.__name__
+    return wrapper
 
-@log('fuck me')
+@log
 def now():
-	print 'today'
+	print 'today is' 
+
+
 
