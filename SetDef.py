@@ -3,6 +3,7 @@
 #!/usr/bin/env python
 
 import types
+import functools
 
 def int2(x,base = 2):
 	return int(x,base)
@@ -29,7 +30,17 @@ def fact_iter(num, product):
         return product
     return fact_iter(num - 1, num * product)
 
-L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
 
-d = {'a':1,'b':2,'c':3}
+def log(text):
+    def decorator(func):
+        def wrapper(*args, **kw):
+            print '%s %s():' % (text, func.__name__)
+            return func(*args, **kw)
+        return wrapper
+    return decorator
+
+
+@log('fuck me')
+def now():
+	print 'today'
 
