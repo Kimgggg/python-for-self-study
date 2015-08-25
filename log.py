@@ -4,6 +4,7 @@
 # still running on Python 2.7
 
 import functools
+import SetDef
 
 
 

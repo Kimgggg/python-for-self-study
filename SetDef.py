@@ -4,6 +4,7 @@
 
 import types
 import functools
+import log
 
 def int2(x,base = 2):
 	return int(x,base)
