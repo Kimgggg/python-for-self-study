@@ -7,7 +7,8 @@ from collections import Iterable
 import os
 import Image
 
-im = Image.open('/Users/wuyinan/Desktop/IMG_1026.JPG')
-w, h = im.size
-im.thumbnail((w//2, h//2))
-im.save('/Users/wuyinan/Desktop/IMG_10267.JPG')
+
+im = Image.open('/Users/wuyinan/Desktop/IMG_1681.PNG')
+print im.format, im.size, im.mode
+im.thumbnail((200, 100))
+im.save('/Users/wuyinan/Desktop/thumb.PNG', 'PNG')
