@@ -4,9 +4,18 @@
 # still running on Python 2.7
 
 import SetDef
+from SetDef import Student
 from collections import Iterable
 import os
 import Image
 
 
-print SetDef.now()
+bart = SetDef.Student(raw_input('字符串：'),input('数值：'))
+lisa = SetDef.Student('fuck',99)
+
+bart.print_score()
+lisa.print_score()
+"""
+print bart.SetDef.name()
+print bart.SetDef.score()
+"""

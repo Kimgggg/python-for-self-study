@@ -3,6 +3,7 @@
 #!/usr/bin/env python
 # still running on Python 2.7
 
+"""
 import functools
 import SetDef
 
@@ -36,3 +37,4 @@ def now2():
 
 print	now1()
 print	now2()
+"""

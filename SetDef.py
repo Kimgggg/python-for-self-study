@@ -4,7 +4,7 @@
 
 import types
 import functools
-import log
+#import log
 
 def int2(x,base = 2):
 	return int(x,base)
@@ -31,7 +31,7 @@ def fact_iter(num, product):
         return product
     return fact_iter(num - 1, num * product)
 
-
+"""
 def log_text(text):
     def decorator(func):
         @functools.wraps(func)
@@ -51,6 +51,20 @@ def log(fn):
 @log
 def now():
 	print 'today is' 
+"""
+
+
+
+class Student(object):
+    """test"""
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+    def print_score(self):
+        print '%s: %s' % (self.name, self.score)
+
+        
 
 
 
