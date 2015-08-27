@@ -13,9 +13,13 @@ import Image
 bart = SetDef.Student(raw_input('字符串：'),input('数值：'))
 lisa = SetDef.Student('fuck',99)
 
+
 bart.print_score()
 lisa.print_score()
-"""
-print bart.SetDef.name()
-print bart.SetDef.score()
-"""
+
+
+bart.score = 90
+bart.name = 'wuyinan'
+
+bart.print_score()
+print bart.get_grade()
