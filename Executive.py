@@ -16,10 +16,13 @@ lisa = SetDef.Student('fuck',99)
 
 bart.print_score()
 lisa.print_score()
+print bart.get_grade()
+now()
 
-
+"""
 bart.score = 90
 bart.name = 'wuyinan'
 
 bart.print_score()
 print bart.get_grade()
+"""
