@@ -83,14 +83,25 @@ class Animal(object):
     def run(self):
         print 'Animal is running ... '
 
+
 class Dog(Animal):
     """docstring for Dog"""
-    pass
+    def run(self):
+        print 'Dog is 辛巴'
+    def eat(self):
+        print '辛巴是头猪'
+
 
 class Cat(Animal):
     """docstring for ClassName"""
-    pass
+    def run(self):
+        print 'Cat is 二傻'
+    def eat(self):
+        print '在家吃屎'
         
+def run_twice(Animal):
+    Animal.run()
+    Animal.run()
         
         
 

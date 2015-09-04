@@ -9,8 +9,9 @@ from collections import Iterable
 import os
 import Image
 
-dog = SetDef.Dog()
-dog.run()
 
-cat = SetDef.Cat()
-cat.run()
+print	SetDef.run_twice(SetDef.Animal())
+print	SetDef.run_twice(SetDef.Dog())
+print	SetDef.run_twice(SetDef.Cat())
+
+
