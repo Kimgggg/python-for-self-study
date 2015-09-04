@@ -72,6 +72,28 @@ class Student(object):
             return 'B'
         else:
             return 'C'
+    def get_name(self):
+        return self.__name
+    
+    def get_score(self):
+        return self.__score
+
+class Animal(object):
+    """Base class and Super class test"""
+    def run(self):
+        print 'Animal is running ... '
+
+class Dog(Animal):
+    """docstring for Dog"""
+    pass
+
+class Cat(Animal):
+    """docstring for ClassName"""
+    pass
+        
+        
+        
+
 
         
 
