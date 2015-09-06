@@ -8,10 +8,9 @@ from SetDef import Student
 from collections import Iterable
 import os
 import Image
+import types
 
 
-print	SetDef.run_twice(SetDef.Animal())
-print	SetDef.run_twice(SetDef.Dog())
-print	SetDef.run_twice(SetDef.Cat())
+print	dir(SetDef.Animal())
 
 
