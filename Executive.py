@@ -3,14 +3,14 @@
 #!/usr/bin/env python
 # still running on Python 2.7
 
-import SetDef
-from SetDef import Student
 from collections import Iterable
+import SetDef
+import SetClass
 import os
 import Image
 import types
 
 
-print	dir(SetDef.Animal())
+print	dir(SetClass.Animal())
 
 
