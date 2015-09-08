@@ -61,6 +61,8 @@ def set_age(self, age):
     self.age = age
 
 
+def set_score(self, score):
+    self.score = score
 
 
 
