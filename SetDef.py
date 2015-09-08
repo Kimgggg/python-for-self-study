@@ -4,6 +4,8 @@
 
 import types
 import functools
+import Classtest
+
 #import log
 
 def int2(x,base = 2):
@@ -51,7 +53,14 @@ def log(fn):
 @log
 def now():
 	print 'today is' 
+
+ //暂时调不通   
 """
+
+def set_age(self, age):
+    self.age = age
+
+
 
 
 
