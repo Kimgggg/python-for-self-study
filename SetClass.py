@@ -77,7 +77,7 @@ class Fib(object):
 
 	def next(self):
 		self.a, self.b = self.b, self.a + self.b
-		if self.a > 2:
+		if self.a > 1024*1024*1024*1024:  #我是来搞笑的
 			raise StopIteration();
 		return self.a
 
