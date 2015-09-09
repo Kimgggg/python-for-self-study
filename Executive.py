@@ -7,13 +7,12 @@ from collections import Iterable
 from types import MethodType
 import SetDef
 import Classtest
+import SetClass
 import os
 import Image
 import types
 
-s = Classtest.Student()
-s.score = input('数字～：')
-s.birth = 1987
-print	s.birth
-print	s.age
 
+s = SetClass.Dog()
+
+s.run()

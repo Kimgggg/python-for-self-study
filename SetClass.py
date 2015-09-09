@@ -6,46 +6,73 @@ import types
 import functools
 
 class Student(object):
-	"""docstring for Student"""
-	def get_score(self):
-		return self._score
-
-	def set_score(self, value):
+	@property
+	def score(self):
+	    return self._score
+	@score.setter
+	def score(self, value):
 		if not isinstance(value, int):
 			raise ValueError('整数～～')
-		if value < 0 or value > 100:
+		if value<0 or value>100:
 			raise ValueError('超出范围')
 		self._score = value
+	
+	@property
+	def birth(self):
+	    return self._birth
+	@birth.setter
+	def birth(self, value):
+	    self._birth = value
+	@property
+	def age(self):
+	    return 2015 - self._birth
+
+
+class Animal(object):
+	"""docstring for Animal"""
+	pass
+#总类
+
+class Mammal(Animal):
+	pass
+
+class Bird(Animal):
+	pass
+
+class RunnableMixin(object):
+	def run(self):
+		print('Running...')
+
+class FylableMixin(object):
+	def fly(self):
+		print('Flying...')
+
+
+#大类
+
+class Dog(Mammal, RunnableMixin):
+	pass
+
+class Bat(Mammal, RunnableMixin):
+	pass
+
+class Parrot(Bird, FylableMixin):
+	pass
+
+class Ostrich(Bird, FylableMixin):
+	pass
+
+	
+
+		
+
+		
 
 	
 		
 
     	
 
-class Animal(object):
-    """Base class and Super class test"""
-    def run(self):
-        print 'Animal is running ... '
-
-
-class Dog(Animal):
-    """docstring for Dog"""
-    def run(self):
-        print 'Dog is 辛巴'
-    def eat(self):
-        print '辛巴是头猪'
-
-
-class Cat(Animal):
-    """docstring for ClassName"""
-    def run(self):
-        print 'Cat is 二傻'
-    def eat(self):
-        print '在家吃屎'
-        
-def run_twice(Animal):
-    Animal.run()
-    Animal.run()
 
 
 
