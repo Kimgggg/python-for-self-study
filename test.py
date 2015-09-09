@@ -36,11 +36,6 @@ else:
 """
 
 
-
-def int2(x,base = 2):
-	return int(x,base)
-
-
 def add_end(L = None):
 	if L is None:
 		L = []
@@ -71,6 +66,7 @@ while n <= 100:
 
 print L
 
+'''
 x = L[ff]
 
 while ff <= 99:
@@ -79,7 +75,7 @@ while ff <= 99:
 	x = x + 1
 
 print sum
-
+'''
 
 
 
