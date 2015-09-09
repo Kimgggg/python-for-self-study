@@ -6,26 +6,21 @@ import types
 import functools
 
 class Student(object):
-    """test"""
-    def __init__(self, name, score):
-        self.__name = name
-        self.__score = score
+	"""docstring for Student"""
+	def get_score(self):
+		return self._score
 
-    def print_score(self):
-        print '%s: %s' % (self.__name, self.__score)
+	def set_score(self, value):
+		if not isinstance(value, int):
+			raise ValueError('整数～～')
+		if value < 0 or value > 100:
+			raise ValueError('超出范围')
+		self._score = value
 
-    def get_grade(self):
-        if self.__score >= 90:
-            return 'A'
-        elif self.__score >= 60:
-            return 'B'
-        else:
-            return 'C'
-    def get_name(self):
-        return self.__name
-    
-    def get_score(self):
-        return self.__score
+	
+		
+
+    	
 
 class Animal(object):
     """Base class and Super class test"""
@@ -51,3 +46,6 @@ class Cat(Animal):
 def run_twice(Animal):
     Animal.run()
     Animal.run()
+
+
+
