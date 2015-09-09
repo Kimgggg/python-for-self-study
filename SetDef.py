@@ -84,8 +84,8 @@ def Fib(n):
                     print '第',Number_X + 1,'个斐波那契数是:',f[Number_X]
         Continue_query = input('继续查询请按“3”\n')
         print 'bye～'
-    else:
-        print 'bye～'
+    else:   #bug
+    print 'bye～'
 
 
 
