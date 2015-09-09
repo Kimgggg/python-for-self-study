@@ -1,6 +1,5 @@
 #coding:utf8
-#author:HaxtraZ
-#description:红黑树，python实现
+
 from random import randint
 
 RED = 'red'
