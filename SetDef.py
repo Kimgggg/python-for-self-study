@@ -58,11 +58,12 @@ def now():
  //暂时调不通   
 """
 
-def Fib(n):
+def Fib_query(n):
     for n in SetClass.Fib():
         pass
     f = SetClass.Fib()
     Continue_query = 3 #初始化＝3
+    
     while Continue_query == 3:
         a = input('查询斐波那契数列\n单独查询按“1”，多个查询按“2”: \n')
         if a != 1 and a != 2:
@@ -85,7 +86,7 @@ def Fib(n):
         Continue_query = input('继续查询请按“3”\n')
         print 'bye～'
     else:   #bug
-    print 'bye～'
+        print 'bye～'
 
 
 
