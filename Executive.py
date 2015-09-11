@@ -16,6 +16,7 @@ if ord(key) == 121:
 	SetDef.Fib(key)
 else:
 	raw_input("Press any key to Exit: ")
+#未调通
 
 
 
