@@ -25,7 +25,7 @@ class TestDict(unittest.TestCase):
 
 	def test_keyerror(self):
 		d = Dict()
-		with self.assertRaises(keyError):
+		with self.assertRaises(KeyError):
 			value = d['empty']
 
 	def test_attrerror(self):
@@ -33,9 +33,10 @@ class TestDict(unittest.TestCase):
 		with self.assertRaises(AttributeError):
 			value = d.empty
 	
-	if __name__ =='__main__':
-		unittest.main()
-		
+
+if __name__ =='__main__':
+	unittest.main()
+
 
 
 		
