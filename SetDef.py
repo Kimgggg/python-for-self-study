@@ -85,7 +85,7 @@ def Fib(n):
         Continue_query = input('继续查询请按“3”\n')
         print 'bye～'
     else:   #bug
-    print 'bye～'
+        print 'bye～'
 
 
 
