@@ -62,7 +62,7 @@ def Fib(n):
     for n in SetClass.Fib():
         pass
     f = SetClass.Fib()
-    Continue_query = 3 #初始化＝3
+    Continue_query = 3 #初始化
     while Continue_query == 3:
         a = input('查询斐波那契数列\n单独查询按“1”，多个查询按“2”: \n')
         if a != 1 and a != 2:
