@@ -8,34 +8,19 @@ import SetDef
 
 
 class Student(object):
-	@property
-	def score(self):
-	    return self._score
-	@score.setter
-	def score(self, value):
-		if not isinstance(value, int):
-			raise ValueError('整数～～')
-		if value<0 or value>100:
-			raise ValueError('超出范围')
-		self._score = value
-	
-	@property
-	def birth(self):
-	    return self._birth
-	@birth.setter
-	def birth(self, value):
-	    self._birth = value
-	@property
-	def age(self):
-	    return 2015 - self._birth
-
-	
-	
+	def __init__(self):
+		print 'test123'
 
 
 
 
+wuyinan = Student()
+
+wuyinan.name = 'fuck off'
+wuyinan.score = 999
 
 
-
+print wuyinan
+print wuyinan.name
+print wuyinan.score
 

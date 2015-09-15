@@ -8,7 +8,7 @@ import os
 
 
 f = open('/Users/wuyinan/Desktop/test.txt', 'w')
-f.write('fuck off!too!')
+f.write('fuck off!too!\n')
 f.close()
 f = open('/Users/wuyinan/Desktop/test.txt', 'r')
 print f.read()
