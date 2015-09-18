@@ -7,20 +7,20 @@ import functools
 import SetDef
 
 
-class Student(object):
-	def __init__(self):
-		print 'test123'
+# class Student(object):
+# 	def __init__(self):
+# 		print 'test123'
 
 
 
 
-wuyinan = Student()
+# wuyinan = Student()
 
-wuyinan.name = 'fuck off'
-wuyinan.score = 999
+# wuyinan.name = 'fuck off'
+# wuyinan.score = 999
 
 
-print wuyinan
-print wuyinan.name
-print wuyinan.score
+# print wuyinan
+# print wuyinan.name
+# print wuyinan.score
 
