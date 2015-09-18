@@ -28,8 +28,7 @@ print q
 
 #append 队尾
 #appendleft 队伍左侧（头）
-
-
+#删除同理
 
 
 
