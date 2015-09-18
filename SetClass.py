@@ -102,6 +102,7 @@ class Fib(object):
 class LastUpdatedOrderedDict(OrdereDict):
 	'''
 	可以实现一个FIFO（先进先出）的dict，当容量超出限制时，先删除最早添加的Key：
+	next:计数器Counter
 	'''
 
 	def __init__(self, capacity):
