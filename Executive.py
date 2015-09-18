@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 # still running on Python 2.7
 
-from collections import namedtuple
+from collections import deque
 from types import MethodType
 import sys
 import SetDef
@@ -20,18 +20,14 @@ import random, Queue
 # 	raw_input("Press any key to Exit: ")
 #未调通
 
-p = (1, 2)
+q = deque(['a', 'b', 'c'])
+q.append('x')
+q.appendleft('y')
 
-Point = namedtuple('Point', ['x', 'y', 'z'])
-p = Point(1, 2, 3)
+print q
 
-
-print p.x
-print p.y
-print p.z
-
-m2 = p.x * p.y * p.z
-print m2
+#append 队尾
+#appendleft 队伍左侧（头）
 
 
 
