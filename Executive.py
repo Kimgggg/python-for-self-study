@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 # still running on Python 2.7
 
-from collections import deque
+from collections import defaultdict, OrdereDict
 from types import MethodType
 import sys
 import SetDef
@@ -20,21 +20,25 @@ import random, Queue
 # 	raw_input("Press any key to Exit: ")
 #未调通
 
-q = deque(['a', 'b', 'c'])
-q.append('x')
-q.appendleft('y')
 
-print q
+class LastUpdatedOrderedDict(OrdereDict):
 
-#append 队尾
-#appendleft 队伍左侧（头）
-#删除同理
+	def __init__(self, capacity):
+		super(LastUpdatedOrderedDict, self).__init__()
+		self._capacity = capacity
 
-
-
-
-
-
+	def __setitem__(self, key, value):
+		containsKey = 1 if key in self else 0
+		if len(self) - containsKey >= self._capacity:
+			last = self.popitem(last = False)
+			print 'remove', last
+		if containsKey:
+			del self[key]
+			print 'set:', (key, value)
+		else:
+			print 'add:', (key, value)
+		OrdereDict.__setitem__(self, key, value)
+		
 
 
 
