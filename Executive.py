@@ -17,5 +17,15 @@ import itertools
 # 	raw_input("Press any key to Exit: ")
 #未调通
 
-for c in itertools.chain('123','456'):
-	print c
+def cobmo2ls(ls1,ls2,concat):
+	for i in range(0,len(ls1)):
+		for j in range(0,len(ls2)):
+			yield concat(ls1[i],ls2[j])
+
+ls1 = ['1','2','3','4','5']
+ls2 = ['a','b','c','d']
+
+def concatStr(a,b):
+	return a+b
+for item in cobmo2ls(ls1,ls2,concatStr):
+	print item
