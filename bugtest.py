@@ -24,7 +24,7 @@ import re
 
 
 #根url
-host = "http://desk.zol.com.cn"
+host = "http://www.taobao.com/"
 #本地保存地址
 localSavePath = '/Users/wuyinan/Documents/testpython/'
 #起始图片html地址
@@ -36,7 +36,7 @@ imageUrlList = []
 #根据得到的图片路径URL将图片下载下来保存本地
 def downloadImage(url):
 	cont = urllib2.urlopen(url).read()
-	patter = '[0-9]*\.jpg';
+	patter = '.jpg';
 	match = re.search(patter,url);
 	if match:
 		print '正在下载文件：',match.group()
@@ -88,7 +88,7 @@ class MyHtmlParse(HTMLParser.HTMLParser):
 						if (startHtmlUrl != nextUrl):
 							getImageUrlByHtmlUrl(nextUrl)
 #分析首页得到每个图片集的链接
-indexUrl = 'http://desk.zol.com.cn/meinv/'
+indexUrl = 'http://g-search3.alicdn.com/img/bao/'
 m = urllib2.urlopen(indexUrl).read()
 parserIndex = MyHtmlParse(True)
 parserIndex.feed(m)
