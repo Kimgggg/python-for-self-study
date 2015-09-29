@@ -11,7 +11,7 @@ import socket
 import threading
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('127.0.0.1', 9999))
+s.bind(('10.0.1.127', 9999))
 s.listen(5)
 print 'Waiting for connection...'
 
