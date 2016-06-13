@@ -1,18 +1,6 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
 # still running on Python 2.7
-
-# -*- coding: utf-8 -*-
-#---------------------------------------
-#   程序：百度贴吧爬虫
-#   版本：0.5
-#   作者：why
-#   日期：2013-05-16
-#   语言：Python 2.7
-#   操作：输入网址后自动只看楼主并保存到本地文件
-#   功能：将楼主发布的内容打包txt存储到本地。
-#---------------------------------------
-
 import string
 import urllib2
 import re
