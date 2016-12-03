@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+<<<<<<< HEAD
   <component name="PyDocumentationSettings">
     <option name="myDocStringFormat" value="Google" />
   </component>
@@ -12,3 +13,7 @@
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
 </module>
+=======
+</module>
+
+>>>>>>> ba4a7ab49fb9158d50cea9cc3e580a9064ec1d1d
