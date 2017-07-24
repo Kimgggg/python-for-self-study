@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-'''
-使用说明:
-1.配置python环境.配置pip环境,安装import内引用到的非标准库
-2.安装git图形操作软件 SourceTree,方便查看diff
-3.创建本地git仓库,分别对应svn文件夹,如只检查数值开发,则本地创建1个文件夹,生成git仓库A,检查Release则本地再创建一个文件夹,生成git仓库B
-4.分别修改TXT_SVN和TXT_LOCAL,修改成自己目录(TXT_SVN为svn路径,TXT_LOCAL为本地创建的仓库路径)
-5.执行脚本,脚本会自动更新svn,自动提交git
-'''
-
 import os,sys,inspect,re
 import xdrlib,xlrd
 import csv
