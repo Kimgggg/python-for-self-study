@@ -17,9 +17,11 @@ for find_apk in dirdir:
 	if find_apk.split(".")[-1] == WORD:
 		APK_NAME.append(find_apk)
 	else:
-		print "没有找到相关安装包"
-		sys.exit()
+		pass
 
+if APK_NAME == []:
+	print "没有找到安装包"
+	sys.exit()
 
 for y in APK_NAME:
 	CreateTime = ""
