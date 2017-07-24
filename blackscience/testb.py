@@ -40,4 +40,3 @@ for x in filter_branch:
 		print x + "<<<<<<<<<<更新完毕"
 
 os.system("git co " + CURRENT_BRANCH)
-
