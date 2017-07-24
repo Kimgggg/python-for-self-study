@@ -96,16 +96,5 @@ parserIndex.feed(m)
 
 
 
-# key = raw_input('是否要查询斐波那契数列？按y/n查询，其他键退出\n')
-# if ord(key) == 121:
-# 	SetDef.Fib(key)
-# else:
-# 	raw_input("Press any key to Exit: ")
-# 未调通
-
-
-
-
-
 
       

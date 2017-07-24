@@ -33,7 +33,6 @@ for x in filter_branch:
 		CURRENT_BRANCH = x
 		gitBranch_update(x)
 		print x + "<<<<<<<<<<更新完毕"
-
 	else:
 		x = x.lstrip()
 		gitBranch_update(x)
