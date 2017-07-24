@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 import os
+import sys
 import time
 
 WORD = "apk"
@@ -16,7 +17,9 @@ for find_apk in dirdir:
 	if find_apk.split(".")[-1] == WORD:
 		APK_NAME.append(find_apk)
 	else:
-		pass
+		print "没有找到相关安装包"
+		sys.exit()
+
 
 for y in APK_NAME:
 	CreateTime = ""
