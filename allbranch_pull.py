@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-'''
-android一键截图保存
-'''
-
 import os
 
 CURRENT_BRANCH = ""

@@ -175,6 +175,9 @@ def main():
                 excel2csv(file, target_path)
         current_Path = os.getcwd()
         os.chdir(target_path)
+        print "=" * 25
+        os.system("git status")
+        print "=" * 25
         os.system('git add . && git commit -m "svn v.' + str(SVN_VERSION) + '"')
         os.chdir(current_Path)
         global TARGET
