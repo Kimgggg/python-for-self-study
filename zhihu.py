@@ -47,8 +47,7 @@ def fetch(url):
             errors.append(img_url)
     return errors
 
-urls=['https://www.zhihu.com/question/22212644','https://www.zhihu.com/question/29814297',
-      'https://www.zhihu.com/question/31983868','https://www.zhihu.com/question/20399991']
+urls=["http://www.zhihu.com/question/62692821"]
 for url in urls :
     print(url)
     errs+=fetch(url)
