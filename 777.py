@@ -33,3 +33,21 @@ x = set(testList)
 y = set(testList2)
 
 print x - y
+
+'''
+>>> a = open('/Users/playcrab/Desktop/test/data.txt')
+>>> b = open('/Users/playcrab/Desktop/test/id.json')
+>>> testList = a.read()
+>>> a.close
+<built-in method close of file object at 0x10920c810>
+>>> b.write(testList)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: File not open for writing
+>>> b = open('/Users/playcrab/Desktop/test/id.json', 'w')
+>>> b.write(testList)
+>>> b.close
+<built-in method close of file object at 0x10920c930>
+>>> 
+
+'''
