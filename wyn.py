@@ -10,8 +10,8 @@ import hashlib
 
 # execfile('/data/work/pctools/tool.py')
 
-fileNameList = []
-fileNameList_data = []
+fileNameList_svn = []
+fileNameList_local = []
 path_svn = "/data/work/svn/数据表/数值开发/"
 path_localData = "/Users/playcrab/Documents/kof_debug_excel/"
 path_diff = "/Users/playcrab/Documents/debug_diff/"
@@ -40,14 +40,14 @@ def copyFile(svn_path, filename, targetPath):
 	print "正在往" + targetPath + "复制" + filename
 
 svn_update(path_svn)
-fileNameList = os.listdir(path_svn)
-fileNameList_data = os.listdir(path_localData)
+fileNameList_svn = os.listdir(path_svn)
+fileNameList_local = os.listdir(path_localData)
 
-for x in fileNameList:
-	getHashCode(x, path_svn, dict_svn)
+for filename_svn in fileNameList_svn:
+	getHashCode(filename_svn, path_svn, dict_svn)
 
-for y in fileNameList_data:
-	getHashCode(y, path_localData, dict_local)
+for filename_local in fileNameList_local:
+	getHashCode(filename_local, path_localData, dict_local)
 
 for key in dict_svn:
 	for key_data in dict_local:
