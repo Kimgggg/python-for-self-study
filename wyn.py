@@ -6,9 +6,6 @@ import os
 import sys
 import shutil
 import hashlib
-# os.chdir("/data/work/pctools/")
-
-# execfile('/data/work/pctools/tool.py')
 
 fileNameList_svn = []
 fileNameList_local = []
@@ -23,6 +20,7 @@ shutil.rmtree(path_diff)
 os.mkdir(path_diff)
 
 def svn_update(svn_path):
+	print "正在更新svn"
 	current_Path = os.getcwd()
 	os.chdir(svn_path)
 	os.system("svn update")
@@ -66,8 +64,8 @@ for key in dict_svn:
 shutil.rmtree(path_localData)
 shutil.copytree(path_svn,path_localData)
 if scaler != 0:
-	print "先不执行脚本>>>>>>>>>>>>>>>>>>>>>>>>>"
-	#execfile("inspect_to_excel_debug.py")
+	# print "先不执行脚本>>>>>>>>>>>>>>>>>>>>>>>>>"
+	execfile("diff_inspect_to_excel_debug.py")
 else:
 	pass
 

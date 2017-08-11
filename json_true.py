@@ -26,3 +26,6 @@ json_str = json.dumps(data)
 
 print is_json(json_str)
 print json_str
+
+print type(data)
+print type(json_str)
