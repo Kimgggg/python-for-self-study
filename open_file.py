@@ -3,9 +3,10 @@
 
 import os
 import webbrowser
+import pwd_config
 
 while True:
-	print '''选择需要打开的文件：\n
+	print '''选择需要打开的文件:
 1. devConfig.lua   修改客户端默认服务器地址
 2.LoginFacade.lua  修改客户端登录方式  \n快捷复制“LoginFacade:requestServerInfoFromGlobal”
 3.打包机2
@@ -19,6 +20,7 @@ while True:
 11.tower
 12.adb -r
 13.解压tar
+14.还原路径
 		'''
 	press = raw_input("请输入选择:\n")
 	if press == "1":
@@ -58,6 +60,9 @@ while True:
 		execfile("/Users/playcrab/Documents/python-for-self-study/install_apk.py")
 	elif press == "13":
 		execfile("AutoMoveAndRemove.py")
+	elif press == "14":
+		os.chdir("/Users/playcrab/Documents/python-for-self-study")
+		print "已经已还原" + pwd_config.python_Script
 	elif press == "q":
 		os.exit()
 	
