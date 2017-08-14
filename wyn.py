@@ -65,7 +65,7 @@ shutil.rmtree(path_localData)
 shutil.copytree(path_svn,path_localData)
 if scaler != 0:
 	# print "先不执行脚本>>>>>>>>>>>>>>>>>>>>>>>>>"
-	execfile("diff_inspect_to_excel_debug.py")
+	execfile("debug_diff_inspect_to_excel.py")
 else:
 	pass
 

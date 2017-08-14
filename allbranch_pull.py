@@ -4,6 +4,7 @@
 import os
 
 CURRENT_BRANCH = ""
+path_all = os.getcwd()
 
 def gitBranch_update(branch_name):
 	os.chdir("/data/work/koflua")
@@ -35,6 +36,7 @@ for x in filter_branch:
 		print x + "<<<<<<<<<<更新完毕"
 
 os.system("git co " + CURRENT_BRANCH)
+os.chdir("/Users/playcrab/Documents/python-for-self-study")
 
 
 
