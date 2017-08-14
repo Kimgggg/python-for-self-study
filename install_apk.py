@@ -10,7 +10,6 @@ PATH = "/Users/playcrab/Downloads"
 APK_NAME = []
 NUM = 0
 
-
 dirdir = os.listdir(PATH)
 
 for find_apk in dirdir:

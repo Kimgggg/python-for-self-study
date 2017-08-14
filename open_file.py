@@ -18,6 +18,7 @@ while True:
 10.开工套餐
 11.tower
 12.adb -r
+13.解压tar
 		'''
 	press = raw_input("请输入选择:\n")
 	if press == "1":
@@ -53,8 +54,10 @@ while True:
 		print "开工套餐done"
 	elif press == "11":
 		os.system("open /Applications/Safari.app https://tower.im/teams/85798e163e1d430abf652b57a16b5ba2/projects/") 
-	elif preee == "12":
+	elif press == "12":
 		execfile("/Users/playcrab/Documents/python-for-self-study/install_apk.py")
+	elif press == "13":
+		execfile("AutoMoveAndRemove.py")
 	elif press == "q":
 		os.exit()
 	
