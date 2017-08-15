@@ -6,12 +6,13 @@ import os
 import sys
 import shutil
 import hashlib
+import pwd_config
 
 fileNameList_svn = []
 fileNameList_local = []
-path_svn = "/data/work/svn/数据表/数值开发/"
-path_localData = "/Users/playcrab/Documents/kof_debug_excel/"
-path_diff = "/Users/playcrab/Documents/debug_diff/"
+path_svn = pwd_config.svn_DebugData
+path_localData = pwd_config.svn_Debug_copy
+path_diff = pwd_config.debug_Diff
 dict_svn = {}
 dict_local = {}
 scaler = 0

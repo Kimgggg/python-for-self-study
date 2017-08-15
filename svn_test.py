@@ -3,11 +3,12 @@
 
 import os
 import sys
+import pwd_config
 
-SVN_PWD_1 = "/data/work/svn/数据表/数值开发"
-SVN_PWD_2 = "/data/work/svn/数据表/Release"
-FILE_PWD_1 = "/Users/playcrab/Documents/csv_debug/"
-FILE_PWD_2 = "/Users/playcrab/Documents/csv_release/"
+SVN_PWD_1 = pwd_config.svn_DebugData
+SVN_PWD_2 = pwd_config.svn_ReleaseData
+FILE_PWD_1 = pwd_config.debugData_git
+FILE_PWD_2 = pwd_config.releaseData_git
 
 print "当前SVN目录为:\n" + SVN_PWD_1 + "\n" + SVN_PWD_2
 print "当前本地git目录为:\n" + FILE_PWD_1 + "\n" + FILE_PWD_2

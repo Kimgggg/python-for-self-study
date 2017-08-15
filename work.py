@@ -45,7 +45,7 @@ while True:
 		os.system("open /Applications/Safari.app https://ucenter.playcrab.com")
 	elif press == "10":
 		path = os.getcwd()
-		os.chdir("/Users/playcrab/Documents/python-for-self-study")
+		os.chdir(pwd_config.python_Script)
 		execfile("allbranch_pull.py")
 		execfile("git_pull.py")
 		execfile("wyn.py")
@@ -61,7 +61,7 @@ while True:
 	elif press == "13":
 		execfile("AutoMoveAndRemove.py")
 	elif press == "14":
-		os.chdir("/Users/playcrab/Documents/python-for-self-study")
+		os.chdir(pwd_config.python_Script)
 		print "已经已还原" + pwd_config.python_Script
 	elif press == "q":
 		os.exit()

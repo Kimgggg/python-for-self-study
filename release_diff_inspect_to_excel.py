@@ -152,8 +152,6 @@ def excel2csv(excel_file, _path):
 def main():
     filelist = find_file_by_pattern()
     if len(filelist) > 0:
-        # path = "/Users/playcrab/Desktop/config/"
-        #\033[1;35m test \033[0m!
         target_path = pwd_config.releaseData_git
         for file in filelist:
             datalist = excel_table_byindex(file, 0)

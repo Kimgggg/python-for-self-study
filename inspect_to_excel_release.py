@@ -6,6 +6,7 @@ import xdrlib,xlrd
 import csv
 import pprint
 import svn.local
+import pwd_config
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -29,7 +30,7 @@ def cur_file_dir():
     global SVN_VERSION
     global SOURCE
     current_Path = os.getcwd()
-    source_path = "/data/work/svn/数据表/Release/"
+    source_path = pwd_config.svn_ReleaseData
     while source_path[-1] == ' ':
         source_path = raw_input('路径末尾包含空格,需重新输入\n')
     os.chdir(source_path)
@@ -149,9 +150,7 @@ def excel2csv(excel_file, _path):
 def main():
     filelist = find_file_by_pattern()
     if len(filelist) > 0:
-        # path = "/Users/playcrab/Desktop/config/"
-        #\033[1;35m test \033[0m!
-        target_path = "/Users/playcrab/Documents/csv_release/"
+        target_path = pwd_config.releaseData_git
         for file in filelist:
             datalist = excel_table_byindex(file, 0)
             if len(datalist) > 0:
@@ -166,8 +165,8 @@ def main():
         global TARGET
         TARGET = target_path
         print ">>>>从" + SOURCE + "导出到" + TARGET + "成功<<<<"
-        if os.path.exists("/Applications/SourceTree.app"):
-            os.system("open /Applications/SourceTree.app")
+        if os.path.exists(pwd_config.sourcetree):
+            os.system("open " + pwd_config.sourcetree)
     else:
         print "源目录输入错误"
 

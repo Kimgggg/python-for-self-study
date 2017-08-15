@@ -165,8 +165,6 @@ def main():
     global TXT_LOCAL
     filelist = find_file_by_pattern()
     if len(filelist) > 0:
-        # path = "/Users/playcrab/Desktop/config/"
-        #\033[1;35m test \033[0m!
         print TXT_LOCAL
         target_path = raw_input('请输入目标目录(结尾需要有"/"):\n')
         for file in filelist:

@@ -4,9 +4,10 @@
 import os
 import sys
 import time
+import pwd_config
 
 WORD = "apk"
-PATH = "/Users/playcrab/Downloads"
+PATH = pwd_config.dowloads
 APK_NAME = []
 NUM = 0
 
