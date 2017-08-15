@@ -29,7 +29,7 @@ def cur_file_dir():
     global SVN_VERSION
     global SOURCE
     current_Path = os.getcwd()
-    source_path = "/data/work/svn/数据表/Release"
+    source_path = "/data/work/svn/数据表/Release/"
     while source_path[-1] == ' ':
         source_path = raw_input('路径末尾包含空格,需重新输入\n')
     os.chdir(source_path)

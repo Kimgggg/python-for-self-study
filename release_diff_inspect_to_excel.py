@@ -6,6 +6,7 @@ import xdrlib,xlrd
 import csv
 import pprint
 import svn.local
+import pwd_config
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -14,6 +15,7 @@ C_END = "\n"
 SVN_VERSION = ""
 TARGET = ""
 SOURCE = ""
+DIFF_DEBUG_PATH = pwd_config.release_Diff
 
 def cur_file_dir():
     # path = os.path.realpath(sys.path[0])
@@ -28,12 +30,13 @@ def cur_file_dir():
     #     return os.path.abspath(os.path.dirname(caller_file))
     global SVN_VERSION
     global SOURCE
+    global DIFF_DEBUG_PATH
     current_Path = os.getcwd()
-    source_path = "/data/work/svn/数据表/数值开发/"
+    source_path = pwd_config.svn_ReleaseData
     while source_path[-1] == ' ':
         source_path = raw_input('路径末尾包含空格,需重新输入\n')
-    os.chdir(source_path)
-    os.system('svn update')
+    # os.chdir(source_path)
+    # os.system('svn update')
     # print os.getcwd() + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
     os.chdir(source_path)
     svn_text = svn.local.LocalClient(source_path)
@@ -45,7 +48,7 @@ def cur_file_dir():
     # print os.getcwd() + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
     # print svn_info["commit_revision"]
     SOURCE = source_path
-    return source_path
+    return DIFF_DEBUG_PATH
 
 def find_file_by_pattern(pattern = '.*', base = ".", circle = True):  
     re_file = re.compile(pattern)
@@ -151,7 +154,7 @@ def main():
     if len(filelist) > 0:
         # path = "/Users/playcrab/Desktop/config/"
         #\033[1;35m test \033[0m!
-        target_path = "/Users/playcrab/Documents/csv_debug/"
+        target_path = pwd_config.releaseData_git
         for file in filelist:
             datalist = excel_table_byindex(file, 0)
             if len(datalist) > 0:
@@ -166,8 +169,8 @@ def main():
         global TARGET
         TARGET = target_path
         print ">>>>从" + SOURCE + "导出到" + TARGET + "成功<<<<"
-        if os.path.exists("/Applications/SourceTree.app"):
-            os.system("open /Applications/SourceTree.app")
+        if os.path.exists(pwd_config.sourcetree):
+            os.system("open " + pwd_config.sourcetree)
     else:
         print "源目录输入错误"
 

@@ -31,7 +31,7 @@ def cur_file_dir():
     global SOURCE
     global DIFF_DEBUG_PATH
     current_Path = os.getcwd()
-    source_path = "/data/work/svn/数据表/数值开发"
+    source_path = "/data/work/svn/数据表/数值开发/"
     while source_path[-1] == ' ':
         source_path = raw_input('路径末尾包含空格,需重新输入\n')
     # os.chdir(source_path)
