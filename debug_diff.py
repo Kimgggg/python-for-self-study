@@ -21,7 +21,7 @@ shutil.rmtree(path_diff)
 os.mkdir(path_diff)
 
 def svn_update(svn_path):
-	print "正在更新svn"
+	print "正在更新数值开发"
 	current_Path = os.getcwd()
 	os.chdir(svn_path)
 	os.system("svn update")
@@ -68,6 +68,6 @@ if scaler != 0:
 	# print "先不执行脚本>>>>>>>>>>>>>>>>>>>>>>>>>"
 	execfile("debug_diff_inspect_to_excel.py")
 else:
-	pass
+	print "debug暂时没有更新"
 
 

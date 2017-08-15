@@ -31,9 +31,9 @@ while True:
 		# webbrowser.open("www.baidu.com") #有报错但不影响使用，需调试
 		os.system("open /Applications/Safari.app http://deploy2.kof.playcrab-inc.com/walle/ui/")
 	elif press == "4":
-		os.system("open /data/work/svn/数据表/数值开发/")
+		os.system("open " + svn_DebugData)
 	elif press == "5":
-		os.system("open /data/work/svn/数据表/Release")
+		os.system("open " + svn_ReleaseData)
 	elif press == "6":
 		# webbrowser.open("www.baidu.com") #有报错但不影响使用，需调试
 		os.system("open /Applications/Safari.app http://deploy6.kof.playcrab-inc.com/walle/ui/")
@@ -48,8 +48,8 @@ while True:
 		os.chdir(pwd_config.python_Script)
 		execfile("allbranch_pull.py")
 		execfile("git_pull.py")
-		execfile("wyn.py")
-		execfile("inspect_to_excel_release.py")
+		execfile("debug_diff.py")
+		execfile("release_diff.py")
 		os.system("open /Applications/Safari.app http://deploy2.kof.playcrab-inc.com/gm/")
 		os.system("open /Applications/Safari.app https://tower.im/teams/85798e163e1d430abf652b57a16b5ba2/projects/") 
 		os.chdir(path)
