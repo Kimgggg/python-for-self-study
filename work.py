@@ -16,7 +16,7 @@ while True:
 7.gm后台
 8.dev2 gm后台
 9.订餐
-10.开工套餐
+10.上班套餐
 11.tower
 12.adb -r
 13.解压tar
@@ -31,9 +31,9 @@ while True:
 		# webbrowser.open("www.baidu.com") #有报错但不影响使用，需调试
 		os.system("open /Applications/Safari.app http://deploy2.kof.playcrab-inc.com/walle/ui/")
 	elif press == "4":
-		os.system("open " + svn_DebugData)
+		os.system("open " + pwd_config.svn_DebugData)
 	elif press == "5":
-		os.system("open " + svn_ReleaseData)
+		os.system("open " + pwd_config.svn_ReleaseData)
 	elif press == "6":
 		# webbrowser.open("www.baidu.com") #有报错但不影响使用，需调试
 		os.system("open /Applications/Safari.app http://deploy6.kof.playcrab-inc.com/walle/ui/")
@@ -63,6 +63,12 @@ while True:
 	elif press == "14":
 		os.chdir(pwd_config.python_Script)
 		print "已经已还原" + pwd_config.python_Script
+	elif press == "15":
+		print "下班套餐开发中"
+	elif press == "16":
+		print "自动下载对应版本的tar文件"
+	elif press == "17":
+		print "自动导dev2的lua表"
 	elif press == "q":
 		os.exit()
 	
