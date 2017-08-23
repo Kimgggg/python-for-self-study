@@ -71,4 +71,6 @@ while True:
 		print "自动导dev2的lua表"
 	elif press == "q":
 		os.exit()
+	else:
+		print "输入错误"
 	

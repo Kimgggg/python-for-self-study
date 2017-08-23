@@ -1,0 +1,255 @@
+1503472032038	geckodriver	INFO	geckodriver 0.18.0
+1503472032046	geckodriver	INFO	Listening on 127.0.0.1:63011
+1503472033207	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503472034504	Marionette	INFO	Enabled via --marionette
+2017-08-23 15:07:16.853 plugin-container[4787:312978] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa43b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:07:16.854 plugin-container[4787:312978] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503472037391	Marionette	INFO	Listening on port 63020
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503472037476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503472037548	Marionette	DEBUG	loaded listener.js
+1503472037588	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503472054952	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503472055190	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503472055190	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503472055192	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1503472057233	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1503472097624	geckodriver	INFO	geckodriver 0.18.0
+1503472097630	geckodriver	INFO	Listening on 127.0.0.1:63321
+1503472098721	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503472099795	Marionette	INFO	Enabled via --marionette
+2017-08-23 15:08:22.017 plugin-container[4802:314467] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:08:22.019 plugin-container[4802:314467] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa203, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503472102497	Marionette	INFO	Listening on port 63330
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503472102562	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503472102634	Marionette	DEBUG	loaded listener.js
+1503472102671	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503472110117	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503472110403	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503472110403	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503472110405	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1503472680571	geckodriver	INFO	geckodriver 0.18.0
+1503472680579	geckodriver	INFO	Listening on 127.0.0.1:65183
+1503472681656	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503472682781	Marionette	INFO	Enabled via --marionette
+2017-08-23 15:18:04.970 plugin-container[4869:325787] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:18:04.971 plugin-container[4869:325787] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa203, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503472685891	Marionette	INFO	Listening on port 65192
+1503472685948	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503472686029	Marionette	DEBUG	loaded listener.js
+1503472686073	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503472686159	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503472686160	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503472686654	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503472686685	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503472687062	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503472687439	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503472687439	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503472687676	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503472687710	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503472690843	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503472690903	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503472690904	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503472691598	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503472692210	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503472695633	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503472698935	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503472702223	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503472705241	Marionette	INFO	New connections will no longer be accepted
+1503473749035	geckodriver	INFO	geckodriver 0.18.0
+1503473749043	geckodriver	INFO	Listening on 127.0.0.1:49352
+1503473750123	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503473751239	Marionette	INFO	Enabled via --marionette
+2017-08-23 15:35:53.395 plugin-container[4999:341363] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:35:53.396 plugin-container[4999:341363] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa303, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503473754240	Marionette	INFO	Listening on port 49363
+1503473754297	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503473754382	Marionette	DEBUG	loaded listener.js
+1503473754434	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503473754504	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503473754505	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503473754952	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473754979	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473755387	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473755756	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473755756	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503473755996	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473756008	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473759122	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473759178	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473759179	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503473759663	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503473759865	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503473763338	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503473804992	geckodriver	INFO	geckodriver 0.18.0
+1503473804998	geckodriver	INFO	Listening on 127.0.0.1:49509
+1503473806085	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503473807327	Marionette	INFO	Enabled via --marionette
+2017-08-23 15:36:49.664 plugin-container[5015:342664] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:36:49.666 plugin-container[5015:342664] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa303, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503473810306	Marionette	INFO	Listening on port 49518
+1503473810357	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503473810437	Marionette	DEBUG	loaded listener.js
+1503473810476	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503473810548	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503473810548	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503473811003	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473811038	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473811464	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473811696	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473811697	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503473811939	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473811977	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473815095	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473815355	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503473815356	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503473816023	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503473816239	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503473819688	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503473829197	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503473832521	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503473835553	Marionette	INFO	New connections will no longer be accepted
+1503474848684	geckodriver	INFO	geckodriver 0.18.0
+1503474848690	geckodriver	INFO	Listening on 127.0.0.1:50191
+1503474849792	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503474851033	Marionette	INFO	Enabled via --marionette
+2017-08-23 15:54:13.166 plugin-container[5207:364792] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:54:13.168 plugin-container[5207:364792] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa203, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503474853883	Marionette	INFO	Listening on port 50200
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503474853951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503474854032	Marionette	DEBUG	loaded listener.js
+1503474854092	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503474854155	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503474854156	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503474854554	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503474854603	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503474854889	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503474855141	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503474855142	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503474855382	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503474855393	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503474858495	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503474858790	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503474858790	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503474859392	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503474860070	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503474863531	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503474873021	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503474876317	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503475007520	geckodriver	INFO	geckodriver 0.18.0
+1503475007527	geckodriver	INFO	Listening on 127.0.0.1:50537
+1503475008602	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503475009729	Marionette	INFO	Enabled via --marionette
+2017-08-23 15:56:52.096 plugin-container[5225:367711] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:56:52.099 plugin-container[5225:367711] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa103, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503475012884	Marionette	INFO	Listening on port 50546
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503475012951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503475013025	Marionette	DEBUG	loaded listener.js
+1503475013073	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503475013156	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503475013157	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503475013594	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475013602	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475013899	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475014081	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475014081	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503475014324	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475014334	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475017443	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475017702	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475017703	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503475018490	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503475018634	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503475022069	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503475031565	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503475034881	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+2017-08-23 15:59:05.464 plugin-container[5250:370639] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:59:05.468 plugin-container[5250:370639] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa303, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 219: TypeError: log is undefined
+1503475155142	geckodriver	INFO	geckodriver 0.18.0
+1503475155147	geckodriver	INFO	Listening on 127.0.0.1:50731
+1503475156233	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503475157332	Marionette	INFO	Enabled via --marionette
+2017-08-23 15:59:20.149 plugin-container[5264:370916] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-23 15:59:20.151 plugin-container[5264:370916] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa207, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503475160252	Marionette	INFO	Listening on port 50740
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503475160379	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503475160458	Marionette	DEBUG	loaded listener.js
+1503475160507	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503475160577	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503475160577	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503475161049	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475161067	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475161459	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475161666	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475161666	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503475161886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475161919	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475165033	Marionette	DEBUG	Received DOM event "beforeunload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475165085	Marionette	DEBUG	Received DOM event "pagehide" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+1503475165086	Marionette	DEBUG	Received DOM event "unload" for "http://deploy2.kof.playcrab-inc.com/gm/?r=site/index"
+JavaScript warning: http://deploy2.kof.playcrab-inc.com/gm/js/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1503475165643	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503475165703	Marionette	DEBUG	Received DOM event "pageshow" for "http://deploy2.kof.playcrab-inc.com/gm/?r=numeric/export"
+1503475169184	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503475178665	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503475181980	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+_fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:458:19
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+Line: 1281, column: 20
+console.error: 
+  TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+_fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:458:19
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+Line: 1281, column: 20
+1503475573377	Marionette	DEBUG	loaded listener.js
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/widgets/tooltip/HTMLTooltip.js, line 533: TypeError: node.ownerDocument is null
