@@ -24,9 +24,9 @@ while True:
 		'''
 	press = raw_input("请输入选择:\n")
 	if press == "1":
-		os.system("open /data/work/koflua/src/dev/devConfig.lua ")
+		os.system("open /data/work/KOF/koflua/src/dev/devConfig.lua ")
 	elif press == "2":
-		os.system("open /data/work/koflua/src/kof/core/controller/login/LoginFacade.lua")
+		os.system("open /data/work/KOF/koflua/src/kof/core/controller/login/LoginFacade.lua")
 	elif press == "3":
 		# webbrowser.open("www.baidu.com") #有报错但不影响使用，需调试
 		os.system("open /Applications/Safari.app http://deploy2.kof.playcrab-inc.com/walle/ui/")

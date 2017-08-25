@@ -8,7 +8,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import selenium
 import time
 
-driver = webdriver.Firefox()#safari不兼容selenium处理下拉菜单的方法，尝试过13种方法
+driver = webdriver.Firefox()#干你娘的safari不兼容selenium处理下拉菜单的方法，尝试过13种方法才他娘的发现，操
 driver.get("http://deploy2.kof.playcrab-inc.com/gm/?r=site/index")
 
 

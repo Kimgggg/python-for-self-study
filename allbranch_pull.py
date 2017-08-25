@@ -9,6 +9,7 @@ path_all = os.getcwd()
 
 def gitBranch_update(branch_name):
 	os.chdir(pwd_config.KOF_LUA)
+	os.system("git co .")
 	os.system("git co " + str(branch_name))
 	os.system("git pull")
 
