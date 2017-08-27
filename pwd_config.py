@@ -16,5 +16,3 @@ dowloads = "/Users/playcrab/Downloads"#下载文件夹路径
 KOF_C = "/data/work/KOF/kof" # C++ 路径
 KOF_LUA = "/data/work/KOF/koflua" # lua脚本路径
 KOF_TOOL = "/data/work/KOF/pctools" # pctool 路径
-
-

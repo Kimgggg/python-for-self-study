@@ -1,15 +1,12 @@
-# -*- coding: utf-8 -*-
 # encoding: utf-8
 #!/usr/bin/env python
-# still running on Python 2.7
 import os
-import sys
 import shutil
 import hashlib
 import pwd_config
 
-fileNameList_svn = []
-fileNameList_local = []
+# fileNameList_svn = []
+# fileNameList_local = []
 path_svn = pwd_config.svn_ReleaseData
 path_localData = pwd_config.svn_release_copy
 path_diff = pwd_config.release_Diff
@@ -31,12 +28,12 @@ def getHashCode(filename, path, dict_name):
 	with open(path + filename, 'rb') as f:
 		sha1obj = hashlib.sha1()
 		sha1obj.update(f.read())
-		hash = sha1obj.hexdigest()
-		dict_name[filename] = hash
+		file_hash = sha1obj.hexdigest()
+		dict_name[filename] = file_hash
 
-def copyFile(svn_path, filename, targetPath):
-	os.system("cp " + svn_path + filename + " " + targetPath)
-	print "正在往" + targetPath + "复制" + filename
+def copyFile(svn_path, filename, targetpath):
+	os.system("cp " + svn_path + filename + " " + targetpath)
+	print "正在往" + targetpath + "复制" + filename
 
 svn_update(path_svn)
 fileNameList_svn = os.listdir(path_svn)
@@ -69,5 +66,3 @@ if scaler != 0:
 	execfile("release_diff_inspect_to_excel.py")
 else:
 	print "release暂时没有更新"
-
-

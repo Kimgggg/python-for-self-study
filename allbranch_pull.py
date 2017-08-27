@@ -17,7 +17,7 @@ def gitBranch_update(branch_name):
 os.chdir(pwd_config.KOF_LUA)
 local_git_branch = os.popen('git branch')
 git_branch = local_git_branch.read()
-filter_branch =  git_branch.split("\n")
+filter_branch = git_branch.split("\n")
 
 for k in filter_branch:
 	if k == "  master":
@@ -39,6 +39,3 @@ for x in filter_branch:
 
 os.system("git co " + CURRENT_BRANCH)
 os.chdir(pwd_config.python_Script)
-
-
-

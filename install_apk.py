@@ -24,7 +24,7 @@ if APK_NAME == []:
     sys.exit()
 
 for y in APK_NAME:
-    CreateTime = ""
+    # CreateTime = ""
     os.path.getctime(PATH + "/" + y)
     timeTuple = time.localtime(os.path.getctime(PATH + "/" + y))
     CreateTime = time.strftime("%Y-%m-%d %H:%M:%S", timeTuple)

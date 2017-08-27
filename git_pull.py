@@ -12,10 +12,3 @@ for git_pwd in PWD:
 	os.system("git pull")
 	print git_pwd + "更新完毕"
 os.chdir(path)
-
-
-
-
-
-
-
