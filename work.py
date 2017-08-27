@@ -2,7 +2,6 @@
 # encoding: utf-8
 
 import os
-import webbrowser
 import pwd_config
 
 while True:
@@ -73,4 +72,3 @@ while True:
 		os.exit()
 	else:
 		print "输入错误"
-	
