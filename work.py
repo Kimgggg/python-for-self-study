@@ -44,7 +44,7 @@ while True:
 		os.system("open /Applications/Safari.app https://ucenter.playcrab.com")
 	elif press == "10":
 		path = os.getcwd()
-		os.chdir(pwd_config.python_Script)
+		os.chdir(pwd_config.python_Script_Mac)
 		execfile("allbranch_pull.py")
 		execfile("git_pull.py")
 		execfile("debug_diff.py")
@@ -60,8 +60,8 @@ while True:
 	elif press == "13":
 		execfile("AutoMoveAndRemove.py")
 	elif press == "14":
-		os.chdir(pwd_config.python_Script)
-		print "已经已还原" + pwd_config.python_Script
+		os.chdir(pwd_config.python_Script_Mac)
+		print "已经已还原" + pwd_config.python_Script_Mac
 	elif press == "15":
 		print "下班套餐开发中"
 	elif press == "16":

@@ -54,7 +54,7 @@ try:
 	driver.find_element_by_xpath("//*[@id='yw0']/table/tbody/tr[74]/td[10]/a[4]").click()
 	time.sleep(5)
 	print "下载导表结果成功"
-	os.chdir(pwd_config.python_Script)
+	os.chdir(pwd_config.python_Script_Mac)
 	execfile("AutoMoveAndRemove.py")
 except Exception as e:
 	print "下载导表结果失败,未搜寻到dev2_all.tar文件"
