@@ -16,6 +16,10 @@ while True:
 	6.测试专用bat
 	7.excel表
 	8.workpath
+	9.walle-ui-domestic
+	10.gmtools
+	11.一键更新
+	12.svn检查提交
 		'''
 	press = raw_input("select:\n")
 	if press == "1":
@@ -57,5 +61,21 @@ while True:
 		os.startfile(pwd_config.War_svn_design)
 	elif press == "8":
 		os.startfile(pwd_config.War_svn)
+	elif press == "9":
+		webbrowser.open("www.baidu.com")
+	elif press == "10":
+		webbrowser.open("www.baidu.com")
+	elif press == "11":
+		execfile("allbranch_pull.py")
+		current_path = os.getcwd()
+		os.chdir(pwd_config.War_svn)
+		os.system("svn update")
+		os.chdir(pwd_config.War_svn_art)
+		os.system("svn update")
+		os.chdir(current_path)
+	elif press == "12":
+		execfile("svn_windows_test.py")
 	elif press == "q":
 		os.exit()
+	else:
+		print "输入错误"
