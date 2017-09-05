@@ -20,6 +20,7 @@ while True:
 	10.gmtools
 	11.一键更新
 	12.svn检查提交
+	13.add_new_bug
 		'''
 	press = raw_input("select:\n")
 	if press == "1":
@@ -41,17 +42,19 @@ while True:
 		os.chdir(current_path)
 	elif press == "5":
 		execfile("allbranch_pull.py")
+		execfile("svn_windows_test.py")
 		current_path = os.getcwd()
-		os.chdir(pwd_config.War_svn)
-		os.system("svn update")
 		os.chdir(pwd_config.War_svn_art)
 		os.system("svn update")
 		os.chdir(pwd_config.War_svn_resources)
 		os.system("QA_script.bat")
-		# os.chdir(pwd_config.War_svn_resources)
-		# os.system("war.exe")
 		os.chdir(current_path)
 		webbrowser.open("http://120.26.4.254/projects/war")
+		webbrowser.open("http://walleui.wartest.com/version/list")
+		webbrowser.open("http://gmtools.playcrab.com/war/sendprop/send-prop")		
+		os.startfile(pwd_config.War_svn)
+		os.startfile(pwd_config.War_svn_design)
+		os.startfile(pwd_config.War_svn_configfile)
 	elif press == "6":
 		current_path = os.getcwd()
 		os.chdir(pwd_config.War_svn_resources)
@@ -62,19 +65,22 @@ while True:
 	elif press == "8":
 		os.startfile(pwd_config.War_svn)
 	elif press == "9":
-		webbrowser.open("www.baidu.com")
+		webbrowser.open("http://walleui.wartest.com/version/list")
 	elif press == "10":
-		webbrowser.open("www.baidu.com")
+		webbrowser.open("http://gmtools.playcrab.com/war/sendprop/send-prop")
 	elif press == "11":
 		execfile("allbranch_pull.py")
+		execfile("svn_windows_test.py")
 		current_path = os.getcwd()
-		os.chdir(pwd_config.War_svn)
-		os.system("svn update")
+		# os.chdir(pwd_config.War_svn)
+		# os.system("svn update")
 		os.chdir(pwd_config.War_svn_art)
 		os.system("svn update")
 		os.chdir(current_path)
 	elif press == "12":
 		execfile("svn_windows_test.py")
+	elif press == "13":
+		webbrowser.open("http://120.26.4.254/projects/war/issues/new")
 	elif press == "q":
 		os.exit()
 	else:

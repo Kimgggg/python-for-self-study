@@ -7,7 +7,7 @@ import time
 import pwd_config
 
 WORD = "apk"
-PATH = pwd_config.dowloads
+PATH = dowloads_Windows
 APK_NAME = []
 NUM = 0
 

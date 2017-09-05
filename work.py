@@ -56,7 +56,7 @@ while True:
 	elif press == "11":
 		os.system("open /Applications/Safari.app https://tower.im/teams/85798e163e1d430abf652b57a16b5ba2/projects/") 
 	elif press == "12":
-		execfile("/Users/playcrab/Documents/python-for-self-study/install_apk.py")
+		execfile("/Users/playcrab/Documents/python-for-self-study/install_apk_MAC.py")
 	elif press == "13":
 		execfile("AutoMoveAndRemove.py")
 	elif press == "14":
