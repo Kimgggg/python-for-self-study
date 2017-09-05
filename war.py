@@ -21,6 +21,7 @@ while True:
 	11.一键更新
 	12.svn检查提交
 	13.add_new_bug
+	14.install apk
 		'''
 	press = raw_input("select:\n")
 	if press == "1":
@@ -72,8 +73,6 @@ while True:
 		execfile("allbranch_pull.py")
 		execfile("svn_windows_test.py")
 		current_path = os.getcwd()
-		# os.chdir(pwd_config.War_svn)
-		# os.system("svn update")
 		os.chdir(pwd_config.War_svn_art)
 		os.system("svn update")
 		os.chdir(current_path)
@@ -81,6 +80,8 @@ while True:
 		execfile("svn_windows_test.py")
 	elif press == "13":
 		webbrowser.open("http://120.26.4.254/projects/war/issues/new")
+	elif press == "14":
+		execfile("install_apk_Windows.py")
 	elif press == "q":
 		os.exit()
 	else:
