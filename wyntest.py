@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-def xpath(aaa):
-	aaa = aaa.replace('"',"'")
-	return aaa
+a =  [11,11,11,22,22,22,33,33,33,44,44,44,55,55,55]
 
-a = xpath('//*[@id="l580"]')
+a = list(set(a))
+a.sort()
+
 print a
