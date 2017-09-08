@@ -306,10 +306,6 @@ while True:
 		time.sleep(1)
 
 
-
-
-
-
 	elif press == "14":
 		driver = webdriver.Firefox()
 		driver.get("http://192.168.5.207:8001/demo/ctrl.php")
@@ -366,27 +362,3 @@ while True:
 			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
 			print "兵团" + str(z) + "激活潜能"
 		driver.quit()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
