@@ -8,13 +8,14 @@ import os
 import sys
 import time
 import pwd_config
+import fuck_gbk
 
 WORD = "apk"
 APK_NAME = []
 NUM = 0
 
 dirdir = os.listdir(pwd_config.dowloads_Windows)
-
+#文件夹内部允许有中文名称否则会报错
 for find_apk in dirdir:
     if find_apk.split(".")[-1] == WORD:
         APK_NAME.append(find_apk)
