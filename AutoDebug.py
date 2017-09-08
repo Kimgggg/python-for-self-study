@@ -20,34 +20,35 @@ baowu = [40111,40112,40113,40121,40122,40123,40211,40212,40213,40221,40222,40223
 otheritem = "41001,41002,3026,3027,3028,3029,3030,3036,3037,3038,3039,3040,3043,3044,3045,3046,3047,3048"
 heroId = [60001,60101,60102,60103,60301,60302,60303,60401,60502,60601,60602,60603,60604,60701,60802,60901,61201,61202]
 skillposition = [1,2,3,4]
-
+bingtuanId1star = [101,102,105,106,301,401,403,501,601,901]
+bingtuanId2star = [104,201,202,203,204,302,402,404,502,504,506,602,603,902,903]
+bingtuanId3star = [103,107,205,206,207,303,304,305,306,307,405,406,407,503,505,507,604,605,606,607,904,905,906,907]
 
 def translate_xpath(xpath):
 	xpath = xpath.replace('"',"'")
 	return driver.find_element_by_xpath(xpath)
 
 
-# driver = webdriver.Firefox()#干你娘的safari不兼容selenium处理下拉菜单的方法，尝试过13种方法才他娘的发现，操
-# driver.get("http://192.168.5.207:8001/demo/ctrl.php")
-# time.sleep(1)
-
-# driver.quit()
-
 while True:
 	print """
 	1.添加金币、钻石、兵团经验
 	2.玩家升级
 	3.设置vip等级
-	4.提升兵团潜力
+	4.提升全部兵团潜力
 	5.调整副本进度
-	6.发材料
-	7.宝物进阶
-	8.发放英雄
-	9.英雄升星
-	10.英雄技能升级
+	6.发全部材料
+	7.全部宝物进阶
+	8.发放全部英雄
+	9.全部英雄升星
+	10.全部英雄技能升级
+	11.发放全部兵团
+	12.全部兵团升级 +全部兵团装备升级
+
+	14.全部兵团升星+激活潜能
 	"""
 	press = raw_input("select:")
 	if press == "1":
+		num = input("please input num:")
 		# 添加金币、钻石、兵团经验
 		driver = webdriver.Firefox()
 		driver.get("http://192.168.5.207:8001/demo/ctrl.php")
@@ -59,9 +60,10 @@ while True:
 			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="type"]').clear() #清空资源类型
 			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="type"]').send_keys(x) #输入资源类型
 			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="num"]').clear() #清空数量
-			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="num"]').send_keys("9999999") #输入数量
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="num"]').send_keys(num) #输入数量
 			print "已添加" + str(x)
 			translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click() #点击
+		num = 0
 		time.sleep(1)
 		driver.quit()
 	elif press == "2":
@@ -74,7 +76,7 @@ while True:
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="level"]').send_keys("89")
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click
 		print "玩家等级提升成功"
-		time.sleep(5)
+		time.sleep(10)
 		driver.quit()
 	elif press == "3":
 		driver = webdriver.Firefox()
@@ -102,7 +104,7 @@ while True:
 			for y in potentialId:
 				translate_xpath("//*[@id='req']/form/table/tbody/tr[3]/td[2]//*[@name='potentialId']").clear() #清空潜力类型
 				translate_xpath("//*[@id='req']/form/table/tbody/tr[3]/td[2]//*[@name='potentialId']").send_keys(y) #输入潜力类型
-				for z in range(45):
+				for z in range(41):
 					print "第" + str(z) + "次升级" + str(x) + "的" + str(y) + "潜力"
 					translate_xpath("//*[@id='req']/form/table/tbody/tr[4]/td[2]//*[@name='uploadFrom']").click() #点击
 		time.sleep(1)
@@ -123,6 +125,7 @@ while True:
 		time.sleep(1)
 		driver.quit()
 	elif press == "6":
+		num = input("please input num:")
 		driver = webdriver.Firefox()
 		driver.get("http://192.168.5.207:8001/demo/ctrl.php")
 		time.sleep(1)
@@ -130,7 +133,7 @@ while True:
 		translate_xpath('//*[@id="l582"]').click()
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(bingtuansuipianId) 
-		translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys("999") #输入数量，需注意，后续添加时数量不会更新,不能被注释
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num) #输入数量，需注意，后续添加时数量不会更新,不能被注释
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click() #点击
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear() #清空类型
 		print "发放兵团碎片成功"
@@ -151,6 +154,7 @@ while True:
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
 		print "发放杂物成功"
+		num = 0
 		time.sleep(1)
 		driver.quit()
 	elif press == "7":
@@ -251,6 +255,132 @@ while True:
 					print "英雄" + str(hero) + "技能" + str(skill_position) + "第" + str(x) + "次十连突"
 		time.sleep(1)
 		driver.quit()
+	elif press == "11":
+		driver = webdriver.Firefox()
+		driver.get("http://192.168.5.207:8001/demo/ctrl.php")
+		time.sleep(1)
+		#发放兵团
+		translate_xpath('//*[@id="l583"]').click()
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+		for x in bingtuanId:
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(x)
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+			print "已发放兵团" + str(x)
+		driver.quit()
+	elif press == "12":
+		driver = webdriver.Firefox()
+		driver.get("http://192.168.5.207:8001/demo/ctrl.php")
+		time.sleep(1)
+		#所有兵团升级
+		translate_xpath('//*[@id="l561"]').click()
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="level"]').send_keys("90")#要提升的等级
+		for x in bingtuanId:
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(x)
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+			print "兵团" + str(x) + "已升级"
+		time.sleep(0.5)
+		driver.refresh()
+		time.sleep(1)
+		#所有兵团装备升级
+		translate_xpath('//*[@id="l563"]').click()
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+		for x in bingtuanId:
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(x)
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+			print "兵团" + str(x) + "装备已升级"
+		driver.quit()
+
+	elif press == "13":
+		driver = webdriver.Firefox()
+		driver.get("http://192.168.5.207:8001/demo/ctrl.php")
+		time.sleep(1)
+
+
+
+
+
+
+	elif press == "14":
+		driver = webdriver.Firefox()
+		driver.get("http://192.168.5.207:8001/demo/ctrl.php")
+		time.sleep(1)
+		#所有兵团升星+激活潜能
+		def bigStar(argv_id):
+			driver.refresh()
+			time.sleep(1)
+			translate_xpath('//*[@id="l567"]').click()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(argv_id)
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+			print "大星" + str(argv_id)
+			time.sleep(0.5)
+		def smallStar(argv_id):
+			driver.refresh()
+			time.sleep(1)
+			translate_xpath('//*[@id="l566"]').click()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(argv_id)
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="batch"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="batch"]').send_keys("1")
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+			time.sleep(0.5)
+		for x in range(1):
+			for y in bingtuanId1star:
+				smallStar(y)
+				bigStar(y)
+		new_bingtuansuipian2star = bingtuanId1star + bingtuanId2star
+		print "全部1星兵团已升至2星"
+		for x in range(1):
+			for y in new_bingtuansuipian2star:
+				smallStar(y)
+				bigStar(y)
+		new_bingtuansuipian3star = new_bingtuansuipian2star + bingtuanId3star
+		print "全部1星兵团与2星兵团已全部3星"
+		for x in range(3):
+			print "第" + str((x+1)) + "次集体升星"
+			for y in new_bingtuansuipian3star:
+				smallStar(y)
+				bigStar(y)
+		driver.refresh()
+		time.sleep(1)
+		translate_xpath('//*[@id="l570"]').click()	
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+		translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+		for z in bingtuanId:
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(z)
+			translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+			print "兵团" + str(z) + "激活潜能"
+		driver.quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-a =  [11,11,11,22,22,22,33,33,33,44,44,44,55,55,55]
+from __future__ import unicode_literals
+from selenium import webdriver
+import selenium
+import time
+import fuck_gbk
 
-a = list(set(a))
-a.sort()
-
-print a
+for x in range(3):
+	print "第" + str((x+3)) + "次集体升星"
