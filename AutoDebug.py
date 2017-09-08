@@ -76,7 +76,7 @@ while True:
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="level"]').send_keys("89")
 		translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
 		print "玩家等级提升成功"
-		time.sleep(10)
+		time.sleep(3)
 		driver.quit()
 	elif press == "3":
 		driver = webdriver.Firefox()
