@@ -1,71 +1,71 @@
-1504842842726	geckodriver	INFO	geckodriver 0.18.0
-1504842842732	geckodriver	INFO	Listening on 127.0.0.1:62771
-1504842844740	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1504842844914	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-1504842845209	Marionette	INFO	Enabled via --marionette
-1504842846216	Marionette	INFO	Listening on port 62787
-1504842846222	Marionette	INFO	Listening on port 62787
-1504842846292	Marionette	WARN	TLS certificate errors will be ignored for this session
-1504842846318	Marionette	DEBUG	loaded listener.js
-1504842846341	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1504842846372	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1504842846372	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504852437298	geckodriver	INFO	geckodriver 0.18.0
+1504852437305	geckodriver	INFO	Listening on 127.0.0.1:55838
+1504852439316	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504852439490	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1504852439786	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\User\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9272] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\User\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1504852440793	Marionette	INFO	Listening on port 55854
+1504852440814	Marionette	INFO	Listening on port 55854
+1504852440824	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504852440852	Marionette	DEBUG	loaded listener.js
+1504852440873	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504852440903	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504852440904	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 Unable to read VR Path Registry from C:\Users\User\AppData\Local\openvr\openvrpaths.vrpath
 JavaScript warning: http://192.168.5.207:8001/demo/Demo/jquery-1.3.2.js, line 2425: unreachable code after return statement
-1504842846647	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.5.207:8001/demo/ctrl.php"
-1504842846680	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.5.207:8001/demo/ctrl.php"
-1504842847997	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842848329	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842848623	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842848892	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842849159	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842849426	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842849724	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842850023	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842850333	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842850653	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842850959	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842851286	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842851564	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842851827	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842852103	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842852366	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842852635	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842852899	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842853162	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504842854168	Marionette	INFO	New connections will no longer be accepted
+1504852441175	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.5.207:8001/demo/ctrl.php"
+1504852441202	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.5.207:8001/demo/ctrl.php"
+1504852442522	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852442816	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852443822	Marionette	INFO	New connections will no longer be accepted
+ected
+1504852397767	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852398052	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852398318	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852398584	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852398847	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852399119	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852399386	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852399654	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852399918	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852400189	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852400453	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852400728	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852401053	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852401335	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852401605	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852401875	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852402139	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852402415	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852402677	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852402964	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852403228	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852403521	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852403801	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852404082	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852404350	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852404630	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852404904	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852405172	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852405483	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852405765	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852406036	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852406305	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852406571	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852406834	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852407129	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852407413	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852407677	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852407953	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852408238	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852408538	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852408806	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852409089	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504852409095	Marionette	INFO	New connections will no longer be accepted
 gation has been detected
-1504837784542	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837784780	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837785007	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837785232	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837785458	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837785684	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837785907	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837786135	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837786361	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837786602	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837786835	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837787064	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837787290	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837787517	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837787746	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837787973	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837788200	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837788425	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837788653	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837788892	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837789125	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837789351	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837789620	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837789845	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837790068	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837790291	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837790514	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837790739	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837790964	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837791192	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837791416	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1504837791641	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1504837791876	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1504837792104	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
@@ -96,11 +96,10 @@ gation has been detected
 1504837797756	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1504837797980	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1504837798218	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837798442	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837798678	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837798941	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837799165	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1504837799389	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504837798442	Marionette	DEBUG	CaUnable to read VR Path Registry from C:\Users\User\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7968] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+cause no navigation has been detected
 1504837799618	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1504837799846	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1504837800069	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
