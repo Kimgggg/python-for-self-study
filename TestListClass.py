@@ -32,7 +32,7 @@ class Permutations(object):
 		self.List_a = []
 		self.List_b = []
 
-	def Permutations(a, b):
+	def Permutations(a, b, self = None):
 		self.List_a = a
 		self.List_b = b
 

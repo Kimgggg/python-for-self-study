@@ -15,7 +15,7 @@ APK_NAME = []
 NUM = 0
 
 dirdir = os.listdir(pwd_config.dowloads_Windows)
-#文件夹内部允许有中文名称否则会报错
+#文件夹内部不允许有中文名称的文件，否则会报错
 for find_apk in dirdir:
     if find_apk.split(".")[-1] == WORD:
         APK_NAME.append(find_apk)

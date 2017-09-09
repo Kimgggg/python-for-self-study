@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-import os,sys,inspect,re
-import xdrlib,xlrd
+import os,sys,re
+import xlrd
 import csv
-import pprint
 import svn.local
 import pwd_config
 

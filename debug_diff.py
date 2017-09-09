@@ -5,8 +5,6 @@ import shutil
 import hashlib
 import pwd_config
 
-# fileNameList_svn = []
-# fileNameList_local = []
 path_svn = pwd_config.svn_DebugData
 path_localData = pwd_config.svn_Debug_copy
 path_diff = pwd_config.debug_Diff
