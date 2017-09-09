@@ -7,7 +7,7 @@ import time
 import pwd_config
 
 WORD = "apk"
-PATH = dowloads_Windows
+PATH = pwd_config.dowloads_Mac
 APK_NAME = []
 NUM = 0
 
@@ -24,7 +24,6 @@ if APK_NAME == []:
     sys.exit()
 
 for y in APK_NAME:
-    # CreateTime = ""
     os.path.getctime(PATH + "/" + y)
     timeTuple = time.localtime(os.path.getctime(PATH + "/" + y))
     CreateTime = time.strftime("%Y-%m-%d %H:%M:%S", timeTuple)
