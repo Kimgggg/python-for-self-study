@@ -132,8 +132,7 @@ while True:
         translate_xpath('//*[@id="l582"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.bingtuansuipianId)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(
-            num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()  # 点击
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()  # 清空类型
         print "发放兵团碎片成功"
@@ -305,10 +304,9 @@ while True:
 	需先使用脚本发放全部兵团，否则会报错
 	数据库只搜索teams数组 (db.game_users.find({_id:8001_853},{teams:1})
 	选择json格式
-	右键->edit json,全部复制粘贴至txt文件内并保存至D:/,修改名称为'mongo.txt'
-	(D:/mongo.txt)
-	执行mongo.bat
-	重新打开D:/mongo.txx,将内容全部复制进数据库,update
+	右键->edit json,全部复制粘贴至txt文件内并保存至D:/,修改名称为'mongo.txt', 例:(D:/mongo.txt)
+	执行脚本文件夹内的 mongo.bat
+	重新打开D:/mongo.txt,将内容全部复制进数据库,update
 	如果需要特殊修改,则使用编辑器打开mongo.bat文件,修改里面内容即可
 	
 	""".encode('GBK', 'ignore')
