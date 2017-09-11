@@ -60,8 +60,8 @@ while True:
 	10.全部英雄技能升级
 	11.发放全部兵团
 	12.全部兵团升级 +全部兵团装备升级
-
 	14.全部兵团激活潜能
+	q.退出
 	"""
     press = raw_input("select:")
     if press == "1":
@@ -344,8 +344,6 @@ while True:
         driver = webdriver.Firefox()
         driver.get(dev_server)
         time.sleep(1)
-
-
         # 所有兵团升星+激活潜能
         # def bigStar(argv_id):
         #     driver.refresh()
@@ -402,3 +400,8 @@ while True:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
             print "兵团" + str(z) + "激活潜能"
         driver.quit()
+    elif press == "q":
+    	os.exit()
+    else:
+    	print "input error!"
+
