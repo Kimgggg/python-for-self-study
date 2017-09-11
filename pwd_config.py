@@ -24,5 +24,5 @@ War_svn = "E:/war"#heros svn主路径
 War_svn_art = "E:/war-art"#heros 资源svn路径
 War_svn_design = "E:/war/design"#heros svn内策划配置表路径
 War_svn_configfile = "E:/war/svn"#heros 配置文件路径
-War_CheckLiat_CSV_Target = "D:/config_git"#heros 本地debug csv对比路径
-War_CheckLiat_CSV_Source = "E:/war/svn/configCsv/csv"#herossvn内csv路径
+War_CheckList_CSV_Target = "D:/config_git"#heros 本地debug csv对比路径
+War_CheckList_CSV_Source = "E:/war/svn/configCsv/csv"#herossvn内csv路径
