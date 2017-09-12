@@ -34,11 +34,13 @@ while True:
 	elif press == "3":
 		current_path = os.getcwd()
 		os.chdir(pwd_config.War_svn)
+		os.system("svn cleanup")
 		os.system("svn update")
 		os.chdir(current_path)
 	elif press == "4":
 		current_path = os.getcwd()
 		os.chdir(pwd_config.War_svn_art)
+		os.system("svn cleanup")
 		os.system("svn update")
 		os.chdir(current_path)
 	elif press == "5":
@@ -46,6 +48,7 @@ while True:
 		execfile("svn_windows_test.py")
 		current_path = os.getcwd()
 		os.chdir(pwd_config.War_svn_art)
+		os.system("svn cleanup")
 		os.system("svn update")
 		os.chdir(pwd_config.War_svn_resources)
 		os.system("QA_script.bat")
@@ -74,6 +77,7 @@ while True:
 		execfile("svn_windows_test.py")
 		current_path = os.getcwd()
 		os.chdir(pwd_config.War_svn_art)
+		os.system("svn cleanup")
 		os.system("svn update")
 		os.chdir(current_path)
 	elif press == "12":

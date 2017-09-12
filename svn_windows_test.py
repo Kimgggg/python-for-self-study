@@ -9,6 +9,7 @@ import svn
 
 
 os.chdir(pwd_config.War_svn)
+os.system("svn cleanup")
 os.system("svn update")
 svn_text = svn.local.LocalClient("E:\war\svn\configCsv\csv")
 svn_info = svn_text.info()

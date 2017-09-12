@@ -19,6 +19,7 @@ def svn_update(svn_path):
 	print "正在更新Release"
 	current_Path = os.getcwd()
 	os.chdir(svn_path)
+	os.system("svn cleanup")
 	os.system("svn update")
 	os.chdir(current_Path)
 
