@@ -74,8 +74,11 @@ while True:
 		webbrowser.open("http://gmtools.playcrab.com/war/sendprop/send-prop")
 	elif press == "11":
 		execfile("allbranch_pull.py")
-		execfile("svn_windows_test.py")
+		# execfile("svn_windows_test.py")
 		current_path = os.getcwd()
+		os.chdir(pwd_config.War_svn)
+		os.system("svn cleanup")
+		os.system("svn update")
 		os.chdir(pwd_config.War_svn_art)
 		os.system("svn cleanup")
 		os.system("svn update")
