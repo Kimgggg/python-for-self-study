@@ -114,7 +114,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 主线精英重置到某一副本补差删多
-        translate_xpath('//*[@id="l607"]').click()
+        translate_xpath('//*[@id="l618"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         for x in other_config.stageId:
