@@ -176,7 +176,7 @@ while True:
         time.sleep(0.5)
         driver.refresh()
         time.sleep(1)
-        translate_xpath('//*[@id="l761"]').click()#进阶散件宝物
+        translate_xpath('//*[@id="l762"]').click()#进阶散件宝物
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         big_id = []
@@ -194,7 +194,7 @@ while True:
                 print "宝物" + str(Treasure_small_temp) + "第" + str(count) + "次进阶"
         big_id = list(set(big_id))
         big_id.sort()
-        translate_xpath('//*[@id="l760"]').click()  # 进阶组合宝物
+        translate_xpath('//*[@id="l761"]').click()  # 进阶组合宝物
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         for x in big_id:
