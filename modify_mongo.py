@@ -1,14 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 import sys
-from __future__ import unicode_literals
-from selenium import webdriver
-import time
-import os
-import sys
 import other_config
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 print '''
 此脚本只调整兵团
