@@ -1,11 +1,25 @@
 #!/usr/bin/env python
 # encoding: utf-8
 import sys
+from __future__ import unicode_literals
+from selenium import webdriver
+import time
+import os
+import sys
+import other_config
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+print '''
+此脚本只调整兵团
+优先调整英雄等级、vip等级
+'''
 
 str_end = '),'
 pathfile = sys.argv[1]
 count_max = sys.argv[2]
 count_min = sys.argv[3]
+
 
 # pathfile = "D:/wyn/mongo.txt"
 # count_max = 1600
