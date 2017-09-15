@@ -22,6 +22,7 @@ while True:
 	12.svn检查提交
 	13.add_new_bug
 	14.install apk
+	15.下班套餐
 		'''
 	press = raw_input("select:\n")
 	if press == "1":
@@ -74,11 +75,11 @@ while True:
 		webbrowser.open("http://gmtools.playcrab.com/war/sendprop/send-prop")
 	elif press == "11":
 		execfile("allbranch_pull.py")
-		# execfile("svn_windows_test.py")
+		execfile("svn_windows_test.py")
 		current_path = os.getcwd()
-		os.chdir(pwd_config.War_svn)
-		os.system("svn cleanup")
-		os.system("svn update")
+		# os.chdir(pwd_config.War_svn)
+		# os.system("svn cleanup")
+		# os.system("svn update")
 		os.chdir(pwd_config.War_svn_art)
 		os.system("svn cleanup")
 		os.system("svn update")
