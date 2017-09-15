@@ -1,13 +1,38 @@
 #!/usr/bin/env python
 # encoding: utf-8
 import sys
+import os
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 
 str_end = '),'
 pathfile = sys.argv[1]
-count_max = sys.argv[2]
-count_min = sys.argv[3]
-new_count_min = int(count_min)
-new_count_max = int(count_max)
+big = 0
+middle = 0
+small = 0
+
+
+file = open(pathfile)  
+for (num,value) in enumerate(file):  
+	if '    "vip" : {'  in value :
+		print "line number",num,"is:",value  
+		print value
+		small = num
+	elif '    "heros" : {' in value:
+		print "line number",num,"is:",value  
+		print value
+		middle = num
+	elif '    "hSkin" : {' in value:
+		print "line number",num,"is:",value  
+		print value
+		big = num
+
+file.close()  
+
+print big,middle,small
+
+
 
 level = '"level" : NumberInt('
 stage = '"stage" : NumberInt('
@@ -43,6 +68,12 @@ sl1_num = []
 sl2_num = []
 sl3_num = []
 sl4_num = []
+hero_star_num = []
+hero_sl1_num = []
+hero_sl2_num = []
+hero_sl3_num = []
+hero_sl4_num = []
+
 for x in range(1,91):
 	level_num.append(x)
 	el1_num.append(x)
@@ -53,6 +84,9 @@ for x in range(1,91):
 for x in range(1,7):
 	star_num.append(x)
 
+for x in range(1,5):
+	hero_star_num.append(x)
+
 for x in range(0,51):
 	smallStar_num.append(x)
 
@@ -62,6 +96,12 @@ for x in range(1,16):
 	sl3_num.append(x)
 	sl4_num.append(x)
 
+for x in range(1,24):
+	hero_sl1_num.append(x)
+	hero_sl2_num.append(x)
+	hero_sl3_num.append(x)
+	hero_sl4_num.append(x)
+
 for x in range(1,14):
 	stage_num.append(x)
 	es1_num.append(x)
@@ -70,18 +110,34 @@ for x in range(1,14):
 	es4_num.append(x)
 
 def modify(filepath,need_to_replace,be_replace):
-	global new_count_min
-	global new_count_max
+	global middle
+	global small
 	with open(filepath,"r") as f:
 		lines = f.readlines() 
 	with open(filepath,"w") as f_w:
 		index = 0
 		for line in lines:
 			index += 1
-			if index <= new_count_max and index >= new_count_min:
+			if index <= middle - 50 and index >= small + 10:
 				if need_to_replace in line:
 					line = line.replace(need_to_replace, be_replace)
 			f_w.write(line)
+
+def modify_hero(filepath,need_to_replace,be_replace):
+	global big
+	global middle
+	with open(filepath,"r") as f:
+		lines = f.readlines() 
+	with open(filepath,"w") as f_w:
+		index = 0
+		for line in lines:
+			index += 1
+			if index <= big and index >= middle:
+				if need_to_replace in line:
+					line = line.replace(need_to_replace, be_replace)
+			f_w.write(line)
+
+
 modify_level = []
 for x in level_num:
 	modify_level.append(level + str(x) + str_end)
@@ -202,3 +258,39 @@ print "兵团装备4品质调整完毕"
 
 modify(pathfile,avn_0,avn_1)
 print "潜能已激活"
+
+modify_hero_star = []
+for x in hero_star_num:
+	modify_hero_star.append(star + str(x) + str_end)
+	for y in modify_hero_star:
+		modify_hero(pathfile,y,star+str(hero_star_num[3]) + str_end)
+modify_hero(pathfile,star + str(0) + str_end,star+str(hero_star_num[3]) + str_end)
+print "英雄星级已调整完毕"
+
+modify_hero_sl1 = []
+for x in hero_sl1_num:
+	modify_hero_sl1.append(sl1 + str(x) + str_end)
+	for y in modify_hero_sl1:
+		modify_hero(pathfile,y,sl1+str(hero_sl1_num[22]) + str_end)
+print "英雄1技能调整完毕"
+
+modify_hero_sl2 = []
+for x in hero_sl2_num:
+	modify_hero_sl2.append(sl2 + str(x) + str_end)
+	for y in modify_hero_sl2:
+		modify_hero(pathfile,y,sl2+str(hero_sl2_num[22]) + str_end)
+print "英雄2技能调整完毕"
+
+modify_hero_sl3 = []
+for x in hero_sl3_num:
+	modify_hero_sl3.append(sl3 + str(x) + str_end)
+	for y in modify_hero_sl3:
+		modify_hero(pathfile,y,sl3+str(hero_sl3_num[22]) + str_end)
+print "英雄3技能调整完毕"
+
+modify_hero_sl4 = []
+for x in hero_sl4_num:
+	modify_hero_sl4.append(sl4 + str(x) + str_end)
+	for y in modify_hero_sl4:
+		modify_hero(pathfile,y,sl4+str(hero_sl4_num[22]) + str_end)
+print "英雄4技能调整完毕"
