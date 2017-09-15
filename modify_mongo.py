@@ -69,18 +69,18 @@ for x in range(1,14):
 	es3_num.append(x)
 	es4_num.append(x)
 
-def modify(a,b,c):
+def modify(filepath,need_to_replace,be_replace):
 	global new_count_min
 	global new_count_max
-	with open(a,"r") as f:
+	with open(filepath,"r") as f:
 		lines = f.readlines() 
-	with open(a,"w") as f_w:
+	with open(filepath,"w") as f_w:
 		index = 0
 		for line in lines:
 			index += 1
 			if index <= new_count_max and index >= new_count_min:
-				if b in line:
-					line = line.replace(b, c)
+				if need_to_replace in line:
+					line = line.replace(need_to_replace, be_replace)
 			f_w.write(line)
 modify_level = []
 for x in level_num:
