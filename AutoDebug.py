@@ -13,8 +13,8 @@ sys.setdefaultencoding('utf-8')
 user_rid = raw_input("please input rid:\n")
 print '''
 1.开发机1
-2.开发机2(暂时无法使用)
-3.开发机3(暂时无法使用)
+2.开发机2
+3.开发机3
 4.dev3(暂时无法使用)
 5.dev4(暂时无法使用)
 '''
@@ -52,7 +52,7 @@ while True:
         driver = webdriver.Firefox()
         driver.get(dev_server)
         time.sleep(1)
-        translate_xpath('//*[@id="l591"]').click()
+        translate_xpath('//*[@id="l592"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         for x in other_config.resource:
@@ -70,7 +70,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 玩家升级
-        translate_xpath('//*[@id="l595"]').click()
+        translate_xpath('//*[@id="l596"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="level"]').send_keys("89")
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
@@ -82,7 +82,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 设置vip等级
-        translate_xpath('//*[@id="l592"]').click()
+        translate_xpath('//*[@id="l593"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="level"]').send_keys("15")
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
@@ -94,7 +94,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 升级潜能
-        translate_xpath('//*[@id="l582"]').click()
+        translate_xpath('//*[@id="l583"]').click()
         time.sleep(1)
         translate_xpath("//*[@id='req']/form/table/tbody/tr[1]/td[2]//*[@name='rid']").send_keys(user_rid)
         for x in other_config.bingtuanId:
@@ -114,7 +114,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 主线精英重置到某一副本补差删多
-        translate_xpath('//*[@id="l618"]').click()
+        translate_xpath('//*[@id="l619"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         for x in other_config.stageId:
@@ -130,7 +130,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 个人物品发放
-        translate_xpath('//*[@id="l593"]').click()
+        translate_xpath('//*[@id="l594"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.bingtuansuipianId)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
@@ -167,7 +167,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 宝物进阶
-        translate_xpath('//*[@id="l593"]').click()#个人物品发放
+        translate_xpath('//*[@id="l594"]').click()#个人物品发放
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys("41001")  # 额外发送材料
@@ -176,7 +176,7 @@ while True:
         time.sleep(0.5)
         driver.refresh()
         time.sleep(1)
-        translate_xpath('//*[@id="l762"]').click()#进阶散件宝物
+        translate_xpath('//*[@id="l765"]').click()#进阶散件宝物
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         big_id = []
@@ -194,7 +194,7 @@ while True:
                 print "宝物" + str(Treasure_small_temp) + "第" + str(count) + "次进阶"
         big_id = list(set(big_id))
         big_id.sort()
-        translate_xpath('//*[@id="l761"]').click()  # 进阶组合宝物
+        translate_xpath('//*[@id="l764"]').click()  # 进阶组合宝物
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         for x in big_id:
@@ -210,7 +210,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 发放英雄
-        translate_xpath('//*[@id="l597"]').click()
+        translate_xpath('//*[@id="l598"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         for x in other_config.heroId:
@@ -241,7 +241,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # [hero]技能升级
-        translate_xpath('//*[@id="l593"]').click()#个人物品发放
+        translate_xpath('//*[@id="l594"]').click()#个人物品发放
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys("3004")  # 额外发送材料
@@ -269,7 +269,7 @@ while True:
         driver.get(dev_server)
         time.sleep(1)
         # 发放兵团
-        translate_xpath('//*[@id="l594"]').click()
+        translate_xpath('//*[@id="l595"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         for x in other_config.bingtuanId:
@@ -376,7 +376,7 @@ while True:
         #         bigStar(y)
         # driver.refresh()
         # time.sleep(1)
-        translate_xpath('//*[@id="l581"]').click()#激活潜能
+        translate_xpath('//*[@id="l582"]').click()#激活潜能
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         for z in other_config.bingtuanId:
