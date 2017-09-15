@@ -1,21 +1,14 @@
 #!/usr/bin/env python
 # encoding: utf-8
 import sys
-import other_config
-
-print '''
-此脚本只调整兵团
-优先调整英雄等级、vip等级
-'''
 
 str_end = '),'
 pathfile = sys.argv[1]
 count_max = sys.argv[2]
 count_min = sys.argv[3]
+new_count_min = int(count_min)
+new_count_max = int(count_max)
 
-
-# pathfile = "D:/wyn/mongo.txt"
-# count_max = 1600
 level = '"level" : NumberInt('
 stage = '"stage" : NumberInt('
 star = '"star" : NumberInt('
@@ -79,16 +72,16 @@ for x in range(1,14):
 
 
 
-#将文件读取到内存中
-def modify(a,b,c,d):
+def modify(a,b,c):
+	global new_count_min
+	global new_count_max
 	with open(a,"r") as f:
 		lines = f.readlines() 
-	#写的方式打开文件
 	with open(a,"w") as f_w:
 		index = 0
 		for line in lines:
 			index += 1
-			if index <= d and index >= 55:	
+			if index <= new_count_max and index >= new_count_min:
 				if b in line:
 					line = line.replace(b, c)
 			f_w.write(line)
@@ -96,101 +89,101 @@ modify_level = []
 for x in level_num:
 	modify_level.append(level + str(x) + str_end)
 	for y in modify_level:
-		modify(pathfile,y,level+str(level_num[89]) + str_end,count_max)
-print "兵团等级调整完毕".decode("gbk")
+		modify(pathfile,y,level+str(level_num[89]) + str_end)
+print "兵团等级调整完毕"
 
 modify_el1 = []
 for x in el1_num:
 	modify_el1.append(el1 + str(x) + str_end)
 	for y in modify_el1:
-		modify(pathfile,y,el1+str(el1_num[89]) + str_end,count_max)
+		modify(pathfile,y,el1+str(el1_num[89]) + str_end)
 print "兵团装备1等级调整完毕"
 
 modify_el2 = []
 for x in el2_num:
 	modify_el2.append(el2 + str(x) + str_end)
 	for y in modify_el2:
-		modify(pathfile,y,el2+str(el2_num[89]) + str_end,count_max)
+		modify(pathfile,y,el2+str(el2_num[89]) + str_end)
 print "兵团装备2等级调整完毕"
 
 modify_el3 = []
 for x in el3_num:
 	modify_el3.append(el3 + str(x) + str_end)
 	for y in modify_el3:
-		modify(pathfile,y,el3+str(el3_num[89]) + str_end,count_max)
+		modify(pathfile,y,el3+str(el3_num[89]) + str_end)
 print "兵团装备3等级调整完毕"
 
 modify_el4 = []
 for x in el4_num:
 	modify_el4.append(el4 + str(x) + str_end)
 	for y in modify_el4:
-		modify(pathfile,y,el4+str(el4_num[89]) + str_end,count_max)
+		modify(pathfile,y,el4+str(el4_num[89]) + str_end)
 print "兵团装备4等级调整完毕"
 
 modify_star = []
 for x in star_num:
 	modify_star.append(star + str(x) + str_end)
 	for y in modify_star:
-		modify(pathfile,y,star+str(star_num[5]) + str_end,count_max)
+		modify(pathfile,y,star+str(star_num[5]) + str_end)
 print "兵团星级调整完毕"
 
 modify_smallStar = []
 for x in smallStar_num:
 	modify_smallStar.append(smallStar + str(x) + str_end)
 	for y in modify_smallStar:
-		modify(pathfile,y,smallStar+str(smallStar_num[50]) + str_end,count_max)
+		modify(pathfile,y,smallStar+str(smallStar_num[50]) + str_end)
 print "兵团小星调整完毕"
 
 modify_sl1 = []
 for x in sl1_num:
 	modify_sl1.append(sl1 + str(x) + str_end)
 	for y in modify_sl1:
-		modify(pathfile,y,sl1+str(sl1_num[14]) + str_end,count_max)
+		modify(pathfile,y,sl1+str(sl1_num[14]) + str_end)
 print "兵团1技能调整完毕"
 
 modify_sl2 = []
 for x in sl2_num:
 	modify_sl2.append(sl2 + str(x) + str_end)
 	for y in modify_sl2:
-		modify(pathfile,y,sl2+str(sl2_num[14]) + str_end,count_max)
-modify(pathfile,sl2 + str(-1) + str_end,sl2+str(sl2_num[14]) + str_end,count_max)
+		modify(pathfile,y,sl2+str(sl2_num[14]) + str_end)
+modify(pathfile,sl2 + str(-1) + str_end,sl2+str(sl2_num[14]) + str_end)
 print "兵团2技能调整完毕"
 
 modify_sl3 = []
 for x in sl3_num:
 	modify_sl3.append(sl3 + str(x) + str_end)
 	for y in modify_sl3:
-		modify(pathfile,y,sl3+str(sl3_num[14]) + str_end,count_max)
-modify(pathfile,sl3 + str(-1) + str_end,sl3+str(sl3_num[14]) + str_end,count_max)
+		modify(pathfile,y,sl3+str(sl3_num[14]) + str_end)
+modify(pathfile,sl3 + str(-1) + str_end,sl3+str(sl3_num[14]) + str_end)
 print "兵团3技能调整完毕"
 
 modify_sl4 = []
 for x in sl4_num:
 	modify_sl4.append(sl4 + str(x) + str_end)
 	for y in modify_sl4:
-		modify(pathfile,y,sl4+str(sl4_num[14]) + str_end,count_max)
-modify(pathfile,sl4 + str(-1) + str_end,sl4+str(sl3_num[14]) + str_end,count_max)
+		modify(pathfile,y,sl4+str(sl4_num[14]) + str_end)
+modify(pathfile,sl4 + str(-1) + str_end,sl4+str(sl3_num[14]) + str_end)
 print "兵团4技能调整完毕"
 
 modify_stage = []
 for x in stage_num:
 	modify_stage.append(stage + str(x) + str_end)
 	for y in modify_stage:
-		modify(pathfile,y,stage+str(stage_num[12]) + str_end,count_max)
+		modify(pathfile,y,stage+str(stage_num[12]) + str_end)
 print "兵团品质调整完毕"
 
 modify_es1 = []
 for x in es1_num:
 	modify_es1.append(es1 + str(x) + str_end)
 	for y in modify_es1:
-		modify(pathfile,y,es1+str(es1_num[12]) + str_end,count_max)
+		modify(pathfile,y,es1+str(es1_num[12]) + str_end)
 print "兵团装备1品质调整完毕"
 
 modify_es2 = []
 for x in es2_num:
 	modify_es2.append(es2 + str(x) + str_end)
 	for y in modify_es2:
-		modify(pathfile,y,es2+str(es2_num[12]) + str_end,count_max)
+		modify(pathfile,y,es2+str(es2_num[12]) + str_end)
 print "兵团装备2品质调整完毕"
 
 
@@ -198,7 +191,7 @@ modify_es3 = []
 for x in es3_num:
 	modify_es3.append(es3 + str(x) + str_end)
 	for y in modify_es3:
-		modify(pathfile,y,es3+str(es3_num[12]) + str_end,count_max)
+		modify(pathfile,y,es3+str(es3_num[12]) + str_end)
 print "兵团装备3品质调整完毕"
 
 
@@ -206,11 +199,11 @@ modify_es4 = []
 for x in es4_num:
 	modify_es4.append(es4 + str(x) + str_end)
 	for y in modify_es4:
-		modify(pathfile,y,es4+str(es4_num[12]) + str_end,count_max)
+		modify(pathfile,y,es4+str(es4_num[12]) + str_end)
 print "兵团装备4品质调整完毕"
 
 
-modify(pathfile,avn_0,avn_1,count_max)
+modify(pathfile,avn_0,avn_1)
 print "潜能已激活"
 
 
