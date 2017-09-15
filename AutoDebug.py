@@ -37,8 +37,6 @@ while True:
 	6.发全部材料
 	7.全部宝物进阶
 	8.发放全部英雄
-	9.全部英雄升星
-	10.全部英雄技能升级
 	11.发放全部兵团
 	q.退出
 	"""
@@ -219,49 +217,51 @@ while True:
         time.sleep(1)
         driver.quit()
     elif press == "9":
-        driver = webdriver.Firefox()
-        driver.get(dev_server)
-        time.sleep(1)
-        # 英雄升星
-        translate_xpath('//*[@id="l315"]').click()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
-        for x in other_config.heroId:
-            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="heroId"]').clear()
-            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="heroId"]').send_keys(x)
-            for y in range(4):
-                translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
-                print "英雄" + str(x) + "升星第" + str(y) + "次"
-        time.sleep(1)
-        driver.quit()
+        pass
+        # driver = webdriver.Firefox()
+        # driver.get(dev_server)
+        # time.sleep(1)
+        # # 英雄升星
+        # translate_xpath('//*[@id="l315"]').click()
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+        # for x in other_config.heroId:
+        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="heroId"]').clear()
+        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="heroId"]').send_keys(x)
+        #     for y in range(4):
+        #         translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+        #         print "英雄" + str(x) + "升星第" + str(y) + "次"
+        # time.sleep(1)
+        # driver.quit()
     elif press == "10":
-        driver = webdriver.Firefox()
-        driver.get(dev_server)
-        time.sleep(1)
-        # [hero]技能升级
-        translate_xpath('//*[@id="l594"]').click()#个人物品发放
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys("3004")  # 额外发送材料
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys("9999999")
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+        pass
+        # driver = webdriver.Firefox()
+        # driver.get(dev_server)
+        # time.sleep(1)
+        # # [hero]技能升级
+        # translate_xpath('//*[@id="l594"]').click()#个人物品发放
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys("3004")  # 额外发送材料
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys("9999999")
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
 
-        translate_xpath('//*[@id="l313"]').click()#[hero]技能升级
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="exMode"]').send_keys("1")  # 是否十连突
-        for hero in other_config.heroId:
-            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="heroId"]').clear()
-            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="heroId"]').send_keys(hero)  # 输入英雄id
-            for skill_position in other_config.skillposition:
-                translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="positionId"]').clear()
-                translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="positionId"]').send_keys(
-                    skill_position)  # 输入技能位置
-                for x in range(30):
-                    translate_xpath('//*[@id="req"]/form/table/tbody/tr[5]/td[2]//*[@name="uploadFrom"]').click()
-                    print "英雄" + str(hero) + "技能" + str(skill_position) + "第" + str(x) + "次十连突"
-        time.sleep(1)
-        driver.quit()
+        # translate_xpath('//*[@id="l313"]').click()#[hero]技能升级
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="exMode"]').send_keys("1")  # 是否十连突
+        # for hero in other_config.heroId:
+        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="heroId"]').clear()
+        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="heroId"]').send_keys(hero)  # 输入英雄id
+        #     for skill_position in other_config.skillposition:
+        #         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="positionId"]').clear()
+        #         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="positionId"]').send_keys(
+        #             skill_position)  # 输入技能位置
+        #         for x in range(30):
+        #             translate_xpath('//*[@id="req"]/form/table/tbody/tr[5]/td[2]//*[@name="uploadFrom"]').click()
+        #             print "英雄" + str(hero) + "技能" + str(skill_position) + "第" + str(x) + "次十连突"
+        # time.sleep(1)
+        # driver.quit()
     elif press == "11":
         driver = webdriver.Firefox()
         driver.get(dev_server)
@@ -324,6 +324,7 @@ while True:
 
 
     elif press == "14":
+        pass
         # driver = webdriver.Firefox()
         # driver.get(dev_server)
         # time.sleep(1)
