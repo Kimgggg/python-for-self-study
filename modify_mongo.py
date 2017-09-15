@@ -69,9 +69,6 @@ for x in range(1,14):
 	es3_num.append(x)
 	es4_num.append(x)
 
-
-
-
 def modify(a,b,c):
 	global new_count_min
 	global new_count_max
@@ -205,6 +202,3 @@ print "兵团装备4品质调整完毕"
 
 modify(pathfile,avn_0,avn_1)
 print "潜能已激活"
-
-
-

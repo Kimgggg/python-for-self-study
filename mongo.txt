@@ -1,56 +1,69 @@
 { 
-    "_id" : "8001_922", 
-    "upPhyTime" : NumberInt(1505386126), 
-    "_it" : NumberInt(1505386126), 
-    "uid" : NumberInt(922), 
-    "name" : "狂徒德安·梅南", 
-    "_commitId" : NumberInt(77), 
-    "_lt" : NumberInt(1505386162), 
-    "uuid" : "59ba5e8ee138234329418b06", 
-    "usid" : "800151145611", 
-    "pid" : "6d1413e485c15f4ac71f8dc236bd4e12", 
-    "hScore" : NumberInt(74999), 
-    "score" : NumberInt(74999), 
+    "_id" : "8001_885", 
+    "upPhyTime" : NumberInt(1505447992), 
+    "_it" : NumberInt(1505208592), 
+    "uid" : NumberInt(885), 
+    "name" : "法师赛尔·卡里", 
+    "_commitId" : NumberInt(368), 
+    "_lt" : NumberInt(1505449770), 
+    "uuid" : "59b7a910e13823308024acee", 
+    "usid" : "800151145589", 
+    "pid" : "f85da3214ad8924a315f20c07c9ae3fa", 
+    "hScore" : NumberInt(131516), 
+    "score" : NumberInt(131516), 
     "accelerate" : NumberInt(1), 
-    "online" : NumberInt(1), 
-    "onlineTime" : NumberInt(30), 
+    "online" : NumberInt(0), 
+    "onlineTime" : NumberInt(28599), 
     "quit" : NumberInt(0), 
     "renameTime" : NumberInt(0), 
     "guildId" : NumberInt(0), 
     "guildLeave" : NumberInt(0), 
     "category" : NumberInt(0), 
-    "treasureCoin" : NumberInt(0), 
+    "treasureCoin" : NumberInt(30), 
     "avatar" : NumberInt(1101), 
     "guide" : NumberInt(10000), 
     "starNum" : NumberInt(140), 
     "freeGemTotal" : NumberInt(0), 
     "freeGem" : NumberInt(0), 
-    "gold" : NumberInt(10000), 
-    "texp" : NumberInt(500), 
+    "gold" : NumberInt(418300), 
+    "texp" : NumberInt(1600), 
     "lvl" : NumberInt(90), 
     "formationTeamNum" : NumberInt(8), 
-    "payGemTotal" : NumberInt(0), 
-    "payGem" : NumberInt(0), 
+    "payGemTotal" : NumberInt(6480), 
+    "payGem" : NumberInt(8017784), 
     "crusading" : NumberInt(0), 
     "exp" : NumberInt(0), 
-    "physcal" : NumberInt(4680), 
+    "physcal" : NumberInt(4674), 
     "guildPower" : NumberInt(300), 
-    "upGPTime" : NumberInt(1505386126), 
+    "upGPTime" : NumberInt(1505208592), 
     "arrowNum" : NumberInt(50), 
-    "currency" : NumberInt(0), 
-    "leagueCoin" : NumberInt(0), 
+    "currency" : NumberInt(1200), 
+    "leagueCoin" : NumberInt(23000), 
     "guildCoin" : NumberInt(0), 
     "hDuelCoin" : NumberInt(0), 
-    "leaveTime" : NumberInt(1505386156), 
+    "leaveTime" : NumberInt(1505453250), 
     "banLogin" : NumberInt(0), 
     "banChat" : NumberInt(0), 
-    "resetCrusadeCD" : NumberInt(0), 
+    "resetCrusadeCD" : NumberInt(1505509200), 
     "tbNum" : NumberInt(20), 
-    "upTbTime" : NumberInt(1505386126), 
+    "upTbTime" : NumberInt(1505208592), 
     "msg" : "", 
     "vip" : {
-        "level" : NumberInt(0), 
-        "exp" : NumberInt(0)
+        "level" : NumberInt(7), 
+        "exp" : NumberInt(6480), 
+        "free" : NumberInt(1), 
+        "time" : NumberInt(1507928399), 
+        "sum" : NumberInt(0), 
+        "mCard" : {
+            "payment_month" : {
+                "days" : NumberInt(0), 
+                "expireTime" : NumberInt(1507928399)
+            }, 
+            "payment_monthsuper" : {
+                "days" : NumberInt(0), 
+                "expireTime" : NumberInt(1507928399)
+            }
+        }
     }, 
     "avatarFrame" : NumberInt(1000), 
     "avatarFrames" : {
@@ -63,7 +76,7 @@
             "stage" : NumberInt(13), 
             "star" : NumberInt(6), 
             "smallStar" : NumberInt(50), 
-            "score" : NumberInt(470), 
+            "score" : NumberInt(491), 
             "pScore" : NumberInt(0), 
             "es1" : NumberInt(13), 
             "el1" : NumberInt(90), 
@@ -82,10 +95,10 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386126), 
+            "rt" : NumberInt(1505208592), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386126), 
-            "grade" : NumberInt(300)
+            "st" : NumberInt(1505211411), 
+            "grade" : NumberInt(303)
         }, 
         "102" : {
             "level" : NumberInt(90), 
@@ -93,7 +106,7 @@
             "stage" : NumberInt(13), 
             "star" : NumberInt(6), 
             "smallStar" : NumberInt(50), 
-            "score" : NumberInt(434), 
+            "score" : NumberInt(453), 
             "pScore" : NumberInt(0), 
             "es1" : NumberInt(13), 
             "el1" : NumberInt(90), 
@@ -112,10 +125,10 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386126), 
+            "rt" : NumberInt(1505208592), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386126), 
-            "grade" : NumberInt(300)
+            "st" : NumberInt(1505211411), 
+            "grade" : NumberInt(303)
         }, 
         "101" : {
             "level" : NumberInt(90), 
@@ -142,9 +155,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386182), 
+            "rt" : NumberInt(1505448160), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386182), 
+            "st" : NumberInt(1505448160), 
             "grade" : NumberInt(300)
         }, 
         "103" : {
@@ -172,9 +185,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386182), 
+            "rt" : NumberInt(1505448161), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386182), 
+            "st" : NumberInt(1505448161), 
             "grade" : NumberInt(500)
         }, 
         "104" : {
@@ -202,9 +215,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386183), 
+            "rt" : NumberInt(1505448161), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386183), 
+            "st" : NumberInt(1505448161), 
             "grade" : NumberInt(400)
         }, 
         "105" : {
@@ -232,9 +245,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386183), 
+            "rt" : NumberInt(1505448162), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386183), 
+            "st" : NumberInt(1505448162), 
             "grade" : NumberInt(300)
         }, 
         "107" : {
@@ -262,9 +275,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386184), 
+            "rt" : NumberInt(1505448162), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386184), 
+            "st" : NumberInt(1505448162), 
             "grade" : NumberInt(500)
         }, 
         "201" : {
@@ -292,9 +305,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386184), 
+            "rt" : NumberInt(1505448163), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386184), 
+            "st" : NumberInt(1505448163), 
             "grade" : NumberInt(400)
         }, 
         "202" : {
@@ -322,9 +335,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386184), 
+            "rt" : NumberInt(1505448163), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386184), 
+            "st" : NumberInt(1505448163), 
             "grade" : NumberInt(400)
         }, 
         "203" : {
@@ -352,9 +365,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386184), 
+            "rt" : NumberInt(1505448163), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386184), 
+            "st" : NumberInt(1505448163), 
             "grade" : NumberInt(400)
         }, 
         "204" : {
@@ -382,9 +395,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386185), 
+            "rt" : NumberInt(1505448164), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386185), 
+            "st" : NumberInt(1505448164), 
             "grade" : NumberInt(400)
         }, 
         "205" : {
@@ -412,9 +425,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386185), 
+            "rt" : NumberInt(1505448164), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386185), 
+            "st" : NumberInt(1505448164), 
             "grade" : NumberInt(500)
         }, 
         "206" : {
@@ -442,9 +455,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386185), 
+            "rt" : NumberInt(1505448164), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386185), 
+            "st" : NumberInt(1505448164), 
             "grade" : NumberInt(500)
         }, 
         "207" : {
@@ -472,9 +485,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386185), 
+            "rt" : NumberInt(1505448164), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386185), 
+            "st" : NumberInt(1505448164), 
             "grade" : NumberInt(500)
         }, 
         "301" : {
@@ -502,9 +515,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386186), 
+            "rt" : NumberInt(1505448165), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386186), 
+            "st" : NumberInt(1505448165), 
             "grade" : NumberInt(300)
         }, 
         "302" : {
@@ -532,9 +545,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386186), 
+            "rt" : NumberInt(1505448165), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386186), 
+            "st" : NumberInt(1505448165), 
             "grade" : NumberInt(400)
         }, 
         "303" : {
@@ -562,9 +575,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386186), 
+            "rt" : NumberInt(1505448165), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386186), 
+            "st" : NumberInt(1505448165), 
             "grade" : NumberInt(500)
         }, 
         "304" : {
@@ -592,9 +605,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386187), 
+            "rt" : NumberInt(1505448165), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386187), 
+            "st" : NumberInt(1505448165), 
             "grade" : NumberInt(500)
         }, 
         "305" : {
@@ -622,9 +635,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386187), 
+            "rt" : NumberInt(1505448166), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386187), 
+            "st" : NumberInt(1505448166), 
             "grade" : NumberInt(500)
         }, 
         "306" : {
@@ -652,9 +665,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386187), 
+            "rt" : NumberInt(1505448166), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386187), 
+            "st" : NumberInt(1505448166), 
             "grade" : NumberInt(500)
         }, 
         "307" : {
@@ -682,9 +695,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386188), 
+            "rt" : NumberInt(1505448166), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386188), 
+            "st" : NumberInt(1505448166), 
             "grade" : NumberInt(500)
         }, 
         "401" : {
@@ -712,9 +725,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386188), 
+            "rt" : NumberInt(1505448167), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386188), 
+            "st" : NumberInt(1505448167), 
             "grade" : NumberInt(300)
         }, 
         "402" : {
@@ -742,9 +755,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386188), 
+            "rt" : NumberInt(1505448167), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386188), 
+            "st" : NumberInt(1505448167), 
             "grade" : NumberInt(400)
         }, 
         "403" : {
@@ -772,9 +785,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386188), 
+            "rt" : NumberInt(1505448167), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386188), 
+            "st" : NumberInt(1505448167), 
             "grade" : NumberInt(300)
         }, 
         "404" : {
@@ -802,9 +815,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386189), 
+            "rt" : NumberInt(1505448167), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386189), 
+            "st" : NumberInt(1505448167), 
             "grade" : NumberInt(400)
         }, 
         "405" : {
@@ -832,9 +845,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386189), 
+            "rt" : NumberInt(1505448168), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386189), 
+            "st" : NumberInt(1505448168), 
             "grade" : NumberInt(500)
         }, 
         "406" : {
@@ -862,9 +875,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386189), 
+            "rt" : NumberInt(1505448168), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386189), 
+            "st" : NumberInt(1505448168), 
             "grade" : NumberInt(500)
         }, 
         "407" : {
@@ -892,9 +905,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386190), 
+            "rt" : NumberInt(1505448168), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386190), 
+            "st" : NumberInt(1505448168), 
             "grade" : NumberInt(500)
         }, 
         "501" : {
@@ -922,9 +935,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386190), 
+            "rt" : NumberInt(1505448169), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386190), 
+            "st" : NumberInt(1505448169), 
             "grade" : NumberInt(300)
         }, 
         "502" : {
@@ -952,9 +965,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386190), 
+            "rt" : NumberInt(1505448169), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386190), 
+            "st" : NumberInt(1505448169), 
             "grade" : NumberInt(400)
         }, 
         "503" : {
@@ -982,9 +995,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386190), 
+            "rt" : NumberInt(1505448169), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386190), 
+            "st" : NumberInt(1505448169), 
             "grade" : NumberInt(500)
         }, 
         "504" : {
@@ -1012,9 +1025,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386191), 
+            "rt" : NumberInt(1505448169), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386191), 
+            "st" : NumberInt(1505448169), 
             "grade" : NumberInt(400)
         }, 
         "505" : {
@@ -1042,9 +1055,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386191), 
+            "rt" : NumberInt(1505448170), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386191), 
+            "st" : NumberInt(1505448170), 
             "grade" : NumberInt(500)
         }, 
         "506" : {
@@ -1072,9 +1085,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386191), 
+            "rt" : NumberInt(1505448170), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386191), 
+            "st" : NumberInt(1505448170), 
             "grade" : NumberInt(400)
         }, 
         "507" : {
@@ -1102,9 +1115,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386191), 
+            "rt" : NumberInt(1505448170), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386191), 
+            "st" : NumberInt(1505448170), 
             "grade" : NumberInt(500)
         }, 
         "601" : {
@@ -1132,9 +1145,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386192), 
+            "rt" : NumberInt(1505448170), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386192), 
+            "st" : NumberInt(1505448170), 
             "grade" : NumberInt(300)
         }, 
         "602" : {
@@ -1162,9 +1175,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386192), 
+            "rt" : NumberInt(1505448171), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386192), 
+            "st" : NumberInt(1505448171), 
             "grade" : NumberInt(400)
         }, 
         "603" : {
@@ -1192,9 +1205,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386192), 
+            "rt" : NumberInt(1505448171), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386192), 
+            "st" : NumberInt(1505448171), 
             "grade" : NumberInt(400)
         }, 
         "604" : {
@@ -1222,9 +1235,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386192), 
+            "rt" : NumberInt(1505448171), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386192), 
+            "st" : NumberInt(1505448171), 
             "grade" : NumberInt(500)
         }, 
         "605" : {
@@ -1252,9 +1265,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386193), 
+            "rt" : NumberInt(1505448171), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386193), 
+            "st" : NumberInt(1505448171), 
             "grade" : NumberInt(500)
         }, 
         "606" : {
@@ -1282,9 +1295,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386193), 
+            "rt" : NumberInt(1505448172), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386193), 
+            "st" : NumberInt(1505448172), 
             "grade" : NumberInt(500)
         }, 
         "607" : {
@@ -1312,9 +1325,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386193), 
+            "rt" : NumberInt(1505448172), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386193), 
+            "st" : NumberInt(1505448172), 
             "grade" : NumberInt(500)
         }, 
         "901" : {
@@ -1342,9 +1355,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386194), 
+            "rt" : NumberInt(1505448172), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386194), 
+            "st" : NumberInt(1505448172), 
             "grade" : NumberInt(300)
         }, 
         "902" : {
@@ -1372,9 +1385,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386194), 
+            "rt" : NumberInt(1505448173), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386194), 
+            "st" : NumberInt(1505448173), 
             "grade" : NumberInt(400)
         }, 
         "903" : {
@@ -1402,9 +1415,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386194), 
+            "rt" : NumberInt(1505448173), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386194), 
+            "st" : NumberInt(1505448173), 
             "grade" : NumberInt(400)
         }, 
         "904" : {
@@ -1432,9 +1445,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386194), 
+            "rt" : NumberInt(1505448173), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386194), 
+            "st" : NumberInt(1505448173), 
             "grade" : NumberInt(500)
         }, 
         "905" : {
@@ -1462,9 +1475,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386195), 
+            "rt" : NumberInt(1505448173), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386195), 
+            "st" : NumberInt(1505448173), 
             "grade" : NumberInt(500)
         }, 
         "906" : {
@@ -1492,9 +1505,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386195), 
+            "rt" : NumberInt(1505448174), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386195), 
+            "st" : NumberInt(1505448174), 
             "grade" : NumberInt(500)
         }, 
         "907" : {
@@ -1522,9 +1535,9 @@
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1505386195), 
+            "rt" : NumberInt(1505448174), 
             "avn" : NumberInt(1), 
-            "st" : NumberInt(1505386195), 
+            "st" : NumberInt(1505448174), 
             "grade" : NumberInt(500)
         }
     }, 
@@ -1536,6 +1549,10 @@
         "1106" : NumberInt(0), 
         "1102" : NumberInt(0), 
         "3102" : NumberInt(0), 
+        "31202" : NumberInt(0), 
+        "3901" : NumberInt(0), 
+        "3802" : NumberInt(0), 
+        "31201" : NumberInt(0), 
         "3001" : NumberInt(0), 
         "3101" : NumberInt(0), 
         "3103" : NumberInt(0), 
@@ -1549,10 +1566,6 @@
         "3603" : NumberInt(0), 
         "3604" : NumberInt(0), 
         "3701" : NumberInt(0), 
-        "3802" : NumberInt(0), 
-        "3901" : NumberInt(0), 
-        "31201" : NumberInt(0), 
-        "31202" : NumberInt(0), 
         "1101" : NumberInt(0), 
         "1103" : NumberInt(0), 
         "1104" : NumberInt(0), 
@@ -1596,10 +1609,49 @@
         "1907" : NumberInt(0)
     }, 
     "activityStatis" : {
-        "20170914" : {
-            "sts74" : NumberInt(230), 
+        "20170912" : {
+            "sts74" : NumberInt(74675), 
             "sts2" : NumberInt(1), 
-            "sts75" : NumberInt(365), 
+            "sts75" : NumberInt(74660), 
+            "sts72" : NumberInt(74655), 
+            "sts76" : NumberInt(74655), 
+            "sts77" : NumberInt(74655), 
+            "sts78" : NumberInt(74655), 
+            "sts91" : NumberInt(74655), 
+            "sts37" : NumberInt(7), 
+            "sts89" : NumberInt(402), 
+            "sts38" : NumberInt(10), 
+            "sts29" : NumberInt(1), 
+            "sts7" : NumberInt(6), 
+            "sts12" : NumberInt(1), 
+            "sts31" : NumberInt(2)
+        }, 
+        "20170913" : {
+            "sts2" : NumberInt(1), 
+            "sts75" : NumberInt(3), 
+            "sts89" : NumberInt(3649), 
+            "sts38" : NumberInt(14), 
+            "sts5" : NumberInt(1991050), 
+            "sts6" : NumberInt(1990000), 
+            "sts29" : NumberInt(3)
+        }, 
+        "20170914" : {
+            "sts2" : NumberInt(1), 
+            "sts75" : NumberInt(3), 
+            "sts37" : NumberInt(9), 
+            "sts15" : NumberInt(800), 
+            "sts5" : NumberInt(120), 
+            "sts6" : NumberInt(50), 
+            "sts29" : NumberInt(1), 
+            "sts62" : NumberInt(4), 
+            "sts1" : NumberInt(6480), 
+            "sts3" : NumberInt(6480)
+        }, 
+        "20170915" : {
+            "sts2" : NumberInt(1), 
+            "sts75" : NumberInt(363), 
+            "sts15" : NumberInt(400), 
+            "sts74" : NumberInt(218), 
             "sts72" : NumberInt(440), 
             "sts76" : NumberInt(320), 
             "sts77" : NumberInt(340), 
@@ -1609,50 +1661,812 @@
     }, 
     "items" : {
         "3004" : {
-            "num" : NumberInt(10)
+            "num" : NumberInt(107164)
         }, 
         "301101" : {
-            "num" : NumberInt(2)
+            "num" : NumberInt(10667)
         }, 
         "301103" : {
-            "num" : NumberInt(2)
+            "num" : NumberInt(10669)
         }, 
         "301102" : {
-            "num" : NumberInt(2)
+            "num" : NumberInt(10669)
         }, 
         "301104" : {
-            "num" : NumberInt(2)
+            "num" : NumberInt(10667)
         }, 
         "310001" : {
             "num" : NumberInt(10)
         }, 
+        "3201" : {
+            "num" : NumberInt(10670)
+        }, 
         "360102" : {
-            "num" : NumberInt(30)
+            "num" : NumberInt(10335)
         }, 
         "400001" : {
             "num" : NumberInt(1)
         }, 
-        "3201" : {
-            "num" : NumberInt(5)
+        "3101" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3102" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3103" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3104" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3105" : {
+            "num" : NumberInt(10673)
+        }, 
+        "3106" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3107" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3202" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3203" : {
+            "num" : NumberInt(10668)
+        }, 
+        "3204" : {
+            "num" : NumberInt(10668)
+        }, 
+        "3205" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3206" : {
+            "num" : NumberInt(10668)
+        }, 
+        "3207" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3301" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3302" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3303" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3304" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3305" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3306" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3307" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3401" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3402" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3403" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3404" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3405" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3406" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3407" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3501" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3502" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3503" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3504" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3505" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3506" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3507" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3601" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3602" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3603" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3604" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3605" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3606" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3607" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3901" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3902" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3903" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3904" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3905" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3906" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3907" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301105" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301106" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301201" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301202" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301203" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301204" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301205" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301206" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301301" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301302" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301303" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301304" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301305" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301306" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301307" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301401" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301402" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301403" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301404" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301405" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301406" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301407" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301501" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301502" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301503" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301504" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301505" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301506" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301507" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301601" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301602" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301603" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301604" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301605" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301606" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301607" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301701" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301702" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301703" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301704" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301705" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301706" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301707" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301801" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301802" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301803" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301804" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301805" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301806" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301807" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301901" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301902" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301903" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301904" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301905" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301906" : {
+            "num" : NumberInt(10665)
+        }, 
+        "301907" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302001" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302002" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302003" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302004" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302005" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302006" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302007" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302101" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302102" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302103" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302104" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302105" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302106" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302107" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302201" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302202" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302203" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302204" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302205" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302206" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302207" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302301" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302302" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302303" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302304" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302305" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302306" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302307" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302401" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302402" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302403" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302404" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302405" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302406" : {
+            "num" : NumberInt(10665)
+        }, 
+        "302407" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360001" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360101" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360103" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360301" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360302" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360303" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360401" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360502" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360601" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360602" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360603" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360604" : {
+            "num" : NumberInt(10665)
+        }, 
+        "360701" : {
+            "num" : NumberInt(10667)
+        }, 
+        "360802" : {
+            "num" : NumberInt(10335)
+        }, 
+        "360901" : {
+            "num" : NumberInt(10305)
+        }, 
+        "361201" : {
+            "num" : NumberInt(10335)
+        }, 
+        "361202" : {
+            "num" : NumberInt(10305)
+        }, 
+        "3042" : {
+            "num" : NumberInt(2)
+        }, 
+        "40111" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40112" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40113" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40121" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40122" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40123" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40211" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40212" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40213" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40221" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40222" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40223" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40231" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40232" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40233" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40301" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40302" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40303" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40304" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40311" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40312" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40313" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40314" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40101" : {
+            "num" : NumberInt(10666)
+        }, 
+        "40102" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40103" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40321" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40322" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40323" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40421" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40422" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40423" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40424" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40401" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40402" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40403" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40404" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40405" : {
+            "num" : NumberInt(10665)
+        }, 
+        "40406" : {
+            "num" : NumberInt(10665)
+        }, 
+        "41001" : {
+            "num" : NumberInt(10665)
+        }, 
+        "41002" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3026" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3027" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3028" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3029" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3030" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3036" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3037" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3038" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3039" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3040" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3043" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3044" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3045" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3046" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3047" : {
+            "num" : NumberInt(10665)
+        }, 
+        "3048" : {
+            "num" : NumberInt(10665)
+        }, 
+        "500202" : {
+            "num" : NumberInt(949)
+        }, 
+        "500203" : {
+            "num" : NumberInt(949)
+        }, 
+        "500208" : {
+            "num" : NumberInt(999)
+        }, 
+        "500211" : {
+            "num" : NumberInt(999)
+        }, 
+        "500212" : {
+            "num" : NumberInt(949)
+        }, 
+        "500214" : {
+            "num" : NumberInt(990)
+        }, 
+        "500217" : {
+            "num" : NumberInt(999)
+        }, 
+        "500301" : {
+            "num" : NumberInt(999)
+        }, 
+        "500303" : {
+            "num" : NumberInt(949)
+        }, 
+        "500305" : {
+            "num" : NumberInt(999)
+        }, 
+        "500306" : {
+            "num" : NumberInt(999)
+        }, 
+        "500307" : {
+            "num" : NumberInt(999)
+        }, 
+        "500308" : {
+            "num" : NumberInt(999)
+        }, 
+        "500311" : {
+            "num" : NumberInt(999)
+        }, 
+        "500315" : {
+            "num" : NumberInt(999)
+        }, 
+        "500401" : {
+            "num" : NumberInt(999)
+        }, 
+        "500402" : {
+            "num" : NumberInt(999)
+        }, 
+        "500403" : {
+            "num" : NumberInt(999)
+        }, 
+        "500405" : {
+            "num" : NumberInt(999)
+        }, 
+        "500409" : {
+            "num" : NumberInt(999)
+        }, 
+        "500410" : {
+            "num" : NumberInt(999)
+        }, 
+        "500411" : {
+            "num" : NumberInt(549)
+        }, 
+        "500414" : {
+            "num" : NumberInt(999)
+        }, 
+        "500415" : {
+            "num" : NumberInt(999)
+        }, 
+        "500501" : {
+            "num" : NumberInt(999)
+        }, 
+        "500502" : {
+            "num" : NumberInt(999)
+        }, 
+        "500504" : {
+            "num" : NumberInt(999)
+        }, 
+        "500506" : {
+            "num" : NumberInt(999)
+        }, 
+        "500508" : {
+            "num" : NumberInt(999)
+        }, 
+        "500510" : {
+            "num" : NumberInt(999)
+        }, 
+        "500511" : {
+            "num" : NumberInt(949)
+        }, 
+        "500512" : {
+            "num" : NumberInt(999)
+        }, 
+        "500514" : {
+            "num" : NumberInt(999)
+        }, 
+        "500515" : {
+            "num" : NumberInt(999)
+        }, 
+        "500516" : {
+            "num" : NumberInt(999)
+        }, 
+        "500210" : {
+            "num" : NumberInt(999)
+        }, 
+        "500201" : {
+            "num" : NumberInt(799)
+        }, 
+        "3001" : {
+            "num" : NumberInt(15)
+        }, 
+        "7101" : {
+            "num" : NumberInt(1950)
         }
     }, 
     "heros" : {
         "60102" : {
-            "star" : NumberInt(0), 
+            "star" : NumberInt(4), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62081), 
             "m3" : NumberInt(62131), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(5), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(7), 
             "se1" : NumberInt(0), 
-            "se2" : NumberInt(0), 
+            "se2" : NumberInt(3), 
             "se3" : NumberInt(0), 
-            "se4" : NumberInt(0), 
+            "se4" : NumberInt(3), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26010201), 
             "biogra" : {
                 "6010201" : {
@@ -1661,139 +2475,257 @@
                 "6010204" : {
                     "conds" : {
                         "2" : {
-                            "value" : "0"
+                            "value" : "2", 
+                            "finish" : NumberInt(1)
                         }
                     }
                 }
             }, 
-            "score" : NumberInt(61150)
+            "score" : NumberInt(120116), 
+            "slot" : {
+                "tp" : NumberInt(5), 
+                "na" : NumberInt(1), 
+                "s" : NumberInt(15), 
+                "sid" : NumberInt(202), 
+                "e" : NumberInt(3), 
+                "spellNum" : NumberInt(3), 
+                "p" : NumberInt(190), 
+                "score" : NumberInt(0)
+            }, 
+            "spellNums" : "0,2,0,3"
         }, 
-        "60001" : {
-            "star" : NumberInt(6), 
-            "m1" : NumberInt(62221), 
-            "m2" : NumberInt(62081), 
-            "m3" : NumberInt(62151), 
-            "m4" : NumberInt(62111), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+        "61202" : {
+            "star" : NumberInt(4), 
+            "m1" : NumberInt(62031), 
+            "m2" : NumberInt(62151), 
+            "m3" : NumberInt(62121), 
+            "m4" : NumberInt(62051), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
+            "skin" : NumberInt(26120201), 
+            "score" : NumberInt(108656), 
+            "slot" : {
+                "tp" : NumberInt(1), 
+                "na" : NumberInt(2), 
+                "s" : NumberInt(1), 
+                "p" : NumberInt(40), 
+                "tmp" : "{\"1\":{\"1\":3,\"2\":4},\"2\":{\"1\":1,\"2\":3},\"3\":{\"1\":5,\"2\":2},\"4\":{\"1\":2,\"2\":2},\"5\":{\"1\":3,\"2\":1},\"6\":{\"1\":4,\"2\":5},\"7\":{\"1\":4,\"2\":5},\"8\":{\"1\":5,\"2\":4},\"9\":{\"1\":1,\"2\":1},\"10\":{\"1\":5,\"2\":3}}"
+            }
+        }, 
+        "60901" : {
+            "star" : NumberInt(4), 
+            "m1" : NumberInt(62221), 
+            "m2" : NumberInt(62071), 
+            "m3" : NumberInt(62111), 
+            "m4" : NumberInt(62001), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
+            "se1" : NumberInt(0), 
+            "se2" : NumberInt(0), 
+            "se3" : NumberInt(0), 
+            "se4" : NumberInt(0), 
+            "status" : NumberInt(0), 
+            "st" : NumberInt(1505448185), 
+            "skin" : NumberInt(26090101), 
+            "score" : NumberInt(108656), 
+            "slot" : {
+                "tp" : NumberInt(5), 
+                "na" : NumberInt(2), 
+                "s" : NumberInt(1)
+            }
+        }, 
+        "60802" : {
+            "star" : NumberInt(4), 
+            "m1" : NumberInt(62221), 
+            "m2" : NumberInt(62071), 
+            "m3" : NumberInt(62111), 
+            "m4" : NumberInt(62001), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
+            "se1" : NumberInt(0), 
+            "se2" : NumberInt(0), 
+            "se3" : NumberInt(0), 
+            "se4" : NumberInt(0), 
+            "status" : NumberInt(0), 
+            "st" : NumberInt(1505448185), 
+            "skin" : NumberInt(26080201), 
+            "biogra" : {
+                "6080201" : {
+                    "pTime" : NumberInt(1)
+                }
+            }, 
+            "score" : NumberInt(108656)
+        }, 
+        "61201" : {
+            "star" : NumberInt(4), 
+            "m1" : NumberInt(62031), 
+            "m2" : NumberInt(62151), 
+            "m3" : NumberInt(62121), 
+            "m4" : NumberInt(62051), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
+            "se1" : NumberInt(0), 
+            "se2" : NumberInt(0), 
+            "se3" : NumberInt(0), 
+            "se4" : NumberInt(0), 
+            "status" : NumberInt(0), 
+            "st" : NumberInt(1505448185), 
+            "skin" : NumberInt(26120101), 
+            "biogra" : {
+                "6120101" : {
+                    "pTime" : NumberInt(1)
+                }, 
+                "6120104" : {
+                    "conds" : {
+                        "2" : {
+                            "value" : "2", 
+                            "finish" : NumberInt(1)
+                        }
+                    }
+                }
+            }, 
+            "score" : NumberInt(108656)
+        }, 
+        "60001" : {
+            "star" : NumberInt(1), 
+            "m1" : NumberInt(62221), 
+            "m2" : NumberInt(62081), 
+            "m3" : NumberInt(62151), 
+            "m4" : NumberInt(62111), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
+            "se1" : NumberInt(0), 
+            "se2" : NumberInt(0), 
+            "se3" : NumberInt(0), 
+            "se4" : NumberInt(0), 
+            "status" : NumberInt(0), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26000101), 
             "biogra" : {
                 "6000101" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60101" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62091), 
             "m3" : NumberInt(62131), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26010101), 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60103" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62001), 
             "m2" : NumberInt(62031), 
             "m3" : NumberInt(62011), 
             "m4" : NumberInt(62121), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26010301), 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60301" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62111), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26030101), 
             "biogra" : {
                 "6030101" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60302" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62021), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62001), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26030201), 
             "biogra" : {
                 "6030201" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60303" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62101), 
             "m3" : NumberInt(62141), 
             "m4" : NumberInt(62111), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26030301), 
             "biogra" : {
                 "6030301" : {
@@ -1807,253 +2739,172 @@
                     }
                 }
             }, 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60401" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62001), 
             "m2" : NumberInt(62031), 
             "m3" : NumberInt(62151), 
             "m4" : NumberInt(62121), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26040101), 
             "biogra" : {
                 "6040101" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60502" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62101), 
             "m3" : NumberInt(62161), 
             "m4" : NumberInt(62111), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26050201), 
             "biogra" : {
                 "6050201" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60601" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26060101), 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60602" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62071), 
             "m3" : NumberInt(62161), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26060201), 
             "biogra" : {
                 "6060201" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60603" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26060301), 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60604" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26060401), 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }, 
         "60701" : {
-            "star" : NumberInt(6), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
+            "st" : NumberInt(1505448185), 
             "skin" : NumberInt(26070101), 
-            "score" : NumberInt(63599)
-        }, 
-        "60802" : {
-            "star" : NumberInt(6), 
-            "m1" : NumberInt(62221), 
-            "m2" : NumberInt(62071), 
-            "m3" : NumberInt(62111), 
-            "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
-            "se1" : NumberInt(0), 
-            "se2" : NumberInt(0), 
-            "se3" : NumberInt(0), 
-            "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
-            "skin" : NumberInt(26080201), 
-            "biogra" : {
-                "6080201" : {
-                    "pTime" : NumberInt(1)
-                }
-            }, 
-            "score" : NumberInt(63599)
-        }, 
-        "60901" : {
-            "star" : NumberInt(6), 
-            "m1" : NumberInt(62221), 
-            "m2" : NumberInt(62071), 
-            "m3" : NumberInt(62111), 
-            "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
-            "se1" : NumberInt(0), 
-            "se2" : NumberInt(0), 
-            "se3" : NumberInt(0), 
-            "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
-            "skin" : NumberInt(26090101), 
-            "score" : NumberInt(63599)
-        }, 
-        "61201" : {
-            "star" : NumberInt(6), 
-            "m1" : NumberInt(62031), 
-            "m2" : NumberInt(62151), 
-            "m3" : NumberInt(62121), 
-            "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
-            "se1" : NumberInt(0), 
-            "se2" : NumberInt(0), 
-            "se3" : NumberInt(0), 
-            "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
-            "skin" : NumberInt(26120101), 
-            "biogra" : {
-                "6120101" : {
-                    "pTime" : NumberInt(1)
-                }, 
-                "6120104" : {
-                    "conds" : {
-                        "2" : {
-                            "value" : "1"
-                        }
-                    }
-                }
-            }, 
-            "score" : NumberInt(63599)
-        }, 
-        "61202" : {
-            "star" : NumberInt(6), 
-            "m1" : NumberInt(62031), 
-            "m2" : NumberInt(62151), 
-            "m3" : NumberInt(62121), 
-            "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
-            "se1" : NumberInt(0), 
-            "se2" : NumberInt(0), 
-            "se3" : NumberInt(0), 
-            "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
-            "st" : NumberInt(1505386171), 
-            "skin" : NumberInt(26120201), 
-            "score" : NumberInt(63599)
+            "score" : NumberInt(86617)
         }
     }, 
     "hSkin" : {
         "60102" : {
             "26010201" : NumberInt(0)
+        }, 
+        "61202" : {
+            "26120201" : NumberInt(0)
+        }, 
+        "60901" : {
+            "26090101" : NumberInt(0)
+        }, 
+        "60802" : {
+            "26080201" : NumberInt(0)
+        }, 
+        "61201" : {
+            "26120101" : NumberInt(0)
         }, 
         "60001" : {
             "26000101" : NumberInt(0)
@@ -2093,24 +2944,12 @@
         }, 
         "60701" : {
             "26070101" : NumberInt(0)
-        }, 
-        "60802" : {
-            "26080201" : NumberInt(0)
-        }, 
-        "60901" : {
-            "26090101" : NumberInt(0)
-        }, 
-        "61201" : {
-            "26120101" : NumberInt(0)
-        }, 
-        "61202" : {
-            "26120201" : NumberInt(0)
         }
     }, 
     "hAb" : {
-        "1" : NumberInt(120), 
-        "2" : NumberInt(122), 
-        "3" : NumberInt(90), 
+        "1" : NumberInt(166), 
+        "2" : NumberInt(168), 
+        "3" : NumberInt(186), 
         "4" : NumberInt(64)
     }, 
     "leagueheros" : {
@@ -2119,216 +2958,216 @@
             "m2" : NumberInt(62083), 
             "m3" : NumberInt(62133), 
             "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
-        }, 
-        "60001" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62083), 
-            "m3" : NumberInt(62153), 
-            "m4" : NumberInt(62113), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
-        }, 
-        "60101" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62093), 
-            "m3" : NumberInt(62133), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
-        }, 
-        "60103" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62113), 
-            "m3" : NumberInt(62053), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
-        }, 
-        "60301" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62113), 
-            "m3" : NumberInt(62023), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
-        }, 
-        "60302" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62103), 
-            "m3" : NumberInt(62133), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
-        }, 
-        "60303" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62103), 
-            "m3" : NumberInt(62143), 
-            "m4" : NumberInt(62113), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
-        }, 
-        "60401" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62103), 
-            "m3" : NumberInt(62053), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
-        }, 
-        "60502" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62103), 
-            "m3" : NumberInt(62163), 
-            "m4" : NumberInt(62113), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137081)
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(108763)
         }, 
         "60901" : {
             "m1" : NumberInt(62223), 
             "m2" : NumberInt(62073), 
             "m3" : NumberInt(62113), 
             "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137904)
-        }, 
-        "60601" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62133), 
-            "m3" : NumberInt(62113), 
-            "m4" : NumberInt(62143), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137551)
-        }, 
-        "60602" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62073), 
-            "m3" : NumberInt(62163), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137551)
-        }, 
-        "60603" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62073), 
-            "m3" : NumberInt(62153), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137669)
-        }, 
-        "60604" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62133), 
-            "m3" : NumberInt(62143), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137786)
-        }, 
-        "60701" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62073), 
-            "m3" : NumberInt(62113), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137904)
-        }, 
-        "60802" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62073), 
-            "m3" : NumberInt(62113), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(137904)
-        }, 
-        "61201" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62093), 
-            "m3" : NumberInt(62113), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(138021)
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(108866)
         }, 
         "61202" : {
             "m1" : NumberInt(62223), 
             "m2" : NumberInt(62153), 
             "m3" : NumberInt(62113), 
             "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(6), 
-            "score" : NumberInt(138139)
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(108866)
+        }, 
+        "60802" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62073), 
+            "m3" : NumberInt(62113), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(108866)
+        }, 
+        "61201" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62093), 
+            "m3" : NumberInt(62113), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(108968)
+        }, 
+        "60001" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62083), 
+            "m3" : NumberInt(62153), 
+            "m4" : NumberInt(62113), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(108968)
+        }, 
+        "60101" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62093), 
+            "m3" : NumberInt(62133), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(108968)
+        }, 
+        "60103" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62113), 
+            "m3" : NumberInt(62053), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109121)
+        }, 
+        "60301" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62113), 
+            "m3" : NumberInt(62023), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109121)
+        }, 
+        "60302" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62103), 
+            "m3" : NumberInt(62133), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109172)
+        }, 
+        "60303" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62103), 
+            "m3" : NumberInt(62143), 
+            "m4" : NumberInt(62113), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109172)
+        }, 
+        "60401" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62103), 
+            "m3" : NumberInt(62053), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109274)
+        }, 
+        "60502" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62103), 
+            "m3" : NumberInt(62163), 
+            "m4" : NumberInt(62113), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109274)
+        }, 
+        "60601" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62133), 
+            "m3" : NumberInt(62113), 
+            "m4" : NumberInt(62143), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109376)
+        }, 
+        "60602" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62073), 
+            "m3" : NumberInt(62163), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109376)
+        }, 
+        "60603" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62073), 
+            "m3" : NumberInt(62153), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109478)
+        }, 
+        "60604" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62133), 
+            "m3" : NumberInt(62143), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109580)
+        }, 
+        "60701" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62073), 
+            "m3" : NumberInt(62113), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(20), 
+            "sl2" : NumberInt(20), 
+            "sl3" : NumberInt(20), 
+            "sl4" : NumberInt(20), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(109683)
         }
     }, 
     "drawAward" : {
@@ -2346,7 +3185,9 @@
         "first" : NumberInt(0), 
         "freeFirst" : NumberInt(0), 
         "treasureNum" : NumberInt(0), 
-        "loss" : NumberInt(348540)
+        "loss" : NumberInt(348650), 
+        "spbookScore" : NumberInt(0), 
+        "spbookNum" : NumberInt(1)
     }, 
     "formations" : {
         "1" : {
@@ -2366,10 +3207,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386126), 
+            "lt" : NumberInt(1505208592), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(62054)
+            "score" : NumberInt(121060)
         }, 
         "2" : {
             "g1" : NumberInt(8), 
@@ -2388,7 +3229,7 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208696), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(2018), 
@@ -2411,10 +3252,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208696), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(62054), 
+            "score" : NumberInt(121060), 
             "filter" : ""
         }, 
         "3" : {
@@ -2437,7 +3278,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208696), 
             "tid" : NumberInt(1)
         }, 
         "14" : {
@@ -2460,7 +3301,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208696), 
             "tid" : NumberInt(1)
         }, 
         "16" : {
@@ -2480,7 +3321,7 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208696), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(2493), 
@@ -2506,7 +3347,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208696), 
             "tid" : NumberInt(1)
         }, 
         "102" : {
@@ -2526,10 +3367,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208732), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(62054), 
+            "score" : NumberInt(121060), 
             "filter" : ""
         }, 
         "9" : {
@@ -2549,7 +3390,7 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208732), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(2673), 
@@ -2572,7 +3413,7 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208732), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(3039), 
@@ -2595,7 +3436,7 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208790), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(3826), 
@@ -2618,7 +3459,7 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208790), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(3826), 
@@ -2641,7 +3482,7 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208790), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(3826), 
@@ -2664,10 +3505,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208790), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(62054), 
+            "score" : NumberInt(121060), 
             "filter" : ""
         }, 
         "15" : {
@@ -2687,7 +3528,7 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208790), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(4528), 
@@ -2713,7 +3554,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208790), 
             "tid" : NumberInt(1)
         }, 
         "13" : {
@@ -2736,7 +3577,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208790), 
             "tid" : NumberInt(1)
         }, 
         "25" : {
@@ -2759,7 +3600,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208791), 
             "tid" : NumberInt(1)
         }, 
         "26" : {
@@ -2782,7 +3623,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208791), 
             "tid" : NumberInt(1)
         }, 
         "27" : {
@@ -2805,7 +3646,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208791), 
             "tid" : NumberInt(1)
         }, 
         "28" : {
@@ -2828,7 +3669,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208791), 
             "tid" : NumberInt(1)
         }, 
         "29" : {
@@ -2851,7 +3692,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1505386141), 
+            "lt" : NumberInt(1505208791), 
             "tid" : NumberInt(1)
         }, 
         "8" : {
@@ -2871,10 +3712,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386192), 
+            "lt" : NumberInt(1505379560), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(137985), 
+            "score" : NumberInt(109707), 
             "filter" : ""
         }, 
         "104" : {
@@ -2894,14 +3735,37 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1505386169), 
+            "lt" : NumberInt(1505379576), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(34167), 
+            "score" : NumberInt(109707), 
             "filter" : ""
+        }, 
+        "21" : {
+            "g1" : NumberInt(0), 
+            "team1" : NumberInt(0), 
+            "g2" : NumberInt(0), 
+            "team2" : NumberInt(0), 
+            "g3" : NumberInt(0), 
+            "team3" : NumberInt(0), 
+            "g4" : NumberInt(0), 
+            "team4" : NumberInt(0), 
+            "g5" : NumberInt(0), 
+            "team5" : NumberInt(0), 
+            "g6" : NumberInt(0), 
+            "team6" : NumberInt(0), 
+            "g7" : NumberInt(0), 
+            "team7" : NumberInt(0), 
+            "g8" : NumberInt(0), 
+            "team8" : NumberInt(0), 
+            "heroId" : NumberInt(0), 
+            "score" : NumberInt(0), 
+            "filter" : "", 
+            "lt" : NumberInt(1505208893), 
+            "tid" : NumberInt(1)
         }
     }, 
-    "scoreF1" : NumberInt(62054), 
+    "scoreF1" : NumberInt(121060), 
     "dayInfo" : {
         "day1" : NumberInt(0), 
         "day2" : NumberInt(0), 
@@ -2971,7 +3835,7 @@
         "day66" : NumberInt(0), 
         "day67" : NumberInt(0), 
         "day68" : NumberInt(0), 
-        "restTime" : NumberInt(1505386126)
+        "restTime" : NumberInt(1505447501)
     }, 
     "statis" : {
         "dnum1" : NumberInt(0), 
@@ -2985,8 +3849,8 @@
         "dnum9" : NumberInt(0), 
         "dnum10" : NumberInt(0), 
         "dnum11" : NumberInt(0), 
-        "dnum12" : NumberInt(0), 
-        "dnum13" : NumberInt(0), 
+        "dnum12" : NumberInt(135), 
+        "dnum13" : NumberInt(80000), 
         "dnum14" : NumberInt(0), 
         "dnum15" : NumberInt(0), 
         "dnum16" : NumberInt(0), 
@@ -2999,9 +3863,13 @@
         "dnum23" : NumberInt(0), 
         "dnum24" : NumberInt(0), 
         "dstr1" : "", 
-        "snum6" : NumberInt(1), 
+        "snum6" : NumberInt(4), 
         "snum22" : NumberInt(1), 
-        "snum21" : NumberInt(1505386141)
+        "snum21" : NumberInt(1505448185), 
+        "snum7" : NumberInt(3400), 
+        "snum14" : NumberInt(4051), 
+        "snum11" : NumberInt(1200), 
+        "snum18" : NumberInt(6480)
     }, 
     "handbooks" : {
         "4" : {
@@ -3035,6 +3903,87 @@
                     "cnt" : "0"
                 }
             }
+        }, 
+        "47" : {
+            "tasks" : {
+                "4703" : {
+                    "prg" : "1", 
+                    "status" : NumberInt(1), 
+                    "cnt" : "1"
+                }
+            }
+        }, 
+        "9" : {
+            "tasks" : {
+                "901" : {
+                    "prg" : "1", 
+                    "status" : NumberInt(1), 
+                    "cnt" : "1"
+                }
+            }
+        }, 
+        "11" : {
+            "tasks" : {
+                "1101" : {
+                    "prg" : "1", 
+                    "status" : NumberInt(1), 
+                    "cnt" : "1"
+                }, 
+                "1102" : {
+                    "prg" : "6", 
+                    "cnt" : "6", 
+                    "status" : NumberInt(1)
+                }
+            }
+        }, 
+        "6" : {
+            "tasks" : {
+                "601" : {
+                    "prg" : "1", 
+                    "status" : NumberInt(1), 
+                    "cnt" : "1"
+                }, 
+                "602" : {
+                    "prg" : "5", 
+                    "cnt" : "5", 
+                    "status" : NumberInt(1)
+                }
+            }
+        }, 
+        "2" : {
+            "tasks" : {
+                "201" : {
+                    "prg" : "1", 
+                    "status" : NumberInt(1), 
+                    "cnt" : "1"
+                }, 
+                "202" : {
+                    "prg" : "1", 
+                    "cnt" : "1"
+                }, 
+                "203" : {
+                    "prg" : "1", 
+                    "cnt" : "1"
+                }
+            }
+        }, 
+        "3" : {
+            "tasks" : {
+                "301" : {
+                    "prg" : "1", 
+                    "status" : NumberInt(1), 
+                    "cnt" : "1"
+                }
+            }
+        }, 
+        "30" : {
+            "tasks" : {
+                "3001" : {
+                    "prg" : "1", 
+                    "status" : NumberInt(1), 
+                    "cnt" : "1"
+                }
+            }
         }
     }, 
     "tformations" : {
@@ -3044,7 +3993,7 @@
             "3" : NumberInt(0), 
             "4" : NumberInt(0), 
             "5" : NumberInt(0), 
-            "lt" : NumberInt(1505386126), 
+            "lt" : NumberInt(1505208592), 
             "name" : ""
         }
     }, 
@@ -3053,13 +4002,47 @@
             "104" : {
                 "index" : NumberInt(2)
             }, 
+            "5005" : {
+                "index" : NumberInt(162), 
+                "100303" : NumberInt(0), 
+                "110523" : NumberInt(0), 
+                "121103" : NumberInt(0), 
+                "330703" : NumberInt(0), 
+                "350703" : NumberInt(0), 
+                "350603" : NumberInt(0), 
+                "600701" : NumberInt(0), 
+                "220903" : NumberInt(0), 
+                "110524" : NumberInt(0), 
+                "110507" : NumberInt(0), 
+                "110508" : NumberInt(0), 
+                "110509" : NumberInt(0)
+            }, 
+            "5019" : {
+                "index" : NumberInt(163)
+            }, 
+            "2033" : {
+                "index" : NumberInt(164)
+            }, 
+            "2048" : {
+                "index" : NumberInt(166)
+            }, 
+            "105" : {
+                "index" : NumberInt(3)
+            }, 
             "2050" : {
                 "index" : NumberInt(174)
+            }, 
+            "2040" : {
+                "index" : NumberInt(176)
             }
         }, 
         "acSpecial" : {
             "102" : {
-                "index" : NumberInt(4)
+                "index" : NumberInt(4), 
+                "amount" : NumberInt(0), 
+                "rechargeTime" : NumberInt(1505447501), 
+                "progress" : NumberInt(1), 
+                "rewardTime" : NumberInt(1505361101)
             }, 
             "999" : {
                 "index" : NumberInt(9)
@@ -3077,31 +4060,49 @@
         "first_recharge" : NumberInt(0), 
         "loginFinish" : NumberInt(0), 
         "loginFinish2" : NumberInt(0), 
-        "levelsFinish" : NumberInt(0)
+        "levelsFinish" : NumberInt(0), 
+        "sevenAim" : {
+            "901" : {
+                "tl" : {
+                    "1" : NumberInt(1)
+                }, 
+                "ft" : NumberInt(1)
+            }
+        }, 
+        "login" : {
+            "1" : NumberInt(1505374233)
+        }
     }, 
     "privileges" : {
         "peerage" : NumberInt(1), 
         "abilityList" : null, 
-        "getWages" : NumberInt(0)
+        "getWages" : NumberInt(1505374199)
     }, 
     "story" : {
         "stages" : {
             "7100101" : {
-                "star" : NumberInt(6), 
+                "star" : NumberInt(3), 
                 "num" : NumberInt(1), 
-                "atkTime" : NumberInt(1505386126)
+                "atkTime" : NumberInt(1505208592)
             }, 
             "7100102" : {
-                "star" : NumberInt(6), 
+                "star" : NumberInt(3), 
                 "num" : NumberInt(1), 
-                "atkTime" : NumberInt(1505386126)
+                "atkTime" : NumberInt(1505208592)
+            }, 
+            "7100103" : {
+                "star" : NumberInt(3), 
+                "num" : NumberInt(1), 
+                "atkTime" : NumberInt(1505211411)
             }
         }, 
         "stageColls" : {
             "71001" : {
-                "num" : NumberInt(6)
+                "num" : NumberInt(9)
             }
-        }
+        }, 
+        "stId" : NumberInt(7100103), 
+        "sStar" : NumberInt(3)
     }, 
     "adventure" : {
         "dng" : NumberInt(10), 
@@ -3120,19 +4121,19 @@
     }, 
     "offLine" : {
         "exp" : NumberInt(0), 
-        "lt" : NumberInt(1505386126), 
-        "gExp" : NumberInt(0), 
+        "lt" : NumberInt(1505447501), 
+        "gExp" : NumberInt(280), 
         "gGold" : NumberInt(0), 
         "gtExp" : NumberInt(0), 
-        "gExp2" : NumberInt(0), 
+        "gExp2" : NumberInt(280), 
         "gGold2" : NumberInt(0), 
         "gtExp2" : NumberInt(0), 
-        "expCost" : NumberInt(0), 
+        "expCost" : NumberInt(20), 
         "goldCost" : NumberInt(0), 
         "tExpCost" : NumberInt(0)
     }, 
     "redDots" : {
-        "heartPrivilege" : NumberInt(0)
+        "heartPrivilege" : NumberInt(1)
     }, 
     "element" : {
         "atkStageId" : NumberInt(0), 
@@ -3149,124 +4150,6 @@
         "stageId5" : NumberInt(0), 
         "buffList" : "[]"
     }, 
-    "vipWeeklyGift" : {
-        "startTime" : NumberInt(1505250000), 
-        "endTime" : NumberInt(1505682000), 
-        "weeklyGifts" : {
-            "1" : {
-                "price" : NumberInt(700), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "2" : {
-                "price" : NumberInt(1000), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "3" : {
-                "price" : NumberInt(1200), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "4" : {
-                "price" : NumberInt(1200), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "5" : {
-                "price" : NumberInt(1500), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "6" : {
-                "price" : NumberInt(1800), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "7" : {
-                "price" : NumberInt(2400), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "8" : {
-                "price" : NumberInt(3000), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "9" : {
-                "price" : NumberInt(3000), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "10" : {
-                "price" : NumberInt(3600), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "11" : {
-                "price" : NumberInt(6000), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "12" : {
-                "price" : NumberInt(6000), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "13" : {
-                "price" : NumberInt(7500), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "14" : {
-                "price" : NumberInt(9000), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "15" : {
-                "price" : NumberInt(10000), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }, 
-            "16" : {
-                "price" : NumberInt(10000), 
-                "cut" : NumberInt(0), 
-                "hasBuy" : NumberInt(0), 
-                "defeat" : NumberInt(0), 
-                "withNotice" : NumberInt(0)
-            }
-        }
-    }, 
     "roleGuild" : {
         "killRewardNum" : NumberInt(0)
     }, 
@@ -3275,18 +4158,18 @@
         "reward1" : NumberInt(0), 
         "reward2" : NumberInt(0), 
         "reward3" : NumberInt(0), 
-        "recordTime" : NumberInt(1505386129)
+        "recordTime" : NumberInt(1505447504)
     }, 
     "grow" : {
-        "val" : NumberInt(0), 
+        "val" : NumberInt(630), 
         "receive" : NumberInt(0)
     }, 
     "task" : {
         "mainTasks" : {
             "9101" : {
-                "status" : NumberInt(0), 
+                "status" : NumberInt(1505374221), 
                 "val1" : "5", 
-                "val2" : "0"
+                "val2" : "81"
             }, 
             "9201" : {
                 "status" : NumberInt(0), 
@@ -3389,9 +4272,9 @@
                 "val2" : "0"
             }, 
             "9117" : {
-                "status" : NumberInt(0), 
+                "status" : NumberInt(1505374220), 
                 "val1" : "80", 
-                "val2" : "0"
+                "val2" : "81"
             }, 
             "9420" : {
                 "status" : NumberInt(0), 
@@ -3401,6 +4284,91 @@
             "9534" : {
                 "status" : NumberInt(0), 
                 "val1" : "1", 
+                "val2" : "0"
+            }, 
+            "9118" : {
+                "status" : NumberInt(1505374221), 
+                "val1" : "81", 
+                "val2" : "81"
+            }, 
+            "9119" : {
+                "status" : NumberInt(0), 
+                "val1" : "82", 
+                "val2" : "0"
+            }, 
+            "9102" : {
+                "status" : NumberInt(1505374222), 
+                "val1" : "10", 
+                "val2" : "81"
+            }, 
+            "9103" : {
+                "status" : NumberInt(1505374222), 
+                "val1" : "15", 
+                "val2" : "81"
+            }, 
+            "9104" : {
+                "status" : NumberInt(1505374223), 
+                "val1" : "20", 
+                "val2" : "81"
+            }, 
+            "9105" : {
+                "status" : NumberInt(1505374223), 
+                "val1" : "25", 
+                "val2" : "81"
+            }, 
+            "9106" : {
+                "status" : NumberInt(1505374223), 
+                "val1" : "30", 
+                "val2" : "81"
+            }, 
+            "9107" : {
+                "status" : NumberInt(1505374224), 
+                "val1" : "35", 
+                "val2" : "81"
+            }, 
+            "9108" : {
+                "status" : NumberInt(1505374224), 
+                "val1" : "40", 
+                "val2" : "81"
+            }, 
+            "9109" : {
+                "status" : NumberInt(1505374224), 
+                "val1" : "45", 
+                "val2" : "81"
+            }, 
+            "9110" : {
+                "status" : NumberInt(1505374225), 
+                "val1" : "50", 
+                "val2" : "81"
+            }, 
+            "9111" : {
+                "status" : NumberInt(1505374225), 
+                "val1" : "55", 
+                "val2" : "81"
+            }, 
+            "9112" : {
+                "status" : NumberInt(1505374226), 
+                "val1" : "60", 
+                "val2" : "81"
+            }, 
+            "9113" : {
+                "status" : NumberInt(1505374226), 
+                "val1" : "65", 
+                "val2" : "81"
+            }, 
+            "9114" : {
+                "status" : NumberInt(1505374226), 
+                "val1" : "70", 
+                "val2" : "81"
+            }, 
+            "9115" : {
+                "status" : NumberInt(1505374227), 
+                "val1" : "75", 
+                "val2" : "81"
+            }, 
+            "9116" : {
+                "status" : NumberInt(0), 
+                "val1" : "80", 
                 "val2" : "0"
             }, 
             "9537" : {
@@ -3450,11 +4418,6 @@
                 "val1" : "1", 
                 "val2" : "0"
             }, 
-            "9610" : {
-                "status" : NumberInt(0), 
-                "val1" : "1", 
-                "val2" : "0"
-            }, 
             "9605" : {
                 "status" : NumberInt(0), 
                 "val1" : "3", 
@@ -3470,12 +4433,7 @@
                 "val1" : "1", 
                 "val2" : "0"
             }, 
-            "9621" : {
-                "status" : NumberInt(0), 
-                "val1" : "1", 
-                "val2" : "0"
-            }, 
-            "9622" : {
+            "9608" : {
                 "status" : NumberInt(0), 
                 "val1" : "1", 
                 "val2" : "0"
@@ -3485,12 +4443,17 @@
                 "val1" : "1", 
                 "val2" : "0"
             }, 
-            "9608" : {
+            "9610" : {
                 "status" : NumberInt(0), 
                 "val1" : "1", 
                 "val2" : "0"
             }, 
-            "9627" : {
+            "9621" : {
+                "status" : NumberInt(0), 
+                "val1" : "1", 
+                "val2" : "0"
+            }, 
+            "9622" : {
                 "status" : NumberInt(0), 
                 "val1" : "1", 
                 "val2" : "0"
@@ -3518,6 +4481,26 @@
             "9630" : {
                 "status" : NumberInt(0), 
                 "val1" : "2", 
+                "val2" : "0"
+            }, 
+            "9627" : {
+                "status" : NumberInt(0), 
+                "val1" : "1", 
+                "val2" : "0"
+            }, 
+            "30004" : {
+                "status" : NumberInt(0), 
+                "val1" : "2000000", 
+                "val2" : "0"
+            }, 
+            "30006" : {
+                "status" : NumberInt(0), 
+                "val1" : "5", 
+                "val2" : "0"
+            }, 
+            "30001" : {
+                "status" : NumberInt(0), 
+                "val1" : "20", 
                 "val2" : "0"
             }
         }
@@ -3639,6 +4622,29 @@
             }
         }
     }, 
+    "weeklySign" : {
+        "day" : NumberInt(4), 
+        "resetTime" : NumberInt(1505208690)
+    }, 
+    "arena" : {
+        "num" : NumberInt(5), 
+        "lastTime" : NumberInt(1505208714), 
+        "hRank" : NumberInt(3400), 
+        "buyNum" : NumberInt(0), 
+        "atkTime" : NumberInt(0), 
+        "cdTime" : NumberInt(0), 
+        "status" : NumberInt(0), 
+        "shopTime" : NumberInt(1505208714), 
+        "enemys" : "8001_521,8001_759,8001_52,arena_2798"
+    }, 
+    "trigger" : {
+        "3" : NumberInt(1), 
+        "28" : NumberInt(1), 
+        "19" : NumberInt(1), 
+        "29" : NumberInt(1), 
+        "35" : NumberInt(1), 
+        "25" : NumberInt(1)
+    }, 
     "pokedex" : {
         "1" : {
             "level" : NumberInt(0), 
@@ -3750,13 +4756,576 @@
         }
     }, 
     "crusade" : {
-        "activateTime" : NumberInt(1505386141)
+        "activateTime" : NumberInt(1505208732), 
+        "event" : {
+            "4" : {
+                "buildId" : NumberInt(6)
+            }, 
+            "6" : {
+                "buildId" : NumberInt(2)
+            }, 
+            "8" : {
+                "buildId" : NumberInt(5)
+            }, 
+            "12" : {
+                "buildId" : NumberInt(3)
+            }, 
+            "14" : {
+                "buildId" : NumberInt(6)
+            }, 
+            "16" : {
+                "buildId" : NumberInt(5)
+            }, 
+            "20" : {
+                "buildId" : NumberInt(3)
+            }, 
+            "22" : {
+                "buildId" : NumberInt(6)
+            }, 
+            "26" : {
+                "buildId" : NumberInt(3)
+            }, 
+            "28" : {
+                "buildId" : NumberInt(5)
+            }
+        }, 
+        "fighting" : {
+            "1" : {
+                "rid" : "8001_493", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1503306347), 
+                    "tid" : NumberInt(1), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(53182), 
+                    "filter" : ""
+                }, 
+                "name" : "女皇约格·西蒙", 
+                "lv" : NumberInt(81), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(53182), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "3" : {
+                "rid" : "8001_619", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1503557486), 
+                    "tid" : NumberInt(1), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(63154), 
+                    "filter" : ""
+                }, 
+                "name" : "骑士摩罗·拉格", 
+                "lv" : NumberInt(51), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(63154), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "5" : {
+                "rid" : "8001_316", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1501573838), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(66999), 
+                    "filter" : "", 
+                    "tid" : NumberInt(1)
+                }, 
+                "name" : "舞姬詹森·格林", 
+                "lv" : NumberInt(31), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(66999), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "7" : {
+                "rid" : "8001_876", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1505100267), 
+                    "tid" : NumberInt(1), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(74396), 
+                    "filter" : ""
+                }, 
+                "name" : "信徒金姆·埃尔", 
+                "lv" : NumberInt(90), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(74396), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "9" : {
+                "rid" : "8001_158", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1500436960), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(74902), 
+                    "filter" : "", 
+                    "tid" : NumberInt(1)
+                }, 
+                "name" : "solo4", 
+                "lv" : NumberInt(80), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(74902), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "11" : {
+                "rid" : "8001_321", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1503310417), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(78906), 
+                    "tid" : NumberInt(1), 
+                    "filter" : ""
+                }, 
+                "name" : "国王亚瑟·萨拉", 
+                "lv" : NumberInt(81), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(78906), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "13" : {
+                "rid" : "8001_921", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1505444341), 
+                    "tid" : NumberInt(1), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(82823), 
+                    "filter" : ""
+                }, 
+                "name" : "猎手萨碧·塔兰", 
+                "lv" : NumberInt(61), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(82823), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "15" : {
+                "rid" : "8001_318", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1501580286), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(84585), 
+                    "filter" : "", 
+                    "tid" : NumberInt(1)
+                }, 
+                "name" : "巫灵卡尔·利亚", 
+                "lv" : NumberInt(61), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(84585), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "17" : {
+                "rid" : "8001_662", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1503647482), 
+                    "tid" : NumberInt(1), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(88907), 
+                    "filter" : ""
+                }, 
+                "name" : "游侠诺亚·兰多", 
+                "lv" : NumberInt(90), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(88907), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "19" : {
+                "rid" : "8001_53", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1499842102), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(100132), 
+                    "filter" : "", 
+                    "tid" : NumberInt(1)
+                }, 
+                "name" : "呵呵", 
+                "lv" : NumberInt(62), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(100132), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "21" : {
+                "rid" : "8001_474", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1502679549), 
+                    "tid" : NumberInt(1), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(108814), 
+                    "filter" : ""
+                }, 
+                "name" : "先锋德安·吉尔", 
+                "lv" : NumberInt(61), 
+                "avatar" : NumberInt(31025), 
+                "score" : NumberInt(108814), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "23" : {
+                "rid" : "8001_856", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1504842124), 
+                    "tid" : NumberInt(1), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(112376), 
+                    "filter" : ""
+                }, 
+                "name" : "法师卢克·纳尔", 
+                "lv" : NumberInt(90), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(112376), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "25" : {
+                "rid" : "8001_24", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1499827507), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(123799), 
+                    "filter" : "", 
+                    "tid" : NumberInt(1)
+                }, 
+                "name" : "yy03", 
+                "lv" : NumberInt(77), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(123799), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "27" : {
+                "rid" : "8001_3", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1499842036), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(129019), 
+                    "filter" : "", 
+                    "tid" : NumberInt(1)
+                }, 
+                "name" : "侯爵比尔·李", 
+                "lv" : NumberInt(61), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(129019), 
+                "skin" : NumberInt(26010201)
+            }, 
+            "99" : {
+                "rid" : "8001_6", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1499829055), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(131274), 
+                    "filter" : "", 
+                    "tid" : NumberInt(1)
+                }, 
+                "name" : "sly001", 
+                "lv" : NumberInt(72), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(131274), 
+                "skin" : NumberInt(26010204)
+            }, 
+            "29" : {
+                "rid" : "8001_128", 
+                "formation" : {
+                    "g1" : NumberInt(8), 
+                    "team1" : NumberInt(106), 
+                    "g2" : NumberInt(5), 
+                    "team2" : NumberInt(102), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
+                    "lt" : NumberInt(1500446062), 
+                    "heroId" : NumberInt(60102), 
+                    "score" : NumberInt(132675), 
+                    "filter" : "", 
+                    "tid" : NumberInt(1)
+                }, 
+                "name" : "女皇戈尔·嘉文", 
+                "lv" : NumberInt(51), 
+                "avatar" : NumberInt(1101), 
+                "score" : NumberInt(132675), 
+                "skin" : NumberInt(26010201)
+            }
+        }, 
+        "enemy" : {
+            "1" : "eJzVVb2O00AQfhc/wf7b3lRQIJCgOokWbZK9xMrajnad6E4n1/R0UNEcL0CBhJCQeBe4ewz21/FyJ7jiGqr1zDeZmZ3v24ngiPErwzEvdLMuFoZXvKgAgG9IjZ1JeHEwAYEoQBSikpU1cz77u31AsUVpyQjCTKI1o3Bpwyq4QhiUBAi2lAS4OMYLcRSD0MWi4RACGIp0opUORoAXP68/33x4e/P106+P3358ub3+fvvufSzWmo37skE+mBfq6PJUMGQ+NvuXRxUyWw/lhVn1WvqQuqpj1PYsOSFAZY1DB1up+2IhOCzdQKzDxCZBqNRCZzCEEIwOFBygSg4cHBAnB4kR/pa2faN8kslCmYUzi8wtCVMn3kKZhTOLJIv5KwwHM7uEGXxWCiimNUF1uLrZNZ3zIwbsRMCfo4OQUbAYrQJsgY3ql0Kd7eWqEWrGBYS8GM573Yqh6TvjJ8mv3A0EL8OH68IWiSeOJ4knPXWpUpdWQRVkVS4RX3AcfY+DFK2vhXwJwOwnBo5ACyp5lF4MZRyjvNinWVA/nE1UwSIj3EXX1myFUmczEcxnYmWQRLef5BQ5kAZOEnRmIH1qwqAcRTmKcxTnKMlRMkcfoK6kEkUyzTySuvRd3rB77t19CrSborZ7JMx1o8U6cIEwjj8LkfF1ivSuF6N/to7y6g7P1aPzDGtE/8UzynlOTUSeJxTlKM5RnKP38lz9heeJ2f+EZ1jV/hGXdrD9Tq7lhV8Z/h2DuBIetjLsho1nGc8qnnXKMyUMGUfP+6ClMAct/f6wO2P0lx2Ekt1wctmLbZ8snU3SFiOxJXKnpdH/fx5eWe1KfXlK4pZjK/VKdkJfvlinMTl3+DN8pv1yc60Ch9ipbJu1fN3sT0nmi5EgShllQcBLLbrV9nnoMha0S9LspVJP+343u6BV//Jwfp4c42+jdT9N", 
+            "3" : "eJztVs2O6zQUfpfsR/LxT9y4KxBCIMFqJLbISd1pNGlTxWl1r0Z5AMTqrtgisQIegA1seBcG8RbYx04aT9rRLK5Ysajscz73nO/8+MRa0Vw9WcVU1tWbbG3VSmUrQuDbHAovcpWdbECABkgABQCRe5373zGgzKFltZVQymIrNc23VbUhhQFeaCJNKXUl/blcZfqse91l61oBEAhODnpvPEyJyv755cNfP/36/OHnv//44c/fnr//7vnH36OzvX3wO3cID6usOXs7AoLlc3386tygZeo0QmW2ajvjFTkDwcOp3f2olAR4JLAzXZuttQLp8+EUNnIkwdEe0AqlFKKCBgVZjQoWFMBGBY8nMEjH3jZoZJJoIrFE4nPJwMgEJZpILJH4KOUYQn+ysyBsj1YFEUwUnBYhdPtYH7ye5gQIRbJp5kixHlz9nf2Hpi11c380Va2bWSUAVNZv226v+7o9WEykevIBaCXDxpNwPtyP+Q2LCh5XcWHZjCyZEJIVLO0Q9DgMyLE3eo/OKPogud+ufAEd2JizaWZZNO+OYyoE5ubBjOis3F4snLjXTXM/a4F5RriMCT5OnRTzb+y8wiapt7E0wRLJsgRLJMsTLOmMax11l7bUXdpTdx+7qbpluZi/5IdrjXc54xL60OkNZo8Rsh58Ael/VEDG/y/gRy+gu5PSpbR9NBvzDkcAXksSb/h8BNyeAG7exFXGdRXXYrQzGQwWB6x33xltT53BcZDjOPDDh8demrrFF95946p2P5U+J7wI2k1tJ62fkONki7Y/M2dvnXnrnAA6EN6BO4MJFWvc135f5CFzZTKA7Vhtd6xEPtj53hoNQ/NijY8Iu4IMDqP0WoSwjFDASiwjFFzSVyP037oXniFwonTBVozIgi0NbN3YfxtbKeVqyRYYlzcKwgNdRhZ0aSDFyILuhFyjGxD+EmEhEHhr2qnAi/IiEEoLeL2xlmlnsRWWaYcRuZV2BBZsyZItuUI1xzfCKx3CbqWcsltUKVtQJbFDrt7Yt1HNVzJ/vTvgVjOz5dWbkAXVCVl0BwYx4IjtdWMOvXdO1NOA43T3STmRgTj1aFzTSThgbKevte1N9/5ixIe2N11lDrp7/+VmzINXhxf15x0+kfyEJB5xw3hXb8w39fFi5OXzqhAifC/LTh+q3ReBZXTonlr2aJrm07Z9tBe9+9iWp+12VAz/AsSje7U=", 
+            "5" : "eJzNVsuKFDEU/ZdaO5DcvKrSK0VEQVcDbkQk3Z2ZLqa6q6lUN8pQe//AnQguRBC3IrjyXxz8DPOs7jg1IqLgKrnnpG7u4yQpJYHLSyOJLLp6WcyMLGVRIoSfEcydSWWxM4HBECiGQXDBK4fZ77aBJZY9g4VCjNK5rkBV5ZyWlZjDQleY6kqLhVvHZaH2qlddMaslxgiHTTZqrR0NSBbfX77+9u7D9/efr95+/Prp6s2Xq9ev4mZrc+5mdpFfLItm7/wQHDzv6+3DfeM9E4swWZhF22kPgMBUhGWr0xEliDAUQljpri1mSmLhKmIBE6MkYas1dgYHABwBCAAqE0ACgEkCaFzh07Txm8Y7GS3ILJJZ9NjS/juULMgsklk0Wdyn0O9MAsAB3itDjLCKQhVSNxf1xuHAEUbggz2uneCUzQarAOv/vGnnqjnd6kWtGi8Lu/IJc9/BLYZspuSph7Es+rO2W6u+bjfGF1ZeuoSUFGHigrJ7xpHEkcaRHYJuUtBAgVX8J8l4MQyDD7nXau33Ar8F4m5aun5astF73Yxysbno59ugwphvr859vmyW9d/RlTXXqmlOI4Z+KhEtedTgdhRX7Ig2ODl1VlDAGIKBjIScJBlJcpJmJD0mf0NnJ7nQTv620rrUNMwE4bwKH6n9ZkqNUHJhexuKet6ppS8gZ+VscG2EyTbmXUwdSU3Ef9BEQn/dw7RjVt3YwpHLLEMyLrMMzbjsvE/17+Q/buBhzXEDCUL+ZApb0vZCL/Vzfw/4w4niOf+9e8CKIY4ijmUcq+RndBg8Dr7ffaeV2XXaXwrEXwruBqJRS5la7NO3aNeHtwGXVUCXtRlRAWW63aLru3o/OqcIe//Y+bdrTPA9BAZuZMgEMwz+PE8EKyaCJUiQ69ESgRlMx0tDvGQi3jKERSYCZom6HjFKFL1GVSEb7+8flh5uLD3cWHqYLv3gz0SvGr3p3RZIXg5e/6vb87F6TmiYR+36iRMvJPVaZPBJ7B4p0+vuxcGRS2Ktu4XeqO7Fg2U6UQ4Of0f3Ov+6ubIix9gTtKqX+nG9PTg5fhkpIxxxCJfcvFObxep+iDRuaF9Js9VNc6dtL8wBtzfkfHd2loDhB3tg18Q=", 
+            "7" : "eJztVb2O1DAQfpc8wfgn8cZbQYFAguokWuTsenejc35kZ1d3OqVCghpEj6ho6ehA4lnYgrfAYye5hAOJAqio7G/Gnvnmx2MlaSZvnGQyseU2WTu5kskKgDxbiQwhl8nRRQ2hUZUSwlMBgDJ/r41ahtoNcJ0DCAqsgIJrogsQ+XaXa0JzusNzmUzUSXXKJutSEgIkOqlVpVFNQSZfP787f3r97eWr8/sXXz6e3z4/f3gzOKvcHnf+UDgsE3NCOzlEy6eyfXwyKEFBKhO3aawOniBnIo+nDhd3pJ7BQdsmWStJBCbEC9xAEqKniiDIKKVkENAogNUoYFFA2Cjgw4kQpafvTDBC0hEGE5OSLRCfI01GKgHRBWILxEeUhRi6o5tF4bpIAFICQDMRY3eXZY1ymgEBGtjOkycYz+m69y3gHexNUyhz0epNqcysGITIpNs1tlJd2dQupFLeYARKirhBFt7JsLJh5cOa3rI0E0vIRcrFskeCw74PHDutquCLBheQ4XaFFfRKo0/aTP3hueurdt4cndrHNmDrRcUzD3MPK2XMxSBLf+woLoYct1M7jV4cmawijEWfODi61NKlli21bKnlSy2fa3/RXRNkS8gX8E81mL1bOoZPvv5pE05nfGb3Vm1DGhnAusdi0n9XTMb/F/PvFdO/VeFz21zqrb4KkyE8Vxhe/u9NBixlXMWwroY1H+1MBqPFPlS+s1q5o9VhTIC86UOsnTK67m5FPq7DvQIxH4cVoSMpQulAKx95ZRzN+9/y+ES5TttrvMrwqp/3jAzs/D5wyeLHQEm43cdpWWm70bWy14+2Yz5RHL/HBzZMOwwKUOPzdyi3+mnZ3nJeTEqc5ySPzV5YVW8OD2M88SzxU9O12pj7TXM5S4V/KcVxtxsF/Xd0EUJg", 
+            "9" : "eJztVk1vnDAQ/S/cI41nbMDk1KqqWqntJVIvVVWZxdlFYZcVZleJIv57/cUGsksUtVFPPSCYGTx+M/N4WBWYFY+moCLp6iq5NkVeJDkA+8VE7kxeJAcTIgxDSDDiiDk5n123D1GyUQ0lSYDbVa5BsZXQZVXKMiVZ5WWGCt17aZGoo+pVl1zXBWPAwiY7tdUuLIrEtE3LY/KtWbsnKBJ3s1s0R7cuh5DpWO+/HBufCePiVdtp55Aiy1h4a3Pz5JQYN9zork2uVcF8/dZhIiYIG22ZM1JEv8A5MDggHx0UHIxGB49v+KIsetP4JCcLZxbNLD61NBuReAtnFs0sPlqpL6E/mEkRpvdZBQgSkqMMpZu7euf8mAID9GCnnWMSBV0PduB2g3XTlqq52etVrZrIjx8CODD86UnBiqS/bbut6ut2Z1xHsXh0lagiCw8Ojd3MXuQeKDp4vIsnuM0IFzkKmT6jhifB4DL9VWrGMBfZpdSD70Ov1XZSB6TuMXckscFGH7XnGw/91/f7sd3C93+txzlOKOVMac2tapqbCc2mXRdEYYj7E1vjjLWZskjPOKUNzmIzy9AsNrMMn8Vm7LvE2qs5ba/mvL16a+J247iAE3CRhkXquLtEbg6pVaRI43WnKt89AunYYhn+bwbIJfs/wDcfoP0mM9vS9k5X+t7rtf8sIX7hUwlYVgAryvGexXse73LMc0oYMg5+3n2nlTl02suB8HLgdI1HLs3YYnVx1W5Po+eplMFb1ebkJZI4imbM/UEfXXZy2a2q+g2Y28C+Y0LyIURwMULPI2gb55QSX4lWkszO0fJM0oto3b/xMibEJbSIZ2hZQGsl/HVoGQcpzuFaXecL3eUBL8ESXoIlvASX8IYIX6iEXew7nFcCF6qQkL9MkfOmQyTCYtPZYtN94A+hEvccf4EftMgPWuQHnUEFB3XwOtOrRu96twUUj4PXlM278jRi9/EKHvUA5ZkgDL6Gw1dlet09nH7y9shGLKqJPc9heB5CaVvdrfROdQ+fq7EPzh0OsR87f4JwAgIuYrVqU1f6e71/wjg9fQgmc8HT8DtZH+qm+jY/+JokxMpO7VabT6G2kIfZU4rZ66Z537Z35slv/1Pl4fZ2dAy/AaX5UZY=", 
+            "11" : "eJztVc2O0zAQfpfcV/J/EvcEQggkOK3EFbmN20br/MhOo11VeQC0EoIrHLjyBkhIXHgWluUx8F/ahG1ve+RQ2fN97sx4vvFEcMT43nDME10WycLwjCcZAPAtRtCZhCc7ExiIAkUhShnNM4fZ/7WBxZYtEMOrlIocUYmxWKMCkOUarpdLmYIMpO4c44noRSd0sig5hACGILWopKMR4Mnd5x/3729/ff90//HLz29/Pnz9ffsuBqvMxu3sIX+YJ6p3fjIYPPdl+6pXDgEWoDwxq0ZLZ6dZDlg4tL0cwRxmIAvxt1I3yUJwmLpyWMDEFEGIU0FnMIQQjAAKAMhGAAcA4hEg8YS/o03eKO/kYKGZhWcWmVoSjpl4C80sPLPIaDF/hW5nJpcwnfdKAcU0JygPVzdXZe1wxAAEyCc7rRyEjILFYPW3ATaqWQp12cpVKdRECQh50q0bXYmubGrjK8n37gaCp2HjsrBB4ortj7gNiQA9pqnGNBFBNGf/dIiPOAw+yU6KygdDPoZV2G4zp6AlleylmpRRXrfTzujERo7sRG9n5tashFKXkx6YloSkscLtoZWiANJMJZYzwaVBM25mGTzjZpYhM27WGqda6mLeUxfzprp47K7So1yQEchYdC/6+lTnEZAShrNQ0I0Wha8eBrbDnIDopIDo0QWk+L+Ajysg9m8ytSVtrmQhr/0I8M8SxBd+agQ8nAB2YsY1jWsW13z0c3AYPA5e705LYXZaHmePHS/CNsb+YbfYb9yqqQ7SI5ynaYCL0hxggjBl42yL3p/J3vlnwT8BMASzh2yI4H4IDDrL4LMMOcvQsww7wQxOCqt0J5SsO5cw4PvBq7p9skxCWYIgJApCHggy+ILsXgvTSX1zdOLKUUm9krXQNy+LsUccHD7sz7Wf1E4o4BjbE9uykG/K9uhkOuV9R2UoPNulFvVq+yJkGQPaiW9aqdTTprkyR9y++eVuvR6B4S/IJXp2", 
+            "13" : "eJztVbmuEzEU/Zf5Aq+zOBUUCCSoItEiz8RJRvEssifRe4qmpEAgRMEPQAMlHT3/8nh8Bt5mMlYkRAFUVJ5zrnPvuYtvOEMpO2uGWaLqTbLSLGdJDgB8USBoIWHJUXsLRN5EISQ0pYXlzO96b8XGimgG8yotiyqDeLuhEJSE5ggVNKNcFJm9l7KEn/jAVbKqGYQA+iAtb4Q1I8CS+zdvv796/ePd5/uPn759vfvw/u7llxCs0Tv7ZS65yyyRJ+snhd7zqe6fnqRlgCEoS3TVKWExRpAi7G/t11esUbAXqktWnMHMFsQQOogEPlIDXSSEEAwE8gTIJwJ7AuKJIOGGy9LI19I5mRGKEI4QWSIBJyUOoQjhCJEJpS6F4agXSejBeaWAEkIwCcXXh7q1PEoBBMiJXdYuw4iuRjMAxv9OdiWX615UNZeLVkDIkmHbqYYPdddqV0h2tglwlvkPK8LECCcOJwknvYiUs0icFQDjeEJcwHF0EgfBGxcLuRAgtZ+57Z8xSnESbhZo4WsjbvrlaAx859IrVlG7UwMLAxsu5Tpw9GqccpxSX+N+nqbQAqHh5NYi3/JZg0aREcVGHBlxbCSRkSyN02DReLJmiGNIIvinhktd9w3b197+egBNXXeKb1wJYUHz1Whbif5ZK82uwv9b+Zdaad5pZgrbHcRG3Lit4J4qCK/+97aC7aQ/s3Dm4SwmP7ND73F0jR+U4PqohFsRgJ1Hl+zApWiHC2US2z8oLSbToiJBErmSNLp/yOMzrgehbi9O7P5rhKpEy9Xtk81UJkv7v7tHyu0vKxVYi6nKvt6I53V/cRLtPmKrWvgJLhVvq/1jrzIENHtQ90LKh113WCRoxr88brcTMf4E51Q27A==", 
+            "15" : "eJztVbuu00AQ/Rd/wb5tbyooEEhQRaJFG3uTWFk/tOtE9+rKBR0NHRUdJaKhQVei5FuI+A325cQLFBRARbU+Z9YzZx4eC44YvzMc80w3dbYyvOBZAQB8gWHhIOHZ0QQLRMFEIcpZjnPH2feGYMXWWkKyYQRYO2U5qepaUsowInLLMKs2lbvHeCZOYhQ6WzUcQgBDkE600pkR4Nn5/sO3l5/Or9+dP775cn9+9f7r57cxWGt27sle8pd5pk7OD4PB86kZnp6UY4AlKM9M1WvpMMaAQhZu7ddXtoS0DAr2UvfZSnCYu4JYwkSRIERqoY+EEIKRQIEAxUzgQEA8EyTe8Fla+UZ5JxeEEoQTRJZIwlmJRyhBOEFkRsynMB7NIgkzeq8UUExLgmLq5tB0jkcMQIC82GXtSlDkq8kOgPW/U/1GqPUgq0aoRSsg5Nm47XUrxqbvjC8kv3MJCJ6HByfCxognjieJJ72KVLNIRBAt2Q8T4gNOk5c4StH6WMiHAMw9Fq5/1qjkSfpZ8B222uXNsByNUexCequk3W5ISgtbodQ6cvSncSowo6HGw2WaYgukgbNbh0LLLxoMSowoNeLEiFMjSYxkaZwHi6aTdYE4hSSBf2q49Nw3SAvXu/CSOHW/GkBsN0P4UGxdd1rUvoSwpMVqcq1E/6yVOcT4fyv/Uivtd5rbwvYHWcsbvxX8pwriV/97W8F1Mpx5PIt4lrOfi8PgcfKNH7UU5qilXxGA300+2VEo2Y1Xyia2f7BxmMyLikRJJEqCs6bCeba/yOMzYUapb69e3AJspa5kJ/Ttk3quk6PD/+6R9gvMOQPOYsuyb2r5vBmuTpbL71pVm8lGi67aPw4yY0C7CM0glXrY94dFhnb+N8ftdiam71inN+w=", 
+            "17" : "eJztVbuOEzEU/Zf5Ar/H41RQIJCgWokWORMnGa3nIXsS7Wo1JT+xFQU9dKy2oOBbFsRn4NckY5aCAqioPOdc595zH76RAjFxYwUWhWk2xcoKLgoOAHzDGPKQiOJgowWiaKIQQQg49pz73RCt2FtpWZVwjcm2liUANd5QQrawBpAzQtfc32OikEc5SlOsGuH8wBikk63yZgRE8e3u7uHzu+8f7h/ub798+vr249f3tylYa3f+y10Kl0Whj95PBaLnYzO8PGrPeIKKwta9UR5jxCnE8db+4sQSjBmKCvbK9MVKClj6gjjCJpEgRmqhBwwhBBOBIgH4TOBIQDwTJN0IWTr5VgcnJ4QyhDNElkjBWUlAKEM4Q2RGLKQwHuwiCTsGrxRQTCuCqpi6vWw6zyMGIEBB7LJ2EBNQrSY3AS7ATvdrqS8GVTdSL3oBoSjGbW9aOTZ9Z0MlxY3PQIoyfngVLkg6cTpJOulZpZ5VYkZKQqp8RELAaQoaRyXbEAuFEID5T+4b6IxaHVUYBlrF4qirYTkbo9yF/OYqpH4zBysHW6n1ReLoo3nimNFY5OE0TqkHysLZrUex5ycNFmVGlBtxZsS5kWRGsjTOk0Xz0TpBnEOSwT81XeZx37B/7t2vJjDc4SjWdWfkJs5aRflq8q1E/6yVJcT4fyv/UivdOy1dYftLtVFXYSuEpwrSq/+9reA7Gc8ynTyd1ezn5DB6nELjR6OkPRgVVgQQN1NIdpRadeOZcontn6w9JvOiIkkSeSRpCn+Rh1fSjspcn534/dcqU6tOmusXm7lMno7/d89M2F9eKvAWV5V9s1Gvm+Hs5Kfdx2GF4wSvjezq/fOoMgV0e9AOSuunfX+5SNCN//qw3c7E9AOi1ThR", 
+            "19" : "eJztVcmK3DAQ/Rd/gUqLF/UpOYQEklwGcg1yW91tRl6w3M0Mg++5hnxLPin/kdLWY3cYCGSOAYP0qqTaXrmkJC3kk5VMZlPbZDsrC5mVhMBXwRziMjvboAAaNAIYp1B5NV4bg5ahlpJ8X5GiKPMD1JzTWtdM1CwXPNeHhhB3LpeZuqhZTdmulQAEgpNedTqqf33/iV+03tmj2xGZuQV9mIu7mNNw9tKOHy/Gm3ISITO7HybtBIwJWpFw7HT3hxR9nvQ0ZDslwVcABTaGRYKrDoIrSiEKaBCQMglYEABLAh5P+Lwwfmu8kSuiG8Q2iK+RhhSJR3SD2AbxhHKfwny2qyTs7K0KIpioOK1C6va+7Z2c5gQI9cGuaweM4MkFOUcHRzPUytyNet8qsyIDQGbzYZg6NbdDb30l5ZPLQGET+Y2LAp3ElcWVx1U8R2lSlJRTUeU3TeEdLouPcdaq876od0Fy3DJwBKLS6Iv23ZDH4uiH0Rv2lAtfnqPPMNUhMp4jrBB2ypi7KBPkpiq8qopY5vHaUMmRhWTWocC6SNDSjZJulWyjZFsl3yj5Wpl6S2yb6wrZFvINfK3+mgJzWJuSUyLKcEld+hd6sAAfPtb1OKnGl5CGBkTr821ZVbjKAlsq/utitzjqqeuC6pb6a+lek3pWAGP/qf8H6lkFOS3JDfVQ+Ws31LtfHZ+hcbjXjX7wg8X/7SQOjr8bLI7asBZxLeNaJTtXg8Hi4jthnrSy50n7KUPk0xLiU0b387MIMz29qR3madaxMsYEPAYFKSrInfESH9NP2NJ6erxOMHwrGMSccA9hv4Tx2ulpr3s1PX5oUk2dODyg7yY/Hp0X4jRYsVPb6C/t+BzlerQKTpGAKrT78dya5vPq0f3xDb8sKOtJ9fvT+5BeMAQ4g+2ojXk7DPeryuCPVJ8PhyRYfgPpgVJd", 
+            "21" : "eJztVbmOFDEQ/Zf+At/XRBAgkCBaiRR5pj0zre1jZPeMdrXqEIkVCcF+ByIjI+BfJuAv8DnbrSUgACIi+1XZVa8Ol7VCTN05hVVlm7paOSVUJQCA7wgnARJVHV3SQJRUFCLOmOBB5u8dkhZ7rWRbRNcbJASusRR0wwFmTAMtYM0Nl+EcU5U+6VHbatUoDAGiyUuvOxP0CKjq/P7Dj4eP529fz5/vv389f7o/f3nI3jq3Czt/KB5WVXsKhhhMpk/N4fWpDRLgBVRVbjNYE10RxJhMp/ZXFymlgqPEYG/sUK20gjxkxAtcZgmSpw5GTwghmAUoCYAoApwEEBcByScATPRdG41cEFogvEBkjgwsTCJCC4QXiBTEYgjj0c2CcGO0SgHFVBIkU+juuumDHDHgKxLJLnKHMWSrybeAd7Brh7Vurw5m0+h2VgsIVTVuB9vpsRl6FzOp7kIEWvG0CSy8k7zivJK80keWbWGJGJdYgmWLRIfTFDmORnfRF4ouAAtbEQrola05mdgMVKbkmJvDvDdGvYvxlSzkejMPpYedbturLKNP+klgRlOSD5d2yjUwDhazAaWaXzg4tFCipRIvlHipJAslmStLZ9Fla10gXkKygH+qu+zTuuHw3vtfdSCWUELMU153VtcxhVBSsZpCKdE/KyWHGP8v5V8qpX+n3Cd2uDa1uYlTIT5VkF/9702FUMm08ryKvMpi52IwWZxi4UdrtDtaE0cEUHdTDHbUrenHR5EPbP9sHTApgwrCQio0YqIlCy9Ggnn/Ux7faDcaexuu4nDVj3oMM0u/j1xo+hMQjLenNCk7Yzem1/b2VV0SGsTpa3xh46QLvkHQ+Pztm9q8bQ6PnOdTkgDhf1qaen1tdb/Zv0zxpLPQT0x3MG37fBiuZ6nwD2V93G6LYPoJcOFB6A==", 
+            "23" : "eJztVcuKFDEU/Zdaz0Be9UqvdCEKuhpwIyLpqnR3MakHSXUzw1BLQRB3+gN+gTALxeX8S+tvmJukejozCi4GV1KL1Dk3ue/cCE4yfmU45Ylu6mRheMGTAiH8pkgzgIwnW+MlmHhRijFLM1oCZ88NXkqtVNaYloJVNM9klVdS5LgWWS1yhutsVa1gX8YTsROj0Mmi4Rgj7I10opUgJognP64/7b+923/4vH/7/ubrz+/X+y8fg7HWrOHPbnKbeaJ2oKdEXvOuGZ7vlNOcWiblial6Lb0pYt3y2zZn91jrwkbqPlkIjnPIiCVM8JJ5Uy0GkBFCcCCIJ1AxE9QTmM4ECztcmNZ/o5ySAyIRohFix0i6c2hGJEI0QmxGmQth3JqZIED47CBWMGI/H7o5bzrgSYYwIs7ZOHeY5WQx2R6wFtaqXwp1NsiqEQrKkNpyvErhJDlJEUXUL4SeABkQBmTVE7cQ+tq1FObJuOp1K8am74zLPr+CqAXP/Q94bh0LKw0rC2t6G5k6igyXaRH3leuYaXJxjVK0zhZxJlAGvwUU3QqV3El1lHl5MczpS10+13KWHrUIwNLCVih1Fjh0J4ssD0UZDu0XaibNcVfIqEekIZEsQoZGsggZFsmibvpdF57GbXga9+HpQzeivl8uCqOh+0Ozhj02oWstapc9itBiggKSf1RAyv4X8MELaO9kblPan8taXrgJ4K4lCjf87yaAHbJhzcNahLWc9RwUeo2Tq/eopTBbLd04QPxqcrGOQsluvKVsXJtHS8BsHkq4ZMEpgklwy1HM2cpBv31Kty+EGaW+hLMUztq3gOLgnv13zmT+0SDYHZ/8WGylrmQn9OWzek4o0P7tfKLdWANLCCQ2gZumli+b4dbpOyOR5DT0+FKLrto89QH5vdiORzNIpR73/flRLuwFWW5Xq5mYfgHJQkkU", 
+            "25" : "eJztVktv2zAM/i/+BSL1spXTdhg2YDsV2HVQEiUx6sSG5QQNCv/36enaXY0V2LDTTvRHSnyTslYo1LNVVBV9vS82VklVlITAD2QeMVVcbRQARgkHyhAZ9Tx3rYtS6qQVqUCY0uhyzw47aiRs+UGzHd9SZhhqf06oQt/0oPtiUysAAtHIRZ9Nsne/k6z7bI/+i6jCE2ehuflrUkZFt7r7emuCIu44XBV21/bGMyiXsmLx2Olh4opKCBbNnEzfFhutQPr4HcMmp0g0dQYPBCJCYmBkkDIzaGQAzQyWToSonP+2CUomhAtEF4jNkYHsSUC4QHSBWEYihDBc7SwIO8TsEE55xbCKodvH+uL5KAgQDM7OcwdEQrkZXcWdgWPTbnXz0JldrZtZMQBUMRza/qyHur3YkEn17CPQroXCh/fCGUmUJsoS5S9eNtlLZMgr8aolgsFxDD4ORp+DLQwmiPCflS+gEzbmZkI38Comxzx1ORc8JOcY4stZSPUWDlYOnnXTPCQeJ69yQksqeExyN7VTqoGxkNV6FGs++WBxIcSlkC6EdClkCyGbC3Nn8WVrTZAuIVvAv9Vdfawbq6oSJQMRL+nb5a0OpEwCFzTm9djrfey1ipdR+zBL6+hri/+sthIo/V/bP6gtwVJiJd9X2zG8MV37aPbmKeyNMMwk7YX37Q1f2khlomWiVdYzKYwax9AJQ2+0vfYmLBGinsfon27MZfAs5l0RGDdMCHLXFHmluc0OEBedW4CuKUPVfLc6Ca5K6KoE8LUEsoSu2lm9g2/dGV+QDOfgl9hoiA1WY4PV2ODtCGY2aTjHf7EZ88xXbfJVm3w1a/zt3My8YeGcWPFGrHojVr0Rq9UVv80NC8hN1enDdvICUqtjosv2d+dL90f2TdvB9PeXHvav8dn0O3PR/f3LPs+oZ8e/rU99eE39WBAvcRN4qvfme91NlnGzHLQ8iDRbnr/UlLm1EF5qN1TbXl92p88xiuSQe7VtZ5rmY9s+zobN7ebt9XDIjPEnFsTmKw==", 
+            "27" : "eJztVr2OEzEQfpetr/D4Z7PeVFAgkOCaQzQIISfxJavsn9ab3J1O21NRXcszHA2io+BZ4HgNbI+9l81dgYREhaLInpl45puZz+OonM7ya5OzPOmKVTI3eZonGSHwnjmB58nOoB4oGgQwTonMnM6eatHKrHWxSjVhC60WoDMNwAmRUlAtIaMLJUTwrvaqV10yL3IAAhikVpX2QWZ58uPb7a8PX+5ub35+vvn+9e7TxxCpMmu3I3niFhuv3DsnKaDbfdG+3JdOI61C5IlZNp12MktlJmb4q83ZA60Nv9Fdk8xVTomrhVWYgJBjpAp8JEp8MKegQcGigqECgAYFD78QFOGbEqJHL3kPLEpsIvmzQIKoJwc1nUj+oIgSj7bU59DvjFMQhGR671YQwYTkVGLuZlvUTk9TAoT6hhwWTxDuk5ZW1+qyPN1VxtXfNoqfuE/kSa0vwHfY7lUO+bWLq6zFbuhYLIculsViGavqko/1G4YEQZTNcmvGng+WHjbJddksVHnW6mWhSs8EC+2tcODpiSCMMLdYojIvAXvniQV50p83XaX6oqmNa7aHCHYzw43Di1BJgEMCXOJLPNaxjHWknAqZHlEYsQ4+gV6ryseiPgRJ7ZaB45jLTu+156uQ2D592XrHjIQe9GqtI6EPSJmGdlSqLM+CTpCjvnGw4JAI7cj5wChtILp1EhJzRGHoxEinRjYxsqmRT4z80BjoD5Gq6PdeZFORT0S8AeN9oBOJTSQepcduQIed41JmHCQEaGpfP3ZL7PgCnjKs67pTK19Cy9wMvffHZVV4lGG3VJhGMB9c66ljgfwnrWczYOx/6/+i9YxmMs3kUetBPtZ6d9XtMGybrV7pSz9YKA4//P7ZYHGtxXUW1iysMvoZHaLHwTOh77Qyu077KWNfrwHxqVLX/b3KZrp5skjiOPZjNwuYRBZAcR5Q2VfRnsns0//KUlp3V+PBoxnukdAHM9yWD3mPY7fS3VLXqrt6sYq1dmr8G/Cs82PTpUcIPiubYqXfFO09+sORK1hKsll4kNa7olydhrlrO/X6QtVXCdoWnaqXm+eYNfoBEt6wp02zPSiYvV+L3fl5VAy/AVBDiFg=", 
+            "99" : "eJzVVs2O2zgMfhc/gURK/stpF0WxBbq9DNBLsVgosSYxxokDywk6GPjdS/1OlGQG2/a0J5n8JJIiP1JWLVTti2mxLaa+K1amLduiZoz/W1pBtMXJeD0HD0iOArhwMJ06ehQJXYu64lJBw8pHybtONaiZVlp3UspSboJ1dVazmopV33LOuHdyUHsdYDM8k5dgfW+29ou1hV3Ix3C2Byvwe8/98fN58KZII+n0Zpy0VWCNAoXftntI2kbwBrzPnZ7GYqVa7hJAChPCYt7VnluhBAAeFOAVrI4K9AqOUSHCDncvtJdxRpIEmYSZJC4lzWMkToJMwkwSUSrdFeaTubiEmZ1VySTKRkDjr26e+oPVQ8k4AyaucydZDauFak4OtsO4VsPDUW96Ndgq1G3xTdI5jv84XvC2mB/Haa/mfjwYl9H2xd5EtZX/sNGQs7BiWEVY5Wu0Q4wWBMimvCKHY8GyuFhnrfbOFzgXrKRP5LaQBA76rIfEE7qD/n6MOZEuSVt3T85WWeFLEhsS92oYHoJOsqvkiIpH+h0Tr0IxtOHJrhV99VMUBnIUchRzFHNU5Ki4RCPNZM6zJGIuikz8baoF8k++eKKpsKKeCaGp8+EeHak3a+k6kXK7nVTn0gi8Di07X6dW+aPoK6Zi268WmxSwRGiuqy+brPryuvyxGX6m+lhxxPerH736mqQgfPETCDmIGYg5KDJQXIL/w8rzhtr1uvK8kfVt5W2zV5Tp8Ul3+rsbLa7fWRgd/2202NL6tQprHdYm2kkGvcXFMWGetDKnSbs5g27O2KEmAs9ex4gfiptxf/HOOG6TtutN0oIQGCdmsP1Bn5N1wbhz4MYY7TGJ4RaBNxG8gyyEAdyLlt1Gy25DpUdevBuqfRWv3DIfEMBNqAl5K1Rkvx4qlHV9P1ThQ0X2VlaRvRUqsptQEyLuIIulqmWvGvRhTo9gCf6Jci2wGS70LCu1m1fC8T1Knv3UR7s/1ukylp5VZHwNgfJVHThfCktdys/pb5qXenpOBSOHyOMualEejvpA7PfiU7jX00Yf1PT8qYv5tmr/0/Zxck+xG7l2AFFv7vpOf+2P1hFrX5b8Gad/ReSy8oN1e+qH7kt4y4X70XO/eQStJ3XY7P7yF/VmOL325qiH4c9xfDKvejq4Pj0+RsXyA9e7AME=", 
+            "29" : "eJztVs2O0zAQfpfcV7LHjhO7JxBCIAGXlbgit3XaaNOmitNqV6ucd7kjhLhzR+LAnXfZ5TXwX9pkt4aVWHHiECUz48x838x4bCkgE5daEJE05TyZaJGLJEcIv8OQW5GKZKu9BYM3pZhQwABWZ/7beCsxVp5OEWc8L+YSF4zKArMM5UUxzVOu5JTbdUwkcidb2SSTUmCMsA+ylitlzYBEcvPl28/PV7fX1zdfP/z4fvPp/e3HqxBspRf2yyxyi0VS7ayfFHvPu3LzaldZTWYUqUj0rG6Ui8QoR8yvWp7utRnOOfEIlqqpk4k0OpsQo9ABJPKRVtgKDABwUIBXoLxXEK/ApFfQsMKxNPB15ZzsJRhJZCTRoaRwj8RJMJLISKK9xByFdqsHJHTrvKYoJSmnwD11fVaurR4Ywggc2GHuGEF80pkGMP4XVT2V1elGzUpZDUqBsUjaom5Wsi3rtXaJFJeWgBSZ/ygFBRvEoSkFsY8VqH2sJj3grHqcQCHl7E6TuJhd51C2Sq5cOHBRTI3NZ25LaIyV2qlqkEd1vumTkbrsLFRvHRTcityIK1lVp4MmGOaEZiHFm30zhQooPayxGlVcaRjZRpImI9tI0nRkG/XGsZ46GTfVybirTh67rZq+XIhShiD3P8nd+ljrHdaYhC4aOXfZIwhNOltA+EcFJPR/AR+9gGZPZial9Zmaq3M3BNy2RGHP4/AezgAURsBhApiJE95ZeOfhzXs/e4feY+fq3TZK6m2j3DhgbhzY8UNDL426xRxzs3q1L70ZMsRr56U+HA9pnvWzLfh+pnbWO7HeKcIuALYBzBrtnXfeAlELOWLprO2haDFwBvfhQgaYHsfLPF4axUujeOlRvN5Co5Y0amEx9ugv2UPO89+zR1H2KMoeRdmjKHsUZY+i7OGh7BFxR8/dVgUOkdrTwB6i7CHKHqLs4Rh7y4Q8lAkjPL1PhHJ3e4rvORLlQaI8yFEenTtv/g4t/AEtjvYcjvYcPtpznR2uZna3slLr1oZA4rJzc3r5ZLovNA7jtL9ZjUds5xhsX0vdqubi4MQSWKlmptayuXg576e+Vfvb+vPG3b1swpC1mCm/LOfqbbnZR4bJIToePMTjH9/rEDVPxvxBvdiW1fxNuNyZc/ziAuHEm6aNXM+WLzzBgNVc//RGVdXTuj7TB735cbotil7R/QKOAaMW"
+        }, 
+        "box" : {
+            "2" : "eJxLtDKxqs60MrBOtDKGMIqBIkol+fk5StaZVoZAbGJgZASijcD8WhCBT7GhIYpiI2TFllZKyUWlxYkpmXnpMB0GYNUpVoYGBiD1xmiGp+fnpGAoNTUAKa4FANQFNWI=", 
+            "10" : "eJxLtDKxqs60MrBOtDKGMIqBIkol+fk5StaZVoZAbGJgaGgEpI3A/FoQgaTY0kopuai0ODElMy8dpsMArDrFytDUAKTeCM3w9PycFHSlRgZAAFJsjNclxgaGCJfUAgDx6DVj", 
+            "18" : "eJxLtDK2qs60MrBOhDGKrUyslEry83OUrDOtDIHYxMDIEEQbgfm1IAJJsaWVUnJRaXFiSmZeOkyHAVh1ipWRgQFIvRGa4en5OSkYSk0NQIprAaVMKOg=", 
+            "24" : "eJxLtDK2qs60MrBOhDGKrUyslEry83OUrDOtDIHYxMDI0AhIG4H5tSACSbGllVJyUWlxYkpmXjpMhwFYdYqVkakBSL0RmuHp+Tkp6EqNDYDAurYWAKaUKOo=", 
+            "30" : "eJxLtDK2qs60MrBOhDGKrUyslEry83OUrDOtDIHYxMDI0BhIG4H5tSACSbGllVJyUWlxYkpmXjpMhwFYdYqVsYEBSL0RmuHp+TkpGEpNDUCKawGmWSjs"
+        }, 
+        "boxTres" : {
+            "extraBoxId" : NumberInt(10), 
+            "extraItem" : NumberInt(40301)
+        }, 
+        "needPcs" : NumberInt(5), 
+        "pcsPosition" : "eJxLtDK1qs60MrDOtDKEYiMoNgFiYygGsc2tawEqeQyq", 
+        "sweepId" : NumberInt(0), 
+        "lastCrusade" : NumberInt(0)
     }, 
     "mf" : {
         "tasks" : {
             "1" : {
-                "taskId" : NumberInt(151), 
-                "createTime" : NumberInt(1505386141), 
+                "taskId" : NumberInt(145), 
+                "createTime" : NumberInt(1505439190), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -3766,13 +5335,13 @@
                     "2" : {
                         "conId" : NumberInt(101), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(1)
+                        "param2" : NumberInt(2)
                     }
                 }
             }, 
             "2" : {
-                "taskId" : NumberInt(2), 
-                "createTime" : NumberInt(1505386141), 
+                "taskId" : NumberInt(255), 
+                "createTime" : NumberInt(1505439190), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -3780,15 +5349,15 @@
                         "param2" : NumberInt(4)
                     }, 
                     "2" : {
-                        "conId" : NumberInt(102), 
+                        "conId" : NumberInt(207), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(990)
+                        "param2" : NumberInt(4200)
                     }
                 }
             }, 
             "3" : {
-                "taskId" : NumberInt(41), 
-                "createTime" : NumberInt(1505386141), 
+                "taskId" : NumberInt(104), 
+                "createTime" : NumberInt(1505439191), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -3798,13 +5367,13 @@
                     "2" : {
                         "conId" : NumberInt(302), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(3936)
+                        "param2" : NumberInt(6240)
                     }
                 }
             }, 
             "4" : {
-                "taskId" : NumberInt(62), 
-                "createTime" : NumberInt(1505386141), 
+                "taskId" : NumberInt(149), 
+                "createTime" : NumberInt(1505439191), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -3812,15 +5381,15 @@
                         "param2" : NumberInt(4)
                     }, 
                     "2" : {
-                        "conId" : NumberInt(207), 
+                        "conId" : NumberInt(102), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(2850)
+                        "param2" : NumberInt(2520)
                     }
                 }
             }, 
             "5" : {
-                "taskId" : NumberInt(80), 
-                "createTime" : NumberInt(1505386141), 
+                "taskId" : NumberInt(99), 
+                "createTime" : NumberInt(1505439191), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -3830,13 +5399,13 @@
                     "2" : {
                         "conId" : NumberInt(302), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(5280)
+                        "param2" : NumberInt(5760)
                     }
                 }
             }, 
             "6" : {
                 "taskId" : NumberInt(101), 
-                "createTime" : NumberInt(1505386141), 
+                "createTime" : NumberInt(1505439191), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -3846,36 +5415,32 @@
                     "2" : {
                         "conId" : NumberInt(102), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(2160)
+                        "param2" : NumberInt(2520)
                     }
                 }
             }
         }
     }, 
-    "expCoin" : NumberInt(58200), 
-    "openExpShop" : NumberInt(1), 
-    "uMastery" : {
-        "62031" : NumberInt(8), 
-        "62011" : NumberInt(6), 
-        "62121" : NumberInt(4)
-    }, 
     "league" : {
-        "currentPoint" : NumberInt(1000), 
-        "currentZone" : NumberInt(1), 
+        "currentPoint" : NumberInt(1246), 
+        "currentZone" : NumberInt(2), 
         "changeReward" : {
-            "1" : NumberInt(1)
+            "1" : NumberInt(1), 
+            "2" : NumberInt(2)
         }, 
-        "changeTime" : NumberInt(1505386169), 
+        "changeTime" : NumberInt(1505378062), 
         "leagueAward" : {
-            "upDateTime" : NumberInt(1505386169)
+            "upDateTime" : NumberInt(1505378062), 
+            "sum" : NumberInt(35260)
         }, 
         "ticket" : {
-            "currentCounts" : NumberInt(3)
+            "currentCounts" : NumberInt(0), 
+            "upDateTime" : NumberInt(1505379534)
         }, 
         "schetime" : NumberInt(20170911), 
-        "historyPoint" : NumberInt(1000), 
-        "seq" : "1010101010", 
-        "preWin" : NumberInt(2), 
+        "historyPoint" : NumberInt(1246), 
+        "seq" : "1010100000", 
+        "preWin" : NumberInt(0), 
         "leagueZoneList" : {
             "1" : {
                 "hot" : "201"
@@ -3901,18 +5466,259 @@
             "8" : {
                 "hot" : "203,305,501"
             }
+        }, 
+        "leagueRivalList" : {
+            "rival" : "8001-8001_141,1001-1001_149500,8001-8001_75,8001-8001_34", 
+            "time" : NumberInt(1505379576)
+        }, 
+        "lose" : NumberInt(4), 
+        "atktime" : NumberInt(1505379576), 
+        "currentWin" : NumberInt(0)
+    }, 
+    "leWin" : "8001-league_2,8001-league_3,8001-league_4,8001-league_5,8001-league_6,8001-league_7,8001-league_8,8001-league_9,8001-league_10,8001-league_11,8001-league_12,8001-league_13,8001-league_14,8001-league_16,8001-league_17,8001-league_20", 
+    "bubble" : {
+        "b2" : NumberInt(104)
+    }, 
+    "heroDuel" : {
+        "status" : NumberInt(0), 
+        "seasonWins" : NumberInt(0), 
+        "wins" : NumberInt(0), 
+        "loses" : NumberInt(0), 
+        "lot" : NumberInt(1505208893)
+    }, 
+    "globalSpecial" : "[501022,512023,509012,508022,512013]", 
+    "spellBooks" : {
+        "203" : {
+            "l" : NumberInt(1), 
+            "b" : NumberInt(0)
+        }, 
+        "411" : {
+            "l" : NumberInt(5), 
+            "b" : NumberInt(0)
+        }, 
+        "201" : {
+            "l" : NumberInt(3), 
+            "b" : NumberInt(0)
+        }, 
+        "212" : {
+            "l" : NumberInt(1), 
+            "b" : NumberInt(0)
+        }, 
+        "303" : {
+            "l" : NumberInt(1), 
+            "b" : NumberInt(0)
+        }, 
+        "511" : {
+            "l" : NumberInt(1), 
+            "b" : NumberInt(0)
+        }, 
+        "202" : {
+            "l" : NumberInt(1), 
+            "b" : NumberInt(60102)
         }
     }, 
-    "leWin" : "8001-league_1,8001-league_2,8001-league_3,8001-league_4,8001-league_5,8001-league_6,8001-league_7,8001-league_8,8001-league_9,8001-league_10,8001-league_11,8001-league_12,8001-league_13,8001-league_14,8001-league_15,8001-league_16,8001-league_17,8001-league_18,8001-league_19,8001-league_20", 
-    "weeklySign" : {
-        "day" : NumberInt(1), 
-        "resetTime" : NumberInt(1505386170)
+    "sign" : {
+        "day" : NumberInt(0), 
+        "rNum" : NumberInt(3), 
+        "monRec" : NumberInt(6480), 
+        "resetTime" : NumberInt(1505210937), 
+        "signTime" : NumberInt(0), 
+        "cList" : {
+            "2" : NumberInt(3)
+        }
     }, 
-    "bubble" : {
-        "b2" : NumberInt(102)
+    "cb" : {
+        "r" : NumberInt(6)
     }, 
-    "trigger" : {
-        "28" : NumberInt(1), 
-        "19" : NumberInt(1)
-    }
+    "uMastery" : {
+        "62031" : NumberInt(8), 
+        "62121" : NumberInt(4), 
+        "62011" : NumberInt(6)
+    }, 
+    "skillBookCoin" : NumberInt(10), 
+    "vipWeeklyGift" : {
+        "startTime" : NumberInt(1505250000), 
+        "endTime" : NumberInt(1505682000), 
+        "weeklyGifts" : {
+            "1" : {
+                "price" : NumberInt(700), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "2" : {
+                "price" : NumberInt(1000), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "3" : {
+                "price" : NumberInt(1200), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "4" : {
+                "price" : NumberInt(1200), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "5" : {
+                "price" : NumberInt(1500), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "6" : {
+                "price" : NumberInt(1800), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "7" : {
+                "price" : NumberInt(2400), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "8" : {
+                "price" : NumberInt(3000), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "9" : {
+                "price" : NumberInt(3000), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "10" : {
+                "price" : NumberInt(3600), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "11" : {
+                "price" : NumberInt(6000), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "12" : {
+                "price" : NumberInt(6000), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "13" : {
+                "price" : NumberInt(7500), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "14" : {
+                "price" : NumberInt(9000), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "15" : {
+                "price" : NumberInt(10000), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }, 
+            "16" : {
+                "price" : NumberInt(10000), 
+                "cut" : NumberInt(0), 
+                "hasBuy" : NumberInt(0), 
+                "defeat" : NumberInt(0), 
+                "withNotice" : NumberInt(0)
+            }
+        }
+    }, 
+    "shop" : {
+        "skillbook" : {
+            "goods" : {
+                "8" : {
+                    "id" : NumberInt(8), 
+                    "item" : "3201", 
+                    "buy" : NumberInt(0)
+                }, 
+                "2" : {
+                    "id" : NumberInt(2), 
+                    "item" : "3206", 
+                    "buy" : NumberInt(0)
+                }, 
+                "7" : {
+                    "id" : NumberInt(7), 
+                    "item" : "3502", 
+                    "buy" : NumberInt(0)
+                }, 
+                "3" : {
+                    "id" : NumberInt(3), 
+                    "item" : "3204", 
+                    "buy" : NumberInt(0)
+                }, 
+                "6" : {
+                    "id" : NumberInt(6), 
+                    "item" : "3401", 
+                    "buy" : NumberInt(0)
+                }, 
+                "4" : {
+                    "id" : NumberInt(4), 
+                    "item" : "3206", 
+                    "buy" : NumberInt(0)
+                }, 
+                "5" : {
+                    "id" : NumberInt(5), 
+                    "item" : "3204", 
+                    "buy" : NumberInt(0)
+                }, 
+                "1" : {
+                    "id" : NumberInt(1), 
+                    "item" : "3203", 
+                    "buy" : NumberInt(0)
+                }
+            }, 
+            "lastUpTime" : NumberInt(1505272827), 
+            "reflashTimes" : NumberInt(0), 
+            "lastResetTime" : NumberInt(1505273603)
+        }
+    }, 
+    "lockRes" : {
+        "gem" : NumberInt(1)
+    }, 
+    "leLose" : "8001-8001_141,1001-1001_149500,8001-8001_75,8001-8001_34", 
+    "rcRd" : {
+        "diamond_6480" : NumberInt(1)
+    }, 
+    "sRcg" : {
+        "2052" : {
+            "6480" : {
+                "rcg" : NumberInt(1), 
+                "res" : NumberInt(1), 
+                "status" : NumberInt(1)
+            }
+        }
+    }, 
+    "expCoin" : NumberInt(58200), 
+    "openExpShop" : NumberInt(1)
 }
