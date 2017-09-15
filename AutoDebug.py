@@ -40,8 +40,6 @@ while True:
 	9.全部英雄升星
 	10.全部英雄技能升级
 	11.发放全部兵团
-	12.全部兵团升级 +全部兵团装备升级
-	14.全部兵团激活潜能
 	q.退出
 	"""
     press = raw_input("select:")
@@ -326,10 +324,10 @@ while True:
 
 
     elif press == "14":
-        driver = webdriver.Firefox()
-        driver.get(dev_server)
-        time.sleep(1)
-        # 所有兵团升星+激活潜能
+        # driver = webdriver.Firefox()
+        # driver.get(dev_server)
+        # time.sleep(1)
+        # # 所有兵团升星+激活潜能
         # def bigStar(argv_id):
         #     driver.refresh()
         #     time.sleep(1)
@@ -376,15 +374,15 @@ while True:
         #         bigStar(y)
         # driver.refresh()
         # time.sleep(1)
-        translate_xpath('//*[@id="l582"]').click()#激活潜能
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
-        for z in other_config.bingtuanId:
-            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
-            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(z)
-            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
-            print "兵团" + str(z) + "激活潜能"
-        driver.quit()
+        # translate_xpath('//*[@id="l582"]').click()#激活潜能
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+        # for z in other_config.bingtuanId:
+        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(z)
+        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+        #     print "兵团" + str(z) + "激活潜能"
+        # driver.quit()
     elif press == "q":
     	os.exit()
     else:
