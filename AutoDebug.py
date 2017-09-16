@@ -47,6 +47,7 @@ while True:
         #添加资源
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         translate_xpath('//*[@id="l592"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -64,6 +65,7 @@ while True:
     elif press == "2":
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         # 玩家升级
         translate_xpath('//*[@id="l596"]').click()
@@ -76,6 +78,7 @@ while True:
     elif press == "3":
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         # 设置vip等级
         translate_xpath('//*[@id="l593"]').click()
@@ -88,6 +91,7 @@ while True:
     elif press == "4":
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         # 升级潜能
         translate_xpath('//*[@id="l583"]').click()
@@ -108,6 +112,7 @@ while True:
     elif press == "5":
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         # 主线精英重置到某一副本补差删多
         translate_xpath('//*[@id="l619"]').click()
@@ -125,6 +130,7 @@ while True:
         num = input("please input num:")
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         # 个人物品发放
         translate_xpath('//*[@id="l594"]').click()
@@ -162,6 +168,7 @@ while True:
     elif press == "7":
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         # 宝物进阶
         translate_xpath('//*[@id="l594"]').click()#个人物品发放
@@ -205,6 +212,7 @@ while True:
     elif press == "8":
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         # 发放英雄
         translate_xpath('//*[@id="l598"]').click()
@@ -266,6 +274,7 @@ while True:
     elif press == "11":
         driver = webdriver.Firefox()
         driver.get(dev_server)
+        driver.set_window_size(480,320)
         time.sleep(1)
         # 发放兵团
         translate_xpath('//*[@id="l595"]').click()
