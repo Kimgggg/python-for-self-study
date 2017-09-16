@@ -7,6 +7,7 @@ import time
 import os
 import sys
 import other_config
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -19,7 +20,7 @@ print '''
 5.dev4(暂时无法使用)
 '''
 dev_server = raw_input("please input debug server:\n")
-dev_server = other_config.debug_server[int(dev_server)-1]
+dev_server = other_config.debug_server[int(dev_server) - 1]
 
 
 def translate_xpath(xpath):
@@ -29,25 +30,25 @@ def translate_xpath(xpath):
 
 while True:
     print """
-	1.添加金币、钻石、兵团经验
-	2.玩家升级
-	3.设置vip等级
-	4.提升全部兵团潜力
-	5.调整副本进度
-	6.发全部材料
-	7.全部宝物进阶
-	8.发放全部英雄
-	11.发放全部兵团
-	q.退出
-	"""
+    1.添加金币、钻石、兵团经验
+    2.玩家升级
+    3.设置vip等级
+    4.提升全部兵团潜力
+    5.调整副本进度
+    6.发全部材料
+    7.全部宝物进阶
+    8.发放全部英雄
+    11.发放全部兵团
+    q.退出
+    """
     press = raw_input("select:")
     if press == "1":
         num = input("please input num:")
         # 添加金币、钻石、兵团经验
-        #添加资源
+        # 添加资源
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         translate_xpath('//*[@id="l592"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -65,7 +66,7 @@ while True:
     elif press == "2":
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         # 玩家升级
         translate_xpath('//*[@id="l596"]').click()
@@ -78,7 +79,7 @@ while True:
     elif press == "3":
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         # 设置vip等级
         translate_xpath('//*[@id="l593"]').click()
@@ -91,7 +92,7 @@ while True:
     elif press == "4":
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         # 升级潜能
         translate_xpath('//*[@id="l583"]').click()
@@ -101,7 +102,8 @@ while True:
             translate_xpath("//*[@id='req']/form/table/tbody/tr[2]/td[2]//*[@name='teamId']").clear()  # 清空兵团id
             translate_xpath("//*[@id='req']/form/table/tbody/tr[2]/td[2]//*[@name='teamId']").send_keys(x)  # 输入兵团id
             for y in other_config.potentialId:
-                translate_xpath("//*[@id='req']/form/table/tbody/tr[3]/td[2]//*[@name='potentialId']").clear()  # 清空潜力类型
+                translate_xpath("//*[@id='req']/form/table/tbody/tr[3]/td[2]//*[@name='potentialId']").clear()
+                # 清空潜力类型
                 translate_xpath("//*[@id='req']/form/table/tbody/tr[3]/td[2]//*[@name='potentialId']").send_keys(
                     y)  # 输入潜力类型
                 for z in range(41):
@@ -112,7 +114,7 @@ while True:
     elif press == "5":
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         # 主线精英重置到某一副本补差删多
         translate_xpath('//*[@id="l619"]').click()
@@ -130,35 +132,42 @@ while True:
         num = input("please input num:")
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         # 个人物品发放
         translate_xpath('//*[@id="l594"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.bingtuansuipianId)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(
+            other_config.bingtuansuipianId)
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(
+            num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()  # 点击
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()  # 清空类型
         print "发放兵团碎片成功"
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.jinjiecailiaoId)
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(
+            other_config.jinjiecailiaoId)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
         print "发放进阶材料成功"
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.herosuipianId)
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(
+            other_config.herosuipianId)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
         print "发放英雄碎片成功"
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.baowustr)
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(
+            other_config.baowustr)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
         print "发放宝物成功"
 
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.otheritem)
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(
+            other_config.otheritem)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
         print "发放杂物成功"
 
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.fashusuipian)
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(
+            other_config.fashusuipian)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
         print "发放法术碎片成功"
@@ -168,10 +177,10 @@ while True:
     elif press == "7":
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         # 宝物进阶
-        translate_xpath('//*[@id="l594"]').click()#个人物品发放
+        translate_xpath('//*[@id="l594"]').click()  # 个人物品发放
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys("41001")  # 额外发送材料
@@ -180,7 +189,7 @@ while True:
         time.sleep(0.5)
         driver.refresh()
         time.sleep(1)
-        translate_xpath('//*[@id="l765"]').click()#进阶散件宝物
+        translate_xpath('//*[@id="l765"]').click()  # 进阶散件宝物
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         big_id = []
@@ -212,7 +221,7 @@ while True:
     elif press == "8":
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         # 发放英雄
         translate_xpath('//*[@id="l598"]').click()
@@ -251,7 +260,8 @@ while True:
         # translate_xpath('//*[@id="l594"]').click()#个人物品发放
         # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         # translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
-        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys("3004")  # 额外发送材料
+        # translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys("3004")
+        #  额外发送材料
         # translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys("9999999")
         # translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
 
@@ -261,7 +271,8 @@ while True:
         # translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="exMode"]').send_keys("1")  # 是否十连突
         # for hero in other_config.heroId:
         #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="heroId"]').clear()
-        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="heroId"]').send_keys(hero)  # 输入英雄id
+        #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="heroId"]').send_keys(hero)
+        #  输入英雄id
         #     for skill_position in other_config.skillposition:
         #         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="positionId"]').clear()
         #         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="positionId"]').send_keys(
@@ -274,7 +285,7 @@ while True:
     elif press == "11":
         driver = webdriver.Firefox()
         driver.get(dev_server)
-        driver.set_window_size(480,320)
+        driver.set_window_size(480, 320)
         time.sleep(1)
         # 发放兵团
         translate_xpath('//*[@id="l595"]').click()
@@ -313,23 +324,20 @@ while True:
         #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
         #     print "兵团" + str(x) + "装备已升级"
         # driver.quit()
-        print """
-配合数据库快速修改兵团属性说明:
-	需先使用脚本发放全部兵团，否则会报错
-	数据库只搜索teams数组 (db.game_users.find({_id:8001_853},{teams:1})
-	选择json格式
-	右键->edit json,全部复制粘贴至txt文件内并保存至D:/,修改名称为'mongo.txt', 例:(D:/mongo.txt)
-	执行脚本文件夹内的 mongo.bat
-	重新打开D:/mongo.txt,将内容全部复制进数据库,update
-	如果需要特殊修改,则使用编辑器打开mongo.bat文件,修改里面内容即可
-	
-	""".encode('GBK', 'ignore')
+        print '''
+        配合数据库快速修改兵团属性说明:
+        建议使用脚本发放全部兵团与英雄
+        数据库只搜索teams数组 (db.game_users.find({_id:8001_853},{teams:1})
+        选择json格式
+        右键->edit json,全部复制粘贴至txt文件内并保存至D:/,修改名称为'mongo.txt', 例:(D:/mongo.txt)
+        执行脚本并传入参数，参数为mongo.txt绝对路径，如：python modify_mongo.py 'D:/wyn/mongo.txt'
+    '''
 
     elif press == "13":
         driver = webdriver.Firefox()
         driver.get(dev_server)
         time.sleep(1)
-        #调用bat文件模拟shell输入，导入数据库配置
+        # 调用bat文件模拟shell输入，导入数据库配置
         driver.quit()
 
 
@@ -395,7 +403,6 @@ while True:
         #     print "兵团" + str(z) + "激活潜能"
         # driver.quit()
     elif press == "q":
-    	os.exit()
+        os.exit()
     else:
-    	print "input error!"
-
+        print "input error!"

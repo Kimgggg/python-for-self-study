@@ -19,22 +19,22 @@ class HTML_Tool:
     CharToNextTabRex = re.compile("<td>")
 
     # 将一些html的符号实体转变为原始符号
-    replaceTab = [("<","<"),(">",">"),("&","&"),("&","\""),("&nbsp;"," ")]
+    replaceTab = [("<", "<"), (">", ">"), ("&", "&"), ("&", "\""), ("&nbsp;", " ")]
 
-    def Replace_Char(self,x):
-        x = self.BgnCharToNoneRex.sub("",x)
-        x = self.BgnPartRex.sub("\n    ",x)
-        x = self.CharToNewLineRex.sub("\n",x)
-        x = self.CharToNextTabRex.sub("\t",x)
-        x = self.EndCharToNoneRex.sub("",x)
+    def Replace_Char(self, x):
+        x = self.BgnCharToNoneRex.sub("", x)
+        x = self.BgnPartRex.sub("\n    ", x)
+        x = self.CharToNewLineRex.sub("\n", x)
+        x = self.CharToNextTabRex.sub("\t", x)
+        x = self.EndCharToNoneRex.sub("", x)
 
         for t in self.replaceTab:
-            x = x.replace(t[0],t[1])
+            x = x.replace(t[0], t[1])
         return x
 
 class Baidu_Spider:
     # 申明相关的属性
-    def __init__(self,url):
+    def __init__(self, url):
         self.myUrl = url + '?see_lz=1'
         self.datas = []
         self.myTool = HTML_Tool()

@@ -62,16 +62,17 @@ def cur_file_dir():
     SOURCE = source_path
     return source_path
 
+
 def find_file_by_pattern(pattern = '.*', base = ".", circle = True):  
     re_file = re.compile(pattern)
     if base == ".":
         base = cur_file_dir()
-    print "开始搜索...：",base
+    print "开始搜索...：", base
 
     final_file_list = []
-    cur_list = os.listdir(base)  
+    cur_list = os.listdir(base)
     for item in cur_list:
-        if item == ".svn" :
+        if item == ".svn":
             continue
         if item == ".git":
             continue
@@ -95,12 +96,14 @@ def find_file_by_pattern(pattern = '.*', base = ".", circle = True):
                 final_file_list += find_file_by_pattern(pattern, full_path)
     return final_file_list
 
-def open_excel(file = 'file.xls'):
+
+def open_excel(file='file.xls'):
     try:
         data = xlrd.open_workbook(file)
         return data
-    except Exception,e:
+    except Exception, e:
         print str(e)
+
 
 def excel_table_byindex(file = 'file.xls', colnameindex = 0, by_index = 0):
     data = open_excel(file)
@@ -116,6 +119,7 @@ def excel_table_byindex(file = 'file.xls', colnameindex = 0, by_index = 0):
                 collist.append(rowdata[i])
             rowlist.append(collist)
     return rowlist
+
 
 def savaToCSV(_file, _list, _path):
     filename = ""
@@ -160,6 +164,7 @@ def excel2csv(excel_file, _path):
         for rownum in xrange(worksheet.nrows):  
             wr.writerow([unicode(entry).encode("utf-8") for entry in worksheet.row_values(rownum)])  
         new_csv.close() 
+
 
 def main():
     global TXT_LOCAL

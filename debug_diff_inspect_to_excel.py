@@ -53,12 +53,12 @@ def find_file_by_pattern(pattern = '.*', base = ".", circle = True):
     re_file = re.compile(pattern)
     if base == ".":
         base = cur_file_dir()
-    print "开始搜索...：",base
+    print "开始搜索...：", base
 
     final_file_list = []
     cur_list = os.listdir(base)  
     for item in cur_list:
-        if item == ".svn" :
+        if item == ".svn":
             continue
         if item == ".git":
             continue

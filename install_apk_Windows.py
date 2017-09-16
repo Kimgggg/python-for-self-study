@@ -8,7 +8,6 @@ import os
 import sys
 import time
 import pwd_config
-import fuck_gbk
 
 WORD = "apk"
 APK_NAME = []
