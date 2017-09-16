@@ -118,6 +118,7 @@ while True:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="stageId"]').send_keys(x)  # 输入副本id
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()  # 点击
             print "调整关卡为" + x
+            time.sleep(1.5)
         time.sleep(1)
         driver.quit()
     elif press == "6":
