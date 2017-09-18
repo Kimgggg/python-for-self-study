@@ -39,6 +39,7 @@ while True:
     7.全部宝物进阶
     8.发放全部英雄
     11.发放全部兵团
+    13.更换user_rid
     q.退出
     """
     press = raw_input("select:")
@@ -74,7 +75,6 @@ while True:
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="level"]').send_keys("89")
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
         print "玩家等级提升成功"
-        time.sleep(3)
         driver.quit()
     elif press == "3":
         driver = webdriver.PhantomJS()
@@ -109,7 +109,6 @@ while True:
                 for z in range(41):
                     print "第" + str(z) + "次升级" + str(x) + "的" + str(y) + "潜力"
                     translate_xpath("//*[@id='req']/form/table/tbody/tr[4]/td[2]//*[@name='uploadFrom']").click()  # 点击
-        time.sleep(1)
         driver.quit()
     elif press == "5":
         driver = webdriver.PhantomJS()
@@ -126,7 +125,6 @@ while True:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()  # 点击
             print "调整关卡为" + x
             time.sleep(1.5)
-        time.sleep(1)
         driver.quit()
     elif press == "6":
         num = input("please input num:")
@@ -172,7 +170,6 @@ while True:
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
         print "发放法术碎片成功"
         num = 0
-        time.sleep(1)
         driver.quit()
     elif press == "7":
         driver = webdriver.PhantomJS()
@@ -216,7 +213,6 @@ while True:
             for y in range(23):
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
                 print "宝物" + str(x) + "进阶" + str(y) + "次"
-        time.sleep(1)
         driver.quit()
     elif press == "8":
         driver = webdriver.PhantomJS()
@@ -232,7 +228,6 @@ while True:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="heroId"]').send_keys(x)
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
             print "发放英雄" + str(x) + "成功"
-        time.sleep(1)
         driver.quit()
     elif press == "9":
         pass
@@ -334,11 +329,7 @@ while True:
     '''
 
     elif press == "13":
-        driver = webdriver.PhantomJS()
-        driver.get(dev_server)
-        time.sleep(1)
-        # 调用bat文件模拟shell输入，导入数据库配置
-        driver.quit()
+        user_rid = raw_input("please input new user_rid:\n")
 
 
     elif press == "14":
