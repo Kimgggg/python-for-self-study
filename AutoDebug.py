@@ -40,6 +40,7 @@ while True:
     8.发放全部英雄
     11.发放全部兵团
     13.更换user_rid
+    15.重置pve玩法次数
     q.退出
     """
     press = raw_input("select:")
@@ -393,6 +394,18 @@ while True:
         #     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
         #     print "兵团" + str(z) + "激活潜能"
         # driver.quit()
+    elif press == "15":
+        driver = webdriver.PhantomJS()
+        driver.get(dev_server)
+        time.sleep(1)
+        # [Tools]重置PVE玩法次数
+        translate_xpath('//*[@id="l621"]').click()
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="uploadFrom"]').click()
+        time.sleep(0.5)
+        print "重置成功"
+        driver.quit()
     elif press == "q":
         os.exit()
     else:
