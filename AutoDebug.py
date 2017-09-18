@@ -46,9 +46,9 @@ while True:
         num = input("please input num:")
         # 添加金币、钻石、兵团经验
         # 添加资源
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         translate_xpath('//*[@id="l592"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -64,9 +64,9 @@ while True:
         time.sleep(1)
         driver.quit()
     elif press == "2":
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         # 玩家升级
         translate_xpath('//*[@id="l596"]').click()
@@ -77,9 +77,9 @@ while True:
         time.sleep(3)
         driver.quit()
     elif press == "3":
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         # 设置vip等级
         translate_xpath('//*[@id="l593"]').click()
@@ -90,9 +90,9 @@ while True:
         time.sleep(1)
         driver.quit()
     elif press == "4":
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         # 升级潜能
         translate_xpath('//*[@id="l583"]').click()
@@ -112,9 +112,9 @@ while True:
         time.sleep(1)
         driver.quit()
     elif press == "5":
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         # 主线精英重置到某一副本补差删多
         translate_xpath('//*[@id="l619"]').click()
@@ -130,9 +130,9 @@ while True:
         driver.quit()
     elif press == "6":
         num = input("please input num:")
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         # 个人物品发放
         translate_xpath('//*[@id="l594"]').click()
@@ -175,9 +175,9 @@ while True:
         time.sleep(1)
         driver.quit()
     elif press == "7":
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         # 宝物进阶
         translate_xpath('//*[@id="l594"]').click()  # 个人物品发放
@@ -219,9 +219,9 @@ while True:
         time.sleep(1)
         driver.quit()
     elif press == "8":
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         # 发放英雄
         translate_xpath('//*[@id="l598"]').click()
@@ -236,7 +236,7 @@ while True:
         driver.quit()
     elif press == "9":
         pass
-        # driver = webdriver.Firefox()
+        # driver = webdriver.PhantomJS()
         # driver.get(dev_server)
         # time.sleep(1)
         # # 英雄升星
@@ -253,7 +253,7 @@ while True:
         # driver.quit()
     elif press == "10":
         pass
-        # driver = webdriver.Firefox()
+        # driver = webdriver.PhantomJS()
         # driver.get(dev_server)
         # time.sleep(1)
         # # [hero]技能升级
@@ -283,9 +283,9 @@ while True:
         # time.sleep(1)
         # driver.quit()
     elif press == "11":
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        driver.set_window_size(480, 320)
+        # driver.set_window_size(480, 320)
         time.sleep(1)
         # 发放兵团
         translate_xpath('//*[@id="l595"]').click()
@@ -298,7 +298,7 @@ while True:
             print "已发放兵团" + str(x)
         driver.quit()
     elif press == "12":
-        # driver = webdriver.Firefox()
+        # driver = webdriver.PhantomJS()
         # driver.get(dev_server)
         # time.sleep(1)
         # # 所有兵团升级
@@ -334,7 +334,7 @@ while True:
     '''
 
     elif press == "13":
-        driver = webdriver.Firefox()
+        driver = webdriver.PhantomJS()
         driver.get(dev_server)
         time.sleep(1)
         # 调用bat文件模拟shell输入，导入数据库配置
@@ -343,7 +343,7 @@ while True:
 
     elif press == "14":
         pass
-        # driver = webdriver.Firefox()
+        # driver = webdriver.PhantomJS()
         # driver.get(dev_server)
         # time.sleep(1)
         # # 所有兵团升星+激活潜能
