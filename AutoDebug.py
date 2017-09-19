@@ -234,8 +234,9 @@ while True:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="comId"]').send_keys(Treasure_big)
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="disId"]').clear()  # 散件宝物小id
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="disId"]').send_keys(Treasure_small)
-            for count in range(41):
+            for count in range(30):
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+                time.sleep(0.2)
                 print "宝物" + str(Treasure_small_temp) + "第" + str(count) + "次进阶"
         big_id = list(set(big_id))
         big_id.sort()
@@ -245,8 +246,9 @@ while True:
         for x in big_id:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="comId"]').clear()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="comId"]').send_keys(x)
-            for y in range(41):
+            for y in range(30):
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+                time.sleep(0.2)
                 print "宝物" + str(x) + "进阶" + str(y) + "次"
         driver.quit()
 
@@ -288,6 +290,7 @@ while True:
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="heroId"]').send_keys(x)
                 for y in range(4):
                     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+                    time.sleep(0.2)
                     print "英雄" + str(x) + "升星第" + str(y) + "次"
             time.sleep(1)
             driver.quit()
