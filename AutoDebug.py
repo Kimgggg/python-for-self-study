@@ -382,6 +382,7 @@ while True:
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(x)
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+                time.sleep(0.2)
                 print "兵团" + str(x) + "已升级"
             time.sleep(0.5)
             driver.refresh()
@@ -394,6 +395,7 @@ while True:
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(x)
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+                time.sleep(0.2)
                 print "兵团" + str(x) + "装备已升级"
 
             time.sleep(0.5)
@@ -411,7 +413,8 @@ while True:
                     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="positionId"]').send_keys(y)
                     for z in range(15):
                         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
-                        print "英雄" + str(x) + "装备" + str(y) + "正在第" + str(z) + "次升阶"
+                        time.sleep(0.2)
+                        print "兵团" + str(x) + "装备" + str(y) + "正在第" + str(z) + "次升阶"
             driver.quit()
         else:
             pass
@@ -450,7 +453,7 @@ while True:
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(argv_id)
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
                 print "大星" + str(argv_id) + "done"
-                time.sleep(0.5)
+                time.sleep(0.2)
 
 
             def smallStar(argv_id):
@@ -465,7 +468,7 @@ while True:
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="batch"]').clear()
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="batch"]').send_keys("1")
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
-                time.sleep(0.5)
+                time.sleep(0.2)
                 print "小星" + str(argv_id) + "done"
 
 
