@@ -397,7 +397,7 @@ while True:
             time.sleep(0.5)
             driver.refresh()
             time.sleep(1)
-            # 所有兵团装备升级
+            # 符文批量升级（装备）
             translate_xpath(xpath_group(other_config.autodebug12_2[int(dev_select) - 1])).click()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
