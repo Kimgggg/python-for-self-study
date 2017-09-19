@@ -46,8 +46,12 @@ while True:
     6.发全部材料
     7.全部宝物进阶
     8.发放全部英雄
+    9.英雄升星
+    10.英雄技能升级
     11.发放全部兵团
+    12.所有兵团升级+所有兵团装备升级
     13.更换user_rid与服务器
+    14.所有兵团升星+激活潜能
     15.重置pve玩法次数
     q.退出
     """
@@ -389,8 +393,6 @@ while True:
             driver.quit()
         else:
             pass
-
-
 
     elif press == "13":
         user_rid = raw_input("please input new user_rid:\n")
