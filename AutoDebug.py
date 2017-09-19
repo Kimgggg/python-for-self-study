@@ -565,6 +565,31 @@ while True:
 
         driver.quit()
 
+    elif press == "17":
+        Continue_sql = raw_input("数据库方式修改更快速，是否继续？\n1继续2取消\n".decode('utf-8').encode('gbk'))
+        if Continue_sql == "1":
+            if debug:
+                driver = webdriver.Firefox()
+            else:
+                driver = webdriver.PhantomJS()
+            driver.get(dev_server)
+            time.sleep(1)
+            translate_xpath(xpath_group(other_config.autodebug17[int(dev_select) - 1])).click()
+            # [Team]怪兽方阵进阶
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            for x in other_config.bingtuanId:
+                translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+                translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(x)
+                for y in range(15):
+                    translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+                    time.sleep(0.1)
+                    print "兵团" + str(x) + "进阶第" + str(y) + "次"
+            driver.quit()
+        else:
+            pass
+
+
     elif press == "q":
         os.exit()
 
