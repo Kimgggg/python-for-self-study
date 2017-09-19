@@ -10,7 +10,7 @@ import other_config
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
-debug = False
+debug = True
 user_rid = raw_input("please input rid:\n")
 print '''
 1.开发机1
@@ -49,7 +49,7 @@ while True:
     9.英雄升星
     10.英雄技能升级
     11.发放全部兵团
-    12.所有兵团升级+所有兵团装备升级
+    12.所有兵团升级+所有兵团装备升级+所有兵团装备进阶
     13.更换user_rid与服务器
     14.所有兵团升星+激活潜能
     15.重置pve玩法次数
@@ -390,6 +390,23 @@ while True:
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(x)
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
                 print "兵团" + str(x) + "装备已升级"
+
+            time.sleep(0.5)
+            driver.refresh()
+            time.sleep(1)
+            translate_xpath(xpath_group(other_config.autodebug12_3[int(dev_select) - 1])).click()
+            # [Team]怪兽方阵符文升阶
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            for x in other_config.bingtuanId:
+                translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').clear()
+                translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="teamId"]').send_keys(x)
+                for y in other_config.skillposition:# 用技能位置代替装备位置
+                    translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="positionId"]').clear()
+                    translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="positionId"]').send_keys(y)
+                    for z in range(15):
+                        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+                        print "英雄" + str(x) + "装备" + str(y) + "正在第" + str(z) + "次升阶"
             driver.quit()
         else:
             pass
