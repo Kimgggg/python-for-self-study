@@ -53,6 +53,7 @@ while True:
     13.更换user_rid与服务器
     14.所有兵团升星+激活潜能
     15.重置pve玩法次数
+    16.法术激活升级（只允许在开发机1上使用）
     q.退出
     """
 
@@ -233,7 +234,7 @@ while True:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="comId"]').send_keys(Treasure_big)
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="disId"]').clear()  # 散件宝物小id
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="disId"]').send_keys(Treasure_small)
-            for count in range(37):
+            for count in range(41):
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
                 print "宝物" + str(Treasure_small_temp) + "第" + str(count) + "次进阶"
         big_id = list(set(big_id))
@@ -244,7 +245,7 @@ while True:
         for x in big_id:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="comId"]').clear()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="comId"]').send_keys(x)
-            for y in range(37):
+            for y in range(41):
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
                 print "宝物" + str(x) + "进阶" + str(y) + "次"
         driver.quit()
@@ -417,8 +418,8 @@ while True:
         1.开发机1
         2.开发机2
         3.开发机3
-        4.dev3(暂时无法使用)
-        5.dev4(暂时无法使用)
+        4.dev3
+        5.dev4
         '''
         dev_server = raw_input("please input debug server:\n")
         dev_select = dev_server
@@ -510,6 +511,38 @@ while True:
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="uploadFrom"]').click()
         time.sleep(0.5)
         print "重置成功"
+        driver.quit()
+
+    elif press == "16":
+        if debug:
+            driver = webdriver.Firefox()
+        else:
+            driver = webdriver.PhantomJS()
+        driver.get(dev_server)
+        time.sleep(1)
+        # translate_xpath(xpath_group(other_config.autodebug16_1[int(dev_select) - 1])).click()
+        translate_xpath('//*[@id="l324"]').click()
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+        for x in other_config.skillId:
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="sid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="sid"]').send_keys(x)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+            print "法术" + str(x) + "已激活"
+        time.sleep(0.5)
+        driver.refresh()
+        time.sleep(1)
+
+        translate_xpath('//*[@id="l326"]').click()
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+        for x in other_config.skillId:
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="sid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="sid"]').send_keys(x)
+            for y in range(10):
+                translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
+                print "法术" + str(x) + "第" + str(y) + "次升级"
+
         driver.quit()
 
     elif press == "q":
