@@ -10,7 +10,7 @@ import other_config
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
-debug = True
+debug = False
 user_rid = raw_input("please input rid:\n")
 print '''
 1.开发机1
