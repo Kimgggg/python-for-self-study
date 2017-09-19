@@ -372,7 +372,8 @@ while True:
                 driver = webdriver.PhantomJS()
             driver.get(dev_server)
             time.sleep(1)
-            # 所有兵团升级
+            # 
+            #[Team]怪兽方阵升级
             translate_xpath(xpath_group(other_config.autodebug12_1[int(dev_select) - 1])).click()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
