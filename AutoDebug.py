@@ -68,7 +68,7 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         translate_xpath(xpath_group(other_config.autodebug1[int(dev_select) - 1])).click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
@@ -80,7 +80,7 @@ while True:
             print "已添加" + str(x)
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()  # 点击
         num = 0
-        time.sleep(1)
+        time.sleep(0.5)
         driver.quit()
 
     elif press == "2":
@@ -90,7 +90,7 @@ while True:
             driver = webdriver.PhantomJS()        
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         # 玩家升级
         translate_xpath(xpath_group(other_config.autodebug2[int(dev_select) - 1])).click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
@@ -106,14 +106,14 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         # 设置vip等级
         translate_xpath(xpath_group(other_config.autodebug3[int(dev_select) - 1])).click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="level"]').send_keys("15")
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
         print "vip等级调整为15"
-        time.sleep(1)
+        time.sleep(0.5)
         driver.quit()
 
     elif press == "4":
@@ -123,10 +123,10 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         # 升级潜能
         translate_xpath(xpath_group(other_config.autodebug4[int(dev_select) - 1])).click()
-        time.sleep(1)
+        time.sleep(0.5)
         translate_xpath("//*[@id='req']/form/table/tbody/tr[1]/td[2]//*[@name='rid']").send_keys(user_rid)
         for x in other_config.bingtuanId:
             translate_xpath("//*[@id='req']/form/table/tbody/tr[2]/td[2]//*[@name='teamId']").clear()  # 清空兵团id
@@ -149,7 +149,7 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         # 主线精英重置到某一副本补差删多
         translate_xpath(xpath_group(other_config.autodebug5[int(dev_select) - 1])).click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -163,52 +163,125 @@ while True:
         driver.quit()
 
     elif press == "6":
-        num = input("please input num:")
         if debug:
             driver = webdriver.Firefox()
         else:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         # 个人物品发放
-        translate_xpath(xpath_group(other_config.autodebug6[int(dev_select) - 1])).click()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.bingtuansuipianId)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()  # 点击
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
-        time.sleep(0.1)  # 清空类型
-        print "发放兵团碎片成功"
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.jinjiecailiaoId)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
-        time.sleep(0.1)
-        print "发放进阶材料成功"
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.herosuipianId)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
-        time.sleep(0.1)
-        print "发放英雄碎片成功"
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.baowustr)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
-        time.sleep(0.1)
-        print "发放宝物成功"
+        print '''
+        1.发送全部
+        2.发送全部兵团碎片
+        3.发送全部进阶材料
+        4.发送全部英雄碎片
+        5.发送全部宝物
+        6.发送全部其他道具
+        7.发送全部法术碎片
+        '''
+        select_type = raw_input("please input num:\n")
+        num = input("please input number:")
+        if select_type == "1":
+            translate_xpath(xpath_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.bingtuansuipianId)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()  # 点击
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            time.sleep(0.1)  # 清空类型
+            print "发放兵团碎片成功"
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.jinjiecailiaoId)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            time.sleep(0.1)
+            print "发放进阶材料成功"
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.herosuipianId)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            time.sleep(0.1)
+            print "发放英雄碎片成功"
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.baowustr)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            time.sleep(0.1)
+            print "发放宝物成功"
 
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.otheritem)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
-        time.sleep(0.1)
-        print "发放杂物成功"
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.otheritem)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            time.sleep(0.1)
+            print "发放杂物成功"
 
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.fashusuipian)
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
-        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
-        time.sleep(0.1)
-        print "发放法术碎片成功"
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.fashusuipian)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            time.sleep(0.1)
+            print "发放法术碎片成功"
+            driver.quit()
+        elif select_type == "2":
+            translate_xpath(xpath_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.bingtuansuipianId)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()  # 点击
+            driver.quit()
+        elif select_type == "3":
+            translate_xpath(xpath_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.jinjiecailiaoId)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()  
+            driver.quit()# 点击
+        elif select_type == "4":
+            translate_xpath(xpath_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.herosuipianId)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            driver.quit()  # 点击
+        elif select_type == "5":
+            translate_xpath(xpath_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.baowustr)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            driver.quit()  # 点击
+        elif select_type == "6":
+            translate_xpath(xpath_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.otheritem)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            driver.quit()  # 点击
+        elif select_type == "7":
+            translate_xpath(xpath_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="goodsId"]').send_keys(other_config.fashusuipian)
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').clear()
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="goodsNum"]').send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+            translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
+            driver.quit()  # 点击
+        else:
+            pass
         num = 0
-        driver.quit()
 
     elif press == "7":
         if debug:
@@ -217,7 +290,7 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         # 宝物进阶
         translate_xpath(xpath_group(other_config.autodebug7_1[int(dev_select) - 1])).click() # 个人物品发放
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -227,7 +300,7 @@ while True:
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
         time.sleep(0.5)
         driver.refresh()
-        time.sleep(1)
+        time.sleep(0.5)
         translate_xpath(xpath_group(other_config.autodebug7_2[int(dev_select) - 1])).click()  # 进阶散件宝物
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
@@ -266,7 +339,7 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         # 发放英雄
         translate_xpath(xpath_group(other_config.autodebug8[int(dev_select) - 1])).click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -288,7 +361,7 @@ while True:
             else:
                 driver = webdriver.PhantomJS()
             driver.get(dev_server)
-            time.sleep(1)
+            time.sleep(0.5)
             # 英雄升星
             translate_xpath(xpath_group(other_config.autodebug9[int(dev_select) - 1])).click()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -300,7 +373,7 @@ while True:
                     translate_xpath('//*[@id="req"]/form/table/tbody/tr[3]/td[2]//*[@name="uploadFrom"]').click()
                     time.sleep(0.1)
                     print "英雄" + str(x) + "升星第" + str(y) + "次"
-            time.sleep(1)
+            time.sleep(0.5)
             driver.quit()
         else:
             pass
@@ -313,7 +386,7 @@ while True:
             else:
                 driver = webdriver.PhantomJS()
             driver.get(dev_server)
-            time.sleep(1)
+            time.sleep(0.5)
             # [hero]技能升级
             translate_xpath(xpath_group(other_config.autodebug10_1[int(dev_select) - 1])).click()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -324,7 +397,7 @@ while True:
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[4]/td[2]//*[@name="uploadFrom"]').click()
             time.sleep(0.5)
             driver.refresh()
-            time.sleep(1)
+            time.sleep(0.5)
             translate_xpath(xpath_group(other_config.autodebug10_2[int(dev_select) - 1])).click()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
@@ -340,7 +413,7 @@ while True:
                         translate_xpath('//*[@id="req"]/form/table/tbody/tr[5]/td[2]//*[@name="uploadFrom"]').click()
                         time.sleep(0.1)
                         print "英雄" + str(hero) + "技能" + str(skill_position) + "第" + str(x) + "次十连突"
-            time.sleep(1)
+            time.sleep(0.5)
             driver.quit()
         else:
             pass
@@ -352,7 +425,7 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         # driver.set_window_size(480, 320)
-        time.sleep(1)
+        time.sleep(0.5)
         # 发放兵团
         translate_xpath(xpath_group(other_config.autodebug11[int(dev_select) - 1])).click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -381,7 +454,7 @@ while True:
             else:
                 driver = webdriver.PhantomJS()
             driver.get(dev_server)
-            time.sleep(1)
+            time.sleep(0.5)
             # 
             #[Team]怪兽方阵升级
             translate_xpath(xpath_group(other_config.autodebug12_1[int(dev_select) - 1])).click()
@@ -396,7 +469,7 @@ while True:
                 print "兵团" + str(x) + "已升级"
             time.sleep(0.5)
             driver.refresh()
-            time.sleep(1)
+            time.sleep(0.5)
             # 符文批量升级（装备）
             translate_xpath(xpath_group(other_config.autodebug12_2[int(dev_select) - 1])).click()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -410,7 +483,7 @@ while True:
 
             time.sleep(0.5)
             driver.refresh()
-            time.sleep(1)
+            time.sleep(0.5)
             translate_xpath(xpath_group(other_config.autodebug12_3[int(dev_select) - 1])).click()
             # [Team]怪兽方阵符文升阶
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -450,12 +523,12 @@ while True:
             else:
                 driver = webdriver.PhantomJS()
             driver.get(dev_server)
-            time.sleep(1)
+            time.sleep(0.5)
             # 所有兵团升星+激活潜能
             # [Team]怪兽方阵升大星
             def bigStar(argv_id):
                 driver.refresh()
-                time.sleep(1)
+                time.sleep(0.5)
                 translate_xpath(xpath_group(other_config.autodebug14_1[int(dev_select) - 1])).click()
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').send_keys(user_rid)
@@ -468,7 +541,7 @@ while True:
 
             def smallStar(argv_id):
                 driver.refresh()
-                time.sleep(1)
+                time.sleep(0.5)
                 # [Team]怪兽方阵升小星
                 translate_xpath(xpath_group(other_config.autodebug14_2[int(dev_select) - 1])).click()
                 translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -500,7 +573,7 @@ while True:
                     smallStar(y)
                     bigStar(y)
             driver.refresh()
-            time.sleep(1)
+            time.sleep(0.5)
             # 激活潜能
             translate_xpath(xpath_group(other_config.autodebug14_3[int(dev_select) - 1])).click()
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -521,7 +594,7 @@ while True:
         else:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        time.sleep(1)
+        time.sleep(0.5)
         # [Tools]重置PVE玩法次数
         translate_xpath(xpath_group(other_config.autodebug15[int(dev_select) - 1])).click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -537,7 +610,7 @@ while True:
         else:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
-        time.sleep(1)
+        time.sleep(0.5)
         # translate_xpath(xpath_group(other_config.autodebug16_1[int(dev_select) - 1])).click()
         translate_xpath('//*[@id="l324"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -550,7 +623,7 @@ while True:
             print "法术" + str(x) + "已激活"
         time.sleep(0.5)
         driver.refresh()
-        time.sleep(1)
+        time.sleep(0.5)
 
         translate_xpath('//*[@id="l326"]').click()
         translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()
@@ -573,7 +646,7 @@ while True:
             else:
                 driver = webdriver.PhantomJS()
             driver.get(dev_server)
-            time.sleep(1)
+            time.sleep(0.5)
             translate_xpath(xpath_group(other_config.autodebug17[int(dev_select) - 1])).click()
             # [Team]怪兽方阵进阶
             translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="rid"]').clear()

@@ -32,7 +32,7 @@ def creat_dict(filename,dictname):
 	global dict_dev3
 	global dict_dev4
 
-	file_for_path = open('D:/wyn/' + filename)
+	file_for_path = open(filename)
 	for (num, value) in enumerate(file_for_path):
 	    if '<ul id="menu">' in value:
 	        # print "line number", num, "is:", value.decode('utf-8').encode('gbk')

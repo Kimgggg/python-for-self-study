@@ -76,6 +76,7 @@ for x in range(1, 91):
     el3_num.append(x)
     el4_num.append(x)
 
+
 for x in range(1, 7):
     star_num.append(x)
 
