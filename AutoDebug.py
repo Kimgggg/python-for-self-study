@@ -65,6 +65,18 @@ def translate_xpath(xpath):
     xpath = xpath.replace('"', "'")
     return driver.find_element_by_xpath(xpath)
 
+def xpath_method(sort_num, name):
+    first_str = '//*[@id="req"]/form/table/tbody/'
+    first_tr = 'tr['
+    finish_tr = ']/'
+    tr_num = sort_num
+    middle_str = 'td[2]//*[@name="'
+    td = name
+    finish_str = '"]'
+    return first_str + first_tr + str(sort_num) + finish_tr + middle_str + str(name) + finish_str
+
+
+
 
 while True:
     print """
@@ -174,7 +186,7 @@ while True:
                 for z in range(41):
                     print "第" + str(z) + "次升级" + str(x) + "的" + str(y) + "潜力"
                     translate_xpath("//*[@id='req']/form/table/tbody/tr[4]/td[2]//*[@name='uploadFrom']").click()
-                    time.sleep(0.1)  # 点击
+                    time.sleep(0.1)
         driver.quit()
 
     elif press == "5":
