@@ -21,8 +21,8 @@ new_dict_dev3 = {}
 new_dict_dev4 = {}
 
 for x in range(5):
-	os.system('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(other_config.htmlfilename[x-1]))
-	# print ('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(other_config.htmlfilename[x-1]))
+	os.system('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(filenamelist[x-1]))
+	# print ('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(filenamelist[x-1]))
 
 
 def creat_dict(filename,dictname):
@@ -146,6 +146,10 @@ def creat_dict(filename,dictname):
 			# print "line number", num, "is:", value.decode('utf-8').encode('gbk') 
 			# print (num - first_num)/2
 			dictname['[Team]怪兽方阵进阶']=(num - first_num)/2 
+	    elif '[Tools]清除yac缓存' in value:
+			# print "line number", num, "is:", value.decode('utf-8').encode('gbk') 
+			# print (num - first_num)/2
+			dictname['[Tools]清除yac缓存']=(num - first_num)/2
 	file_for_path.close()	
 
 

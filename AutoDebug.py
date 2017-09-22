@@ -25,6 +25,16 @@ dev_select = dev_server
 dev_server = other_config.debug_server[int(dev_server) - 1]
 
 
+def clear_debug_yac():
+    driver.refresh()
+    time.sleep(0.1)
+    translate_xpath(xpath_group(other_config.autodebug18[int(dev_select) - 1])).click()
+    translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="actDev"]').clear()
+    translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="actDev"]').send_keys("0")
+    translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="uploadFrom"]').click()
+    
+
+
 def select_server(user_rid):
     sel = driver.find_element_by_xpath("/html/body/div[1]/form/select")
     Select(sel).select_by_value(user_rid[:4])
@@ -61,6 +71,8 @@ while True:
     14.所有兵团升星+激活潜能
     15.重置pve玩法次数
     16.法术激活升级（只允许在开发机1上使用）
+    17.兵团进阶
+    18.清除yac
     q.退出
     """
 
@@ -682,9 +694,19 @@ while True:
                     time.sleep(0.1)
                     print "兵团" + str(x) + "进阶第" + str(y) + "次"
             driver.quit()
-        else:
-            pass
 
+    elif press == "18":
+        if debug:
+            driver = webdriver.Firefox()
+        else:
+            driver = webdriver.PhantomJS()
+        driver.get(dev_server)
+        select_server(user_rid)
+        translate_xpath(xpath_group(other_config.autodebug18[int(dev_select) - 1])).click()
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="actDev"]').clear()
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[1]/td[2]//*[@name="actDev"]').send_keys("0")
+        translate_xpath('//*[@id="req"]/form/table/tbody/tr[2]/td[2]//*[@name="uploadFrom"]').click()
+        driver.quit()
 
     elif press == "q":
         os.exit()
