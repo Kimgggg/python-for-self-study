@@ -26,7 +26,7 @@ dev_server = other_config.debug_server[int(dev_server) - 1]
 
 
 def convert_xpath_tr(tr_num, argv):
-    #输入位置参数与类型，返回标准xpath
+    # 输入位置参数与类型，返回标准xpath
     first_str = '//*[@id="req"]/form/table/tbody/tr['
     tr = tr_num
     middle_str = ']/td[2]//*[@name="'
@@ -48,13 +48,13 @@ def clear_debug_yac():
     driver.refresh()
     time.sleep(0.1)
     
+
 def input_user_rid(user_rid):
     # 符合大部分debug功能输入id的规则
     translate_xpath(convert_xpath_tr(1, 'rid')).clear()
     translate_xpath(convert_xpath_tr(1, 'rid')).send_keys(user_rid)
     print "已输入user_rid : " + user_rid
 
-    
 
 def select_server(user_rid):
     # 根据id自动选择右上角服务器
@@ -234,7 +234,8 @@ while True:
             translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.bingtuansuipianId)
-            translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys(num)  # 输入数量，需注意，后续添加时数量不会更新,不能被注释
+            translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys(num)
+            # 输入数量
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  # 点击
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
             time.sleep(0.2)  # 清空类型
@@ -284,7 +285,7 @@ while True:
             translate_xpath(convert_xpath_tr(3, 'goodsNum')).clear()
             translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys(num)
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  
-            driver.quit()# 点击
+            driver.quit()  # 点击
         elif select_type == "4":
             translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
             input_user_rid(user_rid)
@@ -335,7 +336,7 @@ while True:
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
         # 宝物进阶
-        translate_xpath(xpathID_group(other_config.autodebug7_1[int(dev_select) - 1])).click() # 个人物品发放
+        translate_xpath(xpathID_group(other_config.autodebug7_1[int(dev_select) - 1])).click()  # 个人物品发放
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys("41001")  # 额外发送材料
         translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys("999999")
@@ -496,7 +497,7 @@ while True:
             select_server(user_rid)
             time.sleep(0.5)
             # 
-            #[Team]怪兽方阵升级
+            #  [Team]怪兽方阵升级
             translate_xpath(xpathID_group(other_config.autodebug12_1[int(dev_select) - 1])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(3, 'level')).send_keys("90")  # 要提升的等级
@@ -528,7 +529,7 @@ while True:
             for x in other_config.bingtuanId:
                 translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
                 translate_xpath(convert_xpath_tr(2, 'teamId')).send_keys(x)
-                for y in other_config.skillposition:# 用技能位置代替装备位置
+                for y in other_config.skillposition:   # 用技能位置代替装备位置
                     translate_xpath(convert_xpath_tr(3, 'positionId')).clear()
                     translate_xpath(convert_xpath_tr(3, 'positionId')).send_keys(y)
                     for z in range(15):
@@ -564,6 +565,8 @@ while True:
             time.sleep(0.5)
             # 所有兵团升星+激活潜能
             # [Team]怪兽方阵升大星
+
+
             def bigStar(argv_id):
                 driver.refresh()
                 time.sleep(0.5)
@@ -574,6 +577,8 @@ while True:
                 translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
                 print "大星" + str(argv_id) + "done"
                 time.sleep(0.1)
+
+
 
 
             def smallStar(argv_id):
@@ -706,6 +711,22 @@ while True:
         translate_xpath(convert_xpath_tr(1, 'actDev')).send_keys("0")
         translate_xpath(convert_xpath_tr(2, 'uploadFrom')).click()
         driver.quit()
+
+    elif press == "19":
+        if debug:
+            driver = webdriver.Firefox()
+        else:
+            driver = webdriver.PhantomJS()
+        driver.get(dev_server)
+        select_server(user_rid)
+        translate_xpath(xpathID_group(other_config.autodebug7_4[int(dev_select) - 1])).click()
+        input_user_rid(user_rid)
+        translate_xpath(convert_xpath_tr(4, '')).clear()
+        translate_xpath(convert_xpath_tr(4, '')).send_key("10")
+
+
+
+
 
     elif press == "test":
         driver = webdriver.Firefox()
