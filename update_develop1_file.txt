@@ -1,0 +1,24 @@
+[Tools]添加资源: l597
+ [Tools]玩家升级: l601
+ [Tools]设置Vip等级: l598
+ [Team]升级潜能: l588
+ [Tools]主线精英重置到某一副本补差删多: l624
+ [Tools]个人物品发放: l599
+ [Treasure]进阶散件宝物: l770
+ [Treasure]进阶组合宝物: l769
+ [Treasure]宝物升星: l772
+ [Tools]发放英雄: l603
+ [Hero]英雄升星: l320
+ [Hero]技能升级: l318
+ [Tools]发放兵团: l600
+ [Team]怪兽方阵升级: l578
+ [Team]符文批量升级（装备）: l580
+ [Team]怪兽方阵符文升阶: l582
+ [Team]怪兽方阵升大星: l584
+ [Team]怪兽方阵升小星: l583
+ [Team]激活潜能: l587
+ [Tools]重置PVE玩法次数: l626
+ [Hero]合成法术书: l329
+ [Hero]升级法术书: l331
+ [Team]怪兽方阵进阶: l581
+ [Tools]清除yac缓存: l606

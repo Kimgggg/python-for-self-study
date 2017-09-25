@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from collections import OrderedDict
 import os
 import other_config
 import json
@@ -155,6 +156,7 @@ def creat_dict(filename, dictname):
             # print "line number", num, "is:", value.decode('utf-8').encode('gbk') 
             # print (num - first_num)/2
             dictname['[Treasure]宝物升星'] = (num - first_num) / 2
+    dictname = OrderedDict(dictname)
     file_for_path.close()    
 
 
@@ -192,3 +194,5 @@ for x in range(5):
     modify(new_dict_file[x], ": ", " : l")
     modify(new_dict_file[x], "{", "")
     modify(new_dict_file[x], "}", "")
+
+print json.dumps(dict_develop1, ensure_ascii=False, encoding='UTF-8')

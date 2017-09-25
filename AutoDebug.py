@@ -359,7 +359,7 @@ while True:
             translate_xpath(convert_xpath_tr(3, 'disId')).send_keys(Treasure_small)
             for count in range(30):
                 translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
-                time.sleep(0.1)
+                time.sleep(0.5)
                 print "宝物" + str(Treasure_small_temp) + "第" + str(count) + "次进阶"
         big_id = list(set(big_id))
         big_id.sort()
@@ -370,7 +370,7 @@ while True:
             translate_xpath(convert_xpath_tr(2, 'comId')).send_keys(x)
             for y in range(30):
                 translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
-                time.sleep(0.1)
+                time.sleep(0.5)
                 print "宝物" + str(x) + "进阶" + str(y) + "次"
         driver.quit()
 
@@ -744,6 +744,7 @@ while True:
             translate_xpath(convert_xpath_tr(2, 'comId')).clear()
             translate_xpath(convert_xpath_tr(2, 'comId')).send_keys(big_id)
             for y in range(60):
+                time.sleep(0.5)
                 translate_xpath(convert_xpath_tr(5, 'uploadFrom')).click()
                 print "宝物" + str(x) + "第" + str(y) + "次升星"
         driver.quit()
