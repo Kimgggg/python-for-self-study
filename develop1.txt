@@ -1603,6 +1603,8 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Tools.clearAwakingRank" title="Tools.clearAwakingRank">[Tools]清空觉醒排行榜</li>
          
+          <li style="background:#9ECCED" alt="Tools.clearBackFlowCD" title="Tools.clearBackFlowCD">[Tools]清除回流活动CD</li>
+         
           <li style="background:#CACACA" alt="Training.init" title="Training.init">[Training]进入训练场</li>
          
           <li style="background:#CACACA" alt="Training.getReward" title="Training.getReward">[Training]领取训练首通奖励</li>
@@ -1702,6 +1704,8 @@ function  selectedServer(value)
           <li style="background:#9ECCED" alt="User.viewRedDots" title="User.viewRedDots">[User]查看红点提示</li>
          
           <li style="background:#9ECCED" alt="User.buyLuckyCoin" title="User.buyLuckyCoin">[User]购买幸运币</li>
+         
+          <li style="background:#9ECCED" alt="User.getUserGuildId" title="User.getUserGuildId">[User]同步玩家联盟</li>
          
           <li style="background:#CACACA" alt="Vip.getVipInfo" title="Vip.getVipInfo">[Vip]VIP相关信息</li>
          
@@ -21400,6 +21404,27 @@ function  selectedServer(value)
    </div>
  
     <div>
+          <p>[Tools.clearBackFlowCD]&nbsp;&nbsp;&nbsp;清除回流活动CD</p>
+                     <form action="http://192.168.5.207:8001?mod=http&method=Tools.clearBackFlowCD&__noauth__=1&pGroup=default&sec=8001" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
           <p>[Training.init]&nbsp;&nbsp;&nbsp;进入训练场</p>
                      <form action="http://192.168.5.207:8001?mod=http&method=Training.init&__noauth__=1&pGroup=default&sec=8001" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -22682,6 +22707,27 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">num:</td>
     <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[User.getUserGuildId]&nbsp;&nbsp;&nbsp;同步玩家联盟</p>
+                     <form action="http://192.168.5.207:8001?mod=http&method=User.getUserGuildId&__noauth__=1&pGroup=default&sec=8001" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>

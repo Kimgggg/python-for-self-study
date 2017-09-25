@@ -23,19 +23,12 @@ xpahtid_dev4 = []
 xpahtid_set = [xpahtid_develop1,xpahtid_develop2,xpahtid_develop3,xpahtid_dev3,xpahtid_dev4]
 
 
-for x in range(5):
-    os.system('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(filenamelist[x-1]))
-    # print ('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(filenamelist[x-1]))
-
-
-
 def creat_new_dict(new_dict_file_name, dict_name):
 	# 将字典写入update文件
     dict_json = json.dumps(dict_name, ensure_ascii=False)
     fileobject = open(new_dict_file_name, 'w')
     fileobject.write(json.dumps(dict_json, ensure_ascii=False))
     fileobject.close()
-
 
 
 def modify(filepath, need_to_replace, be_replace):
@@ -65,7 +58,12 @@ def test(filename,argv,listname):
 	    elif argv in value:
 	        xpahtid_num = (num - first_num)/2
 	        listname.append(xpahtid_num)
-	file_for_path.close()    
+	file_for_path.close()
+
+
+for x in range(5):
+    os.system('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(filenamelist[x-1]))
+    # print ('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(filenamelist[x-1])) 
 
 
 for x in menulist:

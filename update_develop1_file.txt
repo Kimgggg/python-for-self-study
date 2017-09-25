@@ -4,9 +4,9 @@
  [Team]升级潜能: l588
  [Tools]主线精英重置到某一副本补差删多: l624
  [Tools]个人物品发放: l599
- [Treasure]进阶散件宝物: l770
- [Treasure]进阶组合宝物: l769
- [Treasure]宝物升星: l772
+ [Treasure]进阶散件宝物: l771
+ [Treasure]进阶组合宝物: l770
+ [Treasure]宝物升星: l773
  [Tools]发放英雄: l603
  [Hero]英雄升星: l320
  [Hero]技能升级: l318
