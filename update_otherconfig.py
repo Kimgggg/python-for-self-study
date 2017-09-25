@@ -151,6 +151,10 @@ def creat_dict(filename, dictname):
             # print "line number", num, "is:", value.decode('utf-8').encode('gbk') 
             # print (num - first_num)/2
             dictname['[Tools]清除yac缓存'] = (num - first_num) / 2
+        elif '[Treasure]宝物升星' in value:
+            # print "line number", num, "is:", value.decode('utf-8').encode('gbk') 
+            # print (num - first_num)/2
+            dictname['[Treasure]宝物升星'] = (num - first_num) / 2
     file_for_path.close()    
 
 
@@ -186,3 +190,5 @@ for x in range(5):
     modify(new_dict_file[x], "\"", "")
     modify(new_dict_file[x], ",", "\n")
     modify(new_dict_file[x], ": ", " : l")
+    modify(new_dict_file[x], "{", "")
+    modify(new_dict_file[x], "}", "")

@@ -18655,6 +18655,11 @@ function  selectedServer(value)
     <td style="text-align:right;padding:5px;">设置已通过前n关(默认为0,>=6时自动开启高级关卡):</td>
     <td padding:5px;><input type="text" name="passed" id="passed" /></td>
   </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">设置过关评分:</td>
+    <td padding:5px;><input type="text" name="score" id="score" /></td>
+  </tr>
               	<tr>
       	<td>&nbsp;</td>
       	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
