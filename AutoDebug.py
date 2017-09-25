@@ -98,6 +98,7 @@ while True:
     16.法术激活升级（只允许在开发机1上使用）
     17.兵团进阶
     18.清除yac
+    19.宝物升星
     q.退出
     """
 
@@ -719,13 +720,33 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
+
+        translate_xpath(xpathID_group(other_config.autodebug1[int(dev_select) - 1])).click()
+        input_user_rid(user_rid)
+        translate_xpath(convert_xpath_tr(2, 'type')).clear()  # 清空资源类型
+        translate_xpath(convert_xpath_tr(2, 'type')).send_keys("starfrag")  # 输入资源类型
+        translate_xpath(convert_xpath_tr(3, 'num')).clear()  # 清空数量
+        translate_xpath(convert_xpath_tr(3, 'num')).send_keys("9999999")  # 输入数量
+        translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  # 点击
+        time.sleep(0.5)
+
+        driver.refresh()
+        time.sleep(0.5)
         translate_xpath(xpathID_group(other_config.autodebug7_4[int(dev_select) - 1])).click()
         input_user_rid(user_rid)
-        translate_xpath(convert_xpath_tr(4, '')).clear()
-        translate_xpath(convert_xpath_tr(4, '')).send_key("10")
-
-
-
+        translate_xpath(convert_xpath_tr(4, 'num')).clear()
+        translate_xpath(convert_xpath_tr(4, 'num')).send_keys("10")
+        for x in other_config.baowu:
+            translate_xpath(convert_xpath_tr(3, 'disId')).clear()
+            translate_xpath(convert_xpath_tr(3, 'disId')).send_keys(x)
+            x = str(x)
+            big_id = x[2:4]
+            translate_xpath(convert_xpath_tr(2, 'comId')).clear()
+            translate_xpath(convert_xpath_tr(2, 'comId')).send_keys(big_id)
+            for y in range(60):
+                translate_xpath(convert_xpath_tr(5, 'uploadFrom')).click()
+                print "宝物" + str(x) + "第" + str(y) + "次升星"
+        driver.quit()
 
 
     elif press == "test":
