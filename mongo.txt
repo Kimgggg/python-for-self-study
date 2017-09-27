@@ -1,19 +1,19 @@
 { 
-    "_id" : "8001_784", 
-    "upPhyTime" : NumberInt(1506152153), 
-    "_it" : NumberInt(1506152153), 
-    "uid" : NumberInt(784), 
-    "name" : "女皇诺曼·加里", 
-    "_commitId" : NumberInt(95), 
-    "_lt" : NumberInt(1506162597), 
-    "uuid" : "59c60ed9e138237c5c6d2eab", 
-    "usid" : "800151145507", 
-    "pid" : "b2d9bbea5cafd3ae832228868858c3fa", 
-    "hScore" : NumberInt(117602), 
-    "score" : NumberInt(117602), 
+    "_id" : "8001_1062", 
+    "upPhyTime" : NumberInt(1506503909), 
+    "_it" : NumberInt(1506503909), 
+    "uid" : NumberInt(1062), 
+    "name" : "术士诺科·唐纳", 
+    "_commitId" : NumberInt(74), 
+    "_lt" : NumberInt(1506503999), 
+    "uuid" : "59cb6ce5e138236a2137b867", 
+    "usid" : "800151080000", 
+    "pid" : "87ac4b74b050acf695f7855eeaaf163d", 
+    "hScore" : NumberInt(78789), 
+    "score" : NumberInt(78789), 
     "accelerate" : NumberInt(1), 
     "online" : NumberInt(1), 
-    "onlineTime" : NumberInt(348), 
+    "onlineTime" : NumberInt(86), 
     "quit" : NumberInt(0), 
     "renameTime" : NumberInt(0), 
     "guildId" : NumberInt(0), 
@@ -35,18 +35,18 @@
     "exp" : NumberInt(0), 
     "physcal" : NumberInt(4680), 
     "guildPower" : NumberInt(300), 
-    "upGPTime" : NumberInt(1506152153), 
+    "upGPTime" : NumberInt(1506503909), 
     "arrowNum" : NumberInt(50), 
     "currency" : NumberInt(0), 
     "leagueCoin" : NumberInt(0), 
     "guildCoin" : NumberInt(0), 
     "hDuelCoin" : NumberInt(0), 
-    "leaveTime" : NumberInt(1506152505), 
+    "leaveTime" : NumberInt(1506503995), 
     "banLogin" : NumberInt(0), 
     "banChat" : NumberInt(0), 
     "resetCrusadeCD" : NumberInt(0), 
     "tbNum" : NumberInt(20), 
-    "upTbTime" : NumberInt(1506152153), 
+    "upTbTime" : NumberInt(1506503909), 
     "msg" : "", 
     "vip" : {
         "level" : NumberInt(0), 
@@ -58,1473 +58,1473 @@
     }, 
     "teams" : {
         "106" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(470), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506152153), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506152153), 
+            "rt" : NumberInt(1506503909), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503909), 
             "grade" : NumberInt(300)
         }, 
         "102" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(434), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506152153), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506152153), 
+            "rt" : NumberInt(1506503909), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503909), 
             "grade" : NumberInt(300)
         }, 
         "101" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(434), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162668), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162668), 
+            "rt" : NumberInt(1506503967), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503967), 
             "grade" : NumberInt(300)
         }, 
         "103" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1296), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162668), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162668), 
+            "rt" : NumberInt(1506503967), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503967), 
             "grade" : NumberInt(500)
         }, 
         "104" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(784), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162669), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162669), 
+            "rt" : NumberInt(1506503967), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503967), 
             "grade" : NumberInt(400)
         }, 
         "105" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(470), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162669), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162669), 
+            "rt" : NumberInt(1506503967), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503967), 
             "grade" : NumberInt(300)
         }, 
         "107" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1456), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162669), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162669), 
+            "rt" : NumberInt(1506503968), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503968), 
             "grade" : NumberInt(500)
         }, 
         "201" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(738), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162669), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162669), 
+            "rt" : NumberInt(1506503968), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503968), 
             "grade" : NumberInt(400)
         }, 
         "202" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(784), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162670), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162670), 
+            "rt" : NumberInt(1506503968), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503968), 
             "grade" : NumberInt(400)
         }, 
         "203" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(784), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162670), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162670), 
+            "rt" : NumberInt(1506503968), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503968), 
             "grade" : NumberInt(400)
         }, 
         "204" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(784), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162670), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162670), 
+            "rt" : NumberInt(1506503969), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503969), 
             "grade" : NumberInt(400)
         }, 
         "205" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1352), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162670), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162670), 
+            "rt" : NumberInt(1506503969), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503969), 
             "grade" : NumberInt(500)
         }, 
         "206" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1288), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162670), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162670), 
+            "rt" : NumberInt(1506503969), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503969), 
             "grade" : NumberInt(500)
         }, 
         "207" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1408), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162670), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162670), 
+            "rt" : NumberInt(1506503969), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503969), 
             "grade" : NumberInt(500)
         }, 
         "301" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(434), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162671), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162671), 
+            "rt" : NumberInt(1506503969), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503969), 
             "grade" : NumberInt(300)
         }, 
         "302" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(738), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162671), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162671), 
+            "rt" : NumberInt(1506503969), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503969), 
             "grade" : NumberInt(400)
         }, 
         "303" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1288), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162671), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162671), 
+            "rt" : NumberInt(1506503970), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503970), 
             "grade" : NumberInt(500)
         }, 
         "304" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1288), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162671), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162671), 
+            "rt" : NumberInt(1506503970), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503970), 
             "grade" : NumberInt(500)
         }, 
         "305" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1352), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162671), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162671), 
+            "rt" : NumberInt(1506503970), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503970), 
             "grade" : NumberInt(500)
         }, 
         "306" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1408), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162671), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162671), 
+            "rt" : NumberInt(1506503970), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503970), 
             "grade" : NumberInt(500)
         }, 
         "307" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1408), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162672), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162672), 
+            "rt" : NumberInt(1506503970), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503970), 
             "grade" : NumberInt(500)
         }, 
         "401" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(434), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162672), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162672), 
+            "rt" : NumberInt(1506503971), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503971), 
             "grade" : NumberInt(300)
         }, 
         "402" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(738), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162672), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162672), 
+            "rt" : NumberInt(1506503971), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503971), 
             "grade" : NumberInt(400)
         }, 
         "403" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(434), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162672), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162672), 
+            "rt" : NumberInt(1506503971), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503971), 
             "grade" : NumberInt(300)
         }, 
         "404" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(822), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162672), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162672), 
+            "rt" : NumberInt(1506503971), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503971), 
             "grade" : NumberInt(400)
         }, 
         "405" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1352), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162672), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162672), 
+            "rt" : NumberInt(1506503971), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503971), 
             "grade" : NumberInt(500)
         }, 
         "406" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1352), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162673), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162673), 
+            "rt" : NumberInt(1506503971), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503971), 
             "grade" : NumberInt(500)
         }, 
         "407" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1456), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162673), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162673), 
+            "rt" : NumberInt(1506503972), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503972), 
             "grade" : NumberInt(500)
         }, 
         "501" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(442), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162673), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162673), 
+            "rt" : NumberInt(1506503972), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503972), 
             "grade" : NumberInt(300)
         }, 
         "502" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(738), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162673), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162673), 
+            "rt" : NumberInt(1506503972), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503972), 
             "grade" : NumberInt(400)
         }, 
         "503" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1288), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162673), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162673), 
+            "rt" : NumberInt(1506503972), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503972), 
             "grade" : NumberInt(500)
         }, 
         "504" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(776), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162674), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162674), 
+            "rt" : NumberInt(1506503972), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503972), 
             "grade" : NumberInt(400)
         }, 
         "505" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1352), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162674), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162674), 
+            "rt" : NumberInt(1506503972), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503972), 
             "grade" : NumberInt(500)
         }, 
         "506" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(822), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162674), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162674), 
+            "rt" : NumberInt(1506503973), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503973), 
             "grade" : NumberInt(400)
         }, 
         "507" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1456), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162674), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162674), 
+            "rt" : NumberInt(1506503973), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503973), 
             "grade" : NumberInt(500)
         }, 
         "601" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(434), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162674), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162674), 
+            "rt" : NumberInt(1506503973), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503973), 
             "grade" : NumberInt(300)
         }, 
         "602" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(730), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162674), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162674), 
+            "rt" : NumberInt(1506503973), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503973), 
             "grade" : NumberInt(400)
         }, 
         "603" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(784), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162675), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162675), 
+            "rt" : NumberInt(1506503973), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503973), 
             "grade" : NumberInt(400)
         }, 
         "604" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1296), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162675), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162675), 
+            "rt" : NumberInt(1506503974), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503974), 
             "grade" : NumberInt(500)
         }, 
         "605" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1288), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162675), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162675), 
+            "rt" : NumberInt(1506503974), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503974), 
             "grade" : NumberInt(500)
         }, 
         "606" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1288), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162675), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162675), 
+            "rt" : NumberInt(1506503974), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503974), 
             "grade" : NumberInt(500)
         }, 
         "607" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1456), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162675), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162675), 
+            "rt" : NumberInt(1506503974), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503974), 
             "grade" : NumberInt(500)
         }, 
         "901" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(1), 
+            "smallStar" : NumberInt(0), 
             "score" : NumberInt(506), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162675), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162675), 
+            "rt" : NumberInt(1506503974), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503974), 
             "grade" : NumberInt(300)
         }, 
         "902" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(822), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162676), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162676), 
+            "rt" : NumberInt(1506503974), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503974), 
             "grade" : NumberInt(400)
         }, 
         "903" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(2), 
+            "smallStar" : NumberInt(10), 
             "score" : NumberInt(822), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162676), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162676), 
+            "rt" : NumberInt(1506503975), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503975), 
             "grade" : NumberInt(400)
         }, 
         "904" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1344), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162676), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162676), 
+            "rt" : NumberInt(1506503975), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503975), 
             "grade" : NumberInt(500)
         }, 
         "905" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1344), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162676), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162676), 
+            "rt" : NumberInt(1506503975), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503975), 
             "grade" : NumberInt(500)
         }, 
         "906" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1344), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162676), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162676), 
+            "rt" : NumberInt(1506503975), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503975), 
             "grade" : NumberInt(500)
         }, 
         "907" : {
-            "level" : NumberInt(90), 
+            "level" : NumberInt(1), 
             "exp" : NumberInt(0), 
-            "stage" : NumberInt(13), 
-            "star" : NumberInt(6), 
-            "smallStar" : NumberInt(50), 
+            "stage" : NumberInt(1), 
+            "star" : NumberInt(3), 
+            "smallStar" : NumberInt(20), 
             "score" : NumberInt(1344), 
             "pScore" : NumberInt(0), 
-            "es1" : NumberInt(13), 
-            "el1" : NumberInt(90), 
-            "es2" : NumberInt(13), 
-            "el2" : NumberInt(90), 
-            "es3" : NumberInt(13), 
-            "el3" : NumberInt(90), 
-            "es4" : NumberInt(13), 
-            "el4" : NumberInt(90), 
-            "sl1" : NumberInt(15), 
-            "sl2" : NumberInt(15), 
-            "sl3" : NumberInt(15), 
-            "sl4" : NumberInt(15), 
+            "es1" : NumberInt(1), 
+            "el1" : NumberInt(1), 
+            "es2" : NumberInt(1), 
+            "el2" : NumberInt(1), 
+            "es3" : NumberInt(1), 
+            "el3" : NumberInt(1), 
+            "es4" : NumberInt(1), 
+            "el4" : NumberInt(1), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(-1), 
+            "sl3" : NumberInt(-1), 
+            "sl4" : NumberInt(-1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "rt" : NumberInt(1506162677), 
-            "avn" : NumberInt(1), 
-            "st" : NumberInt(1506162677), 
+            "rt" : NumberInt(1506503975), 
+            "avn" : NumberInt(0), 
+            "st" : NumberInt(1506503975), 
             "grade" : NumberInt(500)
         }
     }, 
@@ -1597,937 +1597,63 @@
         "1907" : NumberInt(0)
     }, 
     "activityStatis" : {
-        "20170923" : {
-            "sts74" : NumberInt(7223), 
+        "20170927" : {
+            "sts74" : NumberInt(230), 
             "sts2" : NumberInt(1), 
-            "sts75" : NumberInt(7353), 
-            "sts72" : NumberInt(7438), 
-            "sts76" : NumberInt(7313), 
-            "sts77" : NumberInt(7333), 
-            "sts78" : NumberInt(7383), 
-            "sts91" : NumberInt(7383), 
-            "sts37" : NumberInt(4)
+            "sts75" : NumberInt(360), 
+            "sts72" : NumberInt(440), 
+            "sts76" : NumberInt(320), 
+            "sts77" : NumberInt(340), 
+            "sts78" : NumberInt(395), 
+            "sts91" : NumberInt(390)
         }
     }, 
     "items" : {
         "3004" : {
-            "num" : NumberInt(1009)
+            "num" : NumberInt(10)
         }, 
         "301101" : {
-            "num" : NumberInt(1001)
+            "num" : NumberInt(2)
         }, 
         "301103" : {
-            "num" : NumberInt(1001)
+            "num" : NumberInt(2)
         }, 
         "301102" : {
-            "num" : NumberInt(1001)
+            "num" : NumberInt(2)
         }, 
         "301104" : {
-            "num" : NumberInt(1001)
+            "num" : NumberInt(2)
         }, 
         "310001" : {
             "num" : NumberInt(10)
         }, 
         "360102" : {
-            "num" : NumberInt(699)
+            "num" : NumberInt(30)
         }, 
         "400001" : {
             "num" : NumberInt(1)
         }, 
-        "3101" : {
-            "num" : NumberInt(999)
-        }, 
-        "3102" : {
-            "num" : NumberInt(999)
-        }, 
-        "3103" : {
-            "num" : NumberInt(999)
-        }, 
-        "3104" : {
-            "num" : NumberInt(999)
-        }, 
-        "3105" : {
-            "num" : NumberInt(999)
-        }, 
-        "3106" : {
-            "num" : NumberInt(999)
-        }, 
-        "3107" : {
-            "num" : NumberInt(999)
-        }, 
-        "3201" : {
-            "num" : NumberInt(999)
-        }, 
-        "3202" : {
-            "num" : NumberInt(999)
-        }, 
-        "3203" : {
-            "num" : NumberInt(999)
-        }, 
-        "3204" : {
-            "num" : NumberInt(999)
-        }, 
-        "3205" : {
-            "num" : NumberInt(999)
-        }, 
-        "3206" : {
-            "num" : NumberInt(999)
-        }, 
-        "3207" : {
-            "num" : NumberInt(999)
-        }, 
-        "3301" : {
-            "num" : NumberInt(1004)
-        }, 
-        "3302" : {
-            "num" : NumberInt(999)
-        }, 
-        "3303" : {
-            "num" : NumberInt(999)
-        }, 
-        "3304" : {
-            "num" : NumberInt(999)
-        }, 
-        "3305" : {
-            "num" : NumberInt(999)
-        }, 
-        "3306" : {
-            "num" : NumberInt(999)
-        }, 
-        "3307" : {
-            "num" : NumberInt(999)
-        }, 
-        "3401" : {
-            "num" : NumberInt(999)
-        }, 
-        "3402" : {
-            "num" : NumberInt(999)
-        }, 
-        "3403" : {
-            "num" : NumberInt(999)
-        }, 
-        "3404" : {
-            "num" : NumberInt(999)
-        }, 
-        "3405" : {
-            "num" : NumberInt(999)
-        }, 
-        "3406" : {
-            "num" : NumberInt(999)
-        }, 
-        "3407" : {
-            "num" : NumberInt(999)
-        }, 
-        "3501" : {
-            "num" : NumberInt(999)
-        }, 
-        "3502" : {
-            "num" : NumberInt(999)
-        }, 
-        "3503" : {
-            "num" : NumberInt(999)
-        }, 
-        "3504" : {
-            "num" : NumberInt(999)
-        }, 
-        "3505" : {
-            "num" : NumberInt(999)
-        }, 
-        "3506" : {
-            "num" : NumberInt(999)
-        }, 
-        "3507" : {
-            "num" : NumberInt(999)
-        }, 
         "3601" : {
-            "num" : NumberInt(999)
-        }, 
-        "3602" : {
-            "num" : NumberInt(999)
-        }, 
-        "3603" : {
-            "num" : NumberInt(999)
-        }, 
-        "3604" : {
-            "num" : NumberInt(999)
-        }, 
-        "3605" : {
-            "num" : NumberInt(999)
-        }, 
-        "3606" : {
-            "num" : NumberInt(999)
-        }, 
-        "3607" : {
-            "num" : NumberInt(999)
-        }, 
-        "3901" : {
-            "num" : NumberInt(999)
-        }, 
-        "3902" : {
-            "num" : NumberInt(999)
-        }, 
-        "3903" : {
-            "num" : NumberInt(999)
-        }, 
-        "3904" : {
-            "num" : NumberInt(999)
-        }, 
-        "3905" : {
-            "num" : NumberInt(999)
-        }, 
-        "3906" : {
-            "num" : NumberInt(999)
-        }, 
-        "3907" : {
-            "num" : NumberInt(999)
-        }, 
-        "301105" : {
-            "num" : NumberInt(999)
-        }, 
-        "301106" : {
-            "num" : NumberInt(999)
-        }, 
-        "301201" : {
-            "num" : NumberInt(999)
-        }, 
-        "301202" : {
-            "num" : NumberInt(999)
-        }, 
-        "301203" : {
-            "num" : NumberInt(999)
-        }, 
-        "301204" : {
-            "num" : NumberInt(999)
-        }, 
-        "301205" : {
-            "num" : NumberInt(999)
-        }, 
-        "301206" : {
-            "num" : NumberInt(999)
-        }, 
-        "301301" : {
-            "num" : NumberInt(999)
-        }, 
-        "301302" : {
-            "num" : NumberInt(999)
-        }, 
-        "301303" : {
-            "num" : NumberInt(999)
-        }, 
-        "301304" : {
-            "num" : NumberInt(999)
-        }, 
-        "301305" : {
-            "num" : NumberInt(999)
-        }, 
-        "301306" : {
-            "num" : NumberInt(999)
-        }, 
-        "301307" : {
-            "num" : NumberInt(999)
-        }, 
-        "301401" : {
-            "num" : NumberInt(999)
-        }, 
-        "301402" : {
-            "num" : NumberInt(999)
-        }, 
-        "301403" : {
-            "num" : NumberInt(999)
-        }, 
-        "301404" : {
-            "num" : NumberInt(999)
-        }, 
-        "301405" : {
-            "num" : NumberInt(999)
-        }, 
-        "301406" : {
-            "num" : NumberInt(999)
-        }, 
-        "301407" : {
-            "num" : NumberInt(999)
-        }, 
-        "301501" : {
-            "num" : NumberInt(999)
-        }, 
-        "301502" : {
-            "num" : NumberInt(999)
-        }, 
-        "301503" : {
-            "num" : NumberInt(999)
-        }, 
-        "301504" : {
-            "num" : NumberInt(999)
-        }, 
-        "301505" : {
-            "num" : NumberInt(999)
-        }, 
-        "301506" : {
-            "num" : NumberInt(999)
-        }, 
-        "301507" : {
-            "num" : NumberInt(999)
-        }, 
-        "301601" : {
-            "num" : NumberInt(999)
-        }, 
-        "301602" : {
-            "num" : NumberInt(999)
-        }, 
-        "301603" : {
-            "num" : NumberInt(999)
-        }, 
-        "301604" : {
-            "num" : NumberInt(999)
-        }, 
-        "301605" : {
-            "num" : NumberInt(999)
-        }, 
-        "301606" : {
-            "num" : NumberInt(999)
-        }, 
-        "301607" : {
-            "num" : NumberInt(999)
-        }, 
-        "301701" : {
-            "num" : NumberInt(999)
-        }, 
-        "301702" : {
-            "num" : NumberInt(999)
-        }, 
-        "301703" : {
-            "num" : NumberInt(999)
-        }, 
-        "301704" : {
-            "num" : NumberInt(999)
-        }, 
-        "301705" : {
-            "num" : NumberInt(999)
-        }, 
-        "301706" : {
-            "num" : NumberInt(999)
-        }, 
-        "301707" : {
-            "num" : NumberInt(999)
-        }, 
-        "301801" : {
-            "num" : NumberInt(999)
-        }, 
-        "301802" : {
-            "num" : NumberInt(999)
-        }, 
-        "301803" : {
-            "num" : NumberInt(999)
-        }, 
-        "301804" : {
-            "num" : NumberInt(999)
-        }, 
-        "301805" : {
-            "num" : NumberInt(999)
-        }, 
-        "301806" : {
-            "num" : NumberInt(999)
-        }, 
-        "301807" : {
-            "num" : NumberInt(999)
-        }, 
-        "301901" : {
-            "num" : NumberInt(999)
-        }, 
-        "301902" : {
-            "num" : NumberInt(999)
-        }, 
-        "301903" : {
-            "num" : NumberInt(999)
-        }, 
-        "301904" : {
-            "num" : NumberInt(999)
-        }, 
-        "301905" : {
-            "num" : NumberInt(999)
-        }, 
-        "301906" : {
-            "num" : NumberInt(999)
-        }, 
-        "301907" : {
-            "num" : NumberInt(999)
-        }, 
-        "302001" : {
-            "num" : NumberInt(999)
-        }, 
-        "302002" : {
-            "num" : NumberInt(999)
-        }, 
-        "302003" : {
-            "num" : NumberInt(999)
-        }, 
-        "302004" : {
-            "num" : NumberInt(999)
-        }, 
-        "302005" : {
-            "num" : NumberInt(999)
-        }, 
-        "302006" : {
-            "num" : NumberInt(999)
-        }, 
-        "302007" : {
-            "num" : NumberInt(999)
-        }, 
-        "302101" : {
-            "num" : NumberInt(999)
-        }, 
-        "302102" : {
-            "num" : NumberInt(999)
-        }, 
-        "302103" : {
-            "num" : NumberInt(999)
-        }, 
-        "302104" : {
-            "num" : NumberInt(999)
-        }, 
-        "302105" : {
-            "num" : NumberInt(999)
-        }, 
-        "302106" : {
-            "num" : NumberInt(999)
-        }, 
-        "302107" : {
-            "num" : NumberInt(999)
-        }, 
-        "302201" : {
-            "num" : NumberInt(999)
-        }, 
-        "302202" : {
-            "num" : NumberInt(999)
-        }, 
-        "302203" : {
-            "num" : NumberInt(999)
-        }, 
-        "302204" : {
-            "num" : NumberInt(999)
-        }, 
-        "302205" : {
-            "num" : NumberInt(999)
-        }, 
-        "302206" : {
-            "num" : NumberInt(999)
-        }, 
-        "302207" : {
-            "num" : NumberInt(999)
-        }, 
-        "302301" : {
-            "num" : NumberInt(999)
-        }, 
-        "302302" : {
-            "num" : NumberInt(999)
-        }, 
-        "302303" : {
-            "num" : NumberInt(999)
-        }, 
-        "302304" : {
-            "num" : NumberInt(999)
-        }, 
-        "302305" : {
-            "num" : NumberInt(999)
-        }, 
-        "302306" : {
-            "num" : NumberInt(999)
-        }, 
-        "302307" : {
-            "num" : NumberInt(999)
-        }, 
-        "302401" : {
-            "num" : NumberInt(999)
-        }, 
-        "302402" : {
-            "num" : NumberInt(999)
-        }, 
-        "302403" : {
-            "num" : NumberInt(999)
-        }, 
-        "302404" : {
-            "num" : NumberInt(999)
-        }, 
-        "302405" : {
-            "num" : NumberInt(999)
-        }, 
-        "302406" : {
-            "num" : NumberInt(999)
-        }, 
-        "302407" : {
-            "num" : NumberInt(999)
-        }, 
-        "360001" : {
-            "num" : NumberInt(999)
-        }, 
-        "360101" : {
-            "num" : NumberInt(999)
-        }, 
-        "360103" : {
-            "num" : NumberInt(999)
-        }, 
-        "360301" : {
-            "num" : NumberInt(999)
-        }, 
-        "360302" : {
-            "num" : NumberInt(999)
-        }, 
-        "360303" : {
-            "num" : NumberInt(999)
-        }, 
-        "360401" : {
-            "num" : NumberInt(999)
-        }, 
-        "360502" : {
-            "num" : NumberInt(999)
-        }, 
-        "360601" : {
-            "num" : NumberInt(999)
-        }, 
-        "360602" : {
-            "num" : NumberInt(999)
-        }, 
-        "360603" : {
-            "num" : NumberInt(999)
-        }, 
-        "360604" : {
-            "num" : NumberInt(999)
-        }, 
-        "360701" : {
-            "num" : NumberInt(999)
-        }, 
-        "360802" : {
-            "num" : NumberInt(999)
-        }, 
-        "360901" : {
-            "num" : NumberInt(999)
-        }, 
-        "361201" : {
-            "num" : NumberInt(999)
-        }, 
-        "361202" : {
-            "num" : NumberInt(999)
-        }, 
-        "360702" : {
-            "num" : NumberInt(999)
-        }, 
-        "40111" : {
-            "num" : NumberInt(999)
-        }, 
-        "40112" : {
-            "num" : NumberInt(999)
-        }, 
-        "40113" : {
-            "num" : NumberInt(999)
-        }, 
-        "40121" : {
-            "num" : NumberInt(999)
-        }, 
-        "40122" : {
-            "num" : NumberInt(999)
-        }, 
-        "40123" : {
-            "num" : NumberInt(999)
-        }, 
-        "40211" : {
-            "num" : NumberInt(999)
-        }, 
-        "40212" : {
-            "num" : NumberInt(999)
-        }, 
-        "40213" : {
-            "num" : NumberInt(999)
-        }, 
-        "40221" : {
-            "num" : NumberInt(999)
-        }, 
-        "40222" : {
-            "num" : NumberInt(999)
-        }, 
-        "40223" : {
-            "num" : NumberInt(999)
-        }, 
-        "40231" : {
-            "num" : NumberInt(999)
-        }, 
-        "40232" : {
-            "num" : NumberInt(999)
-        }, 
-        "40233" : {
-            "num" : NumberInt(999)
-        }, 
-        "40301" : {
-            "num" : NumberInt(999)
-        }, 
-        "40302" : {
-            "num" : NumberInt(999)
-        }, 
-        "40303" : {
-            "num" : NumberInt(999)
-        }, 
-        "40304" : {
-            "num" : NumberInt(999)
-        }, 
-        "40311" : {
-            "num" : NumberInt(999)
-        }, 
-        "40312" : {
-            "num" : NumberInt(999)
-        }, 
-        "40313" : {
-            "num" : NumberInt(999)
-        }, 
-        "40314" : {
-            "num" : NumberInt(999)
-        }, 
-        "40101" : {
-            "num" : NumberInt(999)
-        }, 
-        "40102" : {
-            "num" : NumberInt(999)
-        }, 
-        "40103" : {
-            "num" : NumberInt(999)
-        }, 
-        "40321" : {
-            "num" : NumberInt(999)
-        }, 
-        "40322" : {
-            "num" : NumberInt(999)
-        }, 
-        "40323" : {
-            "num" : NumberInt(999)
-        }, 
-        "40421" : {
-            "num" : NumberInt(999)
-        }, 
-        "40422" : {
-            "num" : NumberInt(999)
-        }, 
-        "40423" : {
-            "num" : NumberInt(999)
-        }, 
-        "40424" : {
-            "num" : NumberInt(999)
-        }, 
-        "40401" : {
-            "num" : NumberInt(999)
-        }, 
-        "40402" : {
-            "num" : NumberInt(999)
-        }, 
-        "40403" : {
-            "num" : NumberInt(999)
-        }, 
-        "40404" : {
-            "num" : NumberInt(999)
-        }, 
-        "40405" : {
-            "num" : NumberInt(999)
-        }, 
-        "40406" : {
-            "num" : NumberInt(999)
-        }, 
-        "40331" : {
-            "num" : NumberInt(999)
-        }, 
-        "40332" : {
-            "num" : NumberInt(999)
-        }, 
-        "40333" : {
-            "num" : NumberInt(999)
-        }, 
-        "40334" : {
-            "num" : NumberInt(999)
-        }, 
-        "41001" : {
-            "num" : NumberInt(999)
-        }, 
-        "41002" : {
-            "num" : NumberInt(999)
-        }, 
-        "3026" : {
-            "num" : NumberInt(999)
-        }, 
-        "3027" : {
-            "num" : NumberInt(999)
-        }, 
-        "3028" : {
-            "num" : NumberInt(999)
-        }, 
-        "3029" : {
-            "num" : NumberInt(999)
-        }, 
-        "3030" : {
-            "num" : NumberInt(999)
-        }, 
-        "3036" : {
-            "num" : NumberInt(999)
-        }, 
-        "3037" : {
-            "num" : NumberInt(999)
-        }, 
-        "3038" : {
-            "num" : NumberInt(999)
-        }, 
-        "3039" : {
-            "num" : NumberInt(999)
-        }, 
-        "3040" : {
-            "num" : NumberInt(999)
-        }, 
-        "3043" : {
-            "num" : NumberInt(999)
-        }, 
-        "3044" : {
-            "num" : NumberInt(999)
-        }, 
-        "3045" : {
-            "num" : NumberInt(999)
-        }, 
-        "3046" : {
-            "num" : NumberInt(999)
-        }, 
-        "3047" : {
-            "num" : NumberInt(999)
-        }, 
-        "3048" : {
-            "num" : NumberInt(999)
-        }, 
-        "3002" : {
-            "num" : NumberInt(999)
-        }, 
-        "3001" : {
-            "num" : NumberInt(999)
-        }, 
-        "3011" : {
-            "num" : NumberInt(999)
-        }, 
-        "500201" : {
-            "num" : NumberInt(999)
-        }, 
-        "500202" : {
-            "num" : NumberInt(999)
-        }, 
-        "500203" : {
-            "num" : NumberInt(999)
-        }, 
-        "500204" : {
-            "num" : NumberInt(999)
-        }, 
-        "500205" : {
-            "num" : NumberInt(999)
-        }, 
-        "500206" : {
-            "num" : NumberInt(999)
-        }, 
-        "500207" : {
-            "num" : NumberInt(999)
-        }, 
-        "500208" : {
-            "num" : NumberInt(999)
-        }, 
-        "500209" : {
-            "num" : NumberInt(999)
-        }, 
-        "500210" : {
-            "num" : NumberInt(999)
-        }, 
-        "500211" : {
-            "num" : NumberInt(999)
-        }, 
-        "500212" : {
-            "num" : NumberInt(999)
-        }, 
-        "500213" : {
-            "num" : NumberInt(999)
-        }, 
-        "500214" : {
-            "num" : NumberInt(999)
-        }, 
-        "500215" : {
-            "num" : NumberInt(999)
-        }, 
-        "500216" : {
-            "num" : NumberInt(999)
-        }, 
-        "500217" : {
-            "num" : NumberInt(999)
-        }, 
-        "500301" : {
-            "num" : NumberInt(999)
-        }, 
-        "500302" : {
-            "num" : NumberInt(999)
-        }, 
-        "500303" : {
-            "num" : NumberInt(999)
-        }, 
-        "500304" : {
-            "num" : NumberInt(999)
-        }, 
-        "500305" : {
-            "num" : NumberInt(999)
-        }, 
-        "500306" : {
-            "num" : NumberInt(999)
-        }, 
-        "500307" : {
-            "num" : NumberInt(979)
-        }, 
-        "500308" : {
-            "num" : NumberInt(999)
-        }, 
-        "500309" : {
-            "num" : NumberInt(999)
-        }, 
-        "500310" : {
-            "num" : NumberInt(999)
-        }, 
-        "500311" : {
-            "num" : NumberInt(999)
-        }, 
-        "500312" : {
-            "num" : NumberInt(999)
-        }, 
-        "500313" : {
-            "num" : NumberInt(999)
-        }, 
-        "500314" : {
-            "num" : NumberInt(999)
-        }, 
-        "500315" : {
-            "num" : NumberInt(999)
-        }, 
-        "500316" : {
-            "num" : NumberInt(979)
-        }, 
-        "500317" : {
-            "num" : NumberInt(999)
-        }, 
-        "500318" : {
-            "num" : NumberInt(999)
-        }, 
-        "500401" : {
-            "num" : NumberInt(999)
-        }, 
-        "500402" : {
-            "num" : NumberInt(999)
-        }, 
-        "500403" : {
-            "num" : NumberInt(999)
-        }, 
-        "500404" : {
-            "num" : NumberInt(999)
-        }, 
-        "500405" : {
-            "num" : NumberInt(999)
-        }, 
-        "500406" : {
-            "num" : NumberInt(999)
-        }, 
-        "500407" : {
-            "num" : NumberInt(999)
-        }, 
-        "500408" : {
-            "num" : NumberInt(999)
-        }, 
-        "500409" : {
-            "num" : NumberInt(999)
-        }, 
-        "500410" : {
-            "num" : NumberInt(999)
-        }, 
-        "500411" : {
-            "num" : NumberInt(999)
-        }, 
-        "500412" : {
-            "num" : NumberInt(999)
-        }, 
-        "500413" : {
-            "num" : NumberInt(999)
-        }, 
-        "500414" : {
-            "num" : NumberInt(999)
-        }, 
-        "500415" : {
-            "num" : NumberInt(999)
-        }, 
-        "500501" : {
-            "num" : NumberInt(999)
-        }, 
-        "500502" : {
-            "num" : NumberInt(999)
-        }, 
-        "500503" : {
-            "num" : NumberInt(999)
-        }, 
-        "500504" : {
-            "num" : NumberInt(999)
-        }, 
-        "500505" : {
-            "num" : NumberInt(999)
-        }, 
-        "500506" : {
-            "num" : NumberInt(999)
-        }, 
-        "500507" : {
-            "num" : NumberInt(999)
-        }, 
-        "500508" : {
-            "num" : NumberInt(999)
-        }, 
-        "500509" : {
-            "num" : NumberInt(999)
-        }, 
-        "500510" : {
-            "num" : NumberInt(999)
-        }, 
-        "500511" : {
-            "num" : NumberInt(999)
-        }, 
-        "500512" : {
-            "num" : NumberInt(999)
-        }, 
-        "500513" : {
-            "num" : NumberInt(999)
-        }, 
-        "500514" : {
-            "num" : NumberInt(999)
-        }, 
-        "500515" : {
-            "num" : NumberInt(999)
-        }, 
-        "500516" : {
-            "num" : NumberInt(999)
-        }, 
-        "500517" : {
-            "num" : NumberInt(999)
-        }, 
-        "500518" : {
-            "num" : NumberInt(999)
-        }, 
-        "500519" : {
-            "num" : NumberInt(999)
+            "num" : NumberInt(5)
         }
     }, 
     "heros" : {
         "60102" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(0), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62081), 
             "m3" : NumberInt(62131), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26010201), 
             "biogra" : {
                 "6010201" : {
@@ -2536,140 +1662,139 @@
                 "6010204" : {
                     "conds" : {
                         "2" : {
-                            "value" : "2", 
-                            "finish" : NumberInt(1)
+                            "value" : "0"
                         }
                     }
                 }
             }, 
-            "score" : NumberInt(106202)
+            "score" : NumberInt(64941)
         }, 
         "60001" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62081), 
             "m3" : NumberInt(62151), 
             "m4" : NumberInt(62111), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26000101), 
             "biogra" : {
                 "6000101" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60101" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62091), 
             "m3" : NumberInt(62131), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26010101), 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60103" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62001), 
             "m2" : NumberInt(62031), 
             "m3" : NumberInt(62011), 
             "m4" : NumberInt(62121), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26010301), 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60301" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62111), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26030101), 
             "biogra" : {
                 "6030101" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60302" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62021), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62001), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26030201), 
             "biogra" : {
                 "6030201" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60303" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62101), 
             "m3" : NumberInt(62141), 
             "m4" : NumberInt(62111), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26030301), 
             "biogra" : {
                 "6030301" : {
@@ -2683,215 +1808,227 @@
                     }
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60401" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62001), 
             "m2" : NumberInt(62031), 
             "m3" : NumberInt(62151), 
             "m4" : NumberInt(62121), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26040101), 
             "biogra" : {
                 "6040101" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60502" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62101), 
             "m3" : NumberInt(62161), 
             "m4" : NumberInt(62111), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26050201), 
             "biogra" : {
                 "6050201" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60601" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26060101), 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60602" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62071), 
             "m3" : NumberInt(62161), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26060201), 
             "biogra" : {
                 "6060201" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60603" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26060301), 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60604" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26060401), 
-            "score" : NumberInt(84163)
+            "biogra" : {
+                "6060401" : {
+                    "pTime" : NumberInt(1)
+                }, 
+                "6060404" : {
+                    "conds" : {
+                        "2" : {
+                            "value" : "1"
+                        }
+                    }
+                }
+            }, 
+            "score" : NumberInt(67389)
         }, 
         "60701" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26070101), 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60802" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62071), 
             "m3" : NumberInt(62111), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26080201), 
             "biogra" : {
                 "6080201" : {
                     "pTime" : NumberInt(1)
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60901" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62221), 
             "m2" : NumberInt(62071), 
             "m3" : NumberInt(62111), 
             "m4" : NumberInt(62001), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26090101), 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "61201" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62151), 
             "m3" : NumberInt(62121), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26120101), 
             "biogra" : {
                 "6120101" : {
@@ -2905,45 +2042,45 @@
                     }
                 }
             }, 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "61202" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62151), 
             "m3" : NumberInt(62121), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26120201), 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }, 
         "60702" : {
-            "star" : NumberInt(4), 
+            "star" : NumberInt(1), 
             "m1" : NumberInt(62031), 
             "m2" : NumberInt(62011), 
             "m3" : NumberInt(62021), 
             "m4" : NumberInt(62051), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
+            "sl1" : NumberInt(1), 
+            "sl2" : NumberInt(1), 
+            "sl3" : NumberInt(1), 
+            "sl4" : NumberInt(1), 
             "se1" : NumberInt(0), 
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
             "status" : NumberInt(0), 
-            "st" : NumberInt(1506162654), 
+            "st" : NumberInt(1506503990), 
             "skin" : NumberInt(26070201), 
-            "score" : NumberInt(84163)
+            "score" : NumberInt(67389)
         }
     }, 
     "hSkin" : {
@@ -3006,8 +2143,8 @@
         }
     }, 
     "hAb" : {
-        "1" : NumberInt(156), 
-        "2" : NumberInt(178), 
+        "1" : NumberInt(140), 
+        "2" : NumberInt(132), 
         "3" : NumberInt(90), 
         "4" : NumberInt(64)
     }, 
@@ -3023,18 +2160,6 @@
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
             "score" : NumberInt(137081)
-        }, 
-        "60901" : {
-            "m1" : NumberInt(62223), 
-            "m2" : NumberInt(62073), 
-            "m3" : NumberInt(62113), 
-            "m4" : NumberInt(62003), 
-            "sl1" : NumberInt(23), 
-            "sl2" : NumberInt(23), 
-            "sl3" : NumberInt(23), 
-            "sl4" : NumberInt(23), 
-            "star" : NumberInt(4), 
-            "score" : NumberInt(137904)
         }, 
         "60001" : {
             "m1" : NumberInt(62223), 
@@ -3070,7 +2195,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137257)
+            "score" : NumberInt(137081)
         }, 
         "60301" : {
             "m1" : NumberInt(62223), 
@@ -3082,7 +2207,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137257)
+            "score" : NumberInt(137081)
         }, 
         "60302" : {
             "m1" : NumberInt(62223), 
@@ -3094,7 +2219,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137316)
+            "score" : NumberInt(137081)
         }, 
         "60303" : {
             "m1" : NumberInt(62223), 
@@ -3106,7 +2231,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137316)
+            "score" : NumberInt(137081)
         }, 
         "60401" : {
             "m1" : NumberInt(62223), 
@@ -3118,7 +2243,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137434)
+            "score" : NumberInt(137081)
         }, 
         "60502" : {
             "m1" : NumberInt(62223), 
@@ -3130,7 +2255,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137434)
+            "score" : NumberInt(137081)
         }, 
         "60601" : {
             "m1" : NumberInt(62223), 
@@ -3142,7 +2267,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137551)
+            "score" : NumberInt(137081)
         }, 
         "60602" : {
             "m1" : NumberInt(62223), 
@@ -3154,7 +2279,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137551)
+            "score" : NumberInt(137081)
         }, 
         "60603" : {
             "m1" : NumberInt(62223), 
@@ -3166,7 +2291,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137669)
+            "score" : NumberInt(137081)
         }, 
         "60604" : {
             "m1" : NumberInt(62223), 
@@ -3178,7 +2303,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137786)
+            "score" : NumberInt(137081)
         }, 
         "60701" : {
             "m1" : NumberInt(62223), 
@@ -3190,7 +2315,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137904)
+            "score" : NumberInt(137081)
         }, 
         "60802" : {
             "m1" : NumberInt(62223), 
@@ -3202,7 +2327,19 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(137904)
+            "score" : NumberInt(137081)
+        }, 
+        "60901" : {
+            "m1" : NumberInt(62223), 
+            "m2" : NumberInt(62073), 
+            "m3" : NumberInt(62113), 
+            "m4" : NumberInt(62003), 
+            "sl1" : NumberInt(23), 
+            "sl2" : NumberInt(23), 
+            "sl3" : NumberInt(23), 
+            "sl4" : NumberInt(23), 
+            "star" : NumberInt(4), 
+            "score" : NumberInt(137081)
         }, 
         "61201" : {
             "m1" : NumberInt(62223), 
@@ -3214,7 +2351,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(138021)
+            "score" : NumberInt(137081)
         }, 
         "61202" : {
             "m1" : NumberInt(62223), 
@@ -3226,7 +2363,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(138139)
+            "score" : NumberInt(137081)
         }, 
         "60702" : {
             "m1" : NumberInt(62223), 
@@ -3238,7 +2375,7 @@
             "sl3" : NumberInt(23), 
             "sl4" : NumberInt(23), 
             "star" : NumberInt(4), 
-            "score" : NumberInt(138256)
+            "score" : NumberInt(137081)
         }
     }, 
     "drawAward" : {
@@ -3256,7 +2393,7 @@
         "first" : NumberInt(0), 
         "freeFirst" : NumberInt(0), 
         "treasureNum" : NumberInt(0), 
-        "loss" : NumberInt(348720)
+        "loss" : NumberInt(348800)
     }, 
     "formations" : {
         "1" : {
@@ -3276,10 +2413,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152153), 
+            "lt" : NumberInt(1506503909), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(107106)
+            "score" : NumberInt(65845)
         }, 
         "2" : {
             "g1" : NumberInt(8), 
@@ -3298,10 +2435,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(2018), 
+            "score" : NumberInt(6653), 
             "filter" : ""
         }, 
         "101" : {
@@ -3321,10 +2458,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(107106), 
+            "score" : NumberInt(65845), 
             "filter" : ""
         }, 
         "3" : {
@@ -3347,7 +2484,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "14" : {
@@ -3370,7 +2507,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "16" : {
@@ -3390,10 +2527,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(2493), 
+            "score" : NumberInt(9107), 
             "filter" : ""
         }, 
         "4" : {
@@ -3416,7 +2553,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "102" : {
@@ -3436,10 +2573,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(107106), 
+            "score" : NumberInt(65845), 
             "filter" : ""
         }, 
         "9" : {
@@ -3459,10 +2596,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(2673), 
+            "score" : NumberInt(10033), 
             "filter" : ""
         }, 
         "6" : {
@@ -3482,10 +2619,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(3039), 
+            "score" : NumberInt(11920), 
             "filter" : ""
         }, 
         "5" : {
@@ -3505,10 +2642,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(3826), 
+            "score" : NumberInt(15980), 
             "filter" : ""
         }, 
         "10" : {
@@ -3528,10 +2665,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(3826), 
+            "score" : NumberInt(15980), 
             "filter" : ""
         }, 
         "11" : {
@@ -3551,10 +2688,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(3826), 
+            "score" : NumberInt(15980), 
             "filter" : ""
         }, 
         "103" : {
@@ -3574,10 +2711,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(107106), 
+            "score" : NumberInt(65845), 
             "filter" : ""
         }, 
         "15" : {
@@ -3597,10 +2734,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(4528), 
+            "score" : NumberInt(19604), 
             "filter" : ""
         }, 
         "12" : {
@@ -3623,7 +2760,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "13" : {
@@ -3646,7 +2783,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "25" : {
@@ -3669,7 +2806,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "26" : {
@@ -3692,7 +2829,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "27" : {
@@ -3715,7 +2852,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "28" : {
@@ -3738,7 +2875,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "29" : {
@@ -3761,7 +2898,7 @@
             "heroId" : NumberInt(0), 
             "score" : NumberInt(0), 
             "filter" : "", 
-            "lt" : NumberInt(1506152169), 
+            "lt" : NumberInt(1506503990), 
             "tid" : NumberInt(1)
         }, 
         "8" : {
@@ -3781,10 +2918,10 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506162603), 
+            "lt" : NumberInt(1506504006), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(50160), 
+            "score" : NumberInt(65845), 
             "filter" : ""
         }, 
         "104" : {
@@ -3804,14 +2941,14 @@
             "team7" : NumberInt(0), 
             "g8" : NumberInt(0), 
             "team8" : NumberInt(0), 
-            "lt" : NumberInt(1506162603), 
+            "lt" : NumberInt(1506504006), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
-            "score" : NumberInt(50160), 
+            "score" : NumberInt(65845), 
             "filter" : ""
         }
     }, 
-    "scoreF1" : NumberInt(107106), 
+    "scoreF1" : NumberInt(65845), 
     "dayInfo" : {
         "day1" : NumberInt(0), 
         "day2" : NumberInt(0), 
@@ -3881,7 +3018,10 @@
         "day66" : NumberInt(0), 
         "day67" : NumberInt(0), 
         "day68" : NumberInt(0), 
-        "restTime" : NumberInt(1506152153)
+        "day69" : NumberInt(0), 
+        "day70" : NumberInt(0), 
+        "day71" : NumberInt(0), 
+        "restTime" : NumberInt(1506503909)
     }, 
     "statis" : {
         "dnum1" : NumberInt(0), 
@@ -3911,8 +3051,8 @@
         "dstr1" : "", 
         "snum6" : NumberInt(1), 
         "snum22" : NumberInt(1), 
-        "snum21" : NumberInt(1506152169), 
-        "snum7" : NumberInt(3512)
+        "snum21" : NumberInt(1506503990), 
+        "snum7" : NumberInt(3536)
     }, 
     "handbooks" : {
         "4" : {
@@ -3946,24 +3086,6 @@
                     "cnt" : "0"
                 }
             }
-        }, 
-        "47" : {
-            "tasks" : {
-                "4703" : {
-                    "prg" : "1", 
-                    "status" : NumberInt(1), 
-                    "cnt" : "1"
-                }
-            }
-        }, 
-        "9" : {
-            "tasks" : {
-                "901" : {
-                    "prg" : "1", 
-                    "status" : NumberInt(1), 
-                    "cnt" : "1"
-                }
-            }
         }
     }, 
     "tformations" : {
@@ -3973,7 +3095,7 @@
             "3" : NumberInt(0), 
             "4" : NumberInt(0), 
             "5" : NumberInt(0), 
-            "lt" : NumberInt(1506152153), 
+            "lt" : NumberInt(1506503909), 
             "name" : ""
         }
     }, 
@@ -3982,14 +3104,33 @@
             "104" : {
                 "index" : NumberInt(2)
             }, 
-            "2035" : {
-                "index" : NumberInt(185)
+            "5022" : {
+                "index" : NumberInt(191), 
+                "100304" : NumberInt(0), 
+                "110532" : NumberInt(0), 
+                "121104" : NumberInt(0), 
+                "330704" : NumberInt(0), 
+                "350704" : NumberInt(0), 
+                "350604" : NumberInt(0), 
+                "601001" : NumberInt(0), 
+                "220904" : NumberInt(0), 
+                "120814" : NumberInt(0), 
+                "110533" : NumberInt(0), 
+                "110534" : NumberInt(0), 
+                "110535" : NumberInt(0), 
+                "110536" : NumberInt(0)
             }, 
-            "2046" : {
-                "index" : NumberInt(189)
+            "5023" : {
+                "index" : NumberInt(192)
             }, 
-            "2051" : {
-                "index" : NumberInt(190)
+            "2054" : {
+                "index" : NumberInt(193)
+            }, 
+            "89993" : {
+                "index" : NumberInt(204)
+            }, 
+            "89992" : {
+                "index" : NumberInt(205)
             }
         }, 
         "acSpecial" : {
@@ -4024,12 +3165,12 @@
             "7100101" : {
                 "star" : NumberInt(3), 
                 "num" : NumberInt(1), 
-                "atkTime" : NumberInt(1506152153)
+                "atkTime" : NumberInt(1506503909)
             }, 
             "7100102" : {
                 "star" : NumberInt(3), 
                 "num" : NumberInt(1), 
-                "atkTime" : NumberInt(1506152153)
+                "atkTime" : NumberInt(1506503909)
             }
         }, 
         "stageColls" : {
@@ -4055,7 +3196,7 @@
     }, 
     "offLine" : {
         "exp" : NumberInt(0), 
-        "lt" : NumberInt(1506152153), 
+        "lt" : NumberInt(1506503909), 
         "gExp" : NumberInt(0), 
         "gGold" : NumberInt(0), 
         "gtExp" : NumberInt(0), 
@@ -4101,7 +3242,7 @@
         "reward1" : NumberInt(0), 
         "reward2" : NumberInt(0), 
         "reward3" : NumberInt(0), 
-        "recordTime" : NumberInt(1506152157)
+        "recordTime" : NumberInt(1506503915)
     }, 
     "grow" : {
         "val" : NumberInt(0), 
@@ -4348,6 +3489,11 @@
             }
         }
     }, 
+    "uMastery" : {
+        "62031" : NumberInt(9), 
+        "62011" : NumberInt(7), 
+        "62121" : NumberInt(4)
+    }, 
     "talent" : {
         "score" : NumberInt(0), 
         "62" : {
@@ -4576,13 +3722,13 @@
         }
     }, 
     "crusade" : {
-        "activateTime" : NumberInt(1506152169)
+        "activateTime" : NumberInt(1506503990)
     }, 
     "mf" : {
         "tasks" : {
             "1" : {
                 "taskId" : NumberInt(151), 
-                "createTime" : NumberInt(1506152169), 
+                "createTime" : NumberInt(1506503990), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -4598,7 +3744,7 @@
             }, 
             "2" : {
                 "taskId" : NumberInt(2), 
-                "createTime" : NumberInt(1506152169), 
+                "createTime" : NumberInt(1506503990), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -4608,13 +3754,13 @@
                     "2" : {
                         "conId" : NumberInt(207), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(1650)
+                        "param2" : NumberInt(1560)
                     }
                 }
             }, 
             "3" : {
                 "taskId" : NumberInt(41), 
-                "createTime" : NumberInt(1506152169), 
+                "createTime" : NumberInt(1506503990), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -4630,7 +3776,7 @@
             }, 
             "4" : {
                 "taskId" : NumberInt(62), 
-                "createTime" : NumberInt(1506152169), 
+                "createTime" : NumberInt(1506503990), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -4638,15 +3784,15 @@
                         "param2" : NumberInt(4)
                     }, 
                     "2" : {
-                        "conId" : NumberInt(302), 
+                        "conId" : NumberInt(207), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(4080)
+                        "param2" : NumberInt(2550)
                     }
                 }
             }, 
             "5" : {
                 "taskId" : NumberInt(80), 
-                "createTime" : NumberInt(1506152169), 
+                "createTime" : NumberInt(1506503990), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -4654,15 +3800,15 @@
                         "param2" : NumberInt(4)
                     }, 
                     "2" : {
-                        "conId" : NumberInt(203), 
-                        "param1" : NumberInt(0), 
-                        "param2" : NumberInt(45)
+                        "conId" : NumberInt(206), 
+                        "param1" : NumberInt(6), 
+                        "param2" : NumberInt(2)
                     }
                 }
             }, 
             "6" : {
                 "taskId" : NumberInt(101), 
-                "createTime" : NumberInt(1506152169), 
+                "createTime" : NumberInt(1506503990), 
                 "condition" : {
                     "1" : {
                         "conId" : NumberInt(201), 
@@ -4672,7 +3818,7 @@
                     "2" : {
                         "conId" : NumberInt(302), 
                         "param1" : NumberInt(0), 
-                        "param2" : NumberInt(6240)
+                        "param2" : NumberInt(5760)
                     }
                 }
             }
@@ -4680,30 +3826,16 @@
     }, 
     "expCoin" : NumberInt(0), 
     "openExpShop" : NumberInt(1), 
-    "globalSpecial" : "[501022]", 
-    "spellBooks" : {
-        "307" : {
-            "l" : NumberInt(1), 
-            "b" : NumberInt(0)
-        }, 
-        "316" : {
-            "l" : NumberInt(1), 
-            "b" : NumberInt(0)
-        }
-    }, 
-    "bubble" : {
-        "b2" : NumberInt(104)
-    }, 
     "arena" : {
         "num" : NumberInt(5), 
-        "lastTime" : NumberInt(1506162601), 
-        "hRank" : NumberInt(3512), 
+        "lastTime" : NumberInt(1506504003), 
+        "hRank" : NumberInt(3536), 
         "buyNum" : NumberInt(0), 
         "atkTime" : NumberInt(0), 
         "cdTime" : NumberInt(0), 
         "status" : NumberInt(0), 
-        "shopTime" : NumberInt(1506162601), 
-        "enemys" : "8001_677,8001_372,8001_28,arena_2950"
+        "shopTime" : NumberInt(1506504003), 
+        "enemys" : "8001_728,8001_1043,8001_401,arena_2971"
     }, 
     "league" : {
         "currentPoint" : NumberInt(1000), 
@@ -4711,14 +3843,14 @@
         "changeReward" : {
             "1" : NumberInt(1)
         }, 
-        "changeTime" : NumberInt(1506162603), 
+        "changeTime" : NumberInt(1506504006), 
         "leagueAward" : {
-            "upDateTime" : NumberInt(1506162603)
+            "upDateTime" : NumberInt(1506504006)
         }, 
         "ticket" : {
             "currentCounts" : NumberInt(3)
         }, 
-        "schetime" : NumberInt(20170918), 
+        "schetime" : NumberInt(20170925), 
         "historyPoint" : NumberInt(1000), 
         "seq" : "1010101010", 
         "preWin" : NumberInt(2), 
@@ -4752,14 +3884,9 @@
     "leWin" : "8001-league_1,8001-league_2,8001-league_3,8001-league_4,8001-league_5,8001-league_6,8001-league_7,8001-league_8,8001-league_9,8001-league_10,8001-league_11,8001-league_12,8001-league_13,8001-league_14,8001-league_15,8001-league_16,8001-league_17,8001-league_18,8001-league_19,8001-league_20", 
     "weeklySign" : {
         "day" : NumberInt(1), 
-        "resetTime" : NumberInt(1506162612)
+        "resetTime" : NumberInt(1506504007)
     }, 
-    "trigger" : {
-        "29" : NumberInt(1)
-    }, 
-    "uMastery" : {
-        "62031" : NumberInt(9), 
-        "62011" : NumberInt(7), 
-        "62121" : NumberInt(4)
+    "bubble" : {
+        "b2" : NumberInt(101)
     }
 }
