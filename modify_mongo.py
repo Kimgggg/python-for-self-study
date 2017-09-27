@@ -10,7 +10,8 @@ pathfile = sys.argv[1]
 big = 0
 middle = 0
 small = 0
-
+pokedex_start = 0
+pokedex_end = 0
 
 file_for_path = open(pathfile)
 for (num, value) in enumerate(file_for_path):
@@ -23,9 +24,15 @@ for (num, value) in enumerate(file_for_path):
     elif '    "hSkin" : {' in value:
         print "line number", num, "is:", value
         big = num
+    elif '    "pokedex" : {' in value:
+        print "line number", num, "is:", value
+        pokedex_start = num
+    elif '    "crusade" : {' in value:
+        print "line number", num, "is:", value
+        pokedex_end = num
 file_for_path.close()
 
-print big, middle, small
+print big, middle, small, pokedex_start, pokedex_end
 
 
 
@@ -68,6 +75,7 @@ hero_sl1_num = []
 hero_sl2_num = []
 hero_sl3_num = []
 hero_sl4_num = []
+pokedexs_num = []    
 
 for x in range(1, 91):
     level_num.append(x)
@@ -105,6 +113,9 @@ for x in range(1, 14):
     es3_num.append(x)
     es4_num.append(x)
 
+for x in range(0, 21):
+    pokedexs_num.append(x)
+
 
 def modify(filepath, need_to_replace, be_replace):
     global middle
@@ -134,6 +145,21 @@ def modify_hero(filepath, need_to_replace, be_replace):
                 if need_to_replace in line:
                     line = line.replace(need_to_replace, be_replace)
             f_w.write(line)
+
+def modify_other(filepath, need_to_replace, be_replace):
+    global pokedex_start
+    global pokedex_end
+    with open(filepath, "r") as f:
+        lines = f.readlines() 
+    with open(filepath, "w") as f_w:
+        index = 0
+        for line in lines:
+            index += 1
+            if pokedex_start <= index <= pokedex_end:
+                if need_to_replace in line:
+                    line = line.replace(need_to_replace, be_replace)
+            f_w.write(line)
+
 
 
 modify_level = []
@@ -292,3 +318,10 @@ for x in hero_sl4_num:
     for y in modify_hero_sl4:
         modify_hero(pathfile, y, sl4 + str(hero_sl4_num[22]) + str_end)
 print "英雄4技能调整完毕".decode('utf-8').encode('gbk')
+
+modify_pokedex = []
+for x in pokedexs_num:
+    modify_pokedex.append(level + str(x) + str_end)
+    for y in modify_pokedex:
+        modify_other(pathfile, y, level + str(pokedexs_num[19]) + str_end)
+print "图鉴调整完毕".decode('utf-8').encode('gbk')
