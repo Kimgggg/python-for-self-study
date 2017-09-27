@@ -62,7 +62,6 @@ def write_list(filename,argv,listname):
 	        listname.append(xpahtid_num)
 	file_for_path.close()
 
-print menulist[25]
 
 for x in range(5):
     os.system('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(filenamelist[x-1]))
@@ -106,6 +105,7 @@ for x in range(1,int(menulen) + 1):
 for x in range(5):
     creat_new_dict(new_dict_file[x], new_dict_list[x])
     #将字典写入文件
+    #写进文件已经没用了，留着手动检查用 date 2017/9/28
 
 
 for x in range(5):
