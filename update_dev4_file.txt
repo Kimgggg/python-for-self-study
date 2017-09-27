@@ -6,7 +6,6 @@
  [Tools]个人物品发放: l568
  [Treasure]进阶散件宝物: l739
  [Treasure]进阶组合宝物: l738
- [Treasure]宝物升星: l741
  [Tools]发放英雄: l572
  [Hero]英雄升星: l320
  [Hero]技能升级: l318
@@ -22,3 +21,4 @@
  [Hero]升级法术书: l331
  [Team]怪兽方阵进阶: l550
  [Tools]清除yac缓存: l575
+ [Treasure]宝物升星: l741

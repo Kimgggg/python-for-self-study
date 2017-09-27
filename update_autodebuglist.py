@@ -5,6 +5,8 @@ from collections import OrderedDict
 import os
 import other_config
 import json
+import csv
+import codecs
 
 filenamelist = ['develop1.txt', 'develop2.txt', 'develop3.txt', 'dev3.txt', 'dev4.txt']
 new_dict_file = ['update_develop1_file.txt', 'update_develop2_file.txt', 'update_develop3_file.txt', 'update_dev3_file.txt', 'update_dev4_file.txt']
@@ -14,7 +16,7 @@ new_dict_develop3 = {}
 new_dict_dev3 = {}
 new_dict_dev4 = {}
 new_dict_list = [new_dict_develop1,new_dict_develop2,new_dict_develop3,new_dict_dev3,new_dict_dev4]
-menulist = ['[Tools]添加资源', '[Tools]玩家升级', '[Tools]设置Vip等级', '[Team]升级潜能', '[Tools]主线精英重置到某一副本补差删多', '[Tools]个人物品发放', '[Tools]个人物品发放', '[Treasure]进阶散件宝物', '[Treasure]进阶组合宝物', '[Treasure]宝物升星', '[Tools]发放英雄', '[Hero]英雄升星', '[Tools]个人物品发放', '[Hero]技能升级', '[Tools]发放兵团', '[Team]怪兽方阵升级', '[Team]符文批量升级（装备）', '[Team]怪兽方阵符文升阶', '[Team]怪兽方阵升大星', '[Team]怪兽方阵升小星', '[Team]激活潜能', '[Tools]重置PVE玩法次数', '[Hero]合成法术书', '[Hero]升级法术书', '[Team]怪兽方阵进阶', '[Tools]清除yac缓存']
+menulist = ['[Tools]添加资源', '[Tools]玩家升级', '[Tools]设置Vip等级', '[Team]升级潜能', '[Tools]主线精英重置到某一副本补差删多', '[Tools]个人物品发放', '[Tools]个人物品发放', '[Treasure]进阶散件宝物', '[Treasure]进阶组合宝物', '[Tools]发放英雄', '[Hero]英雄升星', '[Tools]个人物品发放', '[Hero]技能升级', '[Tools]发放兵团', '[Team]怪兽方阵升级', '[Team]符文批量升级（装备）', '[Team]怪兽方阵符文升阶', '[Team]怪兽方阵升大星', '[Team]怪兽方阵升小星', '[Team]激活潜能', '[Tools]重置PVE玩法次数', '[Hero]合成法术书', '[Hero]升级法术书', '[Team]怪兽方阵进阶', '[Tools]清除yac缓存', '[Treasure]宝物升星']
 xpahtid_develop1 = []
 xpahtid_develop2 = []
 xpahtid_develop3 = []
@@ -60,6 +62,7 @@ def write_list(filename,argv,listname):
 	        listname.append(xpahtid_num)
 	file_for_path.close()
 
+print menulist[25]
 
 for x in range(5):
     os.system('python html_file.py "' + str(other_config.debug_server[x-1]) + '" -> ' + str(filenamelist[x-1]))
@@ -113,3 +116,16 @@ for x in range(5):
     modify(new_dict_file[x], "}", "")
 
 print "更新文件已生成".decode('utf-8').encode('gbk')
+
+# 自动获取最新的xpathId
+csvfile = file('xpathId_file.csv', 'wb')
+csvfile.write(codecs.BOM_UTF8)
+writer = csv.writer(csvfile)
+writer.writerow(['name','develop1_id', 'develop2_id', 'develop3_id', 'dev3_id', 'dev4_id'])
+date = []
+for x in range(len(menulist)):
+	date.append((menulist[x],xpahtid_develop1[x],xpahtid_develop2[x],xpahtid_develop3[x],xpahtid_dev3[x],xpahtid_dev4[x]))
+	print (menulist[x] + "数据更新成功").decode('utf-8').encode('gbk')
+writer.writerows(date)
+csvfile.close()
+

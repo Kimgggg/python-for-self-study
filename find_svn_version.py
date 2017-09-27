@@ -39,12 +39,15 @@ def del_files(path, filetype):
                 os.remove(os.path.join(root, name))
   	print ("Delete File: " + os.path.join(root, name))
 
-
+os.chdir(csv_compare)
 # del_files(csv_compare, ".csv")
-os.system("xcopy " + csv_preRelease + " " + csv_compare + " /Y")
-os.system("git add . & git ci -m 'test'")
-del_files(csv_compare, ".csv")
 os.system("xcopy " + csv_develop + " " + csv_compare + " /Y")
-os.system("git add . & git ci -m 'test2'")
+os.system("git add . & git ci -m '提交研发版本'")
+del_files(csv_compare, ".csv")
+os.system("xcopy " + csv_preRelease + " " + csv_compare + " /Y")
+os.system("git add . & git ci -m '提交预发布版本->查看对比'")
+del_files(csv_compare, ".csv")
+os.system("git add . & git ci -m '还原目录'")
+
 
 

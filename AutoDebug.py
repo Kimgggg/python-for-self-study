@@ -5,9 +5,20 @@ from __future__ import unicode_literals
 from selenium.webdriver.support.select import Select
 from selenium import webdriver
 import time
+import csv
 import os
 import sys
 import other_config
+
+
+
+develop1 = []
+develop2 = []
+develop3 = []
+dev3 = []
+dev4 = []
+csv_row = ['develop1_id','develop2_id', 'develop3_id','dev3_id','dev4_id']
+dev_list = [develop1,develop2,develop3,dev3,dev4]
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -22,6 +33,7 @@ print '''
 '''
 dev_server = raw_input("please input debug server:\n")
 dev_select = dev_server
+devserver_number = int(dev_server) - 1
 dev_server = other_config.debug_server[int(dev_server) - 1]
 
 
@@ -40,7 +52,7 @@ def clear_debug_yac():
     # 自动清空yac缓存，可在其他步骤调用
     driver.refresh()
     time.sleep(0.1)
-    translate_xpath(xpathID_group(other_config.autodebug18[int(dev_select) - 1])).click()
+    translate_xpath(xpathID_group(dev_list[devserver_number][24])).click()
     translate_xpath(convert_xpath_tr(1, 'actDev')).clear()
     translate_xpath(convert_xpath_tr(1, 'actDev')).send_keys("0")
     translate_xpath(convert_xpath_tr(2, 'uploadFrom')).click()
@@ -76,6 +88,13 @@ def translate_xpath(xpath):
     xpath = xpath.replace('"', "'")
     return driver.find_element_by_xpath(xpath)
 
+def loadcsv(list_len):
+    with open('xpathId_file.csv','rb') as csvfile:
+        reader = csv.DictReader(csvfile)
+        dev_list[list_len] = [row[csv_row[list_len]] for row in reader]
+
+for x in range(5):
+    loadcsv(x)
 
 
 while True:
@@ -115,7 +134,7 @@ while True:
         select_server(user_rid)
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
-        translate_xpath(xpathID_group(other_config.autodebug1[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][0])).click()
         input_user_rid(user_rid)
         for x in other_config.resource:
             translate_xpath(convert_xpath_tr(2, 'type')).clear()  # 清空资源类型
@@ -138,7 +157,7 @@ while True:
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
         # 玩家升级
-        translate_xpath(xpathID_group(other_config.autodebug2[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][1])).click()
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'level')).send_keys("89")
         translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
@@ -155,7 +174,7 @@ while True:
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
         # 设置vip等级
-        translate_xpath(xpathID_group(other_config.autodebug3[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][2])).click()
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'level')).send_keys("15")
         translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
@@ -173,7 +192,7 @@ while True:
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
         # 升级潜能
-        translate_xpath(xpathID_group(other_config.autodebug4[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][3])).click()
         time.sleep(0.5)
         input_user_rid(user_rid)
         for x in other_config.bingtuanId:
@@ -200,7 +219,7 @@ while True:
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
         # 主线精英重置到某一副本补差删多
-        translate_xpath(xpathID_group(other_config.autodebug5[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][4])).click()
         input_user_rid(user_rid)
         for x in other_config.stageId:
             translate_xpath(convert_xpath_tr(2, 'stageId')).clear()  # 清空副本进度
@@ -232,7 +251,7 @@ while True:
         select_type = raw_input("please input num:\n")
         num = input("please input number:")
         if select_type == "1":
-            translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.bingtuansuipianId)
             translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys(num)
@@ -270,7 +289,7 @@ while True:
             print "发放法术碎片成功"
             driver.quit()
         elif select_type == "2":
-            translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.bingtuansuipianId)
@@ -279,7 +298,7 @@ while True:
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  # 点击
             driver.quit()
         elif select_type == "3":
-            translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.jinjiecailiaoId)
@@ -288,7 +307,7 @@ while True:
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  
             driver.quit()  # 点击
         elif select_type == "4":
-            translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.herosuipianId)
@@ -297,7 +316,7 @@ while True:
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
             driver.quit()  # 点击
         elif select_type == "5":
-            translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.baowustr)
@@ -306,7 +325,7 @@ while True:
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
             driver.quit()  # 点击
         elif select_type == "6":
-            translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.otheritem)
@@ -315,7 +334,7 @@ while True:
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
             driver.quit()  # 点击
         elif select_type == "7":
-            translate_xpath(xpathID_group(other_config.autodebug6[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.fashusuipian)
@@ -337,7 +356,7 @@ while True:
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
         # 宝物进阶
-        translate_xpath(xpathID_group(other_config.autodebug7_1[int(dev_select) - 1])).click()  # 个人物品发放
+        translate_xpath(xpathID_group(dev_list[devserver_number][6])).click()  # 个人物品发放
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys("41001")  # 额外发送材料
         translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys("999999")
@@ -345,7 +364,7 @@ while True:
         time.sleep(0.5)
         driver.refresh()
         time.sleep(0.5)
-        translate_xpath(xpathID_group(other_config.autodebug7_2[int(dev_select) - 1])).click()  # 进阶散件宝物
+        translate_xpath(xpathID_group(dev_list[devserver_number][7])).click()  # 进阶散件宝物
         input_user_rid(user_rid)
         big_id = []
         for Treasure_small_temp in other_config.baowu:
@@ -363,7 +382,7 @@ while True:
                 print "宝物" + str(Treasure_small_temp) + "第" + str(count) + "次进阶"
         big_id = list(set(big_id))
         big_id.sort()
-        translate_xpath(xpathID_group(other_config.autodebug7_3[int(dev_select) - 1])).click()  # 进阶组合宝物
+        translate_xpath(xpathID_group(dev_list[devserver_number][8])).click()  # 进阶组合宝物
         input_user_rid(user_rid)
         for x in big_id:
             translate_xpath(convert_xpath_tr(2, 'comId')).clear()
@@ -384,7 +403,7 @@ while True:
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
         # 发放英雄
-        translate_xpath(xpathID_group(other_config.autodebug8[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][9])).click()
         input_user_rid(user_rid)
         for x in other_config.heroId:
             translate_xpath(convert_xpath_tr(2, 'heroId')).clear()
@@ -406,7 +425,7 @@ while True:
             select_server(user_rid)
             time.sleep(0.5)
             # 英雄升星
-            translate_xpath(xpathID_group(other_config.autodebug9[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][10])).click()
             input_user_rid(user_rid)
             for x in other_config.heroId:
                 translate_xpath(convert_xpath_tr(2, 'heroId')).clear()
@@ -431,7 +450,7 @@ while True:
             select_server(user_rid)
             time.sleep(0.5)
             # [hero]技能升级
-            translate_xpath(xpathID_group(other_config.autodebug10_1[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][11])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys("3004")
             # 额外发送材料
@@ -440,7 +459,7 @@ while True:
             time.sleep(0.5)
             driver.refresh()
             time.sleep(0.5)
-            translate_xpath(xpathID_group(other_config.autodebug10_2[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][12])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(4, 'exMode')).send_keys("1")  # 是否十连突
             for hero in other_config.heroId:
@@ -469,7 +488,7 @@ while True:
         # driver.set_window_size(480, 320)
         time.sleep(0.5)
         # 发放兵团
-        translate_xpath(xpathID_group(other_config.autodebug11[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][13])).click()
         input_user_rid(user_rid)
         for x in other_config.bingtuanId:
             translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
@@ -499,7 +518,7 @@ while True:
             time.sleep(0.5)
             # 
             #  [Team]怪兽方阵升级
-            translate_xpath(xpathID_group(other_config.autodebug12_1[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][14])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(3, 'level')).send_keys("90")  # 要提升的等级
             for x in other_config.bingtuanId:
@@ -512,7 +531,7 @@ while True:
             driver.refresh()
             time.sleep(0.5)
             # 符文批量升级（装备）
-            translate_xpath(xpathID_group(other_config.autodebug12_2[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][15])).click()
             input_user_rid(user_rid)
             for x in other_config.bingtuanId:
                 translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
@@ -524,7 +543,7 @@ while True:
             time.sleep(0.5)
             driver.refresh()
             time.sleep(0.5)
-            translate_xpath(xpathID_group(other_config.autodebug12_3[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][16])).click()
             # [Team]怪兽方阵符文升阶
             input_user_rid(user_rid)
             for x in other_config.bingtuanId:
@@ -552,6 +571,7 @@ while True:
         '''
         dev_server = raw_input("please input debug server:\n")
         dev_select = dev_server
+        devserver_number = int(dev_server) - 1
         dev_server = other_config.debug_server[int(dev_server) - 1]
 
     elif press == "14":
@@ -571,7 +591,7 @@ while True:
             def bigStar(argv_id):
                 driver.refresh()
                 time.sleep(0.5)
-                translate_xpath(xpathID_group(other_config.autodebug14_1[int(dev_select) - 1])).click()
+                translate_xpath(xpathID_group(dev_list[devserver_number][17])).click()
                 input_user_rid(user_rid)
                 translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
                 translate_xpath(convert_xpath_tr(2, 'teamId')).send_keys(argv_id)
@@ -586,7 +606,7 @@ while True:
                 driver.refresh()
                 time.sleep(0.5)
                 # [Team]怪兽方阵升小星
-                translate_xpath(xpathID_group(other_config.autodebug14_2[int(dev_select) - 1])).click()
+                translate_xpath(xpathID_group(dev_list[devserver_number][18])).click()
                 input_user_rid(user_rid)
                 translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
                 translate_xpath(convert_xpath_tr(2, 'teamId')).send_keys(argv_id)
@@ -617,7 +637,7 @@ while True:
             driver.refresh()
             time.sleep(0.5)
             # 激活潜能
-            translate_xpath(xpathID_group(other_config.autodebug14_3[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][19])).click()
             input_user_rid(user_rid)
             for z in other_config.bingtuanId:
                 translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
@@ -638,7 +658,7 @@ while True:
         select_server(user_rid)
         time.sleep(0.5)
         # [Tools]重置PVE玩法次数
-        translate_xpath(xpathID_group(other_config.autodebug15[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][20])).click()
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'uploadFrom')).click()
         time.sleep(0.5)
@@ -653,8 +673,8 @@ while True:
         driver.get(dev_server)
         select_server(user_rid)
         time.sleep(0.5)
-        # translate_xpath(xpathID_group(other_config.autodebug16_1[int(dev_select) - 1])).click()
-        translate_xpath('//*[@id="l324"]').click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][21])).click()
+        # [Hero]合成法术书
         input_user_rid(user_rid)
         for x in other_config.skillId:
             translate_xpath(convert_xpath_tr(2, 'sid')).clear()
@@ -666,7 +686,8 @@ while True:
         driver.refresh()
         time.sleep(0.5)
 
-        translate_xpath('//*[@id="l326"]').click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][22])).click()
+        # [Hero]升级法术书
         input_user_rid(user_rid)
         for x in other_config.skillId:
             translate_xpath(convert_xpath_tr(2, 'sid')).clear()
@@ -688,7 +709,7 @@ while True:
             driver.get(dev_server)
             select_server(user_rid)
             time.sleep(0.5)
-            translate_xpath(xpathID_group(other_config.autodebug17[int(dev_select) - 1])).click()
+            translate_xpath(xpathID_group(dev_list[devserver_number][23])).click()
             # [Team]怪兽方阵进阶
             input_user_rid(user_rid)
             for x in other_config.bingtuanId:
@@ -707,7 +728,8 @@ while True:
             driver = webdriver.PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        translate_xpath(xpathID_group(other_config.autodebug18[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][24])).click()
+        # [Tools]清除yac缓存
         translate_xpath(convert_xpath_tr(1, 'actDev')).clear()
         translate_xpath(convert_xpath_tr(1, 'actDev')).send_keys("0")
         translate_xpath(convert_xpath_tr(2, 'uploadFrom')).click()
@@ -721,7 +743,8 @@ while True:
         driver.get(dev_server)
         select_server(user_rid)
 
-        translate_xpath(xpathID_group(other_config.autodebug1[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][0])).click()
+        # [Tools]添加资源
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'type')).clear()  # 清空资源类型
         translate_xpath(convert_xpath_tr(2, 'type')).send_keys("starfrag")  # 输入资源类型
@@ -732,7 +755,8 @@ while True:
 
         driver.refresh()
         time.sleep(0.5)
-        translate_xpath(xpathID_group(other_config.autodebug7_4[int(dev_select) - 1])).click()
+        translate_xpath(xpathID_group(dev_list[devserver_number][25])).click()
+        # [Treasure]宝物升星
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(4, 'num')).clear()
         translate_xpath(convert_xpath_tr(4, 'num')).send_keys("10")
