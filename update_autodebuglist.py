@@ -42,7 +42,7 @@ def modify(filepath, need_to_replace, be_replace):
             f_w.write(line)
 
 
-def test(filename,argv,listname):
+def write_list(filename,argv,listname):
 	# 通过查找html文件，推断出xpathid并写入list
 	global xpahtid_develop1
 	global xpahtid_develop2
@@ -69,7 +69,7 @@ for x in range(5):
 for x in menulist:
 	# 将菜单类型与对应的xpathid写入list
 	for y in range(1,6):
-		test(filenamelist[y-1],x,xpahtid_set[y-1])
+		write_list(filenamelist[y-1],x,xpahtid_set[y-1])
 		# print filenamelist[y-1]
 
 menulen = len(menulist)

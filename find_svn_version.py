@@ -9,21 +9,18 @@ import svn.local
 import re
 
 
-# r = svn.local.LocalClient('/data/work/KOF/svn/数据表/数值开发')
-# info = r.info()
-# pprint.pprint(info)
-# print type(info)
-# print info["commit_revision"]
-# os.system('svn update')
+current_path = os.getcwd()
+os.chdir("E:\war\svn\configCsv\csv")
 
-os.chdir("/data/work/KOF/svn/数据表/数值开发")
 a = os.popen('svn log -l 10')
-
 b = a.read()
 print "<<<<<<<<>>>>>>>>>>" + b + ">>>>>>>>>>>>>>>>>>>>>>"
-c = re.findall(r"r(\d\d\d\d\d\d)",b)
+c = re.findall(r'[0-9][0-9][0-9][0-9][0-9]',b) # c =re.findall(r"r(\d\d\d\d\d)",b)
 c.sort()
-print type(c)
-print c
-print len(c)
 
+for x in c:
+	os.system("svn update -r " + str(x))
+	os.system("git status")
+	os.system("git add . & git ci -m '" + str(x) + "'")
+
+os.system("svn update")

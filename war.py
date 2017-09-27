@@ -22,7 +22,8 @@ while True:
     12.svn检查提交
     13.add_new_bug
     14.install apk
-    15.下班套餐
+    15.svn cleanup
+
         '''
     press = raw_input("select:\n")
     if press == "1":
@@ -90,6 +91,11 @@ while True:
         webbrowser.open("http://120.26.4.254/projects/war/issues/new")
     elif press == "14":
         execfile("install_apk_Windows.py")
+    elif press == "15":
+        current_path = os.getcwd()
+        os.chdir(pwd_config.War_svn)
+        os.system("svn cleanup")
+        os.chdir(current_path)
     elif press == "q":
         os.exit()
     else:
