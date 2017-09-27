@@ -40,7 +40,7 @@ def del_files(path, filetype):
   	print ("Delete File: " + os.path.join(root, name))
 
 
-del_files(csv_compare, ".csv")
+# del_files(csv_compare, ".csv")
 os.system("xcopy " + csv_preRelease + " " + csv_compare + " /Y")
 os.system("git add . & git ci -m 'test'")
 del_files(csv_compare, ".csv")
