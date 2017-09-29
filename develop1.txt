@@ -937,8 +937,6 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Mail.readMail" title="Mail.readMail">[Mail]读邮件</li>
          
-          <li style="background:#9ECCED" alt="Mail.delMail" title="Mail.delMail">[Mail]删邮件</li>
-         
           <li style="background:#9ECCED" alt="Mail.getAttachment" title="Mail.getAttachment">[Mail]取附件</li>
          
           <li style="background:#CACACA" alt="Nests.getNestsInfo" title="Nests.getNestsInfo">[Nests]进入巢穴系统</li>
@@ -12884,32 +12882,6 @@ function  selectedServer(value)
    </div>
  
     <div>
-          <p>[Mail.delMail]&nbsp;&nbsp;&nbsp;删邮件</p>
-                     <form action="http://192.168.5.207:8001?mod=http&method=Mail.delMail&__noauth__=1&pGroup=default&sec=8001" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-         
- 	    <tr>
-    <td style="text-align:right;padding:5px;">邮件ID:</td>
-    <td padding:5px;><input type="text" name="mailId" id="mailId" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
           <p>[Mail.getAttachment]&nbsp;&nbsp;&nbsp;取附件</p>
                      <form action="http://192.168.5.207:8001?mod=http&method=Mail.getAttachment&__noauth__=1&pGroup=default&sec=8001" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -18654,7 +18626,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">数据类型【1每日重置2方阵3抽奖4背包5普通副本6英雄7英雄宝物8阵型<br>9主线任务10日常任务11远征12图鉴13精英副本14云中城】:</td>
+    <td style="text-align:right;padding:5px;">数据类型【1每日重置3抽奖4背包5普通副本7英雄宝物8阵型<br>9主线任务10日常任务11远征12图鉴13精英副本14云中城】:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
               	<tr>

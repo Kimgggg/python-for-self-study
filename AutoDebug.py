@@ -194,11 +194,12 @@ while True:
                 translate_xpath(convert_xpath_tr(3, 'potentialId')).send_keys(
                     y)  # 输入潜力类型
                 for z in range(41):
-                    print "第" + str(z) + "次升级" + str(x) + "的" + str(y) + "潜力"
+                    # print "第" + str(z) + "次升级" + str(x) + "的" + str(y) + "潜力"
+                    print "%s%s%s%s%s%s%s" %("第",z,"次升级",x,"的",y,"潜力")
                     translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
                     time.sleep(delay)
         driver.quit()
-
+        
     elif press == "5":
         driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
