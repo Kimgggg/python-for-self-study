@@ -17,8 +17,8 @@ develop2 = []
 develop3 = []
 dev3 = []
 dev4 = []
-csv_row = ['develop1_id','develop2_id', 'develop3_id','dev3_id','dev4_id']
-dev_list = [develop1,develop2,develop3,dev3,dev4]
+csv_row = ['develop1_id', 'develop2_id', 'develop3_id', 'dev3_id', 'dev4_id']
+dev_list = [develop1, develop2, develop3, dev3, dev4]
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -40,6 +40,7 @@ if dev_select in ['1', '2', '3']:
     delay = 0.1
 else:
     delay = 0.3
+
 
 def convert_xpath_tr(tr_num, argv):
     # 输入位置参数与类型，返回标准xpath
@@ -92,13 +93,15 @@ def translate_xpath(xpath):
     xpath = xpath.replace('"', "'")
     return driver.find_element_by_xpath(xpath)
 
+
 def loadcsv(list_len):
-    with open('xpathId_file.csv','rb') as csvfile:
+    with open('xpathId_file.csv', 'rb') as csvfile:
         reader = csv.DictReader(csvfile)
         dev_list[list_len] = [row[csv_row[list_len]] for row in reader]
 
 for x in range(5):
     loadcsv(x)
+
 
 def Firefox_or_PhantomJS():
     global debug
@@ -195,7 +198,7 @@ while True:
                     y)  # 输入潜力类型
                 for z in range(41):
                     # print "第" + str(z) + "次升级" + str(x) + "的" + str(y) + "潜力"
-                    print "%s%s%s%s%s%s%s" %("第",z,"次升级",x,"的",y,"潜力")
+                    print "%s%s%s%s%s%s%s" % ("第", z, "次升级", x, "的", y, "潜力")
                     translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
                     time.sleep(delay)
         driver.quit()
@@ -235,7 +238,7 @@ while True:
             translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.bingtuansuipianId)
-            translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys(num) # 输入数量
+            translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys(num)  # 输入数量
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  # 点击
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
             time.sleep(delay)  # 清空类型
