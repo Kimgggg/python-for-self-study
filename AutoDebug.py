@@ -36,6 +36,10 @@ dev_select = dev_server
 devserver_number = int(dev_server) - 1
 dev_server = other_config.debug_server[int(dev_server) - 1]
 
+if dev_select in ['1', '2', '3']:
+    delay = 0.1
+else:
+    delay = 0.3
 
 def convert_xpath_tr(tr_num, argv):
     # 输入位置参数与类型，返回标准xpath
@@ -96,6 +100,12 @@ def loadcsv(list_len):
 for x in range(5):
     loadcsv(x)
 
+def Firefox_or_PhantomJS():
+    global debug
+    if debug:
+        return webdriver.Firefox()
+    else:
+        return webdriver.PhantomJS()
 
 while True:
     print """
@@ -126,14 +136,9 @@ while True:
         num = input("please input num:")
         # 添加金币、钻石、兵团经验
         # 添加资源
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         translate_xpath(xpathID_group(dev_list[devserver_number][0])).click()
         input_user_rid(user_rid)
         for x in other_config.resource:
@@ -144,18 +149,13 @@ while True:
             print "已添加" + str(x)
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  # 点击
         num = 0
-        time.sleep(0.5)
+        time.sleep(delay)
         driver.quit()
 
     elif press == "2":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()        
+        driver = Firefox_or_PhantomJS()       
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         # 玩家升级
         translate_xpath(xpathID_group(dev_list[devserver_number][1])).click()
         input_user_rid(user_rid)
@@ -165,35 +165,25 @@ while True:
         driver.quit()
 
     elif press == "3":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         # 设置vip等级
         translate_xpath(xpathID_group(dev_list[devserver_number][2])).click()
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'level')).send_keys("15")
         translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
         print "vip等级调整为15"
-        time.sleep(0.5)
+        time.sleep(delay)
         driver.quit()
 
     elif press == "4":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         # 升级潜能
         translate_xpath(xpathID_group(dev_list[devserver_number][3])).click()
-        time.sleep(0.5)
+        time.sleep(delay)
         input_user_rid(user_rid)
         for x in other_config.bingtuanId:
             translate_xpath(convert_xpath_tr(2, 'teamId')).clear()  # 清空兵团id
@@ -206,18 +196,13 @@ while True:
                 for z in range(41):
                     print "第" + str(z) + "次升级" + str(x) + "的" + str(y) + "潜力"
                     translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
-                    time.sleep(0.1)
+                    time.sleep(delay)
         driver.quit()
 
     elif press == "5":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         # 主线精英重置到某一副本补差删多
         translate_xpath(xpathID_group(dev_list[devserver_number][4])).click()
         input_user_rid(user_rid)
@@ -226,18 +211,13 @@ while True:
             translate_xpath(convert_xpath_tr(2, 'stageId')).send_keys(x)  # 输入副本id
             translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()  # 点击
             print "调整关卡为" + x
-            time.sleep(1.5)
+            time.sleep(1)
         driver.quit()
 
     elif press == "6":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         # 个人物品发放
         print '''
         1.发送全部
@@ -254,38 +234,37 @@ while True:
             translate_xpath(xpathID_group(dev_list[devserver_number][5])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.bingtuansuipianId)
-            translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys(num)
-            # 输入数量
+            translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys(num) # 输入数量
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  # 点击
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
-            time.sleep(0.2)  # 清空类型
+            time.sleep(delay)  # 清空类型
             print "发放兵团碎片成功"
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.jinjiecailiaoId)
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
-            time.sleep(0.2)
+            time.sleep(delay)
             print "发放进阶材料成功"
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.herosuipianId)
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
-            time.sleep(0.2)
+            time.sleep(delay)
             print "发放英雄碎片成功"
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.baowustr)
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
-            time.sleep(0.2)
+            time.sleep(delay)
             print "发放宝物成功"
 
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.otheritem)
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
-            time.sleep(0.2)
+            time.sleep(delay)
             print "发放杂物成功"
 
             translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys(other_config.fashusuipian)
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
             translate_xpath(convert_xpath_tr(2, 'goodsId')).clear()
-            time.sleep(0.2)
+            time.sleep(delay)
             print "发放法术碎片成功"
             driver.quit()
         elif select_type == "2":
@@ -347,23 +326,18 @@ while True:
         num = 0
 
     elif press == "7":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         # 宝物进阶
         translate_xpath(xpathID_group(dev_list[devserver_number][6])).click()  # 个人物品发放
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'goodsId')).send_keys("41001")  # 额外发送材料
         translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys("999999")
         translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
-        time.sleep(0.5)
+        time.sleep(delay)
         driver.refresh()
-        time.sleep(0.5)
+        time.sleep(delay)
         translate_xpath(xpathID_group(dev_list[devserver_number][7])).click()  # 进阶散件宝物
         input_user_rid(user_rid)
         big_id = []
@@ -378,7 +352,7 @@ while True:
             translate_xpath(convert_xpath_tr(3, 'disId')).send_keys(Treasure_small)
             for count in range(30):
                 translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
-                time.sleep(0.5)
+                time.sleep(delay)
                 print "宝物" + str(Treasure_small_temp) + "第" + str(count) + "次进阶"
         big_id = list(set(big_id))
         big_id.sort()
@@ -389,19 +363,14 @@ while True:
             translate_xpath(convert_xpath_tr(2, 'comId')).send_keys(x)
             for y in range(30):
                 translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
-                time.sleep(0.5)
+                time.sleep(delay)
                 print "宝物" + str(x) + "进阶" + str(y) + "次"
         driver.quit()
 
     elif press == "8":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         # 发放英雄
         translate_xpath(xpathID_group(dev_list[devserver_number][9])).click()
         input_user_rid(user_rid)
@@ -417,13 +386,9 @@ while True:
         # 英雄升星
         Continue_sql = raw_input("数据库方式修改更快速，是否继续？\n1继续2取消\n".decode('utf-8').encode('gbk'))
         if Continue_sql == "1":
-            if debug:
-                driver = webdriver.Firefox()
-            else:
-                driver = webdriver.PhantomJS()
+            driver = Firefox_or_PhantomJS()
             driver.get(dev_server)
             select_server(user_rid)
-            time.sleep(0.5)
             # 英雄升星
             translate_xpath(xpathID_group(dev_list[devserver_number][10])).click()
             input_user_rid(user_rid)
@@ -434,7 +399,7 @@ while True:
                     translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
                     time.sleep(0.1)
                     print "英雄" + str(x) + "升星第" + str(y) + "次"
-            time.sleep(0.5)
+            time.sleep(delay)
             driver.quit()
         else:
             pass
@@ -442,13 +407,9 @@ while True:
     elif press == "10":
         Continue_sql = raw_input("数据库方式修改更快速，是否继续？\n1继续2取消\n".decode('utf-8').encode('gbk'))
         if Continue_sql == "1":
-            if debug:
-                driver = webdriver.Firefox()
-            else:
-                driver = webdriver.PhantomJS()
+            driver = Firefox_or_PhantomJS()
             driver.get(dev_server)
             select_server(user_rid)
-            time.sleep(0.5)
             # [hero]技能升级
             translate_xpath(xpathID_group(dev_list[devserver_number][11])).click()
             input_user_rid(user_rid)
@@ -456,9 +417,9 @@ while True:
             # 额外发送材料
             translate_xpath(convert_xpath_tr(3, 'goodsNum')).send_keys("9999999")
             translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
-            time.sleep(0.5)
+            time.sleep(delay)
             driver.refresh()
-            time.sleep(0.5)
+            time.sleep(delay)
             translate_xpath(xpathID_group(dev_list[devserver_number][12])).click()
             input_user_rid(user_rid)
             translate_xpath(convert_xpath_tr(4, 'exMode')).send_keys("1")  # 是否十连突
@@ -471,22 +432,16 @@ while True:
                     translate_xpath(convert_xpath_tr(2, 'positionId')).send_keys(skill_position)  # 输入技能位置
                     for x in range(30):
                         translate_xpath(convert_xpath_tr(5, 'uploadFrom')).click()
-                        time.sleep(0.1)
+                        time.sleep(delay)
                         print "英雄" + str(hero) + "技能" + str(skill_position) + "第" + str(x) + "次十连突"
-            time.sleep(0.5)
             driver.quit()
         else:
             pass
 
     elif press == "11":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        # driver.set_window_size(480, 320)
-        time.sleep(0.5)
         # 发放兵团
         translate_xpath(xpathID_group(dev_list[devserver_number][13])).click()
         input_user_rid(user_rid)
@@ -509,14 +464,9 @@ while True:
         '''
         Continue_sql = raw_input("数据库方式修改更快速，是否继续？\n1继续2取消\n".decode('utf-8').encode('gbk'))
         if Continue_sql == "1":
-            if debug:
-                driver = webdriver.Firefox()
-            else:
-                driver = webdriver.PhantomJS()
+            driver = Firefox_or_PhantomJS()
             driver.get(dev_server)
             select_server(user_rid)
-            time.sleep(0.5)
-            # 
             #  [Team]怪兽方阵升级
             translate_xpath(xpathID_group(dev_list[devserver_number][14])).click()
             input_user_rid(user_rid)
@@ -527,9 +477,9 @@ while True:
                 translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
                 time.sleep(0.1)
                 print "兵团" + str(x) + "已升级"
-            time.sleep(0.5)
+            time.sleep(delay)
             driver.refresh()
-            time.sleep(0.5)
+            time.sleep(delay)
             # 符文批量升级（装备）
             translate_xpath(xpathID_group(dev_list[devserver_number][15])).click()
             input_user_rid(user_rid)
@@ -537,12 +487,12 @@ while True:
                 translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
                 translate_xpath(convert_xpath_tr(2, 'teamId')).send_keys(x)
                 translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
-                time.sleep(0.1)
+                time.sleep(delay)
                 print "兵团" + str(x) + "装备已升级"
 
-            time.sleep(0.5)
+            time.sleep(delay)
             driver.refresh()
-            time.sleep(0.5)
+            time.sleep(delay)
             translate_xpath(xpathID_group(dev_list[devserver_number][16])).click()
             # [Team]怪兽方阵符文升阶
             input_user_rid(user_rid)
@@ -554,7 +504,7 @@ while True:
                     translate_xpath(convert_xpath_tr(3, 'positionId')).send_keys(y)
                     for z in range(15):
                         translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
-                        time.sleep(0.1)
+                        time.sleep(delay)
                         print "兵团" + str(x) + "装备" + str(y) + "正在第" + str(z) + "次升阶"
             driver.quit()
         else:
@@ -577,34 +527,27 @@ while True:
     elif press == "14":
         Continue_sql = raw_input("数据库方式修改更快速，是否继续？\n1继续2取消\n".decode('utf-8').encode('gbk'))
         if Continue_sql == "1":
-            if debug:
-                driver = webdriver.Firefox()
-            else:
-                driver = webdriver.PhantomJS()
+            driver = Firefox_or_PhantomJS()
             driver.get(dev_server)
             select_server(user_rid)
-            time.sleep(0.5)
             # 所有兵团升星+激活潜能
             # [Team]怪兽方阵升大星
 
-
             def bigStar(argv_id):
                 driver.refresh()
-                time.sleep(0.5)
+                time.sleep(delay)
                 translate_xpath(xpathID_group(dev_list[devserver_number][17])).click()
                 input_user_rid(user_rid)
                 translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
                 translate_xpath(convert_xpath_tr(2, 'teamId')).send_keys(argv_id)
                 translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
                 print "大星" + str(argv_id) + "done"
-                time.sleep(0.1)
-
-
+                time.sleep(delay)
 
 
             def smallStar(argv_id):
                 driver.refresh()
-                time.sleep(0.5)
+                time.sleep(delay)
                 # [Team]怪兽方阵升小星
                 translate_xpath(xpathID_group(dev_list[devserver_number][18])).click()
                 input_user_rid(user_rid)
@@ -613,7 +556,7 @@ while True:
                 translate_xpath(convert_xpath_tr(3, 'batch')).clear()
                 translate_xpath(convert_xpath_tr(3, 'batch')).send_keys("1")
                 translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()
-                time.sleep(0.1)
+                time.sleep(delay)
                 print "小星" + str(argv_id) + "done"
 
 
@@ -635,7 +578,7 @@ while True:
                     smallStar(y)
                     bigStar(y)
             driver.refresh()
-            time.sleep(0.5)
+            time.sleep(delay)
             # 激活潜能
             translate_xpath(xpathID_group(dev_list[devserver_number][19])).click()
             input_user_rid(user_rid)
@@ -643,36 +586,27 @@ while True:
                 translate_xpath(convert_xpath_tr(2, 'teamId')).clear()
                 translate_xpath(convert_xpath_tr(2, 'teamId')).send_keys(z)
                 translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
-                time.sleep(0.1)
+                time.sleep(delay)
                 print "兵团" + str(z) + "激活潜能"
             driver.quit()
         else:
             pass
 
     elif press == "15":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
-        select_server(user_rid)
-        time.sleep(0.5)
-        # [Tools]重置PVE玩法次数
+        select_server(user_rid)        # [Tools]重置PVE玩法次数
         translate_xpath(xpathID_group(dev_list[devserver_number][20])).click()
         input_user_rid(user_rid)
         translate_xpath(convert_xpath_tr(2, 'uploadFrom')).click()
-        time.sleep(0.5)
+        time.sleep(delay)
         print "重置成功"
         driver.quit()
 
     elif press == "16":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
-        time.sleep(0.5)
         translate_xpath(xpathID_group(dev_list[devserver_number][21])).click()
         # [Hero]合成法术书
         input_user_rid(user_rid)
@@ -682,9 +616,9 @@ while True:
             translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
             time.sleep(0.1)
             print "法术" + str(x) + "已激活"
-        time.sleep(0.5)
+        time.sleep(delay)
         driver.refresh()
-        time.sleep(0.5)
+        time.sleep(delay)
 
         translate_xpath(xpathID_group(dev_list[devserver_number][22])).click()
         # [Hero]升级法术书
@@ -702,13 +636,9 @@ while True:
     elif press == "17":
         Continue_sql = raw_input("数据库方式修改更快速，是否继续？\n1继续2取消\n".decode('utf-8').encode('gbk'))
         if Continue_sql == "1":
-            if debug:
-                driver = webdriver.Firefox()
-            else:
-                driver = webdriver.PhantomJS()
+            driver = Firefox_or_PhantomJS()
             driver.get(dev_server)
             select_server(user_rid)
-            time.sleep(0.5)
             translate_xpath(xpathID_group(dev_list[devserver_number][23])).click()
             # [Team]怪兽方阵进阶
             input_user_rid(user_rid)
@@ -717,15 +647,12 @@ while True:
                 translate_xpath(convert_xpath_tr(2, 'teamId')).send_keys(x)
                 for y in range(15):
                     translate_xpath(convert_xpath_tr(3, 'uploadFrom')).click()
-                    time.sleep(0.1)
+                    time.sleep(delay)
                     print "兵团" + str(x) + "进阶第" + str(y) + "次"
             driver.quit()
 
     elif press == "18":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
         translate_xpath(xpathID_group(dev_list[devserver_number][24])).click()
@@ -736,10 +663,7 @@ while True:
         driver.quit()
 
     elif press == "19":
-        if debug:
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.PhantomJS()
+        driver = Firefox_or_PhantomJS()
         driver.get(dev_server)
         select_server(user_rid)
 
@@ -751,10 +675,10 @@ while True:
         translate_xpath(convert_xpath_tr(3, 'num')).clear()  # 清空数量
         translate_xpath(convert_xpath_tr(3, 'num')).send_keys("9999999")  # 输入数量
         translate_xpath(convert_xpath_tr(4, 'uploadFrom')).click()  # 点击
-        time.sleep(0.5)
+        time.sleep(delay)
 
         driver.refresh()
-        time.sleep(0.5)
+        time.sleep(delay)
         translate_xpath(xpathID_group(dev_list[devserver_number][25])).click()
         # [Treasure]宝物升星
         input_user_rid(user_rid)
@@ -768,7 +692,7 @@ while True:
             translate_xpath(convert_xpath_tr(2, 'comId')).clear()
             translate_xpath(convert_xpath_tr(2, 'comId')).send_keys(big_id)
             for y in range(60):
-                time.sleep(0.5)
+                time.sleep(delay)
                 translate_xpath(convert_xpath_tr(5, 'uploadFrom')).click()
                 print "宝物" + str(x) + "第" + str(y) + "次升星"
         driver.quit()
