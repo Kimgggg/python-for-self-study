@@ -11,7 +11,7 @@ import itertools
 import hashlib
 import urllib2
 import HTMLParser
-import re
+import re2
 
 
 #coding: utf-8 #############################################################
