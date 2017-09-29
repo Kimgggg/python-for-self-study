@@ -4,7 +4,7 @@
 
 import sys
 import SetDef
-import SetClass
+import SetClass    
 import Image
 import types
 import itertools
@@ -12,6 +12,7 @@ import hashlib
 import urllib2
 import HTMLParser
 import re1
+
 
 
 
