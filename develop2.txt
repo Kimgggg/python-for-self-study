@@ -136,8 +136,6 @@ function  selectedServer(value)
          
           <li style="background:#CACACA" alt="Activity.getInsufficientTextFriends" title="Activity.getInsufficientTextFriends">[Activity]获取好友-集齐添加标记</li>
          
-          <li style="background:#CACACA" alt="Activity.testTextDrop" title="Activity.testTextDrop">[Activity]测试文字掉落</li>
-         
           <li style="background:#CACACA" alt="Activity.getIntelligentReward" title="Activity.getIntelligentReward">[Activity]领取动态单笔充值奖励</li>
          
           <li style="background:#CACACA" alt="Activity.weeklyGiftRandomCut" title="Activity.weeklyGiftRandomCut">[Activity]VIP周礼包随机立减</li>
@@ -263,8 +261,6 @@ function  selectedServer(value)
           <li style="background:#CACACA" alt="BackFlow.buyReturnSaleGoods" title="BackFlow.buyReturnSaleGoods">[BackFlow]购买特卖商品</li>
          
           <li style="background:#CACACA" alt="BackFlow.receiveRechargeWelfare" title="BackFlow.receiveRechargeWelfare">[BackFlow]领取充值特惠奖励</li>
-         
-          <li style="background:#CACACA" alt="BackFlow.testAdd" title="BackFlow.testAdd">[BackFlow]加成测试</li>
          
           <li style="background:#9ECCED" alt="Battle.getBattleReport" title="Battle.getBattleReport">[Battle]获取战报信息</li>
          
@@ -937,8 +933,6 @@ function  selectedServer(value)
           <li style="background:#9ECCED" alt="Mail.getMails" title="Mail.getMails">[Mail]取邮件</li>
          
           <li style="background:#9ECCED" alt="Mail.readMail" title="Mail.readMail">[Mail]读邮件</li>
-         
-          <li style="background:#9ECCED" alt="Mail.delMail" title="Mail.delMail">[Mail]删邮件</li>
          
           <li style="background:#9ECCED" alt="Mail.getAttachment" title="Mail.getAttachment">[Mail]取附件</li>
          
@@ -1722,6 +1716,8 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Tools.setDailyFriendScore" title="Tools.setDailyFriendScore">[Tools]添加今日获得积分</li>
          
+          <li style="background:#9ECCED" alt="Tools.setFriendScore" title="Tools.setFriendScore">[Tools]添加未领取积分</li>
+         
           <li style="background:#CACACA" alt="Training.init" title="Training.init">[Training]进入训练场</li>
          
           <li style="background:#CACACA" alt="Training.getReward" title="Training.getReward">[Training]领取训练首通奖励</li>
@@ -2372,27 +2368,6 @@ function  selectedServer(value)
     <div>
           <p>[Activity.getInsufficientTextFriends]&nbsp;&nbsp;&nbsp;获取好友-集齐添加标记</p>
                      <form action="http://192.168.5.206:8001?mod=http&method=Activity.getInsufficientTextFriends&__noauth__=1&pGroup=default&sec=8101" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
-          <p>[Activity.testTextDrop]&nbsp;&nbsp;&nbsp;测试文字掉落</p>
-                     <form action="http://192.168.5.206:8001?mod=http&method=Activity.testTextDrop&__noauth__=1&pGroup=default&sec=8101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
       <table border="0" cellspacing="0" cellpadding="0" >
  	   
@@ -3997,27 +3972,6 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">选取的商品索引:</td>
     <td padding:5px;><input type="text" name="id" id="id" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
-          <p>[BackFlow.testAdd]&nbsp;&nbsp;&nbsp;加成测试</p>
-                     <form action="http://192.168.5.206:8001?mod=http&method=BackFlow.testAdd&__noauth__=1&pGroup=default&sec=8101" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -12907,32 +12861,6 @@ function  selectedServer(value)
    </div>
  
     <div>
-          <p>[Mail.delMail]&nbsp;&nbsp;&nbsp;删邮件</p>
-                     <form action="http://192.168.5.206:8001?mod=http&method=Mail.delMail&__noauth__=1&pGroup=default&sec=8101" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-         
- 	    <tr>
-    <td style="text-align:right;padding:5px;">邮件ID:</td>
-    <td padding:5px;><input type="text" name="mailId" id="mailId" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
           <p>[Mail.getAttachment]&nbsp;&nbsp;&nbsp;取附件</p>
                      <form action="http://192.168.5.206:8001?mod=http&method=Mail.getAttachment&__noauth__=1&pGroup=default&sec=8101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -18923,7 +18851,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">数据类型【1每日重置2方阵3抽奖4背包5普通副本6英雄7英雄宝物8阵型<br>9主线任务10日常任务11远征12图鉴13精英副本14云中城】:</td>
+    <td style="text-align:right;padding:5px;">数据类型【1每日重置3抽奖4背包5普通副本7英雄宝物8阵型<br>9主线任务10日常任务11远征12图鉴13精英副本14云中城】:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
               	<tr>
@@ -23010,6 +22938,32 @@ function  selectedServer(value)
     <div>
           <p>[Tools.setDailyFriendScore]&nbsp;&nbsp;&nbsp;添加今日获得积分</p>
                      <form action="http://192.168.5.206:8001?mod=http&method=Tools.setDailyFriendScore&__noauth__=1&pGroup=default&sec=8101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">添加数量:</td>
+    <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.setFriendScore]&nbsp;&nbsp;&nbsp;添加未领取积分</p>
+                     <form action="http://192.168.5.206:8001?mod=http&method=Tools.setFriendScore&__noauth__=1&pGroup=default&sec=8101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
       <table border="0" cellspacing="0" cellpadding="0" >
  	   
