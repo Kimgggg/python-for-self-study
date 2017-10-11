@@ -12,16 +12,17 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 DEBUG = True
-user_rid = raw_input("please input rid:\n")
-print '''
-1.开发机1
-2.开发机2
-3.开发机3
-4.dev3
-5.dev4
-'''
-dev_server = raw_input("please input debug server:\n")
-dev_server = other_config.debug_server_requests[int(dev_server) - 1]
+temp_dict = {}
+
+def del_dict_argv(*type_name):
+	for x in type_name:
+		del base_parameter_dict[x]
+
+def add_dict_argv(**kwargs):
+	for key in kwargs:
+		temp_dict[key] = kwargs[key]
+	base_parameter_dict.update(temp_dict)
+	temp_dict.clear()
 
 base_parameter_dict = OrderedDict([
 ('mod','http'),
@@ -31,6 +32,24 @@ base_parameter_dict = OrderedDict([
 ('uploadFrom','提交')
 ])
 
+user_rid = raw_input("please input rid:\n")
+print '''
+1.开发机1
+2.开发机2
+3.开发机3
+4.dev3
+5.dev4
+6.台湾
+'''
+dev_server = raw_input("please input debug server:\n")
+if dev_server == "6":
+	add_dict_argv(pGroup="test")
+dev_server = other_config.debug_server_requests[int(dev_server) - 1]
+
+print base_parameter_dict
+
+
+
 def debug_log(log_type):
 	if DEBUG:
 		if log_type == "url":
@@ -38,17 +57,15 @@ def debug_log(log_type):
 		else:
 			print base_parameter_dict
 
-def del_dict_argv(*type_name):
-	for x in type_name:
-		del base_parameter_dict[x]
+# def del_dict_argv(*type_name):
+# 	for x in type_name:
+# 		del base_parameter_dict[x]
 
 
-def add_dict_argv(type_name, type_num):
-	base_parameter_dict[type_name] = type_num
 
 
-add_dict_argv("rid",user_rid)
-add_dict_argv("sec",user_rid[:4])
+
+add_dict_argv(rid=user_rid, sec=user_rid[:4])
 
 # print base_parameter_dict
 
@@ -78,11 +95,10 @@ while True:
 
 	press = raw_input("select:")
 	if press == "1":
-		add_dict_argv("method","Tools.addRes")
-		add_dict_argv("num",raw_input("please input resource number:\n"))
+		add_dict_argv(method="Tools.addRes",num=raw_input("please input resource number:\n"))
 		for x in other_config.resource:
 			print x
-			add_dict_argv("type",x)
+			add_dict_argv(type=x)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			debug_log("url")
 		nums = ""
@@ -90,42 +106,39 @@ while True:
 		debug_log("2")
 			
 	elif press == "2":
-		add_dict_argv("method","Tools.upgradeLevel")
-		add_dict_argv("level",raw_input("please input level number:\n"))
+		add_dict_argv(method="Tools.upgradeLevel", level=raw_input("please input level number:\n"))
 		r = requests.get(dev_server, params = base_parameter_dict)
 		debug_log("url")
 		del_dict_argv("method","level")
 		debug_log("")
 
 	elif press == "3":
-		add_dict_argv("method","Tools.setVipLevel")
-		add_dict_argv("level",raw_input("please input level number:\n"))
+		add_dict_argv(method="Tools.setVipLevel",level=raw_input("please input level number:\n"))
 		r = requests.get(dev_server, params = base_parameter_dict)
 		debug_log("url")
 		del_dict_argv("method","level")
 		debug_log("")
 
 	elif press == "4":
-		add_dict_argv("method","Team.upPotential")
+		add_dict_argv(method="Team.upPotential")
 		for x in other_config.bingtuanId:
-			add_dict_argv("teamId",x)
+			add_dict_argv(teamId=x)
 			for y in other_config.potentialId:
-				add_dict_argv("potentialId",y)
+				add_dict_argv(potentialId=y)
 				for z in range(41):
 					r = requests.get(dev_server, params = base_parameter_dict)
 					print "兵团" + str(x) + "潜能" + str(y) + "第" + str(z) + "次提升"
 		del_dict_argv("method","teamId","potentialId")
 
 	elif press == "5":
-		add_dict_argv("method","Tools.batchPassStage")
+		add_dict_argv(method="Tools.batchPassStage")
 		for x in other_config.stageId:
-			add_dict_argv("stageId",x)
+			add_dict_argv(stageId=x)
 			r = requests.get(dev_server, params = base_parameter_dict)
 		del_dict_argv("method","stageId")
 
 	elif press == "6":
-		add_dict_argv("goodsNum",raw_input("please input item number:\n"))
-		add_dict_argv("method","Tools.sendItems")
+		add_dict_argv(goodsNum=raw_input("please input item number:\n"), method="Tools.sendItems")
 		new_list = 	other_config.bingtuansuipianId + "," + other_config.jinjiecailiaoId + "," + other_config.herosuipianId + "," + other_config.baowustr + "," + other_config.otheritem + "," + other_config.fashusuipian
 		print '''
 	1.发送全部
@@ -138,43 +151,43 @@ while True:
 		'''
 		select_type = raw_input("please select num:\n")
 		if select_type == "1":
-			add_dict_argv("goodsId",new_list)
+			add_dict_argv(goodsId=new_list)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			debug_log("url")
 			debug_log("")
 			print "全部物品发送成功"
 		elif select_type == "2":
-			add_dict_argv("goodsId",other_config.bingtuansuipianId)	
+			add_dict_argv(goodsId=other_config.bingtuansuipianId)	
 			r = requests.get(dev_server, params = base_parameter_dict)
 			debug_log("url")
 			debug_log("")
 			print "发放兵团碎片成功"
 		elif select_type == "3":
-			add_dict_argv("goodsId",other_config.jinjiecailiaoId)
+			add_dict_argv(goodsId=other_config.jinjiecailiaoId)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			debug_log("url")
 			debug_log("")
 			print "发放进阶材料成功"
 		elif select_type == "4":
-			add_dict_argv("goodsId",other_config.herosuipianId)
+			add_dict_argv(goodsId=other_config.herosuipianId)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			debug_log("url")
 			debug_log("")
 			print "发放英雄碎片成功"
 		elif select_type == "5":
-			add_dict_argv("goodsId",other_config.baowustr)
+			add_dict_argv(goodsId=other_config.baowustr)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			debug_log("url")
 			debug_log("")
 			print "发放宝物成功"
 		elif select_type == "6":
-			add_dict_argv("goodsId",other_config.otheritem)
+			add_dict_argv(goodsId=other_config.otheritem)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			debug_log("url")
 			debug_log("")
 			print "发放杂物成功"
 		elif select_type == "7":
-			add_dict_argv("goodsId",other_config.fashusuipian)
+			add_dict_argv(goodsId=other_config.fashusuipian)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			debug_log("url")
 			debug_log("")
@@ -182,46 +195,44 @@ while True:
 		del_dict_argv("goodsNum","goodsId","method")
 
 	elif press == "7":
-		add_dict_argv("goodsNum","9999999")
-		add_dict_argv("goodsId","41001")
-		add_dict_argv("method","Tools.sendItems")
+		add_dict_argv(goodsNum="9999999")
+		add_dict_argv(goodsId="41001")
+		add_dict_argv(method="Tools.sendItems")
 		r = requests.get(dev_server, params = base_parameter_dict)
 		del_dict_argv("goodsNum","goodsId","method")
 
-		add_dict_argv("method","Treasure.promoteDisTreasure")
+		add_dict_argv(method="Treasure.promoteDisTreasure")
 		for x in other_config.baowu:
 			strx = x
-			add_dict_argv("disId",x)
-			add_dict_argv("comId",str(strx)[2:4])
+			add_dict_argv(disId=x, comId=str(strx)[2:4])
 			for y in range(21):
 				r = requests.get(dev_server, params = base_parameter_dict)
 				print "第" + str(y) + "次进阶" + str(x)
 		del_dict_argv("method","disId","comId")
 
 	elif press == "8":
-		add_dict_argv("method","Tools.sendHero")
+		add_dict_argv(method="Tools.sendHero")
 		for x in other_config.heroId:
-			add_dict_argv("heroId",x)
+			add_dict_argv(heroId=x)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			print "已发送" + str(x)
 		del_dict_argv("method","heroId")
 
 	elif press == "9":
-		add_dict_argv("method","Hero.upgradeStar")
+		add_dict_argv(method="Hero.upgradeStar")
 		for x in other_config.heroId:
-			add_dict_argv("heroId",x)
+			add_dict_argv(heroId=x)
 			for y in range(4):
 				r = requests.get(dev_server, params = base_parameter_dict)
 				print "英雄" + str(x) + "第" + str(y) + "次升星"
 		del_dict_argv("method","heroId")
 
 	elif press == "10":
-		add_dict_argv("method","Hero.heroSkillUpgrade")
-		add_dict_argv("exMode","1")
+		add_dict_argv(method="Hero.heroSkillUpgrade",exMode="1")
 		for x in other_config.heroId:
-			add_dict_argv("heroId",x)
+			add_dict_argv(heroId=x)
 			for y in other_config.skillposition:
-				add_dict_argv("positionId",y)
+				add_dict_argv(positionId=y)
 				for z in range(22):
 					r = requests.get(dev_server, params = base_parameter_dict)
 					print "第" + str(z) + "次升级" + str(x) + " " + str(y) + "技能" 
@@ -229,34 +240,33 @@ while True:
 		del_dict_argv("method","exMode","heroId","positionId")
 
 	elif press == "11":
-		add_dict_argv("method","Tools.createTeam")
+		add_dict_argv(method="Tools.createTeam")
 		for x in other_config.bingtuanId:
-			add_dict_argv("teamId",x)
+			add_dict_argv(teamId=x)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			print "已发放" + str(x)
 		del_dict_argv("method","teamId")
 
 	elif press == "12":
-		add_dict_argv("method","Team.upgradeTeam")
-		add_dict_argv("level","90")
+		add_dict_argv(method="Team.upgradeTeam",level="90")
 		for x in other_config.bingtuanId:
-			add_dict_argv("teamId",x)
+			add_dict_argv(teamId=x)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			print "兵团" + str(x) + "已升级"
 		del_dict_argv("method","level","teamId")
 
-		add_dict_argv("method","Team.batchUpgradeEquip")
+		add_dict_argv(method="Team.batchUpgradeEquip")
 		for x in other_config.bingtuanId:
-			add_dict_argv("teamId",x)
+			add_dict_argv(teamId=x)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			print "兵团" + str(x) + "装备已升级"
 		del_dict_argv("method","teamId")
 
-		add_dict_argv("method","Team.upgradeStageEquip")
+		add_dict_argv(method="Team.upgradeStageEquip")
 		for x in other_config.bingtuanId:
-			add_dict_argv("teamId",x)
+			add_dict_argv(teamId=x)
 			for y in other_config.skillposition:
-				add_dict_argv("positionId",y)
+				add_dict_argv(positionId=y)
 				for z in range(14):
 					r = requests.get(dev_server, params = base_parameter_dict)
 					print "兵团" + str(x) + "装备" + str(y) + "正在第" + str(z) + "次升阶"
@@ -270,27 +280,26 @@ while True:
 		3.开发机3
 		4.dev3
 		5.dev4
+		6.台湾
 		'''
 		dev_server = raw_input("please input debug server:\n")
 		dev_server = other_config.debug_server_requests[int(dev_server) - 1]
-		add_dict_argv("rid",user_rid)
-		add_dict_argv("sec",user_rid[:4])
+		add_dict_argv(rid=user_rid, sec=user_rid[:4])
 		print base_parameter_dict
 
 	elif press == "14":
 		def update_small_star(list_name):
-			add_dict_argv("method","Team.upgradeStar")
-			add_dict_argv("batch","1")
+			add_dict_argv(method="Team.upgradeStar",batch="1")
 			for x in list_name:
-				add_dict_argv("teamId",x)
+				add_dict_argv(teamId=x)
 				r = requests.get(dev_server, params = base_parameter_dict)
 				print "兵团" + str(x) + "小星升星完毕"
 			del_dict_argv("method","batch","teamId")
 
 		def update_big_star(list_name):
-			add_dict_argv("method","Team.upgradeMaxStar")
+			add_dict_argv(method="Team.upgradeMaxStar")
 			for x in list_name:
-				add_dict_argv("teamId",x)
+				add_dict_argv(teamId=x)
 				r = requests.get(dev_server, params = base_parameter_dict)
 				print "兵团" + str(x) + "大星升星完毕"
 			del_dict_argv("method","teamId")
@@ -305,40 +314,56 @@ while True:
 			update_small_star(new_bingtuansuipian3star)
 			update_big_star(new_bingtuansuipian3star)
 
-		add_dict_argv("method","Team.activationPotential")
+		add_dict_argv(method="Team.activationPotential")
 		for x in other_config.bingtuanId:
-			add_dict_argv("teamId",x)
+			add_dict_argv(teamId=x)
 			r = requests.get(dev_server, params = base_parameter_dict)
 			print str(x) + "潜能激活完毕"
 		del_dict_argv("method","teamId")
 
 	elif press == "15":
-		add_dict_argv("method","Tools.resetBoss")
+		add_dict_argv(method="Tools.resetBoss")
 		r = requests.get(dev_server, params = base_parameter_dict)
 		del_dict_argv("method")
 
 	elif press == "16":
-		add_dict_argv("method","Hero.combineSpellBook")
+		add_dict_argv(method="Hero.combineSpellBook")
 		for x in other_config.skillId:
-			add_dict_argv("sid",x)
+			add_dict_argv(sid=x)
 			r = requests.get(dev_server, params = base_parameter_dict)
 		del_dict_argv("method","sid")
 
-		add_dict_argv("method","Hero.upLevelSpellBook")
+		add_dict_argv(method="Hero.upLevelSpellBook")
 		for x in other_config.skillId:
-			add_dict_argv("sid",x)
+			add_dict_argv(sid=x)
 			for y in range(5):
 				r = requests.get(dev_server, params = base_parameter_dict)
 		del_dict_argv("method","sid")
 
 	elif press == "17":
-		add_dict_argv("method","Team.upgradeStageTeam")
+		add_dict_argv(method="Team.upgradeStageTeam")
 		for x in other_config.bingtuanId:
-			add_dict_argv("teamId",x)
+			add_dict_argv(teamId=x)
 			for y in range(13):
 				r = requests.get(dev_server, params = base_parameter_dict)
 		del_dict_argv("method","teamId")
-				
+	
+	elif press == "18":
+		add_dict_argv(method="Tools.clearYac",actDev="0")
+		r = requests.get(dev_server, params = base_parameter_dict)
+		del_dict_argv("method","actDev")
 
+	elif press == "19":
+		add_dict_argv(method="Tools.addRes",type="starfrag",num="99999999")
+		r = requests.get(dev_server, params = base_parameter_dict)
+		del_dict_argv("method","type","num")
+
+		add_dict_argv(method="Treasure.upStar",num="10")
+		for x in other_config.baowu:
+			strx = x
+			add_dict_argv(disId=x, comId=str(strx)[2:4])
+			for y in range(50):
+				r = requests.get(dev_server, params = base_parameter_dict)
+		del_dict_argv("method","num","disId","comId")
 	else:
 		os.exit()
