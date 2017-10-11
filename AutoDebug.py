@@ -10,7 +10,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-DEBUG = True
+DEBUG = False
 temp_dict = {}
 base_parameter_dict = OrderedDict([
 ('mod','http'),
@@ -40,6 +40,9 @@ def send_requests():
 		print base_parameter_dict
 		print "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
 		print "发送的请求>>>>>>>>>>>>>>>>>>>>>>>>>>\n" + r.url + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
+	else:
+		print "返回信息>>>>>>>>>>>>>>>>>>>\n" + r.text + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
+
 	
 
 user_rid = raw_input("please input rid:\n")
