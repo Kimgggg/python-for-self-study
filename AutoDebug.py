@@ -70,7 +70,7 @@ while True:
     4.提升全部兵团潜力
     5.调整副本进度
     6.发全部材料
-    7.全部宝物进阶
+    7.全部宝物进阶+升星
     8.发放全部英雄
     9.英雄升星
     10.英雄技能升级
@@ -79,19 +79,38 @@ while True:
     13.更换user_rid与服务器
     14.所有兵团升星+激活潜能
     15.重置pve玩法次数
-    16.法术激活升级（只允许在开发机1上使用）
-    17.兵团进阶
+    16.法术激活升级
     18.清除yac
-    19.宝物升星
     q.退出
     """
 
 	press = raw_input("select:")
 	if press == "1":
 		add_dict_argv(method="Tools.addRes",num=raw_input("please input resource number:\n"))
-		for x in other_config.resource:
-			print x
-			add_dict_argv(type=x)
+		print '''
+		1.全部
+		2.钻石
+		3.金币
+		4.体力
+		5.兵团经验
+		'''
+		select_type = raw_input("please input type_num:\n")
+		if select_type == "1":
+			for x in other_config.resource:
+				print x
+				add_dict_argv(type=x)
+				send_requests()
+		elif select_type == "2":
+			add_dict_argv(type="gem")
+			send_requests()
+		elif select_type == "3":
+			add_dict_argv(type="gold")
+			send_requests()
+		elif select_type == "4":
+			add_dict_argv(type="physcal")
+			send_requests()
+		elif select_type == "5":
+			add_dict_argv(type="texp")
 			send_requests()
 		del_dict_argv("num","type","method")
 			
@@ -182,6 +201,18 @@ while True:
 				print "第" + str(y) + "次进阶" + str(x)
 		del_dict_argv("method","disId","comId")
 
+		add_dict_argv(method="Tools.addRes",type="starfrag",num="99999999")
+		send_requests()
+		del_dict_argv("method","type","num")
+
+		add_dict_argv(method="Treasure.upStar",num="10")
+		for x in other_config.baowu:
+			strx = x
+			add_dict_argv(disId=x, comId=str(strx)[2:4])
+			for y in range(50):
+				send_requests()
+		del_dict_argv("method","num","disId","comId")
+
 	elif press == "8":
 		add_dict_argv(method="Tools.sendHero")
 		for x in other_config.heroId:
@@ -243,6 +274,13 @@ while True:
 					send_requests()
 					print "兵团" + str(x) + "装备" + str(y) + "正在第" + str(z) + "次升阶"
 		del_dict_argv("method","teamId","positionId")
+
+		add_dict_argv(method="Team.upgradeStageTeam")
+		for x in other_config.bingtuanId:
+			add_dict_argv(teamId=x)
+			for y in range(13):
+				send_requests()
+		del_dict_argv("method","teamId")
 	
 	elif press == "13":
 		user_rid = raw_input("please input rid:\n")
@@ -317,12 +355,7 @@ while True:
 		del_dict_argv("method","sid")
 
 	elif press == "17":
-		add_dict_argv(method="Team.upgradeStageTeam")
-		for x in other_config.bingtuanId:
-			add_dict_argv(teamId=x)
-			for y in range(13):
-				send_requests()
-		del_dict_argv("method","teamId")
+		pass
 	
 	elif press == "18":
 		add_dict_argv(method="Tools.clearYac",actDev="0")
@@ -330,16 +363,6 @@ while True:
 		del_dict_argv("method","actDev")
 
 	elif press == "19":
-		add_dict_argv(method="Tools.addRes",type="starfrag",num="99999999")
-		send_requests()
-		del_dict_argv("method","type","num")
-
-		add_dict_argv(method="Treasure.upStar",num="10")
-		for x in other_config.baowu:
-			strx = x
-			add_dict_argv(disId=x, comId=str(strx)[2:4])
-			for y in range(50):
-				send_requests()
-		del_dict_argv("method","num","disId","comId")
+		pass
 	else:
 		os.exit()
