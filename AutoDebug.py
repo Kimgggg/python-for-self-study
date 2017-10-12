@@ -80,7 +80,9 @@ while True:
     14.所有兵团升星+激活潜能
     15.重置pve玩法次数
     16.法术激活升级
+    17.图鉴解锁+图鉴升级
     18.清除yac
+    19.英雄天赋升级
     q.退出
     """
 
@@ -355,14 +357,38 @@ while True:
 		del_dict_argv("method","sid")
 
 	elif press == "17":
-		pass
-	
+		poke_id = [4,5]
+		add_dict_argv(method="Pokedex.activePokedexPos")
+		for x in range(14):
+			add_dict_argv(pokedexId=x)
+			for y in poke_id:
+				add_dict_argv(positionId=y)
+				send_requests()
+		del_dict_argv("method","pokedexId","positionId")
+
+		add_dict_argv(method="Pokedex.upPokedexLevel",)
+		for x in range(14):
+			add_dict_argv(pokedexId=x)
+			for y in range(25):
+				send_requests()
+		del_dict_argv("method","pokedexId")
+
 	elif press == "18":
 		add_dict_argv(method="Tools.clearYac",actDev="0")
 		send_requests()
 		del_dict_argv("method","actDev")
 
 	elif press == "19":
-		pass
+		add_dict_argv(method="Tools.addRes",num="2370",type="starNum")
+		send_requests()
+		del_dict_argv("num","type","method")
+
+		add_dict_argv(method="Talent.upTalentChildLv")
+		for x in other_config.magicTalent:
+			strx = x
+			add_dict_argv(tid=x,kind=str(strx)[:2])
+			for y in range(10):
+				send_requests()
+		del_dict_argv("method","tid","kind")
 	else:
 		os.exit()
