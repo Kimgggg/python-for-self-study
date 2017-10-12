@@ -190,9 +190,7 @@ while True:
 
 	elif press == "7":
 		for x in other_config.baowu:
-			group_id = x
-			position_id = x
-			add_dict_argv(method="Treasure.wearDisTreasure",disId=x,comId=str(group_id)[2:4],positionId=str(position_id)[-1])
+			add_dict_argv(method="Treasure.wearDisTreasure",disId=x,comId=str(x)[2:4],positionId=str(x)[-1])
 			send_requests()
 			del_dict_argv("method","disId","comId","positionId")
 
@@ -207,8 +205,7 @@ while True:
 
 		add_dict_argv(method="Treasure.promoteDisTreasure")
 		for x in other_config.baowu:
-			strx = x
-			add_dict_argv(disId=x, comId=str(strx)[2:4])
+			add_dict_argv(disId=x, comId=str(x)[2:4])
 			for y in range(21):
 				send_requests()
 				print "第" + str(y) + "次进阶" + str(x)
@@ -220,8 +217,7 @@ while True:
 
 		add_dict_argv(method="Treasure.upStar",num="10")
 		for x in other_config.baowu:
-			strx = x
-			add_dict_argv(disId=x, comId=str(strx)[2:4])
+			add_dict_argv(disId=x, comId=str(x)[2:4])
 			for y in range(50):
 				send_requests()
 		del_dict_argv("method","num","disId","comId")
@@ -430,8 +426,7 @@ while True:
 
 		add_dict_argv(method="Talent.upTalentChildLv")
 		for x in other_config.magicTalent:
-			strx = x
-			add_dict_argv(tid=x,kind=str(strx)[:2])
+			add_dict_argv(tid=x,kind=str(x)[:2])
 			for y in range(10):
 				send_requests()
 		del_dict_argv("method","tid","kind")
