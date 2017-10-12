@@ -72,7 +72,7 @@ while True:
     6.发全部材料
     7.全部宝物进阶+升星
     8.发放全部英雄
-    9.英雄升星
+    9.英雄升星+开启法术槽
     10.英雄技能升级
     11.发放全部兵团
     12.所有兵团升级+所有兵团装备升级+所有兵团装备进阶
@@ -189,6 +189,18 @@ while True:
 		del_dict_argv("goodsNum","goodsId","method")
 
 	elif press == "7":
+		for x in other_config.baowu:
+			group_id = x
+			position_id = x
+			add_dict_argv(method="Treasure.wearDisTreasure",disId=x,comId=str(group_id)[2:4],positionId=str(position_id)[-1])
+			send_requests()
+			del_dict_argv("method","disId","comId","positionId")
+
+		for x in other_config.baowu:
+			add_dict_argv(method="Treasure.activationComTreasure",comId=str(x)[2:4])
+			send_requests()
+			del_dict_argv("method","comId")
+
 		add_dict_argv(goodsNum="9999999",goodsId="41001",method="Tools.sendItems")
 		send_requests()
 		del_dict_argv("goodsNum","goodsId","method")
@@ -236,6 +248,12 @@ while True:
 			for y in range(4):
 				send_requests()
 				print "英雄" + str(x) + "第" + str(y) + "次升星"
+		del_dict_argv("method","heroId")
+
+		add_dict_argv(method="Hero.initHeroSlot")
+		for x in other_config.heroId:
+			add_dict_argv(heroId=x)
+			send_requests()
 		del_dict_argv("method","heroId")
 
 	elif press == "10":
