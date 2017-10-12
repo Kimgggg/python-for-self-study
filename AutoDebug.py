@@ -77,12 +77,13 @@ while True:
     11.发放全部兵团
     12.所有兵团升级+所有兵团装备升级+所有兵团装备进阶
     13.更换user_rid与服务器
-    14.所有兵团升星+激活潜能
+    14.所有兵团升星+激活潜能+解锁技能+技能升级
     15.重置pve玩法次数
     16.法术激活升级
     17.图鉴解锁+图鉴升级
     18.清除yac
     19.英雄天赋升级
+    20.清空背包
     q.退出
     """
 
@@ -188,9 +189,7 @@ while True:
 		del_dict_argv("goodsNum","goodsId","method")
 
 	elif press == "7":
-		add_dict_argv(goodsNum="9999999")
-		add_dict_argv(goodsId="41001")
-		add_dict_argv(method="Tools.sendItems")
+		add_dict_argv(goodsNum="9999999",goodsId="41001",method="Tools.sendItems")
 		send_requests()
 		del_dict_argv("goodsNum","goodsId","method")
 
@@ -215,6 +214,13 @@ while True:
 				send_requests()
 		del_dict_argv("method","num","disId","comId")
 
+		add_dict_argv(method="Treasure.promoteComTreasure")
+		for x in other_config.baowu:
+			add_dict_argv(comId=str(x)[2:4])
+			for y in range(21):
+				send_requests()
+		del_dict_argv("method","comId")
+				
 	elif press == "8":
 		add_dict_argv(method="Tools.sendHero")
 		for x in other_config.heroId:
@@ -337,6 +343,27 @@ while True:
 			print str(x) + "潜能激活完毕"
 		del_dict_argv("method","teamId")
 
+		add_dict_argv(method="Team.openSkill")
+		for x in other_config.bingtuanId:
+			add_dict_argv(teamId=x)
+			for y in other_config.skillposition:
+				add_dict_argv(positionId=y)
+				send_requests()
+		del_dict_argv("method","teamId","positionId")
+
+		add_dict_argv(method="Tools.sendItems",goodsId="3025",goodsNum="99999999")
+		send_requests()
+		del_dict_argv("method","goodsId","goodsNum")
+
+		add_dict_argv(method="Team.upgradeSkill",args="{\"items\":[[3025,100]]}")
+		for x in other_config.bingtuanId:
+			add_dict_argv(teamId=x)
+			for y in other_config.skillposition:
+				add_dict_argv(positionId=y)
+				send_requests()
+		del_dict_argv("method","args","teamId","positionId")
+
+
 	elif press == "15":
 		add_dict_argv(method="Tools.resetBoss")
 		send_requests()
@@ -379,7 +406,7 @@ while True:
 		del_dict_argv("method","actDev")
 
 	elif press == "19":
-		add_dict_argv(method="Tools.addRes",num="2370",type="starNum")
+		add_dict_argv(method="Tools.addRes",num="237000",type="starNum")
 		send_requests()
 		del_dict_argv("num","type","method")
 
@@ -390,5 +417,11 @@ while True:
 			for y in range(10):
 				send_requests()
 		del_dict_argv("method","tid","kind")
+
+	elif press == "20":
+		add_dict_argv(method="Tools.clearUserData",type="4")
+		send_requests()
+		del_dict_argv("method","type")
+
 	else:
 		os.exit()
