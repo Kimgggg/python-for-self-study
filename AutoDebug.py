@@ -20,6 +20,9 @@ base_parameter_dict = OrderedDict([
 ('uploadFrom','提交')
 ])
 
+def Alzheimer_disease(select_number):
+	print select_number + " done"
+
 def del_dict_argv(*type_name):
 	for x in type_name:
 		del base_parameter_dict[x]
@@ -129,16 +132,19 @@ while True:
 			add_dict_argv(type="texp")
 			send_requests()
 		del_dict_argv("num","type","method")
+		Alzheimer_disease("1")
 			
 	elif press == "2":
 		add_dict_argv(method="Tools.upgradeLevel", level=raw_input("please input level number:\n"))
 		send_requests()
 		del_dict_argv("method","level")
+		Alzheimer_disease("2")
 
 	elif press == "3":
 		add_dict_argv(method="Tools.setVipLevel",level=raw_input("please input level number:\n"))
 		send_requests()
 		del_dict_argv("method","level")
+		Alzheimer_disease("3")
 
 	elif press == "4":
 		temp_addRes("gold")
@@ -151,6 +157,7 @@ while True:
 					send_requests()
 					print "兵团" + str(x) + "潜能" + str(y) + "第" + str(z) + "次提升"
 		del_dict_argv("method","teamId","potentialId")
+		Alzheimer_disease("4")
 
 	elif press == "5":
 		add_dict_argv(method="Tools.batchPassStage")
@@ -158,6 +165,7 @@ while True:
 			add_dict_argv(stageId=x)
 			send_requests()
 		del_dict_argv("method","stageId")
+		Alzheimer_disease("5")
 
 	elif press == "6":
 		add_dict_argv(goodsNum=raw_input("please input item number:\n"), method="Tools.sendItems")
@@ -201,6 +209,7 @@ while True:
 			send_requests()
 			print "发放法术碎片成功"
 		del_dict_argv("goodsNum","goodsId","method")
+		Alzheimer_disease("6")
 
 	elif press == "7":
 		for x in other_config.baowu:
@@ -238,6 +247,7 @@ while True:
 			for y in range(21):
 				send_requests()
 		del_dict_argv("method","comId")
+		Alzheimer_disease("7")
 				
 	elif press == "8":
 		add_dict_argv(method="Tools.sendHero")
@@ -246,7 +256,7 @@ while True:
 			send_requests()
 			print "已发送" + str(x)
 		del_dict_argv("method","heroId")
-
+		Alzheimer_disease("8")
 	elif press == "9":
 		add_dict_argv(method="Hero.upgradeStar")
 		for x in other_config.heroId:
@@ -261,6 +271,7 @@ while True:
 			add_dict_argv(heroId=x)
 			send_requests()
 		del_dict_argv("method","heroId")
+		Alzheimer_disease("9")
 
 	elif press == "10":
 		def refreshMastery(list_name):
@@ -284,6 +295,7 @@ while True:
 		del_dict_argv("method","exMode","heroId","positionId")
 		for x in range(5):
 			refreshMastery(other_config.heroId)
+		Alzheimer_disease("10")
 
 	elif press == "11":
 		add_dict_argv(method="Tools.createTeam")
@@ -292,6 +304,7 @@ while True:
 			send_requests()
 			print "已发放" + str(x)
 		del_dict_argv("method","teamId")
+		Alzheimer_disease("11")
 
 	elif press == "12":
 		temp_addRes("gold","texp")
@@ -325,6 +338,7 @@ while True:
 			for y in range(13):
 				send_requests()
 		del_dict_argv("method","teamId")
+		Alzheimer_disease("12")
 	
 	elif press == "13":
 		user_rid = raw_input("please input rid:\n")
@@ -343,7 +357,7 @@ while True:
 			add_dict_argv(pGroup="default")
 		dev_server = other_config.debug_server_requests[int(dev_server) - 1]
 		add_dict_argv(rid=user_rid, sec=user_rid[:4])
-		print base_parameter_dict
+		Alzheimer_disease("13")
 
 	elif press == "14":
 		def update_small_star(list_name):
@@ -396,12 +410,14 @@ while True:
 				add_dict_argv(positionId=y)
 				send_requests()
 		del_dict_argv("method","args","teamId","positionId")
+		Alzheimer_disease("14")
 
 
 	elif press == "15":
 		add_dict_argv(method="Tools.resetBoss")
 		send_requests()
 		del_dict_argv("method")
+		Alzheimer_disease("15")
 
 	elif press == "16":
 		add_dict_argv(method="Hero.combineSpellBook")
@@ -409,6 +425,7 @@ while True:
 			add_dict_argv(sid=x)
 			send_requests()
 		del_dict_argv("method","sid")
+		Alzheimer_disease("16")
 
 		add_dict_argv(method="Hero.upLevelSpellBook")
 		for x in other_config.skillId:
@@ -416,6 +433,7 @@ while True:
 			for y in range(5):
 				send_requests()
 		del_dict_argv("method","sid")
+		Alzheimer_disease("16")
 
 	elif press == "17":
 		poke_id = [4,5]
@@ -433,11 +451,13 @@ while True:
 			for y in range(25):
 				send_requests()
 		del_dict_argv("method","pokedexId")
+		Alzheimer_disease("17")
 
 	elif press == "18":
 		add_dict_argv(method="Tools.clearYac",actDev="0")
 		send_requests()
 		del_dict_argv("method","actDev")
+		Alzheimer_disease("18")
 
 	elif press == "19":
 		temp_addRes("starNum")
@@ -448,11 +468,13 @@ while True:
 			for y in range(10):
 				send_requests()
 		del_dict_argv("method","tid","kind")
+		Alzheimer_disease("19")
 
 	elif press == "20":
 		add_dict_argv(method="Tools.clearUserData",type="4")
 		send_requests()
 		del_dict_argv("method","type")
+		Alzheimer_disease("20")
 
 	elif press == "21":
 		add_dict_argv(method="Tools.activateAwaking")
@@ -469,6 +491,7 @@ while True:
 			for y in range(7):
 				send_requests()	
 		del_dict_argv("method","teamId")
+		Alzheimer_disease("21")
 
 	elif press == "22":
 		def trainTalent_and_saveTalent(list_name):
@@ -485,6 +508,7 @@ while True:
 
 		for x in range(input("please input times:\n")):
 			trainTalent_and_saveTalent(other_config.bingtuanId)
+		Alzheimer_disease("22")
 
 	else:
 		os.exit()
