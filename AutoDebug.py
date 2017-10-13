@@ -43,7 +43,18 @@ def send_requests():
 	else:
 		print "返回信息>>>>>>>>>>>>>>>>>>>\n" + r.text + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
 
-	
+def temp_sendItems(itemsId):
+	add_dict_argv(method="Tools.sendItems",goodsId=itemsId,goodsNum="9999999")
+	send_requests()
+	del_dict_argv("method","goodsId","goodsNum")
+
+def temp_addRes(*Restype):
+	for x in Restype:
+		add_dict_argv(method="Tools.addRes",num="9999999",type=Restype)
+		if (Restype == "gold") or (Restype == "texp"):
+			add_dict_argv(num="9999999999")
+		send_requests()
+		del_dict_argv("method","num","type")
 
 user_rid = raw_input("please input rid:\n")
 print '''
@@ -73,7 +84,7 @@ while True:
     7.全部宝物进阶+升星
     8.发放全部英雄
     9.英雄升星+开启法术槽
-    10.英雄技能升级
+    10.全部英雄技能升级+随机刷新5次专精
     11.发放全部兵团
     12.所有兵团升级+所有兵团装备升级+所有兵团装备进阶
     13.更换user_rid与服务器
@@ -84,6 +95,8 @@ while True:
     18.清除yac
     19.英雄天赋升级
     20.清空背包
+    21.直接觉醒兵团+觉醒强化
+    22.全部兵团指定次数随机增加兵团天赋
     q.退出
     """
 
@@ -128,6 +141,7 @@ while True:
 		del_dict_argv("method","level")
 
 	elif press == "4":
+		temp_addRes("gold")
 		add_dict_argv(method="Team.upPotential")
 		for x in other_config.bingtuanId:
 			add_dict_argv(teamId=x)
@@ -199,9 +213,7 @@ while True:
 			send_requests()
 			del_dict_argv("method","comId")
 
-		add_dict_argv(goodsNum="9999999",goodsId="41001",method="Tools.sendItems")
-		send_requests()
-		del_dict_argv("goodsNum","goodsId","method")
+		temp_sendItems("41001")
 
 		add_dict_argv(method="Treasure.promoteDisTreasure")
 		for x in other_config.baowu:
@@ -211,9 +223,7 @@ while True:
 				print "第" + str(y) + "次进阶" + str(x)
 		del_dict_argv("method","disId","comId")
 
-		add_dict_argv(method="Tools.addRes",type="starfrag",num="99999999")
-		send_requests()
-		del_dict_argv("method","type","num")
+		temp_addRes("starfrag")
 
 		add_dict_argv(method="Treasure.upStar",num="10")
 		for x in other_config.baowu:
@@ -253,6 +263,16 @@ while True:
 		del_dict_argv("method","heroId")
 
 	elif press == "10":
+		def refreshMastery(list_name):
+			for x in list_name:
+				add_dict_argv(method="Hero.refreshMastery",args='{"reduceType":0,"locks":{},"refreshNum":1}',heroId=x)
+				send_requests()
+				del_dict_argv("method","args","heroId")
+
+				add_dict_argv(method="Hero.saveMastery",index="1",heroId=x)
+				send_requests()
+				del_dict_argv("method","index","heroId")
+
 		add_dict_argv(method="Hero.heroSkillUpgrade",exMode="1")
 		for x in other_config.heroId:
 			add_dict_argv(heroId=x)
@@ -261,8 +281,9 @@ while True:
 				for z in range(22):
 					send_requests()
 					print "第" + str(z) + "次升级" + str(x) + " " + str(y) + "技能" 
-
 		del_dict_argv("method","exMode","heroId","positionId")
+		for x in range(5):
+			refreshMastery(other_config.heroId)
 
 	elif press == "11":
 		add_dict_argv(method="Tools.createTeam")
@@ -273,6 +294,7 @@ while True:
 		del_dict_argv("method","teamId")
 
 	elif press == "12":
+		temp_addRes("gold","texp")
 		add_dict_argv(method="Team.upgradeTeam",level="90")
 		for x in other_config.bingtuanId:
 			add_dict_argv(teamId=x)
@@ -365,9 +387,7 @@ while True:
 				send_requests()
 		del_dict_argv("method","teamId","positionId")
 
-		add_dict_argv(method="Tools.sendItems",goodsId="3025",goodsNum="99999999")
-		send_requests()
-		del_dict_argv("method","goodsId","goodsNum")
+		temp_sendItems("3025")
 
 		add_dict_argv(method="Team.upgradeSkill",args="{\"items\":[[3025,100]]}")
 		for x in other_config.bingtuanId:
@@ -420,9 +440,7 @@ while True:
 		del_dict_argv("method","actDev")
 
 	elif press == "19":
-		add_dict_argv(method="Tools.addRes",num="237000",type="starNum")
-		send_requests()
-		del_dict_argv("num","type","method")
+		temp_addRes("starNum")
 
 		add_dict_argv(method="Talent.upTalentChildLv")
 		for x in other_config.magicTalent:
@@ -435,6 +453,38 @@ while True:
 		add_dict_argv(method="Tools.clearUserData",type="4")
 		send_requests()
 		del_dict_argv("method","type")
+
+	elif press == "21":
+		add_dict_argv(method="Tools.activateAwaking")
+		for x in other_config.activateAwaking:
+			add_dict_argv(teamId=x)
+			send_requests()
+		del_dict_argv("method","teamId")
+
+		for x in other_config.activateAwaking:
+			temp_sendItems("94"+str(x))
+
+		for x in other_config.activateAwaking:
+			add_dict_argv(method="Awaking.upAwakingLevel",teamId=x)
+			for y in range(7):
+				send_requests()	
+		del_dict_argv("method","teamId")
+
+	elif press == "22":
+		def trainTalent_and_saveTalent(list_name):
+			for x in list_name:
+				add_dict_argv(method="Team.trainTalent",type="2",num="10",teamId=x)
+				send_requests()
+				del_dict_argv("method","type","num","teamId")
+
+				add_dict_argv(method="Team.saveTalent",tId="[1,2,3,4,5,6,7,8,9,10]",teamId=x)
+				send_requests()
+				del_dict_argv("method","tId","teamId")
+
+		temp_sendItems("3044,3045,3046,3047,3048")
+
+		for x in range(input("please input times:\n")):
+			trainTalent_and_saveTalent(other_config.bingtuanId)
 
 	else:
 		os.exit()
