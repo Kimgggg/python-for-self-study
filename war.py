@@ -29,7 +29,7 @@ while True:
     if press == "1":
         current_path = os.getcwd()
         os.chdir(pwd_config.War_svn_resources)
-        os.system("war.exe")
+        os.startfile("war.exe")
         os.chdir(current_path)
     elif press == "2":
         execfile("allbranch_pull.py")
