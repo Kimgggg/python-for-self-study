@@ -71,6 +71,8 @@ print '''
 dev_server = raw_input("please input debug server:\n")
 if dev_server == "6":
 	add_dict_argv(pGroup="test")
+elif dev_server == "4":
+	add_dict_argv(pGroup="aqq")
 else:
 	add_dict_argv(pGroup="default")
 dev_server = other_config.debug_server_requests[int(dev_server) - 1]
@@ -92,7 +94,7 @@ while True:
     12.所有兵团升级+所有兵团装备升级+所有兵团装备进阶
     13.更换user_rid与服务器
     14.所有兵团升星+激活潜能+解锁技能+技能升级
-    15.重置pve玩法次数
+    15.重置pve玩法次数星下下
     16.法术激活升级
     17.图鉴解锁+图鉴升级
     18.清除yac
@@ -353,6 +355,8 @@ while True:
 		dev_server = raw_input("please input debug server:\n")
 		if dev_server == "6":
 			add_dict_argv(pGroup="test")
+		elif dev_server == "4":
+			add_dict_argv(pGroup="aqq")
 		else:
 			add_dict_argv(pGroup="default")
 		dev_server = other_config.debug_server_requests[int(dev_server) - 1]
@@ -510,5 +514,11 @@ while True:
 			trainTalent_and_saveTalent(other_config.bingtuanId)
 		Alzheimer_disease("22")
 
+	elif press == "23":
+		add_dict_argv(method="Tools.autoKeyCopy",rids=user_rid,rid="8001_738")
+		send_requests()
+		del_dict_argv("method","rids","rid")
+		add_dict_argv(rid=user_rid)
+		Alzheimer_disease("23")
 	else:
 		os.exit()
