@@ -525,11 +525,129 @@ while True:
 		Alzheimer_disease(press)
 
 	elif press == "24":
-		add_dict_argv(method="Team.drawAward",num="10",typeId="2")
-		for x in range(input("please input numbers:\n")):
+		print "清空背包中...."
+		add_dict_argv(method="Tools.clearUserData",type="4")
+		send_requests()
+		del_dict_argv("method","type")
+		print "背包清空完毕，请输入抽取次数并选择类型"
+		number = input("please input number:\n")
+
+		print '''
+		1.祭坛抽卡钻石10连抽
+		2.祭坛抽卡钻石单抽
+		3.祭坛抽卡钥匙10连抽
+		4.祭坛抽卡钥匙单抽
+		5.法术祈愿钻石10连抽
+		6.法术祈愿钻石单抽
+		7.法术祈愿卷轴10连抽
+		8.法术祈愿卷轴单抽
+		9.宝物5连抽
+		10.宝物单抽
+		'''
+		select_type = raw_input("please select num:\n")
+		if select_type == "1":
+			add_dict_argv(method="Tools.addRes",num=str(number * 2700),type="gem")
 			send_requests()
-		del_dict_argv("method","num","typeId")
-		Alzheimer_disease(press)
+			del_dict_argv("method","num","type")
+
+			add_dict_argv(method="Team.drawAward",num="10",typeId="2")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num","typeId")
+			Alzheimer_disease(press)
+		elif select_type == "2":
+			add_dict_argv(method="Tools.addRes",num=str(number * 300),type="gem")
+			send_requests()
+			del_dict_argv("method","num","type")
+
+			add_dict_argv(method="Team.drawAward",num="1",typeId="2")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num","typeId")
+			Alzheimer_disease(press)
+		elif select_type == "3":
+			add_dict_argv(method="Tools.sendItems",goodsId="3001",goodsNum=str(number * 10))
+			send_requests()
+			del_dict_argv("method","goodsId","goodsNum")
+
+			add_dict_argv(method="Team.drawAward",num="10",typeId="1")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num","typeId")
+			Alzheimer_disease(press)
+		elif select_type == "4":
+			add_dict_argv(method="Tools.sendItems",goodsId="3001",goodsNum=str(number))
+			send_requests()
+			del_dict_argv("method","goodsId","goodsNum")
+
+			add_dict_argv(method="Team.drawAward",num="1",typeId="1")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num","typeId")
+			Alzheimer_disease(press)
+		elif select_type == "5":
+			add_dict_argv(method="Tools.addRes",num=str(number * 880),type="gem")
+			send_requests()
+			del_dict_argv("method","num","type")
+
+			add_dict_argv(method="Hero.drawSpeelBook",num="10",type="2")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num","type")
+			Alzheimer_disease(press)
+		elif select_type == "6":
+			add_dict_argv(method="Tools.addRes",num=str(number * 100),type="gem")
+			send_requests()
+			del_dict_argv("method","num","type")
+
+			add_dict_argv(method="Hero.drawSpeelBook",num="1",type="2")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num","type")
+			Alzheimer_disease(press)
+		elif select_type == "7":
+			add_dict_argv(method="Tools.sendItems",goodsId="40005",goodsNum=str(number * 10))
+			send_requests()
+			del_dict_argv("method","goodsId","goodsNum")
+
+			add_dict_argv(method="Hero.drawSpeelBook",num="10",type="1")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num","type")
+			Alzheimer_disease(press)
+		elif select_type == "8":
+			add_dict_argv(method="Tools.sendItems",goodsId="40005",goodsNum=str(number))
+			send_requests()
+			del_dict_argv("method","goodsId","goodsNum")
+
+			add_dict_argv(method="Hero.drawSpeelBook",num="1",type="1")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num","type")
+			Alzheimer_disease(press)
+		elif select_type == "9":
+			add_dict_argv(method="Tools.addRes",num=str(number * 880),type="gem")
+			send_requests()
+			del_dict_argv("method","num","type")
+
+			add_dict_argv(method="Treasure.drewDisTreasure",num="5")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num")
+			Alzheimer_disease(press)
+		elif select_type == "10":
+			add_dict_argv(method="Tools.addRes",num=str(number * 200),type="gem")
+			send_requests()
+			del_dict_argv("method","num","type")
+
+			add_dict_argv(method="Treasure.drewDisTreasure",num="1")
+			for x in range(number):
+				send_requests()
+			del_dict_argv("method","num")
+			Alzheimer_disease(press)
+
+
+
 
 	elif press == "test":
 		pass
