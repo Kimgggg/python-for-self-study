@@ -1700,9 +1700,15 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Tools.delSiegePlayer" title="Tools.delSiegePlayer">[Tools]删除玩家攻城战数据</li>
          
+          <li style="background:#9ECCED" alt="Tools.delDailySiegePlayer" title="Tools.delDailySiegePlayer">[Tools]删除玩家日常攻城数据</li>
+         
+          <li style="background:#9ECCED" alt="Tools.switchSiegeStage" title="Tools.switchSiegeStage">[Tools]切换剧情攻城关卡 攻城关卡</li>
+         
           <li style="background:#9ECCED" alt="Tools.toSiege" title="Tools.toSiege">[Tools]攻城战进入攻城阶段</li>
          
           <li style="background:#9ECCED" alt="Tools.toDefend" title="Tools.toDefend">[Tools]攻城战进入守城</li>
+         
+          <li style="background:#9ECCED" alt="Tools.modifyWallLv" title="Tools.modifyWallLv">[Tools]修改城墙等级</li>
          
           <li style="background:#9ECCED" alt="Tools.addPlatFriend" title="Tools.addPlatFriend">[Tools]添加平台好友</li>
          
@@ -1717,6 +1723,8 @@ function  selectedServer(value)
           <li style="background:#9ECCED" alt="Tools.setDailyFriendScore" title="Tools.setDailyFriendScore">[Tools]添加今日获得积分</li>
          
           <li style="background:#9ECCED" alt="Tools.setFriendScore" title="Tools.setFriendScore">[Tools]添加未领取积分</li>
+         
+          <li style="background:#9ECCED" alt="Tools.resetSiegeTimes" title="Tools.resetSiegeTimes">[Tools]重置玩家剧情攻城次数</li>
          
           <li style="background:#CACACA" alt="Training.init" title="Training.init">[Training]进入训练场</li>
          
@@ -5294,7 +5302,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">榜Id(1:排行榜1:</td>
+    <td style="text-align:right;padding:5px;">榜Id(1:快速榜:</td>
     <td padding:5px;><input type="text" name="rankId" id="rankId" /></td>
   </tr>
          
@@ -5979,6 +5987,11 @@ function  selectedServer(value)
     <td style="text-align:right;padding:5px;">token:</td>
     <td padding:5px;><input type="text" name="token" id="token" /></td>
   </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">是否手动退出(0不是1是):</td>
+    <td padding:5px;><input type="text" name="quit" id="quit" /></td>
+  </tr>
               	<tr>
       	<td>&nbsp;</td>
       	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
@@ -6071,6 +6084,11 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">token:</td>
     <td padding:5px;><input type="text" name="token" id="token" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">是否手动退出(0不是1是):</td>
+    <td padding:5px;><input type="text" name="quit" id="quit" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -22749,6 +22767,53 @@ function  selectedServer(value)
    </div>
  
     <div>
+          <p>[Tools.delDailySiegePlayer]&nbsp;&nbsp;&nbsp;删除玩家日常攻城数据</p>
+                     <form action="http://192.168.5.206:8001?mod=http&method=Tools.delDailySiegePlayer&__noauth__=1&pGroup=default&sec=8101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.switchSiegeStage]&nbsp;&nbsp;&nbsp;切换剧情攻城关卡 攻城关卡</p>
+                     <form action="http://192.168.5.206:8001?mod=http&method=Tools.switchSiegeStage&__noauth__=1&pGroup=default&sec=8101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
           <p>[Tools.toSiege]&nbsp;&nbsp;&nbsp;攻城战进入攻城阶段</p>
                      <form action="http://192.168.5.206:8001?mod=http&method=Tools.toSiege&__noauth__=1&pGroup=default&sec=8101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -22778,6 +22843,32 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">角色ID:</td>
     <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.modifyWallLv]&nbsp;&nbsp;&nbsp;修改城墙等级</p>
+                     <form action="http://192.168.5.206:8001?mod=http&method=Tools.modifyWallLv&__noauth__=1&pGroup=default&sec=8101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">等级:</td>
+    <td padding:5px;><input type="text" name="lv" id="lv" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -22975,6 +23066,27 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">添加数量:</td>
     <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.resetSiegeTimes]&nbsp;&nbsp;&nbsp;重置玩家剧情攻城次数</p>
+                     <form action="http://192.168.5.206:8001?mod=http&method=Tools.resetSiegeTimes&__noauth__=1&pGroup=default&sec=8101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>

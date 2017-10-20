@@ -4,8 +4,8 @@
  [Team]升级潜能: l631
  [Tools]主线精英重置到某一副本补差删多: l667
  [Tools]个人物品发放: l642
- [Treasure]进阶散件宝物: l827
- [Treasure]进阶组合宝物: l826
+ [Treasure]进阶散件宝物: l831
+ [Treasure]进阶组合宝物: l830
  [Tools]发放英雄: l646
  [Hero]英雄升星: l328
  [Hero]技能升级: l326
@@ -21,4 +21,4 @@
  [Hero]升级法术书: l339
  [Team]怪兽方阵进阶: l624
  [Tools]清除yac缓存: l649
- [Treasure]宝物升星: l829
+ [Treasure]宝物升星: l833

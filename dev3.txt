@@ -88,6 +88,8 @@ function  selectedServer(value)
 								<option value="9131"  >iwx1区</option>
 								<option value="9132"  >iwx2区</option>
 								<option value="9133"  >iwx3区</option>
+								<option value="9141"  >qq混服9141区</option>
+								<option value="9146"  >wx混服9146区</option>
 							</select>
         </form>
     </div>
@@ -142,8 +144,6 @@ function  selectedServer(value)
           <li style="background:#CACACA" alt="Activity.receiveFriendCeleGift" title="Activity.receiveFriendCeleGift">[Activity]领取好友狂欢奖励</li>
          
           <li style="background:#CACACA" alt="Activity.getInsufficientTextFriends" title="Activity.getInsufficientTextFriends">[Activity]获取好友-集齐添加标记</li>
-         
-          <li style="background:#CACACA" alt="Activity.testTextDrop" title="Activity.testTextDrop">[Activity]测试文字掉落</li>
          
           <li style="background:#CACACA" alt="Activity.getIntelligentReward" title="Activity.getIntelligentReward">[Activity]领取动态单笔充值奖励</li>
          
@@ -270,8 +270,6 @@ function  selectedServer(value)
           <li style="background:#CACACA" alt="BackFlow.buyReturnSaleGoods" title="BackFlow.buyReturnSaleGoods">[BackFlow]购买特卖商品</li>
          
           <li style="background:#CACACA" alt="BackFlow.receiveRechargeWelfare" title="BackFlow.receiveRechargeWelfare">[BackFlow]领取充值特惠奖励</li>
-         
-          <li style="background:#CACACA" alt="BackFlow.testAdd" title="BackFlow.testAdd">[BackFlow]加成测试</li>
          
           <li style="background:#9ECCED" alt="Battle.getBattleReport" title="Battle.getBattleReport">[Battle]获取战报信息</li>
          
@@ -484,8 +482,6 @@ function  selectedServer(value)
           <li style="background:#CACACA" alt="GameFriend. getPlatPhy" title="GameFriend. getPlatPhy">[GameFriend]平台领取体力</li>
          
           <li style="background:#CACACA" alt="GameFriend.compete" title="GameFriend.compete">[GameFriend]好友切磋</li>
-         
-          <li style="background:#CACACA" alt="GameFriend.sendRecall" title="GameFriend.sendRecall">[GameFriend]发送召回邀请</li>
          
           <li style="background:#9ECCED" alt="GameTools.moduleOpen" title="GameTools.moduleOpen">[GameTools]系统开放检测</li>
          
@@ -831,6 +827,8 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Installer.clearDB" title="Installer.clearDB">[Installer]数据库清档（后台命令）</li>
          
+          <li style="background:#9ECCED" alt="Installer.mergeSec" title="Installer.mergeSec">[Installer]合服</li>
+         
           <li style="background:#CACACA" alt="Item.getItems" title="Item.getItems">[Item]获取背包信息</li>
          
           <li style="background:#CACACA" alt="Item.useItem" title="Item.useItem">[Item]物品使用</li>
@@ -923,8 +921,6 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Mail.readMail" title="Mail.readMail">[Mail]读邮件</li>
          
-          <li style="background:#9ECCED" alt="Mail.delMail" title="Mail.delMail">[Mail]删邮件</li>
-         
           <li style="background:#9ECCED" alt="Mail.getAttachment" title="Mail.getAttachment">[Mail]取附件</li>
          
           <li style="background:#CACACA" alt="Nests.getNestsInfo" title="Nests.getNestsInfo">[Nests]进入巢穴系统</li>
@@ -987,685 +983,729 @@ function  selectedServer(value)
          
           <li style="background:#CACACA" alt="Rank.getMyRank" title="Rank.getMyRank">[Rank]取自己排行</li>
          
-          <li style="background:#9ECCED" alt="Repair.resetArena" title="Repair.resetArena">[Repair]重置竞技场</li>
+          <li style="background:#9ECCED" alt="Recall.onekeyGetFriendActReward" title="Recall.onekeyGetFriendActReward">[Recall]一键领取</li>
          
-          <li style="background:#9ECCED" alt="Repair.fieldsUpdate" title="Repair.fieldsUpdate">[Repair]字段更新工具{此方法开发阶段使用}</li>
+          <li style="background:#9ECCED" alt="Recall.getRecalledList" title="Recall.getRecalledList">[Recall]获取被召回好友列表</li>
          
-          <li style="background:#9ECCED" alt="Repair.renameFields" title="Repair.renameFields">[Repair]字段重命名工具{此方法开发阶段使用}</li>
+          <li style="background:#9ECCED" alt="Recall.getRecallInfo" title="Recall.getRecallInfo">[Recall]获取平台好友召回信息</li>
          
-          <li style="background:#9ECCED" alt="Repair.updatePrivileges0323" title="Repair.updatePrivileges0323">[Repair]更新外网20160323前的用户数据特权数据</li>
+          <li style="background:#9ECCED" alt="Recall.sendRecall" title="Recall.sendRecall">[Recall]发送召回邀请</li>
          
-          <li style="background:#9ECCED" alt="Repair.resetPokedexData" title="Repair.resetPokedexData">[Repair]重置图鉴数据 20160516版本</li>
+          <li style="background:#9ECCED" alt="Recall.bindRecallFriend" title="Recall.bindRecallFriend">[Recall]绑定好友</li>
          
-          <li style="background:#9ECCED" alt="Repair.checkActivePokedex" title="Repair.checkActivePokedex">[Repair]检查激活图鉴</li>
+          <li style="background:#9ECCED" alt="Recall.getFriendScoreChangeLog" title="Recall.getFriendScoreChangeLog">[Recall]获取友情积分变更日志</li>
          
-          <li style="background:#9ECCED" alt="Repair.resetPokedexScore" title="Repair.resetPokedexScore">[Repair]重置图鉴评分 20160523</li>
+          <li style="background:#9ECCED" alt="Recall.getFriendActData" title="Recall.getFriendActData">[Recall]获取友情活动数据</li>
          
-          <li style="background:#9ECCED" alt="Repair.addFormation" title="Repair.addFormation">[Repair]增加玩家防守阵型</li>
+          <li style="background:#9ECCED" alt="Recall.getFriendActTaskReward" title="Recall.getFriendActTaskReward">[Recall]领取任务奖励</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixEncryptRid" title="Repair.fixEncryptRid">[Repair]修复玩家角色ID 混淆</li>
+          <li style="background:#9ECCED" alt="Recall.getCurrentFriendScore" title="Recall.getCurrentFriendScore">[Recall]获取未领友情积分数量</li>
          
-          <li style="background:#9ECCED" alt="Repair.reclPVEFormationRank" title="Repair.reclPVEFormationRank">[Repair]重算pve编组排行</li>
+          <li style="background:#CACACA" alt="Repair.resetArena" title="Repair.resetArena">[Repair]重置竞技场</li>
          
-          <li style="background:#9ECCED" alt="Repair.reclTeamsRank" title="Repair.reclTeamsRank">[Repair]重算兵团排行</li>
+          <li style="background:#CACACA" alt="Repair.fieldsUpdate" title="Repair.fieldsUpdate">[Repair]字段更新工具{此方法开发阶段使用}</li>
          
-          <li style="background:#9ECCED" alt="Repair.reclHerosRank" title="Repair.reclHerosRank">[Repair]重算英雄排行</li>
+          <li style="background:#CACACA" alt="Repair.renameFields" title="Repair.renameFields">[Repair]字段重命名工具{此方法开发阶段使用}</li>
          
-          <li style="background:#9ECCED" alt="Repair.reclStagesStarRank" title="Repair.reclStagesStarRank">[Repair]重算闯关排行</li>
+          <li style="background:#CACACA" alt="Repair.updatePrivileges0323" title="Repair.updatePrivileges0323">[Repair]更新外网20160323前的用户数据特权数据</li>
          
-          <li style="background:#9ECCED" alt="Repair.reclTreasureRank" title="Repair.reclTreasureRank">[Repair]重算宝物排行</li>
+          <li style="background:#CACACA" alt="Repair.resetPokedexData" title="Repair.resetPokedexData">[Repair]重置图鉴数据 20160516版本</li>
          
-          <li style="background:#9ECCED" alt="Repair.initMFData" title="Repair.initMFData">[Repair]重置MF数据 20130704</li>
+          <li style="background:#CACACA" alt="Repair.checkActivePokedex" title="Repair.checkActivePokedex">[Repair]检查激活图鉴</li>
          
-          <li style="background:#9ECCED" alt="Repair.clearGuildBackRedis" title="Repair.clearGuildBackRedis">[Repair]清除所有增援请求 20160706</li>
+          <li style="background:#CACACA" alt="Repair.resetPokedexScore" title="Repair.resetPokedexScore">[Repair]重置图鉴评分 20160523</li>
          
-          <li style="background:#9ECCED" alt="Repair.testBattle" title="Repair.testBattle">[Repair]测试战斗</li>
+          <li style="background:#CACACA" alt="Repair.addFormation" title="Repair.addFormation">[Repair]增加玩家防守阵型</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixTeamGrade" title="Repair.fixTeamGrade">[Repair]修复兵团的评分</li>
+          <li style="background:#CACACA" alt="Repair.fixEncryptRid" title="Repair.fixEncryptRid">[Repair]修复玩家角色ID 混淆</li>
          
-          <li style="background:#9ECCED" alt="Repair.recalAllFormationScore" title="Repair.recalAllFormationScore">[Repair]重算所有编组战力</li>
+          <li style="background:#CACACA" alt="Repair.reclPVEFormationRank" title="Repair.reclPVEFormationRank">[Repair]重算pve编组排行</li>
          
-          <li style="background:#9ECCED" alt="Repair.genUser" title="Repair.genUser">[Repair]批量生成角色</li>
+          <li style="background:#CACACA" alt="Repair.reclTeamsRank" title="Repair.reclTeamsRank">[Repair]重算兵团排行</li>
          
-          <li style="background:#9ECCED" alt="Repair.snapShot" title="Repair.snapShot">[Repair]生成用户快照</li>
+          <li style="background:#CACACA" alt="Repair.reclHerosRank" title="Repair.reclHerosRank">[Repair]重算英雄排行</li>
          
-          <li style="background:#9ECCED" alt="Repair.league" title="Repair.league">[Repair]积分联赛重新生成</li>
+          <li style="background:#CACACA" alt="Repair.reclStagesStarRank" title="Repair.reclStagesStarRank">[Repair]重算闯关排行</li>
          
-          <li style="background:#9ECCED" alt="Repair.sendMcardAward" title="Repair.sendMcardAward">[Repair]提前发送月卡奖励</li>
+          <li style="background:#CACACA" alt="Repair.reclTreasureRank" title="Repair.reclTreasureRank">[Repair]重算宝物排行</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixTreasure" title="Repair.fixTreasure">[Repair]修复玩家宝物</li>
+          <li style="background:#CACACA" alt="Repair.initMFData" title="Repair.initMFData">[Repair]重置MF数据 20130704</li>
          
-          <li style="background:#9ECCED" alt="Repair.resetTreasureScore" title="Repair.resetTreasureScore">[Repair]重算宝物战力</li>
+          <li style="background:#CACACA" alt="Repair.clearGuildBackRedis" title="Repair.clearGuildBackRedis">[Repair]清除所有增援请求 20160706</li>
          
-          <li style="background:#9ECCED" alt="Repair.clearBullets" title="Repair.clearBullets">[Repair]清空全部弹幕</li>
+          <li style="background:#CACACA" alt="Repair.testBattle" title="Repair.testBattle">[Repair]测试战斗</li>
          
-          <li style="background:#9ECCED" alt="Repair.resetHeroDuel" title="Repair.resetHeroDuel">[Repair]重置英雄交锋</li>
+          <li style="background:#CACACA" alt="Repair.fixTeamGrade" title="Repair.fixTeamGrade">[Repair]修复兵团的评分</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixHeroSkinUnlockAvatar" title="Repair.fixHeroSkinUnlockAvatar">[Repair]修复已获取的皮肤解锁对应头像</li>
+          <li style="background:#CACACA" alt="Repair.recalAllFormationScore" title="Repair.recalAllFormationScore">[Repair]重算所有编组战力</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixHerosSkins" title="Repair.fixHerosSkins">[Repair]修复已获取的皮肤</li>
+          <li style="background:#CACACA" alt="Repair.genUser" title="Repair.genUser">[Repair]批量生成角色</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixCaitlyn" title="Repair.fixCaitlyn">[Repair]修复凯瑟琳0星</li>
+          <li style="background:#CACACA" alt="Repair.snapShot" title="Repair.snapShot">[Repair]生成用户快照</li>
          
-          <li style="background:#9ECCED" alt="Repair.reclArenaRank" title="Repair.reclArenaRank">[Repair]修复竞技场排行</li>
+          <li style="background:#CACACA" alt="Repair.league" title="Repair.league">[Repair]积分联赛重新生成</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixCombatRank" title="Repair.fixCombatRank">[Repair]修复战力排行前十名</li>
+          <li style="background:#CACACA" alt="Repair.sendMcardAward" title="Repair.sendMcardAward">[Repair]提前发送月卡奖励</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixCombatStage" title="Repair.fixCombatStage">[Repair]修复战力排行所有人阶段奖励</li>
+          <li style="background:#CACACA" alt="Repair.fixTreasure" title="Repair.fixTreasure">[Repair]修复玩家宝物</li>
          
-          <li style="background:#9ECCED" alt="Repair.checkKakura" title="Repair.checkKakura">[Repair]检测kakura接口</li>
+          <li style="background:#CACACA" alt="Repair.resetTreasureScore" title="Repair.resetTreasureScore">[Repair]重算宝物战力</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixLeagueHot" title="Repair.fixLeagueHot">[Repair]修复积分联赛热点</li>
+          <li style="background:#CACACA" alt="Repair.clearBullets" title="Repair.clearBullets">[Repair]清空全部弹幕</li>
          
-          <li style="background:#9ECCED" alt="Repair.clearReport" title="Repair.clearReport">[Repair]清除战报</li>
+          <li style="background:#CACACA" alt="Repair.resetHeroDuel" title="Repair.resetHeroDuel">[Repair]重置英雄交锋</li>
          
-          <li style="background:#9ECCED" alt="Repair.clearCloudyCityRank" title="Repair.clearCloudyCityRank">[Repair]清除云中城排行</li>
+          <li style="background:#CACACA" alt="Repair.fixHeroSkinUnlockAvatar" title="Repair.fixHeroSkinUnlockAvatar">[Repair]修复已获取的皮肤解锁对应头像</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixTeamPl" title="Repair.fixTeamPl">[Repair]修复玩家兵团潜能</li>
+          <li style="background:#CACACA" alt="Repair.fixHerosSkins" title="Repair.fixHerosSkins">[Repair]修复已获取的皮肤</li>
          
-          <li style="background:#9ECCED" alt="Repair.repairGodWarGroup" title="Repair.repairGodWarGroup">[Repair]修复分组</li>
+          <li style="background:#CACACA" alt="Repair.fixCaitlyn" title="Repair.fixCaitlyn">[Repair]修复凯瑟琳0星</li>
          
-          <li style="background:#9ECCED" alt="Repair.godWarTest" title="Repair.godWarTest">[Repair]争霸赛测试</li>
+          <li style="background:#CACACA" alt="Repair.reclArenaRank" title="Repair.reclArenaRank">[Repair]修复竞技场排行</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixGvgMatch" title="Repair.fixGvgMatch">[Repair]修复gvg匹配数据</li>
+          <li style="background:#CACACA" alt="Repair.fixCombatRank" title="Repair.fixCombatRank">[Repair]修复战力排行前十名</li>
          
-          <li style="background:#9ECCED" alt="Repair.clearGvg" title="Repair.clearGvg">[Repair]清除玩家身上的gvg数据,周五匹配执行</li>
+          <li style="background:#CACACA" alt="Repair.fixCombatStage" title="Repair.fixCombatStage">[Repair]修复战力排行所有人阶段奖励</li>
          
-          <li style="background:#9ECCED" alt="Repair.fixUserHeroScore" title="Repair.fixUserHeroScore">[Repair]修复玩家英雄战力</li>
+          <li style="background:#CACACA" alt="Repair.checkKakura" title="Repair.checkKakura">[Repair]检测kakura接口</li>
          
-          <li style="background:#CACACA" alt="Shop.getShopInfo" title="Shop.getShopInfo">[Shop]获取商店信息</li>
+          <li style="background:#CACACA" alt="Repair.fixLeagueHot" title="Repair.fixLeagueHot">[Repair]修复积分联赛热点</li>
          
-          <li style="background:#CACACA" alt="Shop.reflashShop" title="Shop.reflashShop">[Shop]刷新商店物品</li>
+          <li style="background:#CACACA" alt="Repair.clearReport" title="Repair.clearReport">[Repair]清除战报</li>
          
-          <li style="background:#CACACA" alt="Shop.buyShopItem" title="Shop.buyShopItem">[Shop]购买商店物品</li>
+          <li style="background:#CACACA" alt="Repair.clearCloudyCityRank" title="Repair.clearCloudyCityRank">[Repair]清除云中城排行</li>
          
-          <li style="background:#9ECCED" alt="Sign.getSignInfo" title="Sign.getSignInfo">[Sign]获取签到数据</li>
+          <li style="background:#CACACA" alt="Repair.fixTeamPl" title="Repair.fixTeamPl">[Repair]修复玩家兵团潜能</li>
          
-          <li style="background:#9ECCED" alt="Sign.sign" title="Sign.sign">[Sign]签到</li>
+          <li style="background:#CACACA" alt="Repair.repairGodWarGroup" title="Repair.repairGodWarGroup">[Repair]修复分组</li>
          
-          <li style="background:#9ECCED" alt="Sign.getTotalSignReward" title="Sign.getTotalSignReward">[Sign]领取累签奖励</li>
+          <li style="background:#CACACA" alt="Repair.godWarTest" title="Repair.godWarTest">[Repair]争霸赛测试</li>
          
-          <li style="background:#9ECCED" alt="Sign.replenishSign" title="Sign.replenishSign">[Sign]补签</li>
+          <li style="background:#CACACA" alt="Repair.fixGvgMatch" title="Repair.fixGvgMatch">[Repair]修复gvg匹配数据</li>
          
-          <li style="background:#CACACA" alt="SingleRecharge.init" title="SingleRecharge.init">[SingleRecharge]初始化领奖页面</li>
+          <li style="background:#CACACA" alt="Repair.clearGvg" title="Repair.clearGvg">[Repair]清除玩家身上的gvg数据,周五匹配执行</li>
          
-          <li style="background:#CACACA" alt="SingleRecharge.getReward" title="SingleRecharge.getReward">[SingleRecharge]领取单充奖励</li>
+          <li style="background:#CACACA" alt="Repair.fixUserHeroScore" title="Repair.fixUserHeroScore">[Repair]修复玩家英雄战力</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkBeforeStage" title="Stage.atkBeforeStage">[Stage]攻打关卡前处理</li>
+          <li style="background:#9ECCED" alt="Shop.getShopInfo" title="Shop.getShopInfo">[Shop]获取商店信息</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkAfterStage" title="Stage.atkAfterStage">[Stage]攻打关卡后处理</li>
+          <li style="background:#9ECCED" alt="Shop.reflashShop" title="Shop.reflashShop">[Shop]刷新商店物品</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkStageLose" title="Stage.atkStageLose">[Stage]攻打关卡后失败（由于历史原因，副本失败时单独请求此接口）</li>
+          <li style="background:#9ECCED" alt="Shop.buyShopItem" title="Shop.buyShopItem">[Shop]购买商店物品</li>
          
-          <li style="background:#9ECCED" alt="Stage.sweepStage" title="Stage.sweepStage">[Stage]扫荡关卡</li>
+          <li style="background:#CACACA" alt="Sign.getSignInfo" title="Sign.getSignInfo">[Sign]获取签到数据</li>
          
-          <li style="background:#9ECCED" alt="Stage.collectStarReward" title="Stage.collectStarReward">[Stage]领取主线副本集星奖励</li>
+          <li style="background:#CACACA" alt="Sign.sign" title="Sign.sign">[Sign]签到</li>
          
-          <li style="background:#9ECCED" alt="Stage.collectEliteStarReward" title="Stage.collectEliteStarReward">[Stage]领取精英副本集星奖励</li>
+          <li style="background:#CACACA" alt="Sign.getTotalSignReward" title="Sign.getTotalSignReward">[Sign]领取累签奖励</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkBeforeEliteStage" title="Stage.atkBeforeEliteStage">[Stage]攻打精英关卡前处理</li>
+          <li style="background:#CACACA" alt="Sign.replenishSign" title="Sign.replenishSign">[Sign]补签</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkAfterEliteStage" title="Stage.atkAfterEliteStage">[Stage]攻打精英关卡后处理</li>
+          <li style="background:#9ECCED" alt="SingleRecharge.init" title="SingleRecharge.init">[SingleRecharge]初始化领奖页面</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkEliteStageLose" title="Stage.atkEliteStageLose">[Stage]攻打精英关卡后失败（由于历史原因，副本失败时单独请求此接口）</li>
+          <li style="background:#9ECCED" alt="SingleRecharge.getReward" title="SingleRecharge.getReward">[SingleRecharge]领取单充奖励</li>
          
-          <li style="background:#9ECCED" alt="Stage.sweepEliteStage" title="Stage.sweepEliteStage">[Stage]扫荡精英关卡</li>
+          <li style="background:#CACACA" alt="Stage.atkBeforeStage" title="Stage.atkBeforeStage">[Stage]攻打关卡前处理</li>
          
-          <li style="background:#9ECCED" alt="Stage.resetAtkNum" title="Stage.resetAtkNum">[Stage]重置精英副本攻打次数</li>
+          <li style="background:#CACACA" alt="Stage.atkAfterStage" title="Stage.atkAfterStage">[Stage]攻打关卡后处理</li>
          
-          <li style="background:#9ECCED" alt="Stage.getMainBranchReward" title="Stage.getMainBranchReward">[Stage]获取支线奖励(主)</li>
+          <li style="background:#CACACA" alt="Stage.atkStageLose" title="Stage.atkStageLose">[Stage]攻打关卡后失败（由于历史原因，副本失败时单独请求此接口）</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkBeforeMainBranch" title="Stage.atkBeforeMainBranch">[Stage]攻打支线前处理(主)</li>
+          <li style="background:#CACACA" alt="Stage.sweepStage" title="Stage.sweepStage">[Stage]扫荡关卡</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkAfterMainBranch" title="Stage.atkAfterMainBranch">[Stage]攻打支线后处理(主)</li>
+          <li style="background:#CACACA" alt="Stage.collectStarReward" title="Stage.collectStarReward">[Stage]领取主线副本集星奖励</li>
          
-          <li style="background:#9ECCED" alt="Stage.getEliteBranchReward" title="Stage.getEliteBranchReward">[Stage]获取支线奖励(精)</li>
+          <li style="background:#CACACA" alt="Stage.collectEliteStarReward" title="Stage.collectEliteStarReward">[Stage]领取精英副本集星奖励</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkBeforeEliteBranch" title="Stage.atkBeforeEliteBranch">[Stage]攻打支线前处理(精)</li>
+          <li style="background:#CACACA" alt="Stage.atkBeforeEliteStage" title="Stage.atkBeforeEliteStage">[Stage]攻打精英关卡前处理</li>
          
-          <li style="background:#9ECCED" alt="Stage.atkAfterEliteBranch" title="Stage.atkAfterEliteBranch">[Stage]攻打支线后处理(精)</li>
+          <li style="background:#CACACA" alt="Stage.atkAfterEliteStage" title="Stage.atkAfterEliteStage">[Stage]攻打精英关卡后处理</li>
          
-          <li style="background:#9ECCED" alt="Stage.setSectionId" title="Stage.setSectionId">[Stage]设置当前所在章节id</li>
+          <li style="background:#CACACA" alt="Stage.atkEliteStageLose" title="Stage.atkEliteStageLose">[Stage]攻打精英关卡后失败（由于历史原因，副本失败时单独请求此接口）</li>
          
-          <li style="background:#9ECCED" alt="Stage.getBranchAcReward" title="Stage.getBranchAcReward">[Stage]领取章节支线(主)活跃奖励</li>
+          <li style="background:#CACACA" alt="Stage.sweepEliteStage" title="Stage.sweepEliteStage">[Stage]扫荡精英关卡</li>
          
-          <li style="background:#9ECCED" alt="Stage.getMStoryReward" title="Stage.getMStoryReward">[Stage]领取大章奖励</li>
+          <li style="background:#CACACA" alt="Stage.resetAtkNum" title="Stage.resetAtkNum">[Stage]重置精英副本攻打次数</li>
          
-          <li style="background:#9ECCED" alt="Stage.getSectionReward" title="Stage.getSectionReward">[Stage]领取章节奖励</li>
+          <li style="background:#CACACA" alt="Stage.getMainBranchReward" title="Stage.getMainBranchReward">[Stage]获取支线奖励(主)</li>
          
-          <li style="background:#9ECCED" alt="Stage.getSectionBranchReward" title="Stage.getSectionBranchReward">[Stage]领取章节支线奖励</li>
+          <li style="background:#CACACA" alt="Stage.atkBeforeMainBranch" title="Stage.atkBeforeMainBranch">[Stage]攻打支线前处理(主)</li>
          
-          <li style="background:#9ECCED" alt="Stage.showReport" title="Stage.showReport">[Stage]查看战报</li>
+          <li style="background:#CACACA" alt="Stage.atkAfterMainBranch" title="Stage.atkAfterMainBranch">[Stage]攻打支线后处理(主)</li>
          
-          <li style="background:#CACACA" alt="System.moduleOpen" title="System.moduleOpen">[System]系统开放检测</li>
+          <li style="background:#CACACA" alt="Stage.getEliteBranchReward" title="Stage.getEliteBranchReward">[Stage]获取支线奖励(精)</li>
          
-          <li style="background:#CACACA" alt="System.sysInterface" title="System.sysInterface">[System]统一入口处</li>
+          <li style="background:#CACACA" alt="Stage.atkBeforeEliteBranch" title="Stage.atkBeforeEliteBranch">[Stage]攻打支线前处理(精)</li>
          
-          <li style="background:#CACACA" alt="System.kickoutUser" title="System.kickoutUser">[System]踢区服用户</li>
+          <li style="background:#CACACA" alt="Stage.atkAfterEliteBranch" title="Stage.atkAfterEliteBranch">[Stage]攻打支线后处理(精)</li>
          
-          <li style="background:#CACACA" alt="System.checkClientData" title="System.checkClientData">[System]客户端Tss上报数据</li>
+          <li style="background:#CACACA" alt="Stage.setSectionId" title="Stage.setSectionId">[Stage]设置当前所在章节id</li>
          
-          <li style="background:#CACACA" alt="System.tssCallback" title="System.tssCallback">[System]Tss 回调</li>
+          <li style="background:#CACACA" alt="Stage.getBranchAcReward" title="Stage.getBranchAcReward">[Stage]领取章节支线(主)活跃奖励</li>
          
-          <li style="background:#CACACA" alt="System.heroDuelMatch" title="System.heroDuelMatch">[System]英雄交锋匹配回调</li>
+          <li style="background:#CACACA" alt="Stage.getMStoryReward" title="Stage.getMStoryReward">[Stage]领取大章奖励</li>
          
-          <li style="background:#CACACA" alt="System.getGroupSceList" title="System.getGroupSceList">[System]获取各个组的分区列表</li>
+          <li style="background:#CACACA" alt="Stage.getSectionReward" title="Stage.getSectionReward">[Stage]领取章节奖励</li>
          
-          <li style="background:#CACACA" alt="System.getUserJson" title="System.getUserJson">[System]获取玩家json数据</li>
+          <li style="background:#CACACA" alt="Stage.getSectionBranchReward" title="Stage.getSectionBranchReward">[Stage]领取章节支线奖励</li>
          
-          <li style="background:#CACACA" alt="System.upChildGuardian" title="System.upChildGuardian">[System]成长守护</li>
+          <li style="background:#CACACA" alt="Stage.showReport" title="Stage.showReport">[Stage]查看战报</li>
          
-          <li style="background:#CACACA" alt="System.getBattleReport" title="System.getBattleReport">[System]对外战报显示</li>
+          <li style="background:#9ECCED" alt="System.moduleOpen" title="System.moduleOpen">[System]系统开放检测</li>
          
-          <li style="background:#CACACA" alt="System.callbackBuyGoods" title="System.callbackBuyGoods">[System]直购回调发奖</li>
+          <li style="background:#9ECCED" alt="System.sysInterface" title="System.sysInterface">[System]统一入口处</li>
          
-          <li style="background:#CACACA" alt="System. normalGame" title="System. normalGame">[System]正常游戏回调</li>
+          <li style="background:#9ECCED" alt="System.kickoutUser" title="System.kickoutUser">[System]踢区服用户</li>
          
-          <li style="background:#CACACA" alt="System.changeVipIcon" title="System.changeVipIcon">[System]推送vipIcon变化</li>
+          <li style="background:#9ECCED" alt="System.checkClientData" title="System.checkClientData">[System]客户端Tss上报数据</li>
          
-          <li style="background:#CACACA" alt="System.pushSombra" title="System.pushSombra">[System]推送sombra TODO 这个地方的接口废弃</li>
+          <li style="background:#9ECCED" alt="System.tssCallback" title="System.tssCallback">[System]Tss 回调</li>
          
-          <li style="background:#CACACA" alt="System.getIpList" title="System.getIpList">[System]获取服务的IPList</li>
+          <li style="background:#9ECCED" alt="System.heroDuelMatch" title="System.heroDuelMatch">[System]英雄交锋匹配回调</li>
          
-          <li style="background:#CACACA" alt="System.getMonitorLog" title="System.getMonitorLog">[System]获取监控日志</li>
+          <li style="background:#9ECCED" alt="System.getGroupSceList" title="System.getGroupSceList">[System]获取各个组的分区列表</li>
          
-          <li style="background:#CACACA" alt="System.tlogCallback" title="System.tlogCallback">[System]tlog日志回调</li>
+          <li style="background:#9ECCED" alt="System.getUserJson" title="System.getUserJson">[System]获取玩家json数据</li>
          
-          <li style="background:#9ECCED" alt="Talent.getTalentInfo" title="Talent.getTalentInfo">[Talent]获取天赋信息</li>
+          <li style="background:#9ECCED" alt="System.upChildGuardian" title="System.upChildGuardian">[System]成长守护</li>
          
-          <li style="background:#9ECCED" alt="Talent.upTalentChildLv" title="Talent.upTalentChildLv">[Talent]天赋升级</li>
+          <li style="background:#9ECCED" alt="System.getBattleReport" title="System.getBattleReport">[System]对外战报显示</li>
          
-          <li style="background:#9ECCED" alt="Talent.upTalentKind" title="Talent.upTalentKind">[Talent]天赋类别精通属性升级</li>
+          <li style="background:#9ECCED" alt="System.callbackBuyGoods" title="System.callbackBuyGoods">[System]直购回调发奖</li>
          
-          <li style="background:#9ECCED" alt="Talent.resetTalent" title="Talent.resetTalent">[Talent]重置天赋 恢复默认</li>
+          <li style="background:#9ECCED" alt="System. normalGame" title="System. normalGame">[System]正常游戏回调</li>
          
-          <li style="background:#CACACA" alt="Task.getTask" title="Task.getTask">[Task]获取任务</li>
+          <li style="background:#9ECCED" alt="System.changeVipIcon" title="System.changeVipIcon">[System]推送vipIcon变化</li>
          
-          <li style="background:#CACACA" alt="Task.mainTaskReward" title="Task.mainTaskReward">[Task]领取任务奖励</li>
+          <li style="background:#9ECCED" alt="System.pushSombra" title="System.pushSombra">[System]推送sombra TODO 这个地方的接口废弃</li>
          
-          <li style="background:#CACACA" alt="Task.detailTaskReward" title="Task.detailTaskReward">[Task]日常任务奖励</li>
+          <li style="background:#9ECCED" alt="System.getIpList" title="System.getIpList">[System]获取服务的IPList</li>
          
-          <li style="background:#CACACA" alt="Task.receiveActiveReward" title="Task.receiveActiveReward">[Task]领取活跃度奖励</li>
+          <li style="background:#9ECCED" alt="System.getMonitorLog" title="System.getMonitorLog">[System]获取监控日志</li>
          
-          <li style="background:#CACACA" alt="Task.receiveGrowReward" title="Task.receiveGrowReward">[Task]领取成长值奖励</li>
+          <li style="background:#9ECCED" alt="System.tlogCallback" title="System.tlogCallback">[System]tlog日志回调</li>
          
-          <li style="background:#9ECCED" alt="Team.drawAward" title="Team.drawAward">[Team]抽奖</li>
+          <li style="background:#CACACA" alt="Talent.getTalentInfo" title="Talent.getTalentInfo">[Talent]获取天赋信息</li>
          
-          <li style="background:#9ECCED" alt="Team.upgradeTeam" title="Team.upgradeTeam">[Team]怪兽方阵升级</li>
+          <li style="background:#CACACA" alt="Talent.upTalentChildLv" title="Talent.upTalentChildLv">[Talent]天赋升级</li>
          
-          <li style="background:#9ECCED" alt="Team.upgradeEquip" title="Team.upgradeEquip">[Team]符文升级（装备）</li>
+          <li style="background:#CACACA" alt="Talent.upTalentKind" title="Talent.upTalentKind">[Talent]天赋类别精通属性升级</li>
          
-          <li style="background:#9ECCED" alt="Team.batchUpgradeEquip" title="Team.batchUpgradeEquip">[Team]符文批量升级（装备）</li>
+          <li style="background:#CACACA" alt="Talent.resetTalent" title="Talent.resetTalent">[Talent]重置天赋 恢复默认</li>
          
-          <li style="background:#9ECCED" alt="Team.upgradeStageTeam" title="Team.upgradeStageTeam">[Team]怪兽方阵进阶</li>
+          <li style="background:#9ECCED" alt="Task.getTask" title="Task.getTask">[Task]获取任务</li>
          
-          <li style="background:#9ECCED" alt="Team.upgradeStageEquip" title="Team.upgradeStageEquip">[Team]怪兽方阵符文升阶</li>
+          <li style="background:#9ECCED" alt="Task.mainTaskReward" title="Task.mainTaskReward">[Task]领取任务奖励</li>
          
-          <li style="background:#9ECCED" alt="Team.upgradeStar" title="Team.upgradeStar">[Team]怪兽方阵升小星</li>
+          <li style="background:#9ECCED" alt="Task.detailTaskReward" title="Task.detailTaskReward">[Task]日常任务奖励</li>
          
-          <li style="background:#9ECCED" alt="Team.upgradeMaxStar" title="Team.upgradeMaxStar">[Team]怪兽方阵升大星</li>
+          <li style="background:#9ECCED" alt="Task.receiveActiveReward" title="Task.receiveActiveReward">[Task]领取活跃度奖励</li>
          
-          <li style="background:#9ECCED" alt="Team.upgradeSkill" title="Team.upgradeSkill">[Team]升级技能</li>
+          <li style="background:#9ECCED" alt="Task.receiveGrowReward" title="Task.receiveGrowReward">[Task]领取成长值奖励</li>
          
-          <li style="background:#9ECCED" alt="Team.openSkill" title="Team.openSkill">[Team]开启技能</li>
+          <li style="background:#CACACA" alt="Team.drawAward" title="Team.drawAward">[Team]抽奖</li>
          
-          <li style="background:#9ECCED" alt="Team.activationPotential" title="Team.activationPotential">[Team]激活潜能</li>
+          <li style="background:#CACACA" alt="Team.upgradeTeam" title="Team.upgradeTeam">[Team]怪兽方阵升级</li>
          
-          <li style="background:#9ECCED" alt="Team.upPotential" title="Team.upPotential">[Team]升级潜能</li>
+          <li style="background:#CACACA" alt="Team.upgradeEquip" title="Team.upgradeEquip">[Team]符文升级（装备）</li>
          
-          <li style="background:#9ECCED" alt="Team.trainTalent" title="Team.trainTalent">[Team]天赋培养</li>
+          <li style="background:#CACACA" alt="Team.batchUpgradeEquip" title="Team.batchUpgradeEquip">[Team]符文批量升级（装备）</li>
          
-          <li style="background:#9ECCED" alt="Team.saveTalent" title="Team.saveTalent">[Team]保存天赋</li>
+          <li style="background:#CACACA" alt="Team.upgradeStageTeam" title="Team.upgradeStageTeam">[Team]怪兽方阵进阶</li>
          
-          <li style="background:#CACACA" alt="Tformation.getFormation" title="Tformation.getFormation">[Tformation]获取玩家拥有的宝物阵型</li>
+          <li style="background:#CACACA" alt="Team.upgradeStageEquip" title="Team.upgradeStageEquip">[Team]怪兽方阵符文升阶</li>
          
-          <li style="background:#CACACA" alt="Tformation.openFormation" title="Tformation.openFormation">[Tformation]开启编组</li>
+          <li style="background:#CACACA" alt="Team.upgradeStar" title="Team.upgradeStar">[Team]怪兽方阵升小星</li>
          
-          <li style="background:#CACACA" alt="Tformation.changeFormationName" title="Tformation.changeFormationName">[Tformation]改名</li>
+          <li style="background:#CACACA" alt="Team.upgradeMaxStar" title="Team.upgradeMaxStar">[Team]怪兽方阵升大星</li>
          
-          <li style="background:#CACACA" alt="Tformation.setFormation" title="Tformation.setFormation">[Tformation]设置阵型</li>
+          <li style="background:#CACACA" alt="Team.upgradeSkill" title="Team.upgradeSkill">[Team]升级技能</li>
          
-          <li style="background:#CACACA" alt="Tformation.removeFormation" title="Tformation.removeFormation">[Tformation]移除阵型上的宝物</li>
+          <li style="background:#CACACA" alt="Team.openSkill" title="Team.openSkill">[Team]开启技能</li>
          
-          <li style="background:#9ECCED" alt="Tools.moduleOpen" title="Tools.moduleOpen">[Tools]系统开放检测</li>
+          <li style="background:#CACACA" alt="Team.activationPotential" title="Team.activationPotential">[Team]激活潜能</li>
          
-          <li style="background:#9ECCED" alt="Tools.addRes" title="Tools.addRes">[Tools]添加资源</li>
+          <li style="background:#CACACA" alt="Team.upPotential" title="Team.upPotential">[Team]升级潜能</li>
          
-          <li style="background:#9ECCED" alt="Tools.setVipLevel" title="Tools.setVipLevel">[Tools]设置Vip等级</li>
+          <li style="background:#CACACA" alt="Team.trainTalent" title="Team.trainTalent">[Team]天赋培养</li>
          
-          <li style="background:#9ECCED" alt="Tools.sendItems" title="Tools.sendItems">[Tools]个人物品发放</li>
+          <li style="background:#CACACA" alt="Team.saveTalent" title="Team.saveTalent">[Team]保存天赋</li>
          
-          <li style="background:#9ECCED" alt="Tools.createTeam" title="Tools.createTeam">[Tools]发放兵团</li>
+          <li style="background:#9ECCED" alt="Tformation.getFormation" title="Tformation.getFormation">[Tformation]获取玩家拥有的宝物阵型</li>
          
-          <li style="background:#9ECCED" alt="Tools.upgradeLevel" title="Tools.upgradeLevel">[Tools]玩家升级</li>
+          <li style="background:#9ECCED" alt="Tformation.openFormation" title="Tformation.openFormation">[Tformation]开启编组</li>
          
-          <li style="background:#9ECCED" alt="Tools.sendMails" title="Tools.sendMails">[Tools]发邮件</li>
+          <li style="background:#9ECCED" alt="Tformation.changeFormationName" title="Tformation.changeFormationName">[Tformation]改名</li>
          
-          <li style="background:#9ECCED" alt="Tools.sendHero" title="Tools.sendHero">[Tools]发放英雄</li>
+          <li style="background:#9ECCED" alt="Tformation.setFormation" title="Tformation.setFormation">[Tformation]设置阵型</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearAllMails" title="Tools.clearAllMails">[Tools]清除所有玩家邮件</li>
+          <li style="background:#9ECCED" alt="Tformation.removeFormation" title="Tformation.removeFormation">[Tformation]移除阵型上的宝物</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetCalTeamScore" title="Tools.resetCalTeamScore">[Tools]重新计算战斗力</li>
+          <li style="background:#CACACA" alt="Tools.moduleOpen" title="Tools.moduleOpen">[Tools]系统开放检测</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearYac" title="Tools.clearYac">[Tools]清除yac缓存</li>
+          <li style="background:#CACACA" alt="Tools.addRes" title="Tools.addRes">[Tools]添加资源</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearUser" title="Tools.clearUser">[Tools]清空账号</li>
+          <li style="background:#CACACA" alt="Tools.setVipLevel" title="Tools.setVipLevel">[Tools]设置Vip等级</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearUserData" title="Tools.clearUserData">[Tools]清空玩家数据</li>
+          <li style="background:#CACACA" alt="Tools.sendItems" title="Tools.sendItems">[Tools]个人物品发放</li>
          
-          <li style="background:#9ECCED" alt="Tools.addSec" title="Tools.addSec">[Tools]添加分区</li>
+          <li style="background:#CACACA" alt="Tools.createTeam" title="Tools.createTeam">[Tools]发放兵团</li>
          
-          <li style="background:#9ECCED" alt="Tools.unlockUserGem" title="Tools.unlockUserGem">[Tools]解锁玩家冻结</li>
+          <li style="background:#CACACA" alt="Tools.upgradeLevel" title="Tools.upgradeLevel">[Tools]玩家升级</li>
          
-          <li style="background:#9ECCED" alt="Tools.copyFormation" title="Tools.copyFormation">[Tools]编组考贝</li>
+          <li style="background:#CACACA" alt="Tools.sendMails" title="Tools.sendMails">[Tools]发邮件</li>
          
-          <li style="background:#9ECCED" alt="Tools.showDrawParam" title="Tools.showDrawParam">[Tools]查看抽卡积分数据</li>
+          <li style="background:#CACACA" alt="Tools.sendHero" title="Tools.sendHero">[Tools]发放英雄</li>
          
-          <li style="background:#9ECCED" alt="Tools.setGuide" title="Tools.setGuide">[Tools]设置新手步骤</li>
+          <li style="background:#CACACA" alt="Tools.clearAllMails" title="Tools.clearAllMails">[Tools]清除所有玩家邮件</li>
          
-          <li style="background:#9ECCED" alt="Tools.versionUpgrade" title="Tools.versionUpgrade">[Tools]版本升级</li>
+          <li style="background:#CACACA" alt="Tools.resetCalTeamScore" title="Tools.resetCalTeamScore">[Tools]重新计算战斗力</li>
          
-          <li style="background:#9ECCED" alt="Tools.banChat" title="Tools.banChat">[Tools]禁言</li>
+          <li style="background:#CACACA" alt="Tools.clearYac" title="Tools.clearYac">[Tools]清除yac缓存</li>
          
-          <li style="background:#9ECCED" alt="Tools.unbanChat" title="Tools.unbanChat">[Tools]解禁</li>
+          <li style="background:#CACACA" alt="Tools.clearUser" title="Tools.clearUser">[Tools]清空账号</li>
          
-          <li style="background:#9ECCED" alt="Tools.banLogin" title="Tools.banLogin">[Tools]封号</li>
+          <li style="background:#CACACA" alt="Tools.clearUserData" title="Tools.clearUserData">[Tools]清空玩家数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.unbanUser" title="Tools.unbanUser">[Tools]解封</li>
+          <li style="background:#CACACA" alt="Tools.addSec" title="Tools.addSec">[Tools]添加分区</li>
          
-          <li style="background:#9ECCED" alt="Tools.idipMsgAndNotice" title="Tools.idipMsgAndNotice">[Tools]模拟idip发送消息及公告</li>
+          <li style="background:#CACACA" alt="Tools.unlockUserGem" title="Tools.unlockUserGem">[Tools]解锁玩家冻结</li>
          
-          <li style="background:#9ECCED" alt="Tools.recoverUserArena" title="Tools.recoverUserArena">[Tools]恢复竞技场用户</li>
+          <li style="background:#CACACA" alt="Tools.copyFormation" title="Tools.copyFormation">[Tools]编组考贝</li>
          
-          <li style="background:#9ECCED" alt="Tools.gmUpgradeStar" title="Tools.gmUpgradeStar">[Tools]怪兽方阵升小星</li>
+          <li style="background:#CACACA" alt="Tools.showDrawParam" title="Tools.showDrawParam">[Tools]查看抽卡积分数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.gmUpgradeMaxStar" title="Tools.gmUpgradeMaxStar">[Tools]怪兽方阵升大星</li>
+          <li style="background:#CACACA" alt="Tools.setGuide" title="Tools.setGuide">[Tools]设置新手步骤</li>
          
-          <li style="background:#9ECCED" alt="Tools.gmUpgradeStageTeam" title="Tools.gmUpgradeStageTeam">[Tools]怪兽方阵进阶</li>
+          <li style="background:#CACACA" alt="Tools.versionUpgrade" title="Tools.versionUpgrade">[Tools]版本升级</li>
          
-          <li style="background:#9ECCED" alt="Tools.batchPassStage" title="Tools.batchPassStage">[Tools]主线精英重置到某一副本补差删多</li>
+          <li style="background:#CACACA" alt="Tools.banChat" title="Tools.banChat">[Tools]禁言</li>
          
-          <li style="background:#9ECCED" alt="Tools.readExcel" title="Tools.readExcel">[Tools]读取Excel</li>
+          <li style="background:#CACACA" alt="Tools.unbanChat" title="Tools.unbanChat">[Tools]解禁</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetBoss" title="Tools.resetBoss">[Tools]重置PVE玩法次数</li>
+          <li style="background:#CACACA" alt="Tools.banLogin" title="Tools.banLogin">[Tools]封号</li>
          
-          <li style="background:#9ECCED" alt="Tools.setBossDiff" title="Tools.setBossDiff">[Tools]设置龙之国难度</li>
+          <li style="background:#CACACA" alt="Tools.unbanUser" title="Tools.unbanUser">[Tools]解封</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearPlayerBossRankData" title="Tools.clearPlayerBossRankData">[Tools]清除异界之门某玩家的排行及个人数据</li>
+          <li style="background:#CACACA" alt="Tools.idipMsgAndNotice" title="Tools.idipMsgAndNotice">[Tools]模拟idip发送消息及公告</li>
          
-          <li style="background:#9ECCED" alt="Tools.autoKeyCopy" title="Tools.autoKeyCopy">[Tools]一键copy玩家数据</li>
+          <li style="background:#CACACA" alt="Tools.recoverUserArena" title="Tools.recoverUserArena">[Tools]恢复竞技场用户</li>
          
-          <li style="background:#9ECCED" alt="Tools.insertActivity" title="Tools.insertActivity">[Tools]手动添加活动</li>
+          <li style="background:#CACACA" alt="Tools.gmUpgradeStar" title="Tools.gmUpgradeStar">[Tools]怪兽方阵升小星</li>
          
-          <li style="background:#9ECCED" alt="Tools.closeActiviy" title="Tools.closeActiviy">[Tools]手动关闭活动</li>
+          <li style="background:#CACACA" alt="Tools.gmUpgradeMaxStar" title="Tools.gmUpgradeMaxStar">[Tools]怪兽方阵升大星</li>
          
-          <li style="background:#9ECCED" alt="Tools.addNotice" title="Tools.addNotice">[Tools]添加公告</li>
+          <li style="background:#CACACA" alt="Tools.gmUpgradeStageTeam" title="Tools.gmUpgradeStageTeam">[Tools]怪兽方阵进阶</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetArenaAtkNum" title="Tools.resetArenaAtkNum">[Tools]重置竞技场攻打次数</li>
+          <li style="background:#CACACA" alt="Tools.batchPassStage" title="Tools.batchPassStage">[Tools]主线精英重置到某一副本补差删多</li>
          
-          <li style="background:#9ECCED" alt="Tools.addBroadcast" title="Tools.addBroadcast">[Tools]添加滚动公告</li>
+          <li style="background:#CACACA" alt="Tools.readExcel" title="Tools.readExcel">[Tools]读取Excel</li>
          
-          <li style="background:#9ECCED" alt="Tools.getPokedexScore" title="Tools.getPokedexScore">[Tools]获取图鉴评分</li>
+          <li style="background:#CACACA" alt="Tools.resetBoss" title="Tools.resetBoss">[Tools]重置PVE玩法次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.cumulativeDrawAward" title="Tools.cumulativeDrawAward">[Tools]累计抽奖</li>
+          <li style="background:#CACACA" alt="Tools.setBossDiff" title="Tools.setBossDiff">[Tools]设置龙之国难度</li>
          
-          <li style="background:#9ECCED" alt="Tools.addDailyDiscountAmount" title="Tools.addDailyDiscountAmount">[Tools]虚拟扣除每日折扣数量</li>
+          <li style="background:#CACACA" alt="Tools.clearPlayerBossRankData" title="Tools.clearPlayerBossRankData">[Tools]清除异界之门某玩家的排行及个人数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetGuildRank" title="Tools.resetGuildRank">[Tools]重置工会排行榜</li>
+          <li style="background:#CACACA" alt="Tools.autoKeyCopy" title="Tools.autoKeyCopy">[Tools]一键copy玩家数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearResetCrusadeLimit" title="Tools.clearResetCrusadeLimit">[Tools]清除第一天远征重置限制</li>
+          <li style="background:#CACACA" alt="Tools.insertActivity" title="Tools.insertActivity">[Tools]手动添加活动</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearNeedBackupCD" title="Tools.clearNeedBackupCD">[Tools]请求增援CD清零</li>
+          <li style="background:#CACACA" alt="Tools.closeActiviy" title="Tools.closeActiviy">[Tools]手动关闭活动</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearBackupDonate" title="Tools.clearBackupDonate">[Tools]增援捐赠次数清零</li>
+          <li style="background:#CACACA" alt="Tools.addNotice" title="Tools.addNotice">[Tools]添加公告</li>
          
-          <li style="background:#9ECCED" alt="Tools.setCrusadeResetTimesByDaily" title="Tools.setCrusadeResetTimesByDaily">[Tools]清空远征当日重置次数</li>
+          <li style="background:#CACACA" alt="Tools.resetArenaAtkNum" title="Tools.resetArenaAtkNum">[Tools]重置竞技场攻打次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.setLastCrusadeId" title="Tools.setLastCrusadeId">[Tools]设置远征通过关卡</li>
+          <li style="background:#CACACA" alt="Tools.addBroadcast" title="Tools.addBroadcast">[Tools]添加滚动公告</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearCrusadeTriggerStatus" title="Tools.clearCrusadeTriggerStatus">[Tools]远征触发关状态清零</li>
+          <li style="background:#CACACA" alt="Tools.getPokedexScore" title="Tools.getPokedexScore">[Tools]获取图鉴评分</li>
          
-          <li style="background:#9ECCED" alt="Tools.setCrusadeBuff" title="Tools.setCrusadeBuff">[Tools]远征设置buff</li>
+          <li style="background:#CACACA" alt="Tools.cumulativeDrawAward" title="Tools.cumulativeDrawAward">[Tools]累计抽奖</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetGuildMap" title="Tools.resetGuildMap">[Tools]重置全服工会地图分组</li>
+          <li style="background:#CACACA" alt="Tools.addDailyDiscountAmount" title="Tools.addDailyDiscountAmount">[Tools]虚拟扣除每日折扣数量</li>
          
-          <li style="background:#9ECCED" alt="Tools.setGuildLevel" title="Tools.setGuildLevel">[Tools]设置公会等级</li>
+          <li style="background:#CACACA" alt="Tools.resetGuildRank" title="Tools.resetGuildRank">[Tools]重置工会排行榜</li>
          
-          <li style="background:#9ECCED" alt="Tools.forceFinishMF" title="Tools.forceFinishMF">[Tools]强制完成打野任务</li>
+          <li style="background:#CACACA" alt="Tools.clearResetCrusadeLimit" title="Tools.clearResetCrusadeLimit">[Tools]清除第一天远征重置限制</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearGuildCache" title="Tools.clearGuildCache">[Tools]清除所有工会Redis缓存</li>
+          <li style="background:#CACACA" alt="Tools.clearNeedBackupCD" title="Tools.clearNeedBackupCD">[Tools]请求增援CD清零</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearUserCache" title="Tools.clearUserCache">[Tools]清除所有玩家Redis缓存</li>
+          <li style="background:#CACACA" alt="Tools.clearBackupDonate" title="Tools.clearBackupDonate">[Tools]增援捐赠次数清零</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetTeamsRank" title="Tools.resetTeamsRank">[Tools]重置兵团排行榜</li>
+          <li style="background:#CACACA" alt="Tools.setCrusadeResetTimesByDaily" title="Tools.setCrusadeResetTimesByDaily">[Tools]清空远征当日重置次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearTeamsRank" title="Tools.clearTeamsRank">[Tools]清空兵团排行榜</li>
+          <li style="background:#CACACA" alt="Tools.setLastCrusadeId" title="Tools.setLastCrusadeId">[Tools]设置远征通过关卡</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearHerosRank" title="Tools.clearHerosRank">[Tools]清空英雄排行榜</li>
+          <li style="background:#CACACA" alt="Tools.clearCrusadeTriggerStatus" title="Tools.clearCrusadeTriggerStatus">[Tools]远征触发关状态清零</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetHeroesRank" title="Tools.resetHeroesRank">[Tools]重置英雄排行榜</li>
+          <li style="background:#CACACA" alt="Tools.setCrusadeBuff" title="Tools.setCrusadeBuff">[Tools]远征设置buff</li>
          
-          <li style="background:#9ECCED" alt="Tools.reclPVEFormationRank" title="Tools.reclPVEFormationRank">[Tools]重算pve编组排行</li>
+          <li style="background:#CACACA" alt="Tools.resetGuildMap" title="Tools.resetGuildMap">[Tools]重置全服工会地图分组</li>
          
-          <li style="background:#9ECCED" alt="Tools.reclStagesRank" title="Tools.reclStagesRank">[Tools]修复闯关排行</li>
+          <li style="background:#CACACA" alt="Tools.setGuildLevel" title="Tools.setGuildLevel">[Tools]设置公会等级</li>
          
-          <li style="background:#9ECCED" alt="Tools.reclTreasureRank" title="Tools.reclTreasureRank">[Tools]重算宝物排行</li>
+          <li style="background:#CACACA" alt="Tools.forceFinishMF" title="Tools.forceFinishMF">[Tools]强制完成打野任务</li>
          
-          <li style="background:#9ECCED" alt="Tools.getServerLv" title="Tools.getServerLv">[Tools]获取服务器等级</li>
+          <li style="background:#CACACA" alt="Tools.clearGuildCache" title="Tools.clearGuildCache">[Tools]清除所有工会Redis缓存</li>
          
-          <li style="background:#9ECCED" alt="Tools.initMFData" title="Tools.initMFData">[Tools]重置所有玩家MF数据</li>
+          <li style="background:#CACACA" alt="Tools.clearUserCache" title="Tools.clearUserCache">[Tools]清除所有玩家Redis缓存</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearGuildBackupRedis" title="Tools.clearGuildBackupRedis">[Tools]清除所有公会增援数据</li>
+          <li style="background:#CACACA" alt="Tools.resetTeamsRank" title="Tools.resetTeamsRank">[Tools]重置兵团排行榜</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearPokedexScore" title="Tools.clearPokedexScore">[Tools]清除所有图鉴评分</li>
+          <li style="background:#CACACA" alt="Tools.clearTeamsRank" title="Tools.clearTeamsRank">[Tools]清空兵团排行榜</li>
          
-          <li style="background:#9ECCED" alt="Tools.upToNB" title="Tools.upToNB">[Tools]一键升为牛逼号</li>
+          <li style="background:#CACACA" alt="Tools.clearHerosRank" title="Tools.clearHerosRank">[Tools]清空英雄排行榜</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetGuildCenterMap" title="Tools.resetGuildCenterMap">[Tools]重置中立地图</li>
+          <li style="background:#CACACA" alt="Tools.resetHeroesRank" title="Tools.resetHeroesRank">[Tools]重置英雄排行榜</li>
          
-          <li style="background:#9ECCED" alt="Tools.decryptRid" title="Tools.decryptRid">[Tools]将混淆ID转换为角色Id</li>
+          <li style="background:#CACACA" alt="Tools.reclPVEFormationRank" title="Tools.reclPVEFormationRank">[Tools]重算pve编组排行</li>
          
-          <li style="background:#9ECCED" alt="Tools.encryptRid" title="Tools.encryptRid">[Tools]将角色Id转换为混淆ID</li>
+          <li style="background:#CACACA" alt="Tools.reclStagesRank" title="Tools.reclStagesRank">[Tools]修复闯关排行</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearGuiLdPvpRank" title="Tools.clearGuiLdPvpRank">[Tools]清理工会击杀榜</li>
+          <li style="background:#CACACA" alt="Tools.reclTreasureRank" title="Tools.reclTreasureRank">[Tools]重算宝物排行</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetCloudyCityTimes" title="Tools.resetCloudyCityTimes">[Tools]重置云中城当日挑战次数</li>
+          <li style="background:#CACACA" alt="Tools.getServerLv" title="Tools.getServerLv">[Tools]获取服务器等级</li>
          
-          <li style="background:#9ECCED" alt="Tools.setCCFloorRewardProgress" title="Tools.setCCFloorRewardProgress">[Tools]设置云中城层级奖励领取进度</li>
+          <li style="background:#CACACA" alt="Tools.initMFData" title="Tools.initMFData">[Tools]重置所有玩家MF数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.setCCStage" title="Tools.setCCStage">[Tools]设置云中城跳关</li>
+          <li style="background:#CACACA" alt="Tools.clearGuildBackupRedis" title="Tools.clearGuildBackupRedis">[Tools]清除所有公会增援数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearCloudyCityRank" title="Tools.clearCloudyCityRank">[Tools]清除云中城排行榜</li>
+          <li style="background:#CACACA" alt="Tools.clearPokedexScore" title="Tools.clearPokedexScore">[Tools]清除所有图鉴评分</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearCloudyCityRankAndData" title="Tools.clearCloudyCityRankAndData">[Tools]清除云中城排行榜及玩家相关数据</li>
+          <li style="background:#CACACA" alt="Tools.upToNB" title="Tools.upToNB">[Tools]一键升为牛逼号</li>
          
-          <li style="background:#9ECCED" alt="Tools.usidTransfer" title="Tools.usidTransfer">[Tools]usid转换为rid</li>
+          <li style="background:#CACACA" alt="Tools.resetGuildCenterMap" title="Tools.resetGuildCenterMap">[Tools]重置中立地图</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetCrusadeData" title="Tools.resetCrusadeData">[Tools]重置所有玩家远征数据</li>
+          <li style="background:#CACACA" alt="Tools.decryptRid" title="Tools.decryptRid">[Tools]将混淆ID转换为角色Id</li>
          
-          <li style="background:#9ECCED" alt="Tools.repairArenaFormations" title="Tools.repairArenaFormations">[Tools]修复竞技场编组数据</li>
+          <li style="background:#CACACA" alt="Tools.encryptRid" title="Tools.encryptRid">[Tools]将角色Id转换为混淆ID</li>
          
-          <li style="background:#9ECCED" alt="Tools.setServerTime" title="Tools.setServerTime">[Tools]设置服务器时间 </li>
+          <li style="background:#CACACA" alt="Tools.clearGuiLdPvpRank" title="Tools.clearGuiLdPvpRank">[Tools]清理工会击杀榜</li>
          
-          <li style="background:#9ECCED" alt="Tools.adventureReset" title="Tools.adventureReset">[Tools]Adventure重置</li>
+          <li style="background:#CACACA" alt="Tools.resetCloudyCityTimes" title="Tools.resetCloudyCityTimes">[Tools]重置云中城当日挑战次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.adventureGetInfo" title="Tools.adventureGetInfo">[Tools]Adventure获取详情</li>
+          <li style="background:#CACACA" alt="Tools.setCCFloorRewardProgress" title="Tools.setCCFloorRewardProgress">[Tools]设置云中城层级奖励领取进度</li>
          
-          <li style="background:#9ECCED" alt="Tools.adventureClear" title="Tools.adventureClear">[Tools]Adventure清除</li>
+          <li style="background:#CACACA" alt="Tools.setCCStage" title="Tools.setCCStage">[Tools]设置云中城跳关</li>
          
-          <li style="background:#9ECCED" alt="Tools.TrainingGetInfo" title="Tools.TrainingGetInfo">[Tools]Training获取详情</li>
+          <li style="background:#CACACA" alt="Tools.clearCloudyCityRank" title="Tools.clearCloudyCityRank">[Tools]清除云中城排行榜</li>
          
-          <li style="background:#9ECCED" alt="Tools.TrainingReset" title="Tools.TrainingReset">[Tools]Training重置</li>
+          <li style="background:#CACACA" alt="Tools.clearCloudyCityRankAndData" title="Tools.clearCloudyCityRankAndData">[Tools]清除云中城排行榜及玩家相关数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearTrainingRank" title="Tools.clearTrainingRank">[Tools]清除训练场排行及玩家训练场数据</li>
+          <li style="background:#CACACA" alt="Tools.usidTransfer" title="Tools.usidTransfer">[Tools]usid转换为rid</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearArrowCD" title="Tools.clearArrowCD">[Tools]射箭清除补给CD</li>
+          <li style="background:#CACACA" alt="Tools.resetCrusadeData" title="Tools.resetCrusadeData">[Tools]重置所有玩家远征数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearArrowScore" title="Tools.clearArrowScore">[Tools]清除射箭评分相关</li>
+          <li style="background:#CACACA" alt="Tools.repairArenaFormations" title="Tools.repairArenaFormations">[Tools]修复竞技场编组数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearBeGivenArrow" title="Tools.clearBeGivenArrow">[Tools]清除被赠送箭矢</li>
+          <li style="background:#CACACA" alt="Tools.setServerTime" title="Tools.setServerTime">[Tools]设置服务器时间 </li>
          
-          <li style="background:#9ECCED" alt="Tools.snap" title="Tools.snap">[Tools]快照</li>
+          <li style="background:#CACACA" alt="Tools.adventureReset" title="Tools.adventureReset">[Tools]Adventure重置</li>
          
-          <li style="background:#9ECCED" alt="Tools.singleRechargeClear" title="Tools.singleRechargeClear">[Tools]单笔充值清空</li>
+          <li style="background:#CACACA" alt="Tools.adventureGetInfo" title="Tools.adventureGetInfo">[Tools]Adventure获取详情</li>
          
-          <li style="background:#9ECCED" alt="Tools.exportDb" title="Tools.exportDb">[Tools]导出数据库数据</li>
+          <li style="background:#CACACA" alt="Tools.adventureClear" title="Tools.adventureClear">[Tools]Adventure清除</li>
          
-          <li style="background:#9ECCED" alt="Tools.fixFreeGem" title="Tools.fixFreeGem">[Tools]修复freeGem字段数值(全部置零)</li>
+          <li style="background:#CACACA" alt="Tools.TrainingGetInfo" title="Tools.TrainingGetInfo">[Tools]Training获取详情</li>
          
-          <li style="background:#9ECCED" alt="Tools.singleRechargeReset" title="Tools.singleRechargeReset">[Tools]重置单笔充值数据</li>
+          <li style="background:#CACACA" alt="Tools.TrainingReset" title="Tools.TrainingReset">[Tools]Training重置</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearMboxStatisData" title="Tools.clearMboxStatisData">[Tools]清除神秘宝箱相关数据</li>
+          <li style="background:#CACACA" alt="Tools.clearTrainingRank" title="Tools.clearTrainingRank">[Tools]清除训练场排行及玩家训练场数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.getMboxRankType" title="Tools.getMboxRankType">[Tools]获取神秘宝箱随机类型(1:伪随机 2:纯随机)</li>
+          <li style="background:#CACACA" alt="Tools.clearArrowCD" title="Tools.clearArrowCD">[Tools]射箭清除补给CD</li>
          
-          <li style="background:#9ECCED" alt="Tools.nestsClear" title="Tools.nestsClear">[Tools]nests清空巢穴系统数据</li>
+          <li style="background:#CACACA" alt="Tools.clearArrowScore" title="Tools.clearArrowScore">[Tools]清除射箭评分相关</li>
          
-          <li style="background:#9ECCED" alt="Tools.changeLeaguePoint" title="Tools.changeLeaguePoint">[Tools]联赛测试,改积分</li>
+          <li style="background:#CACACA" alt="Tools.clearBeGivenArrow" title="Tools.clearBeGivenArrow">[Tools]清除被赠送箭矢</li>
          
-          <li style="background:#9ECCED" alt="Tools.batchChangeLeaguePoint" title="Tools.batchChangeLeaguePoint">[Tools]批量改排行榜32名玩家积分联赛的积分</li>
+          <li style="background:#CACACA" alt="Tools.snap" title="Tools.snap">[Tools]快照</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearLeagueCnt" title="Tools.clearLeagueCnt">[Tools]清空挑战次数</li>
+          <li style="background:#CACACA" alt="Tools.singleRechargeClear" title="Tools.singleRechargeClear">[Tools]单笔充值清空</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearHeroDuelSeasonData" title="Tools.clearHeroDuelSeasonData">[Tools]清空本赛季英雄交锋公共数据</li>
+          <li style="background:#CACACA" alt="Tools.exportDb" title="Tools.exportDb">[Tools]导出数据库数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearHeroDuelUserData" title="Tools.clearHeroDuelUserData">[Tools]清空本赛季英雄交锋玩家数据</li>
+          <li style="background:#CACACA" alt="Tools.fixFreeGem" title="Tools.fixFreeGem">[Tools]修复freeGem字段数值(全部置零)</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearHeroDuelSeasonAward" title="Tools.clearHeroDuelSeasonAward">[Tools]清除英雄交锋赛季领奖记录（并设置赛季胜场）</li>
+          <li style="background:#CACACA" alt="Tools.singleRechargeReset" title="Tools.singleRechargeReset">[Tools]重置单笔充值数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.genHeroDuelShow" title="Tools.genHeroDuelShow">[Tools]英雄交锋定时任务</li>
+          <li style="background:#CACACA" alt="Tools.clearMboxStatisData" title="Tools.clearMboxStatisData">[Tools]清除神秘宝箱相关数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.getHeroDuelUserData" title="Tools.getHeroDuelUserData">[Tools]获取英雄交锋所有数据</li>
+          <li style="background:#CACACA" alt="Tools.getMboxRankType" title="Tools.getMboxRankType">[Tools]获取神秘宝箱随机类型(1:伪随机 2:纯随机)</li>
          
-          <li style="background:#9ECCED" alt="Tools.heroDuelAutoSelCards" title="Tools.heroDuelAutoSelCards">[Tools]英雄交锋自动选卡</li>
+          <li style="background:#CACACA" alt="Tools.nestsClear" title="Tools.nestsClear">[Tools]nests清空巢穴系统数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearHeroDuelRecommend" title="Tools.clearHeroDuelRecommend">[Tools]清除推荐阵容相关榜数据</li>
+          <li style="background:#CACACA" alt="Tools.changeLeaguePoint" title="Tools.changeLeaguePoint">[Tools]联赛测试,改积分</li>
          
-          <li style="background:#9ECCED" alt="Tools.gethDuelTeamsData" title="Tools.gethDuelTeamsData">[Tools]取推荐阵容兵团相关数据</li>
+          <li style="background:#CACACA" alt="Tools.batchChangeLeaguePoint" title="Tools.batchChangeLeaguePoint">[Tools]批量改排行榜32名玩家积分联赛的积分</li>
          
-          <li style="background:#9ECCED" alt="Tools.gethDuelHeroesData" title="Tools.gethDuelHeroesData">[Tools]取热门英雄相关数据</li>
+          <li style="background:#CACACA" alt="Tools.clearLeagueCnt" title="Tools.clearLeagueCnt">[Tools]清空挑战次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.backupForRedis" title="Tools.backupForRedis">[Tools]复制redis键下数据</li>
+          <li style="background:#CACACA" alt="Tools.clearHeroDuelSeasonData" title="Tools.clearHeroDuelSeasonData">[Tools]清空本赛季英雄交锋公共数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearComment" title="Tools.clearComment">[Tools]清除所有评论</li>
+          <li style="background:#CACACA" alt="Tools.clearHeroDuelUserData" title="Tools.clearHeroDuelUserData">[Tools]清空本赛季英雄交锋玩家数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearCommentAttitudeStatis" title="Tools.clearCommentAttitudeStatis">[Tools]清除所有评论赞数统计</li>
+          <li style="background:#CACACA" alt="Tools.clearHeroDuelSeasonAward" title="Tools.clearHeroDuelSeasonAward">[Tools]清除英雄交锋赛季领奖记录（并设置赛季胜场）</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearCommentTimes" title="Tools.clearCommentTimes">[Tools]清除指定类型评论次数</li>
+          <li style="background:#CACACA" alt="Tools.genHeroDuelShow" title="Tools.genHeroDuelShow">[Tools]英雄交锋定时任务</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearCommentByType" title="Tools.clearCommentByType">[Tools]清除指定类型评论次数</li>
+          <li style="background:#CACACA" alt="Tools.getHeroDuelUserData" title="Tools.getHeroDuelUserData">[Tools]获取英雄交锋所有数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.getCommentData" title="Tools.getCommentData">[Tools]查询评论数据</li>
+          <li style="background:#CACACA" alt="Tools.heroDuelAutoSelCards" title="Tools.heroDuelAutoSelCards">[Tools]英雄交锋自动选卡</li>
          
-          <li style="background:#9ECCED" alt="Tools.addCommentAttitudeNum" title="Tools.addCommentAttitudeNum">[Tools]增加赞或踩数量</li>
+          <li style="background:#CACACA" alt="Tools.clearHeroDuelRecommend" title="Tools.clearHeroDuelRecommend">[Tools]清除推荐阵容相关榜数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearGuildMailTimes" title="Tools.clearGuildMailTimes">[Tools]清空公会发邮件次数</li>
+          <li style="background:#CACACA" alt="Tools.gethDuelTeamsData" title="Tools.gethDuelTeamsData">[Tools]取推荐阵容兵团相关数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.setHeroBioCnt" title="Tools.setHeroBioCnt">[Tools]设置指定英雄的传记条件</li>
+          <li style="background:#CACACA" alt="Tools.gethDuelHeroesData" title="Tools.gethDuelHeroesData">[Tools]取热门英雄相关数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.passHeroBioStage" title="Tools.passHeroBioStage">[Tools]英雄传记跳到指定关</li>
+          <li style="background:#CACACA" alt="Tools.backupForRedis" title="Tools.backupForRedis">[Tools]复制redis键下数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.checkActivateHeroBio" title="Tools.checkActivateHeroBio">[Tools]激活英雄传记(修复老号数据)</li>
+          <li style="background:#CACACA" alt="Tools.clearComment" title="Tools.clearComment">[Tools]清除所有评论</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetHeroBioData" title="Tools.resetHeroBioData">[Tools]重置英雄传记数据</li>
+          <li style="background:#CACACA" alt="Tools.clearCommentAttitudeStatis" title="Tools.clearCommentAttitudeStatis">[Tools]清除所有评论赞数统计</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearSignData" title="Tools.clearSignData">[Tools]清除签到数据</li>
+          <li style="background:#CACACA" alt="Tools.clearCommentTimes" title="Tools.clearCommentTimes">[Tools]清除指定类型评论次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.addResignNum" title="Tools.addResignNum">[Tools]添加补签次数</li>
+          <li style="background:#CACACA" alt="Tools.clearCommentByType" title="Tools.clearCommentByType">[Tools]清除指定类型评论次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.sendAvatarFrame" title="Tools.sendAvatarFrame">[Tools]发放头像框</li>
+          <li style="background:#CACACA" alt="Tools.getCommentData" title="Tools.getCommentData">[Tools]查询评论数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearShare" title="Tools.clearShare">[Tools]清除分享次数</li>
+          <li style="background:#CACACA" alt="Tools.addCommentAttitudeNum" title="Tools.addCommentAttitudeNum">[Tools]增加赞或踩数量</li>
          
-          <li style="background:#9ECCED" alt="Tools.getDialyDiscountDeductList" title="Tools.getDialyDiscountDeductList">[Tools]每日折扣扣除序列</li>
+          <li style="background:#CACACA" alt="Tools.clearGuildMailTimes" title="Tools.clearGuildMailTimes">[Tools]清空公会发邮件次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.dummyBuyDialyDiscount" title="Tools.dummyBuyDialyDiscount">[Tools]虚似购买每日折扣商品</li>
+          <li style="background:#CACACA" alt="Tools.setHeroBioCnt" title="Tools.setHeroBioCnt">[Tools]设置指定英雄的传记条件</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearDailyDiscountData" title="Tools.clearDailyDiscountData">[Tools]清除每日折扣活动信息</li>
+          <li style="background:#CACACA" alt="Tools.passHeroBioStage" title="Tools.passHeroBioStage">[Tools]英雄传记跳到指定关</li>
          
-          <li style="background:#9ECCED" alt="Tools.handbookClear" title="Tools.handbookClear">[Tools]清空领主手册</li>
+          <li style="background:#CACACA" alt="Tools.checkActivateHeroBio" title="Tools.checkActivateHeroBio">[Tools]激活英雄传记(修复老号数据)</li>
          
-          <li style="background:#9ECCED" alt="Tools.pushLimitTeams" title="Tools.pushLimitTeams">[Tools]限时兵团推送工具</li>
+          <li style="background:#CACACA" alt="Tools.resetHeroBioData" title="Tools.resetHeroBioData">[Tools]重置英雄传记数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.displayLimitTeamsNotice" title="Tools.displayLimitTeamsNotice">[Tools]限时兵团查看所有广播</li>
+          <li style="background:#CACACA" alt="Tools.clearSignData" title="Tools.clearSignData">[Tools]清除签到数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearLimitTeams" title="Tools.clearLimitTeams">[Tools]限时兵团清空</li>
+          <li style="background:#CACACA" alt="Tools.addResignNum" title="Tools.addResignNum">[Tools]添加补签次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.jsonToUser" title="Tools.jsonToUser">[Tools]json数据转为实际玩家</li>
+          <li style="background:#CACACA" alt="Tools.sendAvatarFrame" title="Tools.sendAvatarFrame">[Tools]发放头像框</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearDonateTimes" title="Tools.clearDonateTimes">[Tools]清除玩家每日联盟捐献次数</li>
+          <li style="background:#CACACA" alt="Tools.clearShare" title="Tools.clearShare">[Tools]清除分享次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearRedInfo" title="Tools.clearRedInfo">[Tools]清除红包数据</li>
+          <li style="background:#CACACA" alt="Tools.getDialyDiscountDeductList" title="Tools.getDialyDiscountDeductList">[Tools]每日折扣扣除序列</li>
          
-          <li style="background:#9ECCED" alt="Tools.getAccountById" title="Tools.getAccountById">[Tools]通过玩家id查账号</li>
+          <li style="background:#CACACA" alt="Tools.dummyBuyDialyDiscount" title="Tools.dummyBuyDialyDiscount">[Tools]虚似购买每日折扣商品</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetGuildRedTest" title="Tools.resetGuildRedTest">[Tools]重置工会红包</li>
+          <li style="background:#CACACA" alt="Tools.clearDailyDiscountData" title="Tools.clearDailyDiscountData">[Tools]清除每日折扣活动信息</li>
          
-          <li style="background:#9ECCED" alt="Tools.testPoint" title="Tools.testPoint">[Tools]改积分</li>
+          <li style="background:#CACACA" alt="Tools.handbookClear" title="Tools.handbookClear">[Tools]清空领主手册</li>
          
-          <li style="background:#9ECCED" alt="Tools.godWarTest" title="Tools.godWarTest">[Tools]争霸赛测试</li>
+          <li style="background:#CACACA" alt="Tools.pushLimitTeams" title="Tools.pushLimitTeams">[Tools]限时兵团推送工具</li>
          
-          <li style="background:#9ECCED" alt="Tools.changeGVGCityExp" title="Tools.changeGVGCityExp">[Tools]修改gvg建筑经验</li>
+          <li style="background:#CACACA" alt="Tools.displayLimitTeamsNotice" title="Tools.displayLimitTeamsNotice">[Tools]限时兵团查看所有广播</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearGVGFormation" title="Tools.clearGVGFormation">[Tools]清空gvg编组</li>
+          <li style="background:#CACACA" alt="Tools.clearLimitTeams" title="Tools.clearLimitTeams">[Tools]限时兵团清空</li>
          
-          <li style="background:#9ECCED" alt="Tools.editHeroDuelConfigID" title="Tools.editHeroDuelConfigID">[Tools]修改英雄交锋赛季元素</li>
+          <li style="background:#CACACA" alt="Tools.jsonToUser" title="Tools.jsonToUser">[Tools]json数据转为实际玩家</li>
          
-          <li style="background:#9ECCED" alt="Tools.changeGVGPoint" title="Tools.changeGVGPoint">[Tools]改积分</li>
+          <li style="background:#CACACA" alt="Tools.clearDonateTimes" title="Tools.clearDonateTimes">[Tools]清除玩家每日联盟捐献次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.qureyUserPid" title="Tools.qureyUserPid">[Tools]通过玩家角色查找openId</li>
+          <li style="background:#CACACA" alt="Tools.clearRedInfo" title="Tools.clearRedInfo">[Tools]清除红包数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.qureyGuildName" title="Tools.qureyGuildName">[Tools]通过联盟id或联盟明称查找联盟信息</li>
+          <li style="background:#CACACA" alt="Tools.getAccountById" title="Tools.getAccountById">[Tools]通过玩家id查账号</li>
          
-          <li style="background:#9ECCED" alt="Tools.getGodwarTop32" title="Tools.getGodwarTop32">[Tools]获取争霸赛32名</li>
+          <li style="background:#CACACA" alt="Tools.resetGuildRedTest" title="Tools.resetGuildRedTest">[Tools]重置工会红包</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetWeeklyGift" title="Tools.resetWeeklyGift">[Tools]重置VIP周礼包状态</li>
+          <li style="background:#CACACA" alt="Tools.testPoint" title="Tools.testPoint">[Tools]改积分</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetArenaWarNum" title="Tools.resetArenaWarNum">[Tools]重置玩家竞技场次数</li>
+          <li style="background:#CACACA" alt="Tools.godWarTest" title="Tools.godWarTest">[Tools]争霸赛测试</li>
          
-          <li style="background:#9ECCED" alt="Tools.getOnlineCityBattleJsonInfo" title="Tools.getOnlineCityBattleJsonInfo">[Tools]获取线上gvg分组数据</li>
+          <li style="background:#CACACA" alt="Tools.changeGVGCityExp" title="Tools.changeGVGCityExp">[Tools]修改gvg建筑经验</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetAllDayInfo" title="Tools.resetAllDayInfo">[Tools]重置所有日常统计数据</li>
+          <li style="background:#CACACA" alt="Tools.clearGVGFormation" title="Tools.clearGVGFormation">[Tools]清空gvg编组</li>
          
-          <li style="background:#9ECCED" alt="Tools.activateAwaking" title="Tools.activateAwaking">[Tools]觉醒激活</li>
+          <li style="background:#CACACA" alt="Tools.editHeroDuelConfigID" title="Tools.editHeroDuelConfigID">[Tools]修改英雄交锋赛季元素</li>
          
-          <li style="background:#9ECCED" alt="Tools.setAwakingTaskValue" title="Tools.setAwakingTaskValue">[Tools]设置觉醒任务条件值</li>
+          <li style="background:#CACACA" alt="Tools.changeGVGPoint" title="Tools.changeGVGPoint">[Tools]改积分</li>
          
-          <li style="background:#9ECCED" alt="Tools.forceUpdateIntelligentRecharge" title="Tools.forceUpdateIntelligentRecharge">[Tools]强制刷新动态单笔充值</li>
+          <li style="background:#CACACA" alt="Tools.qureyUserPid" title="Tools.qureyUserPid">[Tools]通过玩家角色查找openId</li>
          
-          <li style="background:#9ECCED" alt="Tools.resetIntelligentRecharge" title="Tools.resetIntelligentRecharge">[Tools]重置动态单笔充值</li>
+          <li style="background:#CACACA" alt="Tools.qureyGuildName" title="Tools.qureyGuildName">[Tools]通过联盟id或联盟明称查找联盟信息</li>
          
-          <li style="background:#9ECCED" alt="Tools.modifyElementProgress" title="Tools.modifyElementProgress">[Tools]修改元素位面关卡进度</li>
+          <li style="background:#CACACA" alt="Tools.getGodwarTop32" title="Tools.getGodwarTop32">[Tools]获取争霸赛32名</li>
          
-          <li style="background:#9ECCED" alt="Tools.pushTest" title="Tools.pushTest">[Tools]跑马灯推送测试工具</li>
+          <li style="background:#CACACA" alt="Tools.resetWeeklyGift" title="Tools.resetWeeklyGift">[Tools]重置VIP周礼包状态</li>
          
-          <li style="background:#9ECCED" alt="Tools.addSysNotice" title="Tools.addSysNotice">[Tools]添加系统公告</li>
+          <li style="background:#CACACA" alt="Tools.resetArenaWarNum" title="Tools.resetArenaWarNum">[Tools]重置玩家竞技场次数</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearMercenaryTimes" title="Tools.clearMercenaryTimes">[Tools]清空雇佣兵使用次数</li>
+          <li style="background:#CACACA" alt="Tools.getOnlineCityBattleJsonInfo" title="Tools.getOnlineCityBattleJsonInfo">[Tools]获取线上gvg分组数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearQuitGuildCD" title="Tools.clearQuitGuildCD">[Tools]清空退工会cd</li>
+          <li style="background:#CACACA" alt="Tools.resetAllDayInfo" title="Tools.resetAllDayInfo">[Tools]重置所有日常统计数据</li>
          
-          <li style="background:#9ECCED" alt="Tools.createAwakingRank" title="Tools.createAwakingRank">[Tools]生成觉醒排行榜</li>
+          <li style="background:#CACACA" alt="Tools.activateAwaking" title="Tools.activateAwaking">[Tools]觉醒激活</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearAwakingRank" title="Tools.clearAwakingRank">[Tools]清空觉醒排行榜</li>
+          <li style="background:#CACACA" alt="Tools.setAwakingTaskValue" title="Tools.setAwakingTaskValue">[Tools]设置觉醒任务条件值</li>
          
-          <li style="background:#9ECCED" alt="Tools.clearBackFlowCD" title="Tools.clearBackFlowCD">[Tools]清除回流活动CD</li>
+          <li style="background:#CACACA" alt="Tools.forceUpdateIntelligentRecharge" title="Tools.forceUpdateIntelligentRecharge">[Tools]强制刷新动态单笔充值</li>
          
-          <li style="background:#CACACA" alt="Training.init" title="Training.init">[Training]进入训练场</li>
+          <li style="background:#CACACA" alt="Tools.resetIntelligentRecharge" title="Tools.resetIntelligentRecharge">[Tools]重置动态单笔充值</li>
          
-          <li style="background:#CACACA" alt="Training.getReward" title="Training.getReward">[Training]领取训练首通奖励</li>
+          <li style="background:#CACACA" alt="Tools.modifyElementProgress" title="Tools.modifyElementProgress">[Tools]修改元素位面关卡进度</li>
          
-          <li style="background:#CACACA" alt="Training.fightBefore" title="Training.fightBefore">[Training]战斗前</li>
+          <li style="background:#CACACA" alt="Tools.pushTest" title="Tools.pushTest">[Tools]跑马灯推送测试工具</li>
          
-          <li style="background:#CACACA" alt="Training.fightAfter" title="Training.fightAfter">[Training]战斗后</li>
+          <li style="background:#CACACA" alt="Tools.initWeapon" title="Tools.initWeapon">[Tools]初始化器械数据</li>
          
-          <li style="background:#CACACA" alt="Training.getTrainingRankList" title="Training.getTrainingRankList">[Training]取前三名玩家</li>
+          <li style="background:#CACACA" alt="Tools.resetWeapon" title="Tools.resetWeapon">[Tools]重置器械数据</li>
          
-          <li style="background:#CACACA" alt="Training.getTrainingRankByTrainId" title="Training.getTrainingRankByTrainId">[Training]取训练场排行</li>
+          <li style="background:#CACACA" alt="Tools.addProp" title="Tools.addProp">[Tools]获得配件</li>
          
-          <li style="background:#CACACA" alt="Training.getTrainingShowURL" title="Training.getTrainingShowURL">[Training]获取训练场直播地址</li>
+          <li style="background:#CACACA" alt="Tools.addSysNotice" title="Tools.addSysNotice">[Tools]添加系统公告</li>
          
-          <li style="background:#9ECCED" alt="Treasure.getTreasure" title="Treasure.getTreasure">[Treasure]获取宝物</li>
+          <li style="background:#CACACA" alt="Tools.clearMercenaryTimes" title="Tools.clearMercenaryTimes">[Tools]清空雇佣兵使用次数</li>
          
-          <li style="background:#9ECCED" alt="Treasure.activationComTreasure" title="Treasure.activationComTreasure">[Treasure]生成组合宝物</li>
+          <li style="background:#CACACA" alt="Tools.clearQuitGuildCD" title="Tools.clearQuitGuildCD">[Tools]清空退工会cd</li>
          
-          <li style="background:#9ECCED" alt="Treasure.wearDisTreasure" title="Treasure.wearDisTreasure">[Treasure]散件宝物安装</li>
+          <li style="background:#CACACA" alt="Tools.createAwakingRank" title="Tools.createAwakingRank">[Tools]生成觉醒排行榜</li>
          
-          <li style="background:#9ECCED" alt="Treasure.drewDisTreasure" title="Treasure.drewDisTreasure">[Treasure]付费抽取散件宝物</li>
+          <li style="background:#CACACA" alt="Tools.clearAwakingRank" title="Tools.clearAwakingRank">[Tools]清空觉醒排行榜</li>
          
-          <li style="background:#9ECCED" alt="Treasure.drewFreeDisTreasure" title="Treasure.drewFreeDisTreasure">[Treasure]免费抽取散件宝物</li>
+          <li style="background:#CACACA" alt="Tools.delSiegeServer" title="Tools.delSiegeServer">[Tools]删除服务器攻城战数据重新初始化</li>
          
-          <li style="background:#9ECCED" alt="Treasure.promoteComTreasure" title="Treasure.promoteComTreasure">[Treasure]进阶组合宝物</li>
+          <li style="background:#CACACA" alt="Tools.delSiegePlayer" title="Tools.delSiegePlayer">[Tools]删除玩家攻城战数据</li>
          
-          <li style="background:#9ECCED" alt="Treasure.promoteDisTreasure" title="Treasure.promoteDisTreasure">[Treasure]进阶散件宝物</li>
+          <li style="background:#CACACA" alt="Tools.toSiege" title="Tools.toSiege">[Tools]攻城战进入攻城阶段</li>
          
-          <li style="background:#9ECCED" alt="Treasure.dismantlingDisTreasure" title="Treasure.dismantlingDisTreasure">[Treasure]拆解散件宝物</li>
+          <li style="background:#CACACA" alt="Tools.toDefend" title="Tools.toDefend">[Tools]攻城战进入守城</li>
          
-          <li style="background:#9ECCED" alt="Treasure.upStar" title="Treasure.upStar">[Treasure]宝物升星</li>
+          <li style="background:#CACACA" alt="Tools.addPlatFriend" title="Tools.addPlatFriend">[Tools]添加平台好友</li>
          
-          <li style="background:#CACACA" alt="Tss.checkClientData" title="Tss.checkClientData">[Tss]客户端Tss上报数据</li>
+          <li style="background:#CACACA" alt="Tools.setFriendTaskValue" title="Tools.setFriendTaskValue">[Tools]设置友情任务条件值</li>
          
-          <li style="background:#9ECCED" alt="User.getPlayerAction" title="User.getPlayerAction">[User]获取用户信息</li>
+          <li style="background:#CACACA" alt="Tools.clearRecallFriendRedis" title="Tools.clearRecallFriendRedis">[Tools]清平台好友数据</li>
          
-          <li style="background:#9ECCED" alt="User.getPlayerAction2" title="User.getPlayerAction2">[User]获取用户信息2</li>
+          <li style="background:#CACACA" alt="Tools.removePlatFriend" title="Tools.removePlatFriend">[Tools]删除指定平台好友</li>
          
-          <li style="background:#9ECCED" alt="User.getPlayerPublic" title="User.getPlayerPublic">[User]获取用户公用数据</li>
+          <li style="background:#CACACA" alt="Tools.getDailyFriendScore" title="Tools.getDailyFriendScore">[Tools]获取今日获得积分</li>
          
-          <li style="background:#9ECCED" alt="User.getTargetUser" title="User.getTargetUser">[User]获取他人角色信息</li>
+          <li style="background:#CACACA" alt="Tools.setDailyFriendScore" title="Tools.setDailyFriendScore">[Tools]添加今日获得积分</li>
          
-          <li style="background:#9ECCED" alt="User.getTargetUserBattleInfo" title="User.getTargetUserBattleInfo">[User]获取他人角色相关信息</li>
+          <li style="background:#CACACA" alt="Tools.setFriendScore" title="Tools.setFriendScore">[Tools]添加未领取积分</li>
          
-          <li style="background:#9ECCED" alt="User.init" title="User.init">[User]初始化角色信息</li>
+          <li style="background:#9ECCED" alt="Training.init" title="Training.init">[Training]进入训练场</li>
          
-          <li style="background:#9ECCED" alt="User.setName" title="User.setName">[User]设置角色名称</li>
+          <li style="background:#9ECCED" alt="Training.getReward" title="Training.getReward">[Training]领取训练首通奖励</li>
          
-          <li style="background:#9ECCED" alt="User.buyPhyscal" title="User.buyPhyscal">[User]购买体力</li>
+          <li style="background:#9ECCED" alt="Training.fightBefore" title="Training.fightBefore">[Training]战斗前</li>
          
-          <li style="background:#9ECCED" alt="User.buyGold" title="User.buyGold">[User]购买金子</li>
+          <li style="background:#9ECCED" alt="Training.fightAfter" title="Training.fightAfter">[Training]战斗后</li>
          
-          <li style="background:#9ECCED" alt="User.buyTexp" title="User.buyTexp">[User]购买兵团经验</li>
+          <li style="background:#9ECCED" alt="Training.getTrainingRankList" title="Training.getTrainingRankList">[Training]取前三名玩家</li>
          
-          <li style="background:#9ECCED" alt="User.buyGuildPower" title="User.buyGuildPower">[User]购买行动力</li>
+          <li style="background:#9ECCED" alt="Training.getTrainingRankByTrainId" title="Training.getTrainingRankByTrainId">[Training]取训练场排行</li>
          
-          <li style="background:#9ECCED" alt="User.buyArrow" title="User.buyArrow">[User]购买箭矢</li>
+          <li style="background:#9ECCED" alt="Training.getTrainingShowURL" title="Training.getTrainingShowURL">[Training]获取训练场直播地址</li>
          
-          <li style="background:#9ECCED" alt="User.buyMagicNum" title="User.buyMagicNum">[User]购买法术卷轴</li>
+          <li style="background:#CACACA" alt="Treasure.getTreasure" title="Treasure.getTreasure">[Treasure]获取宝物</li>
          
-          <li style="background:#9ECCED" alt="User.buyTreasureNum" title="User.buyTreasureNum">[User]购买进阶石</li>
+          <li style="background:#CACACA" alt="Treasure.activationComTreasure" title="Treasure.activationComTreasure">[Treasure]生成组合宝物</li>
          
-          <li style="background:#9ECCED" alt="User.logined" title="User.logined">[User]登入处理函数</li>
+          <li style="background:#CACACA" alt="Treasure.wearDisTreasure" title="Treasure.wearDisTreasure">[Treasure]散件宝物安装</li>
          
-          <li style="background:#9ECCED" alt="User.logout" title="User.logout">[User]用户退出</li>
+          <li style="background:#CACACA" alt="Treasure.drewDisTreasure" title="Treasure.drewDisTreasure">[Treasure]付费抽取散件宝物</li>
          
-          <li style="background:#9ECCED" alt="User.processExit" title="User.processExit">[User]长连接进程退出处理</li>
+          <li style="background:#CACACA" alt="Treasure.drewFreeDisTreasure" title="Treasure.drewFreeDisTreasure">[Treasure]免费抽取散件宝物</li>
          
-          <li style="background:#9ECCED" alt="User.simulationLogin" title="User.simulationLogin">[User]客户端每天5点摸拟登陆，保证跨天数据证常</li>
+          <li style="background:#CACACA" alt="Treasure.promoteComTreasure" title="Treasure.promoteComTreasure">[Treasure]进阶组合宝物</li>
          
-          <li style="background:#9ECCED" alt="User.bubbleModify" title="User.bubbleModify">[User]冒泡数据更新</li>
+          <li style="background:#CACACA" alt="Treasure.promoteDisTreasure" title="Treasure.promoteDisTreasure">[Treasure]进阶散件宝物</li>
          
-          <li style="background:#9ECCED" alt="User.reauth" title="User.reauth">[User]客户端重连</li>
+          <li style="background:#CACACA" alt="Treasure.dismantlingDisTreasure" title="Treasure.dismantlingDisTreasure">[Treasure]拆解散件宝物</li>
          
-          <li style="background:#9ECCED" alt="User.getEmptyInfo" title="User.getEmptyInfo">[User]客户端专用空接口</li>
+          <li style="background:#CACACA" alt="Treasure.upStar" title="Treasure.upStar">[Treasure]宝物升星</li>
          
-          <li style="background:#9ECCED" alt="User.svaeDeclaration" title="User.svaeDeclaration">[User]保存宣言</li>
+          <li style="background:#9ECCED" alt="Tss.checkClientData" title="Tss.checkClientData">[Tss]客户端Tss上报数据</li>
          
-          <li style="background:#9ECCED" alt="User.pressLogin" title="User.pressLogin">[User]压测用的</li>
+          <li style="background:#CACACA" alt="User.getPlayerAction" title="User.getPlayerAction">[User]获取用户信息</li>
          
-          <li style="background:#9ECCED" alt="User.share" title="User.share">[User]分享奖励</li>
+          <li style="background:#CACACA" alt="User.getPlayerAction2" title="User.getPlayerAction2">[User]获取用户信息2</li>
          
-          <li style="background:#9ECCED" alt="User.shareWithNoCondition" title="User.shareWithNoCondition">[User]分享奖励，和分享活动展示不同</li>
+          <li style="background:#CACACA" alt="User.getPlayerPublic" title="User.getPlayerPublic">[User]获取用户公用数据</li>
          
-          <li style="background:#9ECCED" alt="User.getIOSCommentAward" title="User.getIOSCommentAward">[User]获取ios评价奖励</li>
+          <li style="background:#CACACA" alt="User.getTargetUser" title="User.getTargetUser">[User]获取他人角色信息</li>
          
-          <li style="background:#9ECCED" alt="User.subscribe_getlist" title="User.subscribe_getlist">[User]获取微信订阅列表</li>
+          <li style="background:#CACACA" alt="User.getTargetUserBattleInfo" title="User.getTargetUserBattleInfo">[User]获取他人角色相关信息</li>
          
-          <li style="background:#9ECCED" alt="User.subscribe_setlist" title="User.subscribe_setlist">[User]订阅微信</li>
+          <li style="background:#CACACA" alt="User.init" title="User.init">[User]初始化角色信息</li>
          
-          <li style="background:#9ECCED" alt="User.shareActivity" title="User.shareActivity">[User]运营分享活动</li>
+          <li style="background:#CACACA" alt="User.setName" title="User.setName">[User]设置角色名称</li>
          
-          <li style="background:#9ECCED" alt="User.getVipGiftMail" title="User.getVipGiftMail">[User]获取贵宾礼包邮件</li>
+          <li style="background:#CACACA" alt="User.buyPhyscal" title="User.buyPhyscal">[User]购买体力</li>
          
-          <li style="background:#9ECCED" alt="User.getWeeklyVipGiftMail" title="User.getWeeklyVipGiftMail">[User]获取贵宾周礼包邮件</li>
+          <li style="background:#CACACA" alt="User.buyGold" title="User.buyGold">[User]购买金子</li>
          
-          <li style="background:#9ECCED" alt="User.viewRedDots" title="User.viewRedDots">[User]查看红点提示</li>
+          <li style="background:#CACACA" alt="User.buyTexp" title="User.buyTexp">[User]购买兵团经验</li>
          
-          <li style="background:#9ECCED" alt="User.getUserGuildId" title="User.getUserGuildId">[User]同步玩家联盟</li>
+          <li style="background:#CACACA" alt="User.buyGuildPower" title="User.buyGuildPower">[User]购买行动力</li>
          
-          <li style="background:#CACACA" alt="Vip.getVipInfo" title="Vip.getVipInfo">[Vip]VIP相关信息</li>
+          <li style="background:#CACACA" alt="User.buyArrow" title="User.buyArrow">[User]购买箭矢</li>
          
-          <li style="background:#CACACA" alt="Vip.getFreeGem" title="Vip.getFreeGem">[Vip]第一次进入充值界面送钻</li>
+          <li style="background:#CACACA" alt="User.buyMagicNum" title="User.buyMagicNum">[User]购买法术卷轴</li>
          
-          <li style="background:#CACACA" alt="Vip.buyPrivilageGift" title="Vip.buyPrivilageGift">[Vip]购买特权礼包</li>
+          <li style="background:#CACACA" alt="User.buyTreasureNum" title="User.buyTreasureNum">[User]购买进阶石</li>
          
-          <li style="background:#CACACA" alt="Vip.getMCardGift" title="Vip.getMCardGift">[Vip]领取月卡奖励</li>
+          <li style="background:#CACACA" alt="User.logined" title="User.logined">[User]登入处理函数</li>
          
-          <li style="background:#CACACA" alt="Vip.advanceMonth" title="Vip.advanceMonth">[Vip]提前领取月卡奖励，测试专用</li>
+          <li style="background:#CACACA" alt="User.logout" title="User.logout">[User]用户退出</li>
          
-          <li style="background:#CACACA" alt="Vip.hiddenVip" title="Vip.hiddenVip">[Vip]设置vip隐藏</li>
+          <li style="background:#CACACA" alt="User.processExit" title="User.processExit">[User]长连接进程退出处理</li>
          
-          <li style="background:#9ECCED" alt="WeeklySign.getweeklySignInfo" title="WeeklySign.getweeklySignInfo">[WeeklySign]获取签到数据</li>
+          <li style="background:#CACACA" alt="User.simulationLogin" title="User.simulationLogin">[User]客户端每天5点摸拟登陆，保证跨天数据证常</li>
          
-          <li style="background:#9ECCED" alt="WeeklySign.weeklySign" title="WeeklySign.weeklySign">[WeeklySign]签到</li>
+          <li style="background:#CACACA" alt="User.bubbleModify" title="User.bubbleModify">[User]冒泡数据更新</li>
+         
+          <li style="background:#CACACA" alt="User.reauth" title="User.reauth">[User]客户端重连</li>
+         
+          <li style="background:#CACACA" alt="User.getEmptyInfo" title="User.getEmptyInfo">[User]客户端专用空接口</li>
+         
+          <li style="background:#CACACA" alt="User.svaeDeclaration" title="User.svaeDeclaration">[User]保存宣言</li>
+         
+          <li style="background:#CACACA" alt="User.pressLogin" title="User.pressLogin">[User]压测用的</li>
+         
+          <li style="background:#CACACA" alt="User.share" title="User.share">[User]分享奖励</li>
+         
+          <li style="background:#CACACA" alt="User.shareWithNoCondition" title="User.shareWithNoCondition">[User]分享奖励，和分享活动展示不同</li>
+         
+          <li style="background:#CACACA" alt="User.getIOSCommentAward" title="User.getIOSCommentAward">[User]获取ios评价奖励</li>
+         
+          <li style="background:#CACACA" alt="User.subscribe_getlist" title="User.subscribe_getlist">[User]获取微信订阅列表</li>
+         
+          <li style="background:#CACACA" alt="User.subscribe_setlist" title="User.subscribe_setlist">[User]订阅微信</li>
+         
+          <li style="background:#CACACA" alt="User.shareActivity" title="User.shareActivity">[User]运营分享活动</li>
+         
+          <li style="background:#CACACA" alt="User.getVipGiftMail" title="User.getVipGiftMail">[User]获取贵宾礼包邮件</li>
+         
+          <li style="background:#CACACA" alt="User.getWeeklyVipGiftMail" title="User.getWeeklyVipGiftMail">[User]获取贵宾周礼包邮件</li>
+         
+          <li style="background:#CACACA" alt="User.viewRedDots" title="User.viewRedDots">[User]查看红点提示</li>
+         
+          <li style="background:#CACACA" alt="User.getUserGuildId" title="User.getUserGuildId">[User]同步玩家联盟</li>
+         
+          <li style="background:#9ECCED" alt="Vip.getVipInfo" title="Vip.getVipInfo">[Vip]VIP相关信息</li>
+         
+          <li style="background:#9ECCED" alt="Vip.getFreeGem" title="Vip.getFreeGem">[Vip]第一次进入充值界面送钻</li>
+         
+          <li style="background:#9ECCED" alt="Vip.buyPrivilageGift" title="Vip.buyPrivilageGift">[Vip]购买特权礼包</li>
+         
+          <li style="background:#9ECCED" alt="Vip.getMCardGift" title="Vip.getMCardGift">[Vip]领取月卡奖励</li>
+         
+          <li style="background:#9ECCED" alt="Vip.advanceMonth" title="Vip.advanceMonth">[Vip]提前领取月卡奖励，测试专用</li>
+         
+          <li style="background:#9ECCED" alt="Vip.hiddenVip" title="Vip.hiddenVip">[Vip]设置vip隐藏</li>
+         
+          <li style="background:#CACACA" alt="WeeklySign.getweeklySignInfo" title="WeeklySign.getweeklySignInfo">[WeeklySign]获取签到数据</li>
+         
+          <li style="background:#CACACA" alt="WeeklySign.weeklySign" title="WeeklySign.weeklySign">[WeeklySign]签到</li>
                 </ul>
       </div>
       <div id="hidden">
@@ -2185,27 +2225,6 @@ function  selectedServer(value)
     <div>
           <p>[Activity.getInsufficientTextFriends]&nbsp;&nbsp;&nbsp;获取好友-集齐添加标记</p>
                      <form action="http://123.207.86.208:8001?mod=http&method=Activity.getInsufficientTextFriends&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
-          <p>[Activity.testTextDrop]&nbsp;&nbsp;&nbsp;测试文字掉落</p>
-                     <form action="http://123.207.86.208:8001?mod=http&method=Activity.testTextDrop&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
       <table border="0" cellspacing="0" cellpadding="0" >
  	   
@@ -3823,27 +3842,6 @@ function  selectedServer(value)
    </div>
  
     <div>
-          <p>[BackFlow.testAdd]&nbsp;&nbsp;&nbsp;加成测试</p>
-                     <form action="http://123.207.86.208:8001?mod=http&method=BackFlow.testAdd&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
           <p>[Battle.getBattleReport]&nbsp;&nbsp;&nbsp;获取战报信息</p>
                      <form action="http://123.207.86.208:8001?mod=http&method=Battle.getBattleReport&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -5153,7 +5151,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">榜Id(1:排行榜1:</td>
+    <td style="text-align:right;padding:5px;">榜Id(1:快速榜:</td>
     <td padding:5px;><input type="text" name="rankId" id="rankId" /></td>
   </tr>
          
@@ -6762,32 +6760,6 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">好友id:</td>
     <td padding:5px;><input type="text" name="fid" id="fid" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
-          <p>[GameFriend.sendRecall]&nbsp;&nbsp;&nbsp;发送召回邀请</p>
-                     <form action="http://123.207.86.208:8001?mod=http&method=GameFriend.sendRecall&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-         
- 	    <tr>
-    <td style="text-align:right;padding:5px;">邀请好友pid:</td>
-    <td padding:5px;><input type="text" name="targetPid" id="targetPid" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -11238,6 +11210,27 @@ function  selectedServer(value)
    </div>
  
     <div>
+          <p>[Installer.mergeSec]&nbsp;&nbsp;&nbsp;合服</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Installer.mergeSec&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
           <p>[Item.getItems]&nbsp;&nbsp;&nbsp;获取背包信息</p>
                      <form action="http://123.207.86.208:8001?mod=http&method=Item.getItems&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -12409,32 +12402,6 @@ function  selectedServer(value)
    </div>
  
     <div>
-          <p>[Mail.delMail]&nbsp;&nbsp;&nbsp;删邮件</p>
-                     <form action="http://123.207.86.208:8001?mod=http&method=Mail.delMail&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-         
- 	    <tr>
-    <td style="text-align:right;padding:5px;">邮件ID:</td>
-    <td padding:5px;><input type="text" name="mailId" id="mailId" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
           <p>[Mail.getAttachment]&nbsp;&nbsp;&nbsp;取附件</p>
                      <form action="http://123.207.86.208:8001?mod=http&method=Mail.getAttachment&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -13239,7 +13206,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>22:元素位面最速<br>23:元素位面最低<br>24:元素位面进度<br>25:觉醒:</td>
+    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>22:元素位面最速<br>23:元素位面最低<br>24:元素位面进度<br>25:觉醒<br>26:日常攻城排行<br>27:日常守城排行<br>28:剧情攻城伤害<br>29:剧情守城伤害<br>30:器械战力<br>31:云中城通关榜:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
          
@@ -13280,7 +13247,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>20:元素位面最速<br>21:元素位面最低<br>22:元素位面进度<br>25:觉醒:</td>
+    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>22:元素位面最速<br>23:元素位面最低<br>24:元素位面进度<br>25:觉醒<br>26:日常攻城排行<br>27:日常守城排行<br>28:剧情攻城伤害<br>29:剧情守城伤害<br>30:器械战力<br>31:云中城通关榜:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
          
@@ -13316,13 +13283,217 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>25:觉醒:</td>
+    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>22:元素位面最速<br>23:元素位面最低<br>24:元素位面进度<br>25:觉醒<br>26:日常攻城排行<br>27:日常守城排行<br>28:剧情攻城伤害<br>29:剧情守城伤害<br>30:器械战力<br>31:云中城通关榜:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
          
  	    <tr>
     <td style="text-align:right;padding:5px;">额外参数Id<br>如云中城关卡ID:</td>
     <td padding:5px;><input type="text" name="id" id="id" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.onekeyGetFriendActReward]&nbsp;&nbsp;&nbsp;一键领取</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.onekeyGetFriendActReward&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getRecalledList]&nbsp;&nbsp;&nbsp;获取被召回好友列表</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.getRecalledList&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getRecallInfo]&nbsp;&nbsp;&nbsp;获取平台好友召回信息</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.getRecallInfo&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.sendRecall]&nbsp;&nbsp;&nbsp;发送召回邀请</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.sendRecall&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">邀请好友pid:</td>
+    <td padding:5px;><input type="text" name="targetPid" id="targetPid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.bindRecallFriend]&nbsp;&nbsp;&nbsp;绑定好友</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.bindRecallFriend&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">绑定好友pid:</td>
+    <td padding:5px;><input type="text" name="targetPid" id="targetPid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getFriendScoreChangeLog]&nbsp;&nbsp;&nbsp;获取友情积分变更日志</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.getFriendScoreChangeLog&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getFriendActData]&nbsp;&nbsp;&nbsp;获取友情活动数据</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.getFriendActData&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getFriendActTaskReward]&nbsp;&nbsp;&nbsp;领取任务奖励</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.getFriendActTaskReward&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">任务id:</td>
+    <td padding:5px;><input type="text" name="taskId" id="taskId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getCurrentFriendScore]&nbsp;&nbsp;&nbsp;获取未领友情积分数量</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Recall.getCurrentFriendScore&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -14315,7 +14486,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">商店类型{神秘商店:mystery,竞技场商店:arena,远征商店:crusade,宝物商店:treasure,联盟商店:guild,积分联赛商店:legaue,gvg商店:citybattle,直购商店:zhigou,交锋头像:HDAvatar,交锋皮肤:HDSkin,经验商店:exp,元素位面商店:element,法术书商店:skillbook}:</td>
+    <td style="text-align:right;padding:5px;">商店类型{神秘商店:mystery,竞技场商店:arena,远征商店:crusade,宝物商店:treasure,联盟商店:guild,积分联赛商店:legaue,gvg商店:citybattle,直购商店:zhigou,交锋头像:HDAvatar,交锋皮肤:HDSkin,经验商店:exp,元素位面商店:element,法术书商店:skillbook,好友商店:friend}:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
               	<tr>
@@ -14377,7 +14548,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">商店类型<br>{神秘商店:mystery,竞技场商店:arena,远征商店:crusade,宝物商店:treasure,联盟商店:guild,积分联赛商店:league,英雄交锋商店:heroDuel,直购商店:zhigou,交锋头像:HDAvatar,交锋皮肤:HDSkin,经验商店:exp,元素位面商店:element}:</td>
+    <td style="text-align:right;padding:5px;">商店类型<br>{神秘商店:mystery,竞技场商店:arena,远征商店:crusade,宝物商店:treasure,联盟商店:guild,积分联赛商店:league,英雄交锋商店:heroDuel,直购商店:zhigou,交锋头像:HDAvatar,交锋皮肤:HDSkin,经验商店:exp,元素位面商店:element,好友商店:friend}:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
          
@@ -16864,7 +17035,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">数据类型【1每日重置2方阵3抽奖4背包5普通副本6英雄7英雄宝物8阵型<br>9主线任务10日常任务11远征12图鉴13精英副本14云中城】:</td>
+    <td style="text-align:right;padding:5px;">数据类型【1每日重置3抽奖4背包5普通副本7英雄宝物8阵型<br>9主线任务10日常任务11远征12图鉴13精英副本14云中城】:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
               	<tr>
@@ -20527,6 +20698,74 @@ function  selectedServer(value)
    </div>
  
     <div>
+          <p>[Tools.initWeapon]&nbsp;&nbsp;&nbsp;初始化器械数据</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.initWeapon&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.resetWeapon]&nbsp;&nbsp;&nbsp;重置器械数据</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.resetWeapon&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.addProp]&nbsp;&nbsp;&nbsp;获得配件</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.addProp&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">配件ID:</td>
+    <td padding:5px;><input type="text" name="propId" id="propId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
           <p>[Tools.addSysNotice]&nbsp;&nbsp;&nbsp;添加系统公告</p>
                      <form action="http://123.207.86.208:8001?mod=http&method=Tools.addSysNotice&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -20652,14 +20891,274 @@ function  selectedServer(value)
    </div>
  
     <div>
-          <p>[Tools.clearBackFlowCD]&nbsp;&nbsp;&nbsp;清除回流活动CD</p>
-                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.clearBackFlowCD&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+          <p>[Tools.delSiegeServer]&nbsp;&nbsp;&nbsp;删除服务器攻城战数据重新初始化</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.delSiegeServer&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
       <table border="0" cellspacing="0" cellpadding="0" >
  	   
  	    <tr>
     <td style="text-align:right;padding:5px;">角色ID:</td>
     <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.delSiegePlayer]&nbsp;&nbsp;&nbsp;删除玩家攻城战数据</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.delSiegePlayer&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.toSiege]&nbsp;&nbsp;&nbsp;攻城战进入攻城阶段</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.toSiege&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.toDefend]&nbsp;&nbsp;&nbsp;攻城战进入守城</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.toDefend&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.addPlatFriend]&nbsp;&nbsp;&nbsp;添加平台好友</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.addPlatFriend&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">好友角色id:</td>
+    <td padding:5px;><input type="text" name="targetRid" id="targetRid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">好友上次登录时间</br>格式:2017-09-12:</td>
+    <td padding:5px;><input type="text" name="loginTime" id="loginTime" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">好友区服:</td>
+    <td padding:5px;><input type="text" name="secId" id="secId" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">平台昵称:</td>
+    <td padding:5px;><input type="text" name="nickName" id="nickName" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.setFriendTaskValue]&nbsp;&nbsp;&nbsp;设置友情任务条件值</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.setFriendTaskValue&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">条件ID:</td>
+    <td padding:5px;><input type="text" name="conId" id="conId" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">条件值:</td>
+    <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.clearRecallFriendRedis]&nbsp;&nbsp;&nbsp;清平台好友数据</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.clearRecallFriendRedis&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.removePlatFriend]&nbsp;&nbsp;&nbsp;删除指定平台好友</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.removePlatFriend&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">删除好友角色ID:</td>
+    <td padding:5px;><input type="text" name="targetId" id="targetId" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">好友区服id:</td>
+    <td padding:5px;><input type="text" name="secId" id="secId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.getDailyFriendScore]&nbsp;&nbsp;&nbsp;获取今日获得积分</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.getDailyFriendScore&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.setDailyFriendScore]&nbsp;&nbsp;&nbsp;添加今日获得积分</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.setDailyFriendScore&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">添加数量:</td>
+    <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.setFriendScore]&nbsp;&nbsp;&nbsp;添加未领取积分</p>
+                     <form action="http://123.207.86.208:8001?mod=http&method=Tools.setFriendScore&__noauth__=1&pGroup=aqq&sec=9101" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">添加数量:</td>
+    <td padding:5px;><input type="text" name="num" id="num" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>

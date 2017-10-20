@@ -136,8 +136,6 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Activity.getInsufficientTextFriends" title="Activity.getInsufficientTextFriends">[Activity]获取好友-集齐添加标记</li>
          
-          <li style="background:#9ECCED" alt="Activity.testTextDrop" title="Activity.testTextDrop">[Activity]测试文字掉落</li>
-         
           <li style="background:#9ECCED" alt="Activity.getIntelligentReward" title="Activity.getIntelligentReward">[Activity]领取动态单笔充值奖励</li>
          
           <li style="background:#9ECCED" alt="Activity.weeklyGiftRandomCut" title="Activity.weeklyGiftRandomCut">[Activity]VIP周礼包随机立减</li>
@@ -263,8 +261,6 @@ function  selectedServer(value)
           <li style="background:#9ECCED" alt="BackFlow.buyReturnSaleGoods" title="BackFlow.buyReturnSaleGoods">[BackFlow]购买特卖商品</li>
          
           <li style="background:#9ECCED" alt="BackFlow.receiveRechargeWelfare" title="BackFlow.receiveRechargeWelfare">[BackFlow]领取充值特惠奖励</li>
-         
-          <li style="background:#9ECCED" alt="BackFlow.testAdd" title="BackFlow.testAdd">[BackFlow]加成测试</li>
          
           <li style="background:#CACACA" alt="Battle.getBattleReport" title="Battle.getBattleReport">[Battle]获取战报信息</li>
          
@@ -402,19 +398,41 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Crusade.abandonTriggerCrusade" title="Crusade.abandonTriggerCrusade">[Crusade]放弃触发关</li>
          
-          <li style="background:#CACACA" alt="Element.atkBeforeElement" title="Element.atkBeforeElement">[Element]元素位面战斗前</li>
+          <li style="background:#CACACA" alt="DailySiege.getDailySiegeInfo" title="DailySiege.getDailySiegeInfo">[DailySiege]获取日常攻城信息</li>
          
-          <li style="background:#CACACA" alt="Element.atkAfterElement" title="Element.atkAfterElement">[Element]位面战斗后处理 扣次数 给奖励 统计时间排行</li>
+          <li style="background:#CACACA" alt="DailySiege.atkBeforeSiege" title="DailySiege.atkBeforeSiege">[DailySiege]日常攻城前处理</li>
          
-          <li style="background:#CACACA" alt="Element.sweepElement" title="Element.sweepElement">[Element]位面战斗扫荡</li>
+          <li style="background:#CACACA" alt="DailySiege.atkAfterSiege" title="DailySiege.atkAfterSiege">[DailySiege]日常攻城后处理</li>
          
-          <li style="background:#CACACA" alt="Element.getElementReport" title="Element.getElementReport">[Element]获取元素位面回放数据</li>
+          <li style="background:#CACACA" alt="DailySiege.sweepSiege" title="DailySiege.sweepSiege">[DailySiege]日常攻城扫荡</li>
          
-          <li style="background:#CACACA" alt="Element.getElementFirstData" title="Element.getElementFirstData">[Element]获取元素位面进度榜前三名和自己的信息</li>
+          <li style="background:#CACACA" alt="DailySiege.atkBeforeDefend" title="DailySiege.atkBeforeDefend">[DailySiege]日常守城前处理</li>
          
-          <li style="background:#9ECCED" alt="ExchangeCode.exchange" title="ExchangeCode.exchange">[ExchangeCode]兑换激活码</li>
+          <li style="background:#CACACA" alt="DailySiege.atkAfterDefend" title="DailySiege.atkAfterDefend">[DailySiege]日常守城后处理</li>
          
-          <li style="background:#9ECCED" alt="ExchangeCode.getExchange" title="ExchangeCode.getExchange">[ExchangeCode]查看激活码</li>
+          <li style="background:#CACACA" alt="DailySiege.sweepDefend" title="DailySiege.sweepDefend">[DailySiege]日常守城扫荡</li>
+         
+          <li style="background:#CACACA" alt="DailySiege.getDefendReward" title="DailySiege.getDefendReward">[DailySiege]获取守城累计伤害奖励</li>
+         
+          <li style="background:#CACACA" alt="DailySiege.getSiegeShowData" title="DailySiege.getSiegeShowData">[DailySiege]获取攻守城前三数据</li>
+         
+          <li style="background:#CACACA" alt="DailySiege.getSweepReward" title="DailySiege.getSweepReward">[DailySiege]获取守城扫荡奖励列表</li>
+         
+          <li style="background:#9ECCED" alt="Element.atkBeforeElement" title="Element.atkBeforeElement">[Element]元素位面战斗前</li>
+         
+          <li style="background:#9ECCED" alt="Element.atkAfterElement" title="Element.atkAfterElement">[Element]位面战斗后处理 扣次数 给奖励 统计时间排行</li>
+         
+          <li style="background:#9ECCED" alt="Element.sweepElement" title="Element.sweepElement">[Element]位面战斗扫荡</li>
+         
+          <li style="background:#9ECCED" alt="Element.getElementReport" title="Element.getElementReport">[Element]获取元素位面回放数据</li>
+         
+          <li style="background:#9ECCED" alt="Element.getElementFirstData" title="Element.getElementFirstData">[Element]获取元素位面进度榜前三名和自己的信息</li>
+         
+          <li style="background:#CACACA" alt="ExchangeCode.exchange" title="ExchangeCode.exchange">[ExchangeCode]兑换激活码</li>
+         
+          <li style="background:#CACACA" alt="ExchangeCode.getExchange" title="ExchangeCode.getExchange">[ExchangeCode]查看激活码</li>
+         
+          <li style="background:#9ECCED" alt="Extra.getSiegeInfo" title="Extra.getSiegeInfo">[Extra]获取攻城战信息</li>
          
           <li style="background:#CACACA" alt="Formation.getFormationAction" title="Formation.getFormationAction">[Formation]获取玩家拥有的阵型</li>
          
@@ -477,8 +495,6 @@ function  selectedServer(value)
           <li style="background:#9ECCED" alt="GameFriend. getPlatPhy" title="GameFriend. getPlatPhy">[GameFriend]平台领取体力</li>
          
           <li style="background:#9ECCED" alt="GameFriend.compete" title="GameFriend.compete">[GameFriend]好友切磋</li>
-         
-          <li style="background:#9ECCED" alt="GameFriend.sendRecall" title="GameFriend.sendRecall">[GameFriend]发送召回邀请</li>
          
           <li style="background:#CACACA" alt="GameTools.moduleOpen" title="GameTools.moduleOpen">[GameTools]系统开放检测</li>
          
@@ -597,6 +613,10 @@ function  selectedServer(value)
           <li style="background:#CACACA" alt="Guild.getMercenaryReward" title="Guild.getMercenaryReward">[Guild]领取雇佣兵奖励</li>
          
           <li style="background:#CACACA" alt="Guild.getAllMercenary" title="Guild.getAllMercenary">[Guild]获取全部的雇佣兵列表</li>
+         
+          <li style="background:#CACACA" alt="Guild.getLastInviteTime" title="Guild.getLastInviteTime">[Guild]获取工会上次邀请参战时间</li>
+         
+          <li style="background:#CACACA" alt="Guild.setLastInviteTime" title="Guild.setLastInviteTime">[Guild]设置工会上次邀请参战时间</li>
          
           <li style="background:#9ECCED" alt="GuildBackup.needBackup" title="GuildBackup.needBackup">[GuildBackup]请求增援</li>
          
@@ -824,6 +844,8 @@ function  selectedServer(value)
          
           <li style="background:#CACACA" alt="Installer.clearDB" title="Installer.clearDB">[Installer]数据库清档（后台命令）</li>
          
+          <li style="background:#CACACA" alt="Installer.mergeSec" title="Installer.mergeSec">[Installer]合服</li>
+         
           <li style="background:#9ECCED" alt="Item.getItems" title="Item.getItems">[Item]获取背包信息</li>
          
           <li style="background:#9ECCED" alt="Item.useItem" title="Item.useItem">[Item]物品使用</li>
@@ -916,8 +938,6 @@ function  selectedServer(value)
          
           <li style="background:#CACACA" alt="Mail.readMail" title="Mail.readMail">[Mail]读邮件</li>
          
-          <li style="background:#CACACA" alt="Mail.delMail" title="Mail.delMail">[Mail]删邮件</li>
-         
           <li style="background:#CACACA" alt="Mail.getAttachment" title="Mail.getAttachment">[Mail]取附件</li>
          
           <li style="background:#9ECCED" alt="Nests.getNestsInfo" title="Nests.getNestsInfo">[Nests]进入巢穴系统</li>
@@ -980,97 +1000,145 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Rank.getMyRank" title="Rank.getMyRank">[Rank]取自己排行</li>
          
-          <li style="background:#CACACA" alt="Repair.resetArena" title="Repair.resetArena">[Repair]重置竞技场</li>
+          <li style="background:#CACACA" alt="Recall.onekeyGetFriendActReward" title="Recall.onekeyGetFriendActReward">[Recall]一键领取</li>
          
-          <li style="background:#CACACA" alt="Repair.fieldsUpdate" title="Repair.fieldsUpdate">[Repair]字段更新工具{此方法开发阶段使用}</li>
+          <li style="background:#CACACA" alt="Recall.getRecalledList" title="Recall.getRecalledList">[Recall]获取被召回好友列表</li>
          
-          <li style="background:#CACACA" alt="Repair.renameFields" title="Repair.renameFields">[Repair]字段重命名工具{此方法开发阶段使用}</li>
+          <li style="background:#CACACA" alt="Recall.getRecallInfo" title="Recall.getRecallInfo">[Recall]获取平台好友召回信息</li>
          
-          <li style="background:#CACACA" alt="Repair.updatePrivileges0323" title="Repair.updatePrivileges0323">[Repair]更新外网20160323前的用户数据特权数据</li>
+          <li style="background:#CACACA" alt="Recall.sendRecall" title="Recall.sendRecall">[Recall]发送召回邀请</li>
          
-          <li style="background:#CACACA" alt="Repair.resetPokedexData" title="Repair.resetPokedexData">[Repair]重置图鉴数据 20160516版本</li>
+          <li style="background:#CACACA" alt="Recall.bindRecallFriend" title="Recall.bindRecallFriend">[Recall]绑定好友</li>
          
-          <li style="background:#CACACA" alt="Repair.checkActivePokedex" title="Repair.checkActivePokedex">[Repair]检查激活图鉴</li>
+          <li style="background:#CACACA" alt="Recall.getFriendScoreChangeLog" title="Recall.getFriendScoreChangeLog">[Recall]获取友情积分变更日志</li>
          
-          <li style="background:#CACACA" alt="Repair.resetPokedexScore" title="Repair.resetPokedexScore">[Repair]重置图鉴评分 20160523</li>
+          <li style="background:#CACACA" alt="Recall.getFriendActData" title="Recall.getFriendActData">[Recall]获取友情活动数据</li>
          
-          <li style="background:#CACACA" alt="Repair.addFormation" title="Repair.addFormation">[Repair]增加玩家防守阵型</li>
+          <li style="background:#CACACA" alt="Recall.getFriendActTaskReward" title="Recall.getFriendActTaskReward">[Recall]领取任务奖励</li>
          
-          <li style="background:#CACACA" alt="Repair.fixEncryptRid" title="Repair.fixEncryptRid">[Repair]修复玩家角色ID 混淆</li>
+          <li style="background:#CACACA" alt="Recall.getCurrentFriendScore" title="Recall.getCurrentFriendScore">[Recall]获取未领友情积分数量</li>
          
-          <li style="background:#CACACA" alt="Repair.reclPVEFormationRank" title="Repair.reclPVEFormationRank">[Repair]重算pve编组排行</li>
+          <li style="background:#9ECCED" alt="Repair.resetArena" title="Repair.resetArena">[Repair]重置竞技场</li>
          
-          <li style="background:#CACACA" alt="Repair.reclTeamsRank" title="Repair.reclTeamsRank">[Repair]重算兵团排行</li>
+          <li style="background:#9ECCED" alt="Repair.fieldsUpdate" title="Repair.fieldsUpdate">[Repair]字段更新工具{此方法开发阶段使用}</li>
          
-          <li style="background:#CACACA" alt="Repair.reclHerosRank" title="Repair.reclHerosRank">[Repair]重算英雄排行</li>
+          <li style="background:#9ECCED" alt="Repair.renameFields" title="Repair.renameFields">[Repair]字段重命名工具{此方法开发阶段使用}</li>
          
-          <li style="background:#CACACA" alt="Repair.reclStagesStarRank" title="Repair.reclStagesStarRank">[Repair]重算闯关排行</li>
+          <li style="background:#9ECCED" alt="Repair.updatePrivileges0323" title="Repair.updatePrivileges0323">[Repair]更新外网20160323前的用户数据特权数据</li>
          
-          <li style="background:#CACACA" alt="Repair.reclTreasureRank" title="Repair.reclTreasureRank">[Repair]重算宝物排行</li>
+          <li style="background:#9ECCED" alt="Repair.resetPokedexData" title="Repair.resetPokedexData">[Repair]重置图鉴数据 20160516版本</li>
          
-          <li style="background:#CACACA" alt="Repair.initMFData" title="Repair.initMFData">[Repair]重置MF数据 20130704</li>
+          <li style="background:#9ECCED" alt="Repair.checkActivePokedex" title="Repair.checkActivePokedex">[Repair]检查激活图鉴</li>
          
-          <li style="background:#CACACA" alt="Repair.clearGuildBackRedis" title="Repair.clearGuildBackRedis">[Repair]清除所有增援请求 20160706</li>
+          <li style="background:#9ECCED" alt="Repair.resetPokedexScore" title="Repair.resetPokedexScore">[Repair]重置图鉴评分 20160523</li>
          
-          <li style="background:#CACACA" alt="Repair.testBattle" title="Repair.testBattle">[Repair]测试战斗</li>
+          <li style="background:#9ECCED" alt="Repair.addFormation" title="Repair.addFormation">[Repair]增加玩家防守阵型</li>
          
-          <li style="background:#CACACA" alt="Repair.fixTeamGrade" title="Repair.fixTeamGrade">[Repair]修复兵团的评分</li>
+          <li style="background:#9ECCED" alt="Repair.fixEncryptRid" title="Repair.fixEncryptRid">[Repair]修复玩家角色ID 混淆</li>
          
-          <li style="background:#CACACA" alt="Repair.recalAllFormationScore" title="Repair.recalAllFormationScore">[Repair]重算所有编组战力</li>
+          <li style="background:#9ECCED" alt="Repair.reclPVEFormationRank" title="Repair.reclPVEFormationRank">[Repair]重算pve编组排行</li>
          
-          <li style="background:#CACACA" alt="Repair.genUser" title="Repair.genUser">[Repair]批量生成角色</li>
+          <li style="background:#9ECCED" alt="Repair.reclTeamsRank" title="Repair.reclTeamsRank">[Repair]重算兵团排行</li>
          
-          <li style="background:#CACACA" alt="Repair.snapShot" title="Repair.snapShot">[Repair]生成用户快照</li>
+          <li style="background:#9ECCED" alt="Repair.reclHerosRank" title="Repair.reclHerosRank">[Repair]重算英雄排行</li>
          
-          <li style="background:#CACACA" alt="Repair.league" title="Repair.league">[Repair]积分联赛重新生成</li>
+          <li style="background:#9ECCED" alt="Repair.reclStagesStarRank" title="Repair.reclStagesStarRank">[Repair]重算闯关排行</li>
          
-          <li style="background:#CACACA" alt="Repair.sendMcardAward" title="Repair.sendMcardAward">[Repair]提前发送月卡奖励</li>
+          <li style="background:#9ECCED" alt="Repair.reclTreasureRank" title="Repair.reclTreasureRank">[Repair]重算宝物排行</li>
          
-          <li style="background:#CACACA" alt="Repair.fixTreasure" title="Repair.fixTreasure">[Repair]修复玩家宝物</li>
+          <li style="background:#9ECCED" alt="Repair.initMFData" title="Repair.initMFData">[Repair]重置MF数据 20130704</li>
          
-          <li style="background:#CACACA" alt="Repair.resetTreasureScore" title="Repair.resetTreasureScore">[Repair]重算宝物战力</li>
+          <li style="background:#9ECCED" alt="Repair.clearGuildBackRedis" title="Repair.clearGuildBackRedis">[Repair]清除所有增援请求 20160706</li>
          
-          <li style="background:#CACACA" alt="Repair.clearBullets" title="Repair.clearBullets">[Repair]清空全部弹幕</li>
+          <li style="background:#9ECCED" alt="Repair.testBattle" title="Repair.testBattle">[Repair]测试战斗</li>
          
-          <li style="background:#CACACA" alt="Repair.resetHeroDuel" title="Repair.resetHeroDuel">[Repair]重置英雄交锋</li>
+          <li style="background:#9ECCED" alt="Repair.fixTeamGrade" title="Repair.fixTeamGrade">[Repair]修复兵团的评分</li>
          
-          <li style="background:#CACACA" alt="Repair.fixHeroSkinUnlockAvatar" title="Repair.fixHeroSkinUnlockAvatar">[Repair]修复已获取的皮肤解锁对应头像</li>
+          <li style="background:#9ECCED" alt="Repair.recalAllFormationScore" title="Repair.recalAllFormationScore">[Repair]重算所有编组战力</li>
          
-          <li style="background:#CACACA" alt="Repair.fixHerosSkins" title="Repair.fixHerosSkins">[Repair]修复已获取的皮肤</li>
+          <li style="background:#9ECCED" alt="Repair.genUser" title="Repair.genUser">[Repair]批量生成角色</li>
          
-          <li style="background:#CACACA" alt="Repair.fixCaitlyn" title="Repair.fixCaitlyn">[Repair]修复凯瑟琳0星</li>
+          <li style="background:#9ECCED" alt="Repair.snapShot" title="Repair.snapShot">[Repair]生成用户快照</li>
          
-          <li style="background:#CACACA" alt="Repair.reclArenaRank" title="Repair.reclArenaRank">[Repair]修复竞技场排行</li>
+          <li style="background:#9ECCED" alt="Repair.league" title="Repair.league">[Repair]积分联赛重新生成</li>
          
-          <li style="background:#CACACA" alt="Repair.fixCombatRank" title="Repair.fixCombatRank">[Repair]修复战力排行前十名</li>
+          <li style="background:#9ECCED" alt="Repair.sendMcardAward" title="Repair.sendMcardAward">[Repair]提前发送月卡奖励</li>
          
-          <li style="background:#CACACA" alt="Repair.fixCombatStage" title="Repair.fixCombatStage">[Repair]修复战力排行所有人阶段奖励</li>
+          <li style="background:#9ECCED" alt="Repair.fixTreasure" title="Repair.fixTreasure">[Repair]修复玩家宝物</li>
          
-          <li style="background:#CACACA" alt="Repair.checkKakura" title="Repair.checkKakura">[Repair]检测kakura接口</li>
+          <li style="background:#9ECCED" alt="Repair.resetTreasureScore" title="Repair.resetTreasureScore">[Repair]重算宝物战力</li>
          
-          <li style="background:#CACACA" alt="Repair.fixLeagueHot" title="Repair.fixLeagueHot">[Repair]修复积分联赛热点</li>
+          <li style="background:#9ECCED" alt="Repair.clearBullets" title="Repair.clearBullets">[Repair]清空全部弹幕</li>
          
-          <li style="background:#CACACA" alt="Repair.clearReport" title="Repair.clearReport">[Repair]清除战报</li>
+          <li style="background:#9ECCED" alt="Repair.resetHeroDuel" title="Repair.resetHeroDuel">[Repair]重置英雄交锋</li>
          
-          <li style="background:#CACACA" alt="Repair.clearCloudyCityRank" title="Repair.clearCloudyCityRank">[Repair]清除云中城排行</li>
+          <li style="background:#9ECCED" alt="Repair.fixHeroSkinUnlockAvatar" title="Repair.fixHeroSkinUnlockAvatar">[Repair]修复已获取的皮肤解锁对应头像</li>
          
-          <li style="background:#CACACA" alt="Repair.fixTeamPl" title="Repair.fixTeamPl">[Repair]修复玩家兵团潜能</li>
+          <li style="background:#9ECCED" alt="Repair.fixHerosSkins" title="Repair.fixHerosSkins">[Repair]修复已获取的皮肤</li>
          
-          <li style="background:#CACACA" alt="Repair.repairGodWarGroup" title="Repair.repairGodWarGroup">[Repair]修复分组</li>
+          <li style="background:#9ECCED" alt="Repair.fixCaitlyn" title="Repair.fixCaitlyn">[Repair]修复凯瑟琳0星</li>
          
-          <li style="background:#CACACA" alt="Repair.godWarTest" title="Repair.godWarTest">[Repair]争霸赛测试</li>
+          <li style="background:#9ECCED" alt="Repair.reclArenaRank" title="Repair.reclArenaRank">[Repair]修复竞技场排行</li>
          
-          <li style="background:#CACACA" alt="Repair.fixGvgMatch" title="Repair.fixGvgMatch">[Repair]修复gvg匹配数据</li>
+          <li style="background:#9ECCED" alt="Repair.fixCombatRank" title="Repair.fixCombatRank">[Repair]修复战力排行前十名</li>
          
-          <li style="background:#CACACA" alt="Repair.clearGvg" title="Repair.clearGvg">[Repair]清除玩家身上的gvg数据,周五匹配执行</li>
+          <li style="background:#9ECCED" alt="Repair.fixCombatStage" title="Repair.fixCombatStage">[Repair]修复战力排行所有人阶段奖励</li>
          
-          <li style="background:#CACACA" alt="Repair.fixUserHeroScore" title="Repair.fixUserHeroScore">[Repair]修复玩家英雄战力</li>
+          <li style="background:#9ECCED" alt="Repair.checkKakura" title="Repair.checkKakura">[Repair]检测kakura接口</li>
          
-          <li style="background:#9ECCED" alt="Shop.getShopInfo" title="Shop.getShopInfo">[Shop]获取商店信息</li>
+          <li style="background:#9ECCED" alt="Repair.fixLeagueHot" title="Repair.fixLeagueHot">[Repair]修复积分联赛热点</li>
          
-          <li style="background:#9ECCED" alt="Shop.reflashShop" title="Shop.reflashShop">[Shop]刷新商店物品</li>
+          <li style="background:#9ECCED" alt="Repair.clearReport" title="Repair.clearReport">[Repair]清除战报</li>
          
-          <li style="background:#9ECCED" alt="Shop.buyShopItem" title="Shop.buyShopItem">[Shop]购买商店物品</li>
+          <li style="background:#9ECCED" alt="Repair.clearCloudyCityRank" title="Repair.clearCloudyCityRank">[Repair]清除云中城排行</li>
+         
+          <li style="background:#9ECCED" alt="Repair.fixTeamPl" title="Repair.fixTeamPl">[Repair]修复玩家兵团潜能</li>
+         
+          <li style="background:#9ECCED" alt="Repair.repairGodWarGroup" title="Repair.repairGodWarGroup">[Repair]修复分组</li>
+         
+          <li style="background:#9ECCED" alt="Repair.godWarTest" title="Repair.godWarTest">[Repair]争霸赛测试</li>
+         
+          <li style="background:#9ECCED" alt="Repair.fixGvgMatch" title="Repair.fixGvgMatch">[Repair]修复gvg匹配数据</li>
+         
+          <li style="background:#9ECCED" alt="Repair.clearGvg" title="Repair.clearGvg">[Repair]清除玩家身上的gvg数据,周五匹配执行</li>
+         
+          <li style="background:#9ECCED" alt="Repair.fixUserHeroScore" title="Repair.fixUserHeroScore">[Repair]修复玩家英雄战力</li>
+         
+          <li style="background:#CACACA" alt="Shop.getShopInfo" title="Shop.getShopInfo">[Shop]获取商店信息</li>
+         
+          <li style="background:#CACACA" alt="Shop.reflashShop" title="Shop.reflashShop">[Shop]刷新商店物品</li>
+         
+          <li style="background:#CACACA" alt="Shop.buyShopItem" title="Shop.buyShopItem">[Shop]购买商店物品</li>
+         
+          <li style="background:#9ECCED" alt="Siege.getStageInfo" title="Siege.getStageInfo">[Siege]获取关卡信息</li>
+         
+          <li style="background:#9ECCED" alt="Siege.atkBeforeSiege" title="Siege.atkBeforeSiege">[Siege]攻城战前处理</li>
+         
+          <li style="background:#9ECCED" alt="Siege.atkAfterSiege" title="Siege.atkAfterSiege">[Siege]攻城战后处理</li>
+         
+          <li style="background:#9ECCED" alt="Siege.getAtkProgressReward" title="Siege.getAtkProgressReward">[Siege]领取攻城阶段奖励</li>
+         
+          <li style="background:#9ECCED" alt="Siege.getSiegeDamageReward" title="Siege.getSiegeDamageReward">[Siege]领取攻城累计伤害奖励</li>
+         
+          <li style="background:#9ECCED" alt="Siege.atkBeforeDefend" title="Siege.atkBeforeDefend">[Siege]守城战前处理</li>
+         
+          <li style="background:#9ECCED" alt="Siege.atkAfterDefend" title="Siege.atkAfterDefend">[Siege]守城战后处理</li>
+         
+          <li style="background:#9ECCED" alt="Siege.fixTheWall" title="Siege.fixTheWall">[Siege]加固城墙</li>
+         
+          <li style="background:#9ECCED" alt="Siege.getDefendProgressReward" title="Siege.getDefendProgressReward">[Siege]领取守城阶段奖励</li>
+         
+          <li style="background:#9ECCED" alt="Siege.getDefendDamageReward" title="Siege.getDefendDamageReward">[Siege]领取守城累计伤害奖励</li>
+         
+          <li style="background:#9ECCED" alt="Siege.getFixReward" title="Siege.getFixReward">[Siege]领取加固城墙奖励</li>
+         
+          <li style="background:#9ECCED" alt="Siege.atkBeforeBranch" title="Siege.atkBeforeBranch">[Siege]攻打支线前</li>
+         
+          <li style="background:#9ECCED" alt="Siege.atkAfterBranch" title="Siege.atkAfterBranch">[Siege]攻打支线后</li>
+         
+          <li style="background:#9ECCED" alt="Siege.getBranchReward" title="Siege.getBranchReward">[Siege]领取支线奖励</li>
+         
+          <li style="background:#9ECCED" alt="Siege.getStagePlayer" title="Siege.getStagePlayer">[Siege]获取展示用的玩家信息</li>
          
           <li style="background:#CACACA" alt="Sign.getSignInfo" title="Sign.getSignInfo">[Sign]获取签到数据</li>
          
@@ -1532,6 +1600,12 @@ function  selectedServer(value)
          
           <li style="background:#CACACA" alt="Tools.pushTest" title="Tools.pushTest">[Tools]跑马灯推送测试工具</li>
          
+          <li style="background:#CACACA" alt="Tools.initWeapon" title="Tools.initWeapon">[Tools]初始化器械数据</li>
+         
+          <li style="background:#CACACA" alt="Tools.resetWeapon" title="Tools.resetWeapon">[Tools]重置器械数据</li>
+         
+          <li style="background:#CACACA" alt="Tools.addProp" title="Tools.addProp">[Tools]获得配件</li>
+         
           <li style="background:#CACACA" alt="Tools.addSysNotice" title="Tools.addSysNotice">[Tools]添加系统公告</li>
          
           <li style="background:#CACACA" alt="Tools.clearMercenaryTimes" title="Tools.clearMercenaryTimes">[Tools]清空雇佣兵使用次数</li>
@@ -1541,6 +1615,40 @@ function  selectedServer(value)
           <li style="background:#CACACA" alt="Tools.createAwakingRank" title="Tools.createAwakingRank">[Tools]生成觉醒排行榜</li>
          
           <li style="background:#CACACA" alt="Tools.clearAwakingRank" title="Tools.clearAwakingRank">[Tools]清空觉醒排行榜</li>
+         
+          <li style="background:#CACACA" alt="Tools.delSiegeServer" title="Tools.delSiegeServer">[Tools]删除服务器攻城战数据重新初始化</li>
+         
+          <li style="background:#CACACA" alt="Tools.delSiegePlayer" title="Tools.delSiegePlayer">[Tools]删除玩家攻城战数据</li>
+         
+          <li style="background:#CACACA" alt="Tools.delDailySiegePlayer" title="Tools.delDailySiegePlayer">[Tools]删除玩家日常攻城数据</li>
+         
+          <li style="background:#CACACA" alt="Tools.switchSiegeStage" title="Tools.switchSiegeStage">[Tools]切换剧情攻城关卡 攻城关卡</li>
+         
+          <li style="background:#CACACA" alt="Tools.toSiege" title="Tools.toSiege">[Tools]攻城战进入攻城阶段</li>
+         
+          <li style="background:#CACACA" alt="Tools.modiLevel" title="Tools.modiLevel">[Tools]临时调等级使用工具跳过世界事件</li>
+         
+          <li style="background:#CACACA" alt="Tools.toDefend" title="Tools.toDefend">[Tools]攻城战进入守城</li>
+         
+          <li style="background:#CACACA" alt="Tools.modifyWallLv" title="Tools.modifyWallLv">[Tools]修改城墙等级</li>
+         
+          <li style="background:#CACACA" alt="Tools.addPlatFriend" title="Tools.addPlatFriend">[Tools]添加平台好友</li>
+         
+          <li style="background:#CACACA" alt="Tools.setFriendTaskValue" title="Tools.setFriendTaskValue">[Tools]设置友情任务条件值</li>
+         
+          <li style="background:#CACACA" alt="Tools.clearRecallFriendRedis" title="Tools.clearRecallFriendRedis">[Tools]清平台好友数据</li>
+         
+          <li style="background:#CACACA" alt="Tools.removePlatFriend" title="Tools.removePlatFriend">[Tools]删除指定平台好友</li>
+         
+          <li style="background:#CACACA" alt="Tools.getDailyFriendScore" title="Tools.getDailyFriendScore">[Tools]获取今日获得积分</li>
+         
+          <li style="background:#CACACA" alt="Tools.setDailyFriendScore" title="Tools.setDailyFriendScore">[Tools]添加今日获得积分</li>
+         
+          <li style="background:#CACACA" alt="Tools.setFriendScore" title="Tools.setFriendScore">[Tools]添加未领取积分</li>
+         
+          <li style="background:#CACACA" alt="Tools.resetSiegeTimes" title="Tools.resetSiegeTimes">[Tools]重置玩家剧情攻城次数</li>
+         
+          <li style="background:#CACACA" alt="Tools.clearMergeRedis" title="Tools.clearMergeRedis">[Tools]清空mergeRedis数据(内网可用)</li>
          
           <li style="background:#9ECCED" alt="Training.init" title="Training.init">[Training]进入训练场</li>
          
@@ -1642,6 +1750,8 @@ function  selectedServer(value)
          
           <li style="background:#CACACA" alt="User.buyLuckyCoin" title="User.buyLuckyCoin">[User]购买幸运币</li>
          
+          <li style="background:#CACACA" alt="User.getUserGuildId" title="User.getUserGuildId">[User]同步玩家联盟</li>
+         
           <li style="background:#9ECCED" alt="Vip.getVipInfo" title="Vip.getVipInfo">[Vip]VIP相关信息</li>
          
           <li style="background:#9ECCED" alt="Vip.getFreeGem" title="Vip.getFreeGem">[Vip]第一次进入充值界面送钻</li>
@@ -1654,9 +1764,23 @@ function  selectedServer(value)
          
           <li style="background:#9ECCED" alt="Vip.hiddenVip" title="Vip.hiddenVip">[Vip]设置vip隐藏</li>
          
-          <li style="background:#CACACA" alt="WeeklySign.getweeklySignInfo" title="WeeklySign.getweeklySignInfo">[WeeklySign]获取签到数据</li>
+          <li style="background:#CACACA" alt="Weapon.upgradeWeapon" title="Weapon.upgradeWeapon">[Weapon]升级器械</li>
          
-          <li style="background:#CACACA" alt="WeeklySign.weeklySign" title="WeeklySign.weeklySign">[WeeklySign]签到</li>
+          <li style="background:#CACACA" alt="Weapon.unlockWeapon" title="Weapon.unlockWeapon">[Weapon]解锁器械</li>
+         
+          <li style="background:#CACACA" alt="Weapon.installProp" title="Weapon.installProp">[Weapon]安装配件</li>
+         
+          <li style="background:#CACACA" alt="Weapon.uninstallProp" title="Weapon.uninstallProp">[Weapon]卸载配件</li>
+         
+          <li style="background:#CACACA" alt="Weapon.upgradeProp" title="Weapon.upgradeProp">[Weapon]升级配件</li>
+         
+          <li style="background:#CACACA" alt="Weapon.resolveProp" title="Weapon.resolveProp">[Weapon]分解配件</li>
+         
+          <li style="background:#CACACA" alt="Weapon.drawSiegeWeapon" title="Weapon.drawSiegeWeapon">[Weapon]抽取器械配件</li>
+         
+          <li style="background:#9ECCED" alt="WeeklySign.getweeklySignInfo" title="WeeklySign.getweeklySignInfo">[WeeklySign]获取签到数据</li>
+         
+          <li style="background:#9ECCED" alt="WeeklySign.weeklySign" title="WeeklySign.weeklySign">[WeeklySign]签到</li>
                 </ul>
       </div>
       <div id="hidden">
@@ -2207,27 +2331,6 @@ function  selectedServer(value)
     <div>
           <p>[Activity.getInsufficientTextFriends]&nbsp;&nbsp;&nbsp;获取好友-集齐添加标记</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Activity.getInsufficientTextFriends&__noauth__=1&pGroup=default&sec=8201" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
-          <p>[Activity.testTextDrop]&nbsp;&nbsp;&nbsp;测试文字掉落</p>
-                     <form action="http://192.168.5.208:8001?mod=http&method=Activity.testTextDrop&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
       <table border="0" cellspacing="0" cellpadding="0" >
  	   
@@ -3845,27 +3948,6 @@ function  selectedServer(value)
    </div>
  
     <div>
-          <p>[BackFlow.testAdd]&nbsp;&nbsp;&nbsp;加成测试</p>
-                     <form action="http://192.168.5.208:8001?mod=http&method=BackFlow.testAdd&__noauth__=1&pGroup=default&sec=8201" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
           <p>[Battle.getBattleReport]&nbsp;&nbsp;&nbsp;获取战报信息</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Battle.getBattleReport&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -5175,7 +5257,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">榜Id(1:排行榜1:</td>
+    <td style="text-align:right;padding:5px;">榜Id(1:快速榜:</td>
     <td padding:5px;><input type="text" name="rankId" id="rankId" /></td>
   </tr>
          
@@ -5779,6 +5861,311 @@ function  selectedServer(value)
    </div>
  
     <div>
+          <p>[DailySiege.getDailySiegeInfo]&nbsp;&nbsp;&nbsp;获取日常攻城信息</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.getDailySiegeInfo&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.atkBeforeSiege]&nbsp;&nbsp;&nbsp;日常攻城前处理</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.atkBeforeSiege&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">攻城类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">攻城难度:</td>
+    <td padding:5px;><input type="text" name="diff" id="diff" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.atkAfterSiege]&nbsp;&nbsp;&nbsp;日常攻城后处理</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.atkAfterSiege&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">攻城类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">攻城难度:</td>
+    <td padding:5px;><input type="text" name="diff" id="diff" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">参数[{"win":1,"totalRealDamage1":100,"dieCount2":8,"siegeBroken":1,"zzid":1,"time":100,"skillList":[],"serverInfoEx":"{\"a\":1}"}]:</td>
+    <td padding:5px;><input type="text" name="args" id="args" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">token:</td>
+    <td padding:5px;><input type="text" name="token" id="token" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">是否手动退出(0不是1是):</td>
+    <td padding:5px;><input type="text" name="quit" id="quit" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.sweepSiege]&nbsp;&nbsp;&nbsp;日常攻城扫荡</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.sweepSiege&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">攻城类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">攻城难度:</td>
+    <td padding:5px;><input type="text" name="diff" id="diff" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.atkBeforeDefend]&nbsp;&nbsp;&nbsp;日常守城前处理</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.atkBeforeDefend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">守城类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.atkAfterDefend]&nbsp;&nbsp;&nbsp;日常守城后处理</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.atkAfterDefend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">守城类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">参数[{"win":1,"zzid":1,"skillList":[],"serverInfoEx":"{\"a\":1}","waves":10,"damage":800000}]:</td>
+    <td padding:5px;><input type="text" name="args" id="args" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">token:</td>
+    <td padding:5px;><input type="text" name="token" id="token" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">是否手动退出(0不是1是):</td>
+    <td padding:5px;><input type="text" name="quit" id="quit" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.sweepDefend]&nbsp;&nbsp;&nbsp;日常守城扫荡</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.sweepDefend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">守城类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.getDefendReward]&nbsp;&nbsp;&nbsp;获取守城累计伤害奖励</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.getDefendReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">奖励ID列表:</td>
+    <td padding:5px;><input type="text" name="rewardIds" id="rewardIds" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.getSiegeShowData]&nbsp;&nbsp;&nbsp;获取攻守城前三数据</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.getSiegeShowData&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">类型(攻城需要):</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">攻守城类型(1攻城&nbsp2守城):</td>
+    <td padding:5px;><input type="text" name="siegeType" id="siegeType" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[DailySiege.getSweepReward]&nbsp;&nbsp;&nbsp;获取守城扫荡奖励列表</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=DailySiege.getSweepReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">守城类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
           <p>[Element.atkBeforeElement]&nbsp;&nbsp;&nbsp;元素位面战斗前</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Element.atkBeforeElement&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -6003,6 +6390,27 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">激活码:</td>
     <td padding:5px;><input type="text" name="code" id="code" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Extra.getSiegeInfo]&nbsp;&nbsp;&nbsp;获取攻城战信息</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Extra.getSiegeInfo&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -6784,32 +7192,6 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">好友id:</td>
     <td padding:5px;><input type="text" name="fid" id="fid" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
-          <p>[GameFriend.sendRecall]&nbsp;&nbsp;&nbsp;发送召回邀请</p>
-                     <form action="http://192.168.5.208:8001?mod=http&method=GameFriend.sendRecall&__noauth__=1&pGroup=default&sec=8201" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-         
- 	    <tr>
-    <td style="text-align:right;padding:5px;">邀请好友pid:</td>
-    <td padding:5px;><input type="text" name="targetPid" id="targetPid" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -8323,6 +8705,48 @@ function  selectedServer(value)
     <div>
           <p>[Guild.getAllMercenary]&nbsp;&nbsp;&nbsp;获取全部的雇佣兵列表</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Guild.getAllMercenary&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Guild.getLastInviteTime]&nbsp;&nbsp;&nbsp;获取工会上次邀请参战时间</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Guild.getLastInviteTime&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Guild.setLastInviteTime]&nbsp;&nbsp;&nbsp;设置工会上次邀请参战时间</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Guild.setLastInviteTime&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
       <table border="0" cellspacing="0" cellpadding="0" >
  	   
@@ -11260,6 +11684,27 @@ function  selectedServer(value)
    </div>
  
     <div>
+          <p>[Installer.mergeSec]&nbsp;&nbsp;&nbsp;合服</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Installer.mergeSec&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
           <p>[Item.getItems]&nbsp;&nbsp;&nbsp;获取背包信息</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Item.getItems&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -12431,32 +12876,6 @@ function  selectedServer(value)
    </div>
  
     <div>
-          <p>[Mail.delMail]&nbsp;&nbsp;&nbsp;删邮件</p>
-                     <form action="http://192.168.5.208:8001?mod=http&method=Mail.delMail&__noauth__=1&pGroup=default&sec=8201" method="GET">
-           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
-      <table border="0" cellspacing="0" cellpadding="0" >
- 	   
- 	    <tr>
-    <td style="text-align:right;padding:5px;">角色ID:</td>
-    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
-  </tr>
-         
- 	    <tr>
-    <td style="text-align:right;padding:5px;">邮件ID:</td>
-    <td padding:5px;><input type="text" name="mailId" id="mailId" /></td>
-  </tr>
-              	<tr>
-      	<td>&nbsp;</td>
-      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
-      	</tr>
-    	
-</table>
-           
-           </form>
-   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
-   </div>
- 
-    <div>
           <p>[Mail.getAttachment]&nbsp;&nbsp;&nbsp;取附件</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Mail.getAttachment&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -13261,7 +13680,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>22:元素位面最速<br>23:元素位面最低<br>24:元素位面进度<br>25:觉醒:</td>
+    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>22:元素位面最速<br>23:元素位面最低<br>24:元素位面进度<br>25:觉醒<br>26:日常攻城排行<br>27:日常守城排行<br>28:剧情攻城伤害<br>29:剧情守城伤害<br>30:器械战力<br>31:云中城通关榜:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
          
@@ -13302,7 +13721,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>20:元素位面最速<br>21:元素位面最低<br>22:元素位面进度<br>25:觉醒:</td>
+    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>22:元素位面最速<br>23:元素位面最低<br>24:元素位面进度<br>25:觉醒<br>26:日常攻城排行<br>27:日常守城排行<br>28:剧情攻城伤害<br>29:剧情守城伤害<br>30:器械战力<br>31:云中城通关榜:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
          
@@ -13338,13 +13757,217 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>25:觉醒:</td>
+    <td style="text-align:right;padding:5px;">排行榜类型<br>1:玩家战力2:兵团<br>3:英雄4:公会<br>5:闯关<br>6:宝物<br>7:联盟地图<br>8:云中城<br>9:训练场<br>10:云中城2<br>11:英雄交锋<br>12:龙之国<br>13:地下pvp<br>14:地下reward<br>15:训练场活动快照<br>16:英雄交锋最强阵容<br>17:英雄交锋最高输出<br>18:英雄交锋最高承受<br>19:英雄交锋热门英雄<br>22:元素位面最速<br>23:元素位面最低<br>24:元素位面进度<br>25:觉醒<br>26:日常攻城排行<br>27:日常守城排行<br>28:剧情攻城伤害<br>29:剧情守城伤害<br>30:器械战力<br>31:云中城通关榜:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
          
  	    <tr>
     <td style="text-align:right;padding:5px;">额外参数Id<br>如云中城关卡ID:</td>
     <td padding:5px;><input type="text" name="id" id="id" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.onekeyGetFriendActReward]&nbsp;&nbsp;&nbsp;一键领取</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.onekeyGetFriendActReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getRecalledList]&nbsp;&nbsp;&nbsp;获取被召回好友列表</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.getRecalledList&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getRecallInfo]&nbsp;&nbsp;&nbsp;获取平台好友召回信息</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.getRecallInfo&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.sendRecall]&nbsp;&nbsp;&nbsp;发送召回邀请</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.sendRecall&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">邀请好友pid:</td>
+    <td padding:5px;><input type="text" name="targetPid" id="targetPid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.bindRecallFriend]&nbsp;&nbsp;&nbsp;绑定好友</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.bindRecallFriend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">绑定好友pid:</td>
+    <td padding:5px;><input type="text" name="targetPid" id="targetPid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getFriendScoreChangeLog]&nbsp;&nbsp;&nbsp;获取友情积分变更日志</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.getFriendScoreChangeLog&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getFriendActData]&nbsp;&nbsp;&nbsp;获取友情活动数据</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.getFriendActData&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getFriendActTaskReward]&nbsp;&nbsp;&nbsp;领取任务奖励</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.getFriendActTaskReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">任务id:</td>
+    <td padding:5px;><input type="text" name="taskId" id="taskId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Recall.getCurrentFriendScore]&nbsp;&nbsp;&nbsp;获取未领友情积分数量</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Recall.getCurrentFriendScore&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -14337,7 +14960,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">商店类型{神秘商店:mystery,竞技场商店:arena,远征商店:crusade,宝物商店:treasure,联盟商店:guild,积分联赛商店:legaue,gvg商店:citybattle,直购商店:zhigou,交锋头像:HDAvatar,交锋皮肤:HDSkin,经验商店:exp,元素位面商店:element,法术书商店:skillbook}:</td>
+    <td style="text-align:right;padding:5px;">商店类型{神秘商店:mystery,竞技场商店:arena,远征商店:crusade,宝物商店:treasure,联盟商店:guild,积分联赛商店:legaue,gvg商店:citybattle,直购商店:zhigou,交锋头像:HDAvatar,交锋皮肤:HDSkin,经验商店:exp,元素位面商店:element,法术书商店:skillbook,好友商店:friend}:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
               	<tr>
@@ -14399,13 +15022,428 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">商店类型<br>{神秘商店:mystery,竞技场商店:arena,远征商店:crusade,宝物商店:treasure,联盟商店:guild,积分联赛商店:league,英雄交锋商店:heroDuel,直购商店:zhigou,交锋头像:HDAvatar,交锋皮肤:HDSkin,经验商店:exp,元素位面商店:element}:</td>
+    <td style="text-align:right;padding:5px;">商店类型<br>{神秘商店:mystery,竞技场商店:arena,远征商店:crusade,宝物商店:treasure,联盟商店:guild,积分联赛商店:league,英雄交锋商店:heroDuel,直购商店:zhigou,交锋头像:HDAvatar,交锋皮肤:HDSkin,经验商店:exp,元素位面商店:element,好友商店:friend}:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
          
  	    <tr>
     <td style="text-align:right;padding:5px;">购买数量(联赛):</td>
     <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.getStageInfo]&nbsp;&nbsp;&nbsp;获取关卡信息</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.getStageInfo&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.atkBeforeSiege]&nbsp;&nbsp;&nbsp;攻城战前处理</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.atkBeforeSiege&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.atkAfterSiege]&nbsp;&nbsp;&nbsp;攻城战后处理</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.atkAfterSiege&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">参数{"win":0,"zzid":1,"skillList":[],"time":10,"damage":5000}:</td>
+    <td padding:5px;><input type="text" name="args" id="args" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">token:</td>
+    <td padding:5px;><input type="text" name="token" id="token" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.getAtkProgressReward]&nbsp;&nbsp;&nbsp;领取攻城阶段奖励</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.getAtkProgressReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">奖励ID:</td>
+    <td padding:5px;><input type="text" name="rewardId" id="rewardId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.getSiegeDamageReward]&nbsp;&nbsp;&nbsp;领取攻城累计伤害奖励</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.getSiegeDamageReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">奖励ID列表:</td>
+    <td padding:5px;><input type="text" name="rewardIds" id="rewardIds" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.atkBeforeDefend]&nbsp;&nbsp;&nbsp;守城战前处理</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.atkBeforeDefend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.atkAfterDefend]&nbsp;&nbsp;&nbsp;守城战后处理</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.atkAfterDefend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">参数{"win":0,"zzid":1,"skillList":[],"time":10,"damage":5000,"waves":1000}:</td>
+    <td padding:5px;><input type="text" name="args" id="args" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">token:</td>
+    <td padding:5px;><input type="text" name="token" id="token" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.fixTheWall]&nbsp;&nbsp;&nbsp;加固城墙</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.fixTheWall&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.getDefendProgressReward]&nbsp;&nbsp;&nbsp;领取守城阶段奖励</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.getDefendProgressReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">奖励ID:</td>
+    <td padding:5px;><input type="text" name="rewardId" id="rewardId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.getDefendDamageReward]&nbsp;&nbsp;&nbsp;领取守城累计伤害奖励</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.getDefendDamageReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">奖励ID列表:</td>
+    <td padding:5px;><input type="text" name="rewardIds" id="rewardIds" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.getFixReward]&nbsp;&nbsp;&nbsp;领取加固城墙奖励</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.getFixReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">奖励ID列表:</td>
+    <td padding:5px;><input type="text" name="rewardIds" id="rewardIds" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.atkBeforeBranch]&nbsp;&nbsp;&nbsp;攻打支线前</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.atkBeforeBranch&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">支线关卡ID:</td>
+    <td padding:5px;><input type="text" name="bid" id="bid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">主线关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.atkAfterBranch]&nbsp;&nbsp;&nbsp;攻打支线后</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.atkAfterBranch&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">支线关卡ID:</td>
+    <td padding:5px;><input type="text" name="bid" id="bid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">主线关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.getBranchReward]&nbsp;&nbsp;&nbsp;领取支线奖励</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.getBranchReward&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">支线关卡ID:</td>
+    <td padding:5px;><input type="text" name="bid" id="bid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">主线关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Siege.getStagePlayer]&nbsp;&nbsp;&nbsp;获取展示用的玩家信息</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Siege.getStagePlayer&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
@@ -16886,7 +17924,7 @@ function  selectedServer(value)
   </tr>
          
  	    <tr>
-    <td style="text-align:right;padding:5px;">数据类型【1每日重置2方阵3抽奖4背包5普通副本6英雄7英雄宝物8阵型<br>9主线任务10日常任务11远征12图鉴13精英副本14云中城】:</td>
+    <td style="text-align:right;padding:5px;">数据类型【1每日重置3抽奖4背包5普通副本7英雄宝物8阵型<br>9主线任务10日常任务11远征12图鉴13精英副本14云中城】:</td>
     <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
               	<tr>
@@ -20549,6 +21587,74 @@ function  selectedServer(value)
    </div>
  
     <div>
+          <p>[Tools.initWeapon]&nbsp;&nbsp;&nbsp;初始化器械数据</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.initWeapon&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.resetWeapon]&nbsp;&nbsp;&nbsp;重置器械数据</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.resetWeapon&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.addProp]&nbsp;&nbsp;&nbsp;获得配件</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.addProp&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">配件ID:</td>
+    <td padding:5px;><input type="text" name="propId" id="propId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
           <p>[Tools.addSysNotice]&nbsp;&nbsp;&nbsp;添加系统公告</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Tools.addSysNotice&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -20655,6 +21761,428 @@ function  selectedServer(value)
     <div>
           <p>[Tools.clearAwakingRank]&nbsp;&nbsp;&nbsp;清空觉醒排行榜</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Tools.clearAwakingRank&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.delSiegeServer]&nbsp;&nbsp;&nbsp;删除服务器攻城战数据重新初始化</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.delSiegeServer&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.delSiegePlayer]&nbsp;&nbsp;&nbsp;删除玩家攻城战数据</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.delSiegePlayer&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.delDailySiegePlayer]&nbsp;&nbsp;&nbsp;删除玩家日常攻城数据</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.delDailySiegePlayer&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.switchSiegeStage]&nbsp;&nbsp;&nbsp;切换剧情攻城关卡 攻城关卡</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.switchSiegeStage&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">关卡ID:</td>
+    <td padding:5px;><input type="text" name="stageId" id="stageId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.toSiege]&nbsp;&nbsp;&nbsp;攻城战进入攻城阶段</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.toSiege&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.modiLevel]&nbsp;&nbsp;&nbsp;临时调等级使用工具跳过世界事件</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.modiLevel&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">等级:</td>
+    <td padding:5px;><input type="text" name="level" id="level" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.toDefend]&nbsp;&nbsp;&nbsp;攻城战进入守城</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.toDefend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.modifyWallLv]&nbsp;&nbsp;&nbsp;修改城墙等级</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.modifyWallLv&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">等级:</td>
+    <td padding:5px;><input type="text" name="lv" id="lv" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.addPlatFriend]&nbsp;&nbsp;&nbsp;添加平台好友</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.addPlatFriend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">好友角色id:</td>
+    <td padding:5px;><input type="text" name="targetRid" id="targetRid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">好友上次登录时间</br>格式:2017-09-12:</td>
+    <td padding:5px;><input type="text" name="loginTime" id="loginTime" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">好友区服:</td>
+    <td padding:5px;><input type="text" name="secId" id="secId" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">平台昵称:</td>
+    <td padding:5px;><input type="text" name="nickName" id="nickName" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.setFriendTaskValue]&nbsp;&nbsp;&nbsp;设置友情任务条件值</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.setFriendTaskValue&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">条件ID:</td>
+    <td padding:5px;><input type="text" name="conId" id="conId" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">条件值:</td>
+    <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.clearRecallFriendRedis]&nbsp;&nbsp;&nbsp;清平台好友数据</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.clearRecallFriendRedis&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.removePlatFriend]&nbsp;&nbsp;&nbsp;删除指定平台好友</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.removePlatFriend&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">删除好友角色ID:</td>
+    <td padding:5px;><input type="text" name="targetId" id="targetId" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">好友区服id:</td>
+    <td padding:5px;><input type="text" name="secId" id="secId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.getDailyFriendScore]&nbsp;&nbsp;&nbsp;获取今日获得积分</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.getDailyFriendScore&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.setDailyFriendScore]&nbsp;&nbsp;&nbsp;添加今日获得积分</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.setDailyFriendScore&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">添加数量:</td>
+    <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.setFriendScore]&nbsp;&nbsp;&nbsp;添加未领取积分</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.setFriendScore&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">添加数量:</td>
+    <td padding:5px;><input type="text" name="num" id="num" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.resetSiegeTimes]&nbsp;&nbsp;&nbsp;重置玩家剧情攻城次数</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.resetSiegeTimes&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Tools.clearMergeRedis]&nbsp;&nbsp;&nbsp;清空mergeRedis数据(内网可用)</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Tools.clearMergeRedis&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
       <table border="0" cellspacing="0" cellpadding="0" >
  	   
@@ -21969,6 +23497,27 @@ function  selectedServer(value)
    </div>
  
     <div>
+          <p>[User.getUserGuildId]&nbsp;&nbsp;&nbsp;同步玩家联盟</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=User.getUserGuildId&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
           <p>[Vip.getVipInfo]&nbsp;&nbsp;&nbsp;VIP相关信息</p>
                      <form action="http://192.168.5.208:8001?mod=http&method=Vip.getVipInfo&__noauth__=1&pGroup=default&sec=8201" method="GET">
            	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
@@ -22097,6 +23646,223 @@ function  selectedServer(value)
  	    <tr>
     <td style="text-align:right;padding:5px;">类型<br>1:聊天<br>2:个人信息<br>3:联盟<br>4:好友:</td>
     <td padding:5px;><input type="text" name="hType" id="hType" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Weapon.upgradeWeapon]&nbsp;&nbsp;&nbsp;升级器械</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Weapon.upgradeWeapon&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">器械类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">是否连升五级(1是其他不是):</td>
+    <td padding:5px;><input type="text" name="quick" id="quick" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Weapon.unlockWeapon]&nbsp;&nbsp;&nbsp;解锁器械</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Weapon.unlockWeapon&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">器械类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">器械ID:</td>
+    <td padding:5px;><input type="text" name="weaponId" id="weaponId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Weapon.installProp]&nbsp;&nbsp;&nbsp;安装配件</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Weapon.installProp&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">器械类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">配件索引:</td>
+    <td padding:5px;><input type="text" name="propIdx" id="propIdx" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">插槽ID(1,2,3,4):</td>
+    <td padding:5px;><input type="text" name="slotId" id="slotId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Weapon.uninstallProp]&nbsp;&nbsp;&nbsp;卸载配件</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Weapon.uninstallProp&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">器械类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">插槽ID(1,2,3,4):</td>
+    <td padding:5px;><input type="text" name="slotId" id="slotId" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Weapon.upgradeProp]&nbsp;&nbsp;&nbsp;升级配件</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Weapon.upgradeProp&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">器械类型:</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">插槽ID(1,2,3,4):</td>
+    <td padding:5px;><input type="text" name="slotId" id="slotId" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">快速升级(1升5级其他升一级):</td>
+    <td padding:5px;><input type="text" name="quick" id="quick" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Weapon.resolveProp]&nbsp;&nbsp;&nbsp;分解配件</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Weapon.resolveProp&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">配件索引列表:</td>
+    <td padding:5px;><input type="text" name="propIdxs" id="propIdxs" /></td>
+  </tr>
+              	<tr>
+      	<td>&nbsp;</td>
+      	<td style="text-align:left;"><input type="submit" name="uploadFrom"  class="submit" id="uploadFrom" value="提交" /></td>
+      	</tr>
+    	
+</table>
+           
+           </form>
+   <div style="text-align:right;"><input type="button" value="复制调试内容" onclick="copyToClipboard(htmlDeCode(document.getElementById('res').innerHTML))"> </div>     
+   </div>
+ 
+    <div>
+          <p>[Weapon.drawSiegeWeapon]&nbsp;&nbsp;&nbsp;抽取器械配件</p>
+                     <form action="http://192.168.5.208:8001?mod=http&method=Weapon.drawSiegeWeapon&__noauth__=1&pGroup=default&sec=8201" method="GET">
+           	<input type="hidden" value="9900000" name="MAX_FILE_SIZE"/>
+      <table border="0" cellspacing="0" cellpadding="0" >
+ 	   
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">角色ID:</td>
+    <td padding:5px;><input type="text" name="rid" id="rid" /></td>
+  </tr>
+         
+ 	    <tr>
+    <td style="text-align:right;padding:5px;">抽取类型(1钻石单抽&nbsp2钻石5连&nbsp3资源单抽&nbsp4资源5连):</td>
+    <td padding:5px;><input type="text" name="type" id="type" /></td>
   </tr>
               	<tr>
       	<td>&nbsp;</td>
