@@ -125,7 +125,6 @@ while True:
 		select_type = raw_input("please input type_num:\n")
 		if select_type == "1":
 			for x in other_config.resource:
-				print x
 				add_dict_argv(type=x)
 				try_send_requests()
 		elif select_type == "2":
