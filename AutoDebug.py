@@ -361,7 +361,7 @@ while True:
 		dev_server = raw_input("please input debug server:\n")
 		if dev_server == "6":
 			add_dict_argv(pGroup="test")
-		elif dev_server == "4":
+		elif dev_server == "4" or dev_server == "5":
 			add_dict_argv(pGroup="aqq")
 		else:
 			add_dict_argv(pGroup="default")
