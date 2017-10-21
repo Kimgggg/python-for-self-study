@@ -114,6 +114,7 @@ while True:
 
 	press = raw_input("select:")
 	if press == "1":
+		#发送资源
 		add_dict_argv(method="Tools.addRes",num=raw_input("please input resource number:\n"))
 		print '''
 		1.全部
@@ -127,30 +128,37 @@ while True:
 			for x in other_config.resource:
 				add_dict_argv(type=x)
 				try_send_requests()
+				print x + "发送成功"
 		elif select_type == "2":
 			add_dict_argv(type="gem")
 			try_send_requests()
+			print "gem发送成功"
 		elif select_type == "3":
 			add_dict_argv(type="gold")
 			try_send_requests()
+			print "gold发送成功"
 		elif select_type == "4":
 			add_dict_argv(type="physcal")
 			try_send_requests()
+			print "physcal发送成功"
 		elif select_type == "5":
 			add_dict_argv(type="texp")
 			try_send_requests()
+			print "texp发送成功"
 		del_dict_argv("num","type","method")
 		Alzheimer_disease(press)
 			
 	elif press == "2":
 		add_dict_argv(method="Tools.upgradeLevel", level=raw_input("please input level number:\n"))
 		try_send_requests()
+		print "等级调整完毕"
 		del_dict_argv("method","level")
 		Alzheimer_disease(press)
 
 	elif press == "3":
 		add_dict_argv(method="Tools.setVipLevel",level=raw_input("please input level number:\n"))
 		try_send_requests()
+		print "vip等级调整完毕"
 		del_dict_argv("method","level")
 		Alzheimer_disease(press)
 
@@ -172,6 +180,7 @@ while True:
 		for x in other_config.stageId:
 			add_dict_argv(stageId=x)
 			try_send_requests()
+			print "关卡已调整至" + x
 		del_dict_argv("method","stageId")
 		Alzheimer_disease(press)
 
@@ -223,11 +232,13 @@ while True:
 		for x in other_config.baowu:
 			add_dict_argv(method="Treasure.wearDisTreasure",disId=x,comId=str(x)[2:4],positionId=str(x)[-1])
 			try_send_requests()
+			print str(x) + "已装备"
 			del_dict_argv("method","disId","comId","positionId")
 
 		for x in other_config.baowu:
 			add_dict_argv(method="Treasure.activationComTreasure",comId=str(x)[2:4])
 			try_send_requests()
+			print str(x) + "已激活组合宝物"
 			del_dict_argv("method","comId")
 
 		temp_sendItems("41001")
@@ -247,6 +258,7 @@ while True:
 			add_dict_argv(disId=x, comId=str(x)[2:4])
 			for y in range(50):
 				try_send_requests()
+				print str(x) + "第" + str(y) + "次升星"
 		del_dict_argv("method","num","disId","comId")
 
 		add_dict_argv(method="Treasure.promoteComTreasure")
@@ -254,6 +266,7 @@ while True:
 			add_dict_argv(comId=str(x)[2:4])
 			for y in range(21):
 				try_send_requests()
+				print "组合宝物" + str(x)[2:4] + "第" + str(y) + "次进阶"
 		del_dict_argv("method","comId")
 		Alzheimer_disease(press)
 				
@@ -278,6 +291,7 @@ while True:
 		for x in other_config.heroId:
 			add_dict_argv(heroId=x)
 			try_send_requests()
+			print "英雄" + str(x) + "已激活刻印孔"
 		del_dict_argv("method","heroId")
 		Alzheimer_disease(press)
 
@@ -290,6 +304,7 @@ while True:
 
 				add_dict_argv(method="Hero.saveMastery",index="1",heroId=x)
 				try_send_requests()
+				print "英雄" + str(x) + "随机刷新专精成功"
 				del_dict_argv("method","index","heroId")
 
 		add_dict_argv(method="Hero.heroSkillUpgrade",exMode="1")
@@ -345,6 +360,7 @@ while True:
 			add_dict_argv(teamId=x)
 			for y in range(13):
 				try_send_requests()
+				print "兵团" + str(x) + "第" + str(y) + "次进阶"
 		del_dict_argv("method","teamId")
 		Alzheimer_disease(press)
 	
@@ -409,6 +425,7 @@ while True:
 			for y in other_config.skillposition:
 				add_dict_argv(positionId=y)
 				try_send_requests()
+				print str(x) + "已激活" + str(y) + "技能"
 		del_dict_argv("method","teamId","positionId")
 
 		temp_sendItems("3025")
@@ -419,6 +436,7 @@ while True:
 			for y in other_config.skillposition:
 				add_dict_argv(positionId=y)
 				try_send_requests()
+				print str(x) + "技能" + str(y) + "已升级"
 		del_dict_argv("method","args","teamId","positionId")
 		Alzheimer_disease(press)
 
@@ -426,6 +444,7 @@ while True:
 	elif press == "15":
 		add_dict_argv(method="Tools.resetBoss")
 		try_send_requests()
+		print "pve次数清空完毕"
 		del_dict_argv("method")
 		Alzheimer_disease(press)
 
@@ -434,6 +453,7 @@ while True:
 		for x in other_config.skillId:
 			add_dict_argv(sid=x)
 			try_send_requests()
+			print str(x) + "激活成功"
 		del_dict_argv("method","sid")
 		Alzheimer_disease(press)
 
@@ -442,6 +462,7 @@ while True:
 			add_dict_argv(sid=x)
 			for y in range(5):
 				try_send_requests()
+				print str(x) + "第" + str(y) + "升级成功"
 		del_dict_argv("method","sid")
 		Alzheimer_disease(press)
 
@@ -453,6 +474,7 @@ while True:
 			for y in poke_id:
 				add_dict_argv(positionId=y)
 				try_send_requests()
+				print "图鉴" + str(x) + " " + str(y) + "激活成功"
 		del_dict_argv("method","pokedexId","positionId")
 
 		add_dict_argv(method="Pokedex.upPokedexLevel",)
@@ -460,12 +482,14 @@ while True:
 			add_dict_argv(pokedexId=x)
 			for y in range(25):
 				try_send_requests()
+				print "图鉴" + str(x) + "第" + str(y) + "次升级"
 		del_dict_argv("method","pokedexId")
 		Alzheimer_disease(press)
 
 	elif press == "18":
 		add_dict_argv(method="Tools.clearYac",actDev="0")
 		try_send_requests()
+		print "debug yac清除成功"
 		del_dict_argv("method","actDev")
 		Alzheimer_disease(press)
 
@@ -477,12 +501,14 @@ while True:
 			add_dict_argv(tid=x,kind=str(x)[:2])
 			for y in range(10):
 				try_send_requests()
+				print "天赋" + str(x) + "第" + str(y) + "次升级"
 		del_dict_argv("method","tid","kind")
 		Alzheimer_disease(press)
 
 	elif press == "20":
 		add_dict_argv(method="Tools.clearUserData",type="4")
 		try_send_requests()
+		print "清空背包成功"
 		del_dict_argv("method","type")
 		Alzheimer_disease(press)
 
@@ -491,6 +517,7 @@ while True:
 		for x in other_config.activateAwaking:
 			add_dict_argv(teamId=x)
 			try_send_requests()
+			print "兵团" + str(x) + "已觉醒"
 		del_dict_argv("method","teamId")
 
 		for x in other_config.activateAwaking:
@@ -499,7 +526,8 @@ while True:
 		for x in other_config.activateAwaking:
 			add_dict_argv(method="Awaking.upAwakingLevel",teamId=x)
 			for y in range(7):
-				try_send_requests()	
+				try_send_requests()
+				print "兵团" + str(x) + "第" + str(y) + "次觉醒强化"	
 		del_dict_argv("method","teamId")
 		Alzheimer_disease(press)
 
@@ -512,6 +540,7 @@ while True:
 
 				add_dict_argv(method="Team.saveTalent",tId="[1,2,3,4,5,6,7,8,9,10]",teamId=x)
 				try_send_requests()
+				print "兵团" + str(x) + "已保存天赋"
 				del_dict_argv("method","tId","teamId")
 
 		temp_sendItems("3044,3045,3046,3047,3048")
@@ -557,6 +586,7 @@ while True:
 			add_dict_argv(method="Team.drawAward",num="10",typeId="2")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num","typeId")
 			Alzheimer_disease(press)
 		elif select_type == "2":
@@ -567,6 +597,7 @@ while True:
 			add_dict_argv(method="Team.drawAward",num="1",typeId="2")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num","typeId")
 			Alzheimer_disease(press)
 		elif select_type == "3":
@@ -577,6 +608,7 @@ while True:
 			add_dict_argv(method="Team.drawAward",num="10",typeId="1")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num","typeId")
 			Alzheimer_disease(press)
 		elif select_type == "4":
@@ -587,6 +619,7 @@ while True:
 			add_dict_argv(method="Team.drawAward",num="1",typeId="1")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num","typeId")
 			Alzheimer_disease(press)
 		elif select_type == "5":
@@ -597,6 +630,7 @@ while True:
 			add_dict_argv(method="Hero.drawSpeelBook",num="10",type="2")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num","type")
 			Alzheimer_disease(press)
 		elif select_type == "6":
@@ -607,6 +641,7 @@ while True:
 			add_dict_argv(method="Hero.drawSpeelBook",num="1",type="2")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num","type")
 			Alzheimer_disease(press)
 		elif select_type == "7":
@@ -617,6 +652,7 @@ while True:
 			add_dict_argv(method="Hero.drawSpeelBook",num="10",type="1")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num","type")
 			Alzheimer_disease(press)
 		elif select_type == "8":
@@ -627,6 +663,7 @@ while True:
 			add_dict_argv(method="Hero.drawSpeelBook",num="1",type="1")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num","type")
 			Alzheimer_disease(press)
 		elif select_type == "9":
@@ -637,6 +674,7 @@ while True:
 			add_dict_argv(method="Treasure.drewDisTreasure",num="5")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num")
 			Alzheimer_disease(press)
 		elif select_type == "10":
@@ -647,6 +685,7 @@ while True:
 			add_dict_argv(method="Treasure.drewDisTreasure",num="1")
 			for x in range(number):
 				try_send_requests()
+				print "第" + str(x) + "抽卡成功"
 			del_dict_argv("method","num")
 			Alzheimer_disease(press)
 
