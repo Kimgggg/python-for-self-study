@@ -7,6 +7,7 @@ import other_config
 import os
 import sys
 import random
+import debug_menu
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -68,16 +69,9 @@ def try_send_requests():
 	except Exception as e:
 		print e
 
-user_rid = raw_input("please input rid:\n")
-print '''
-1.开发机1
-2.开发机2
-3.开发机3
-4.dev3
-5.dev4
-6.台湾
-'''
-dev_select = raw_input("please input debug server:\n")
+user_rid = raw_input("输入rid:\n".decode('utf-8').encode('gbk'))
+debug_menu.server_menu()
+dev_select = raw_input("选择服务器:\n".decode('utf-8').encode('gbk'))
 if dev_select == "6":
 	add_dict_argv(pGroup="test")
 elif dev_select == "4" or dev_select == "5":
@@ -88,45 +82,14 @@ dev_server = other_config.debug_server_requests[int(dev_select) - 1]
 add_dict_argv(rid=user_rid, sec=user_rid[:4])
 
 while True:
-	print """
-    1.添加金币、钻石、兵团经验、体力
-    2.玩家升级
-    3.设置vip等级
-    4.提升全部兵团潜力
-    5.调整副本进度
-    6.发全部材料
-    7.全部宝物进阶+升星
-    8.发放全部英雄
-    9.英雄升星+开启法术槽
-    10.全部英雄技能升级+随机刷新5次专精
-    11.发放全部兵团
-    12.所有兵团升级+所有兵团装备升级+所有兵团装备进阶
-    13.更换user_rid与服务器
-    14.所有兵团升星+激活潜能+解锁技能+技能升级
-    15.重置pve玩法次数星下下
-    16.法术激活升级
-    17.图鉴解锁+图鉴升级
-    18.清除yac
-    19.英雄天赋升级
-    20.清空背包
-    21.直接觉醒兵团+觉醒强化
-    22.全部兵团指定次数随机增加兵团天赋
-    24.抽卡测试
-    q.退出
-    """
+	debug_menu.main_menu()
 
 	press = raw_input("select:")
 	if press == "1":
 		#发送资源
-		add_dict_argv(method="Tools.addRes",num=raw_input("please input resource number:\n"))
-		print '''
-		1.全部
-		2.钻石
-		3.金币
-		4.体力
-		5.兵团经验
-		'''
-		select_type = raw_input("please input type_num:\n")
+		add_dict_argv(method="Tools.addRes",num=raw_input("输入资源数量:\n".decode('utf-8').encode('gbk')))
+		debug_menu.res_menu()
+		select_type = raw_input("选择资源类型:\n".decode('utf-8').encode('gbk'))
 		if select_type == "1":
 			for x in other_config.resource:
 				add_dict_argv(type=x)
@@ -152,14 +115,14 @@ while True:
 		Alzheimer_disease(press)
 			
 	elif press == "2":
-		add_dict_argv(method="Tools.upgradeLevel", level=raw_input("please input level number:\n"))
+		add_dict_argv(method="Tools.upgradeLevel", level=raw_input("输入要提升的等级:\n".decode('utf-8').encode('gbk')))
 		try_send_requests()
 		print "等级调整完毕"
 		del_dict_argv("method","level")
 		Alzheimer_disease(press)
 
 	elif press == "3":
-		add_dict_argv(method="Tools.setVipLevel",level=raw_input("please input level number:\n"))
+		add_dict_argv(method="Tools.setVipLevel",level=raw_input("输入要设置的vip等级:\n".decode('utf-8').encode('gbk')))
 		try_send_requests()
 		print "vip等级调整完毕"
 		del_dict_argv("method","level")
@@ -188,18 +151,10 @@ while True:
 		Alzheimer_disease(press)
 
 	elif press == "6":
-		add_dict_argv(goodsNum=raw_input("please input item number:\n"), method="Tools.sendItems")
+		add_dict_argv(goodsNum=raw_input("输入道具数量:\n".decode('utf-8').encode('gbk')), method="Tools.sendItems")
 		new_list = 	other_config.bingtuansuipianId + "," + other_config.jinjiecailiaoId + "," + other_config.herosuipianId + "," + other_config.baowustr + "," + other_config.otheritem + "," + other_config.fashusuipian
-		print '''
-	1.发送全部
-	2.发送全部兵团碎片
-	3.发送全部进阶材料
-	4.发送全部英雄碎片
-	5.发送全部宝物
-	6.发送全部其他道具
-	7.发送全部法术碎片
-		'''
-		select_type = raw_input("please select num:\n")
+		debug_menu.item_menu()
+		select_type = raw_input("选择道具类型:\n".decode('utf-8').encode('gbk'))
 		if select_type == "1":
 			add_dict_argv(goodsId=new_list)
 			try_send_requests()
@@ -368,16 +323,9 @@ while True:
 		Alzheimer_disease(press)
 	
 	elif press == "13":
-		user_rid = raw_input("please input rid:\n")
-		print '''
-		1.开发机1
-		2.开发机2
-		3.开发机3
-		4.dev3
-		5.dev4
-		6.台湾
-		'''
-		dev_select = raw_input("please input debug server:\n")
+		user_rid = raw_input("输入rid:\n".decode('utf-8').encode('gbk'))
+		debug_menu.server_menu()
+		dev_select = raw_input("选择服务器:\n".decode('utf-8').encode('gbk'))
 		if dev_select == "6":
 			add_dict_argv(pGroup="test")
 		elif dev_select == "4" or dev_select == "5":
@@ -551,7 +499,7 @@ while True:
 
 		temp_sendItems("3044,3045,3046,3047,3048")
 
-		for x in range(input("please input times:\n")):
+		for x in range(input("输入循环次数:\n".decode('utf-8').encode('gbk'))):
 			trainTalent_and_saveTalent(other_config.bingtuanId)
 		Alzheimer_disease(press)
 
@@ -569,21 +517,10 @@ while True:
 		try_send_requests()
 		del_dict_argv("method","type")
 		print "背包清空完毕，请输入抽取次数并选择类型"
-		number = input("please input number:\n")
+		number = input("输入抽卡次数:\n".decode('utf-8').encode('gbk'))
 
-		print '''
-		1.祭坛抽卡钻石10连抽
-		2.祭坛抽卡钻石单抽
-		3.祭坛抽卡钥匙10连抽
-		4.祭坛抽卡钥匙单抽
-		5.法术祈愿钻石10连抽
-		6.法术祈愿钻石单抽
-		7.法术祈愿卷轴10连抽
-		8.法术祈愿卷轴单抽
-		9.宝物5连抽
-		10.宝物单抽
-		'''
-		select_type = raw_input("please select num:\n")
+		debug_menu.reward_menu()
+		select_type = raw_input("选择抽卡类型:\n".decode('utf-8').encode('gbk'))
 		if select_type == "1":
 			add_dict_argv(method="Tools.addRes",num=str(number * 2700),type="gem")
 			try_send_requests()

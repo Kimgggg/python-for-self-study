@@ -1,6 +1,6 @@
 no_upload.py
 no_upload.pyc
-
+*.pyc
 
 
 .vs/slnx.sqlite
