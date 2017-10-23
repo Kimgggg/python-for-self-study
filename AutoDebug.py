@@ -6,6 +6,7 @@ import requests
 import other_config
 import os
 import sys
+import random
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -539,9 +540,12 @@ while True:
 				try_send_requests()
 				del_dict_argv("method","type","num","teamId")
 
-				add_dict_argv(method="Team.saveTalent",tId="[1,2,3,4,5,6,7,8,9,10]",teamId=x)
+				temp_list = [1,2,3,4,5,6,7,8,9,10]
+				temp_tId = random.sample(temp_list,5)
+				temp_tId.sort()
+				add_dict_argv(method="Team.saveTalent",tId=str(temp_tId),teamId=x)
 				try_send_requests()
-				print "兵团" + str(x) + "已保存天赋"
+				print "兵团" + str(x) + "已保存天赋" + str(temp_tId)
 				del_dict_argv("method","tId","teamId")
 
 		temp_sendItems("3044,3045,3046,3047,3048")
