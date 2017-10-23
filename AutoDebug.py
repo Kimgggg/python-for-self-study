@@ -46,7 +46,8 @@ def send_requests():
 		print "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
 		print "发送的请求>>>>>>>>>>>>>>>>>>>>>>>>>>\n" + r.url + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
 	else:
-		print "返回信息>>>>>>>>>>>>>>>>>>>\n" + r.text + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
+		# print "返回信息>>>>>>>>>>>>>>>>>>>\n" + r.text + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
+		pass
 
 def temp_sendItems(itemsId):
 	add_dict_argv(method="Tools.sendItems",goodsId=itemsId,goodsNum="9999999")
@@ -541,7 +542,7 @@ while True:
 				del_dict_argv("method","type","num","teamId")
 
 				temp_list = [1,2,3,4,5,6,7,8,9,10]
-				temp_tId = random.sample(temp_list,5)
+				temp_tId = random.sample(temp_list,random.randint(4,7))
 				temp_tId.sort()
 				add_dict_argv(method="Team.saveTalent",tId=str(temp_tId),teamId=x)
 				try_send_requests()
