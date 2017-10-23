@@ -22,6 +22,7 @@ base_parameter_dict = OrderedDict([
 
 def Alzheimer_disease(select_number):
 	print select_number + " done"
+	print "user_rid : %s,\ndev_select : %s,\ndev_server : %s,\n" %(user_rid,dev_select,dev_server)
 
 def del_dict_argv(*type_name):
 	for x in type_name:
@@ -74,14 +75,14 @@ print '''
 5.dev4
 6.台湾
 '''
-dev_server = raw_input("please input debug server:\n")
-if dev_server == "6":
+dev_select = raw_input("please input debug server:\n")
+if dev_select == "6":
 	add_dict_argv(pGroup="test")
-elif dev_server == "4" or dev_server == "5":
+elif dev_select == "4" or dev_select == "5":
 	add_dict_argv(pGroup="aqq")
 else:
 	add_dict_argv(pGroup="default")
-dev_server = other_config.debug_server_requests[int(dev_server) - 1]
+dev_server = other_config.debug_server_requests[int(dev_select) - 1]
 add_dict_argv(rid=user_rid, sec=user_rid[:4])
 
 while True:
@@ -374,14 +375,14 @@ while True:
 		5.dev4
 		6.台湾
 		'''
-		dev_server = raw_input("please input debug server:\n")
-		if dev_server == "6":
+		dev_select = raw_input("please input debug server:\n")
+		if dev_select == "6":
 			add_dict_argv(pGroup="test")
-		elif dev_server == "4" or dev_server == "5":
+		elif dev_select == "4" or dev_select == "5":
 			add_dict_argv(pGroup="aqq")
 		else:
 			add_dict_argv(pGroup="default")
-		dev_server = other_config.debug_server_requests[int(dev_server) - 1]
+		dev_server = other_config.debug_server_requests[int(dev_select) - 1]
 		add_dict_argv(rid=user_rid, sec=user_rid[:4])
 		Alzheimer_disease(press)
 
