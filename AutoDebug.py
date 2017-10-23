@@ -50,18 +50,15 @@ def send_requests():
 		# print "返回信息>>>>>>>>>>>>>>>>>>>\n" + r.text + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n"
 		pass
 
-def temp_sendItems(itemsId):
-	add_dict_argv(method="Tools.sendItems",goodsId=itemsId,goodsNum="9999999")
+def temp_sendItems(itemsId,numbers):
+	add_dict_argv(method="Tools.sendItems",goodsId=itemsId,goodsNum=str(numbers))
 	try_send_requests()
 	del_dict_argv("method","goodsId","goodsNum")
 
-def temp_addRes(*Restype):
-	for x in Restype:
-		add_dict_argv(method="Tools.addRes",num="9999999",type=Restype)
-		if (Restype == "gold") or (Restype == "texp"):
-			add_dict_argv(num="9999999999")
-		try_send_requests()
-		del_dict_argv("method","num","type")
+def temp_addRes(Restype,numbers):
+	add_dict_argv(method="Tools.addRes",num=str(numbers),type=Restype)
+	try_send_requests()
+	del_dict_argv("method","num","type")
 
 def try_send_requests():
 	try:
@@ -129,7 +126,7 @@ while True:
 		Alzheimer_disease(press)
 
 	elif press == "4":
-		temp_addRes("gold")
+		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.upPotential")
 		for x in other_config.bingtuanId:
 			add_dict_argv(teamId=x)
@@ -199,8 +196,9 @@ while True:
 			print str(x) + "已激活组合宝物"
 			del_dict_argv("method","comId")
 
-		temp_sendItems("41001")
+		temp_sendItems("41001",9999999)
 
+		temp_addRes("gold",999999999)
 		add_dict_argv(method="Treasure.promoteDisTreasure")
 		for x in other_config.baowu:
 			add_dict_argv(disId=x, comId=str(x)[2:4])
@@ -209,8 +207,8 @@ while True:
 				print "第" + str(y) + "次进阶" + str(x)
 		del_dict_argv("method","disId","comId")
 
-		temp_addRes("starfrag")
-
+		temp_addRes("starfrag",9999999)
+		temp_addRes("gold",999999999)
 		add_dict_argv(method="Treasure.upStar",num="10")
 		for x in other_config.baowu:
 			add_dict_argv(disId=x, comId=str(x)[2:4])
@@ -219,6 +217,7 @@ while True:
 				print str(x) + "第" + str(y) + "次升星"
 		del_dict_argv("method","num","disId","comId")
 
+		temp_addRes("gold",999999999)
 		add_dict_argv(method="Treasure.promoteComTreasure")
 		for x in other_config.baowu:
 			add_dict_argv(comId=str(x)[2:4])
@@ -236,6 +235,7 @@ while True:
 			print "已发送" + str(x)
 		del_dict_argv("method","heroId")
 		Alzheimer_disease(press)
+
 	elif press == "9":
 		add_dict_argv(method="Hero.upgradeStar")
 		for x in other_config.heroId:
@@ -265,6 +265,7 @@ while True:
 				print "英雄" + str(x) + "随机刷新专精成功"
 				del_dict_argv("method","index","heroId")
 
+		temp_sendItems("3004",5000000)
 		add_dict_argv(method="Hero.heroSkillUpgrade",exMode="1")
 		for x in other_config.heroId:
 			add_dict_argv(heroId=x)
@@ -288,7 +289,8 @@ while True:
 		Alzheimer_disease(press)
 
 	elif press == "12":
-		temp_addRes("gold","texp")
+
+		temp_addRes("texp",999999999)
 		add_dict_argv(method="Team.upgradeTeam",level="90")
 		for x in other_config.bingtuanId:
 			add_dict_argv(teamId=x)
@@ -296,6 +298,8 @@ while True:
 			print "兵团" + str(x) + "已升级"
 		del_dict_argv("method","level","teamId")
 
+		temp_addRes("gold",999999999)
+		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.batchUpgradeEquip")
 		for x in other_config.bingtuanId:
 			add_dict_argv(teamId=x)
@@ -303,6 +307,8 @@ while True:
 			print "兵团" + str(x) + "装备已升级"
 		del_dict_argv("method","teamId")
 
+		temp_addRes("gold",999999999)
+		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.upgradeStageEquip")
 		for x in other_config.bingtuanId:
 			add_dict_argv(teamId=x)
@@ -313,6 +319,8 @@ while True:
 					print "兵团" + str(x) + "装备" + str(y) + "正在第" + str(z) + "次升阶"
 		del_dict_argv("method","teamId","positionId")
 
+		temp_addRes("gold",999999999)
+		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.upgradeStageTeam")
 		for x in other_config.bingtuanId:
 			add_dict_argv(teamId=x)
@@ -353,11 +361,14 @@ while True:
 				print "兵团" + str(x) + "大星升星完毕"
 			del_dict_argv("method","teamId")
 
+
+		temp_addRes("gold",999999999)
 		update_small_star(other_config.bingtuanId1star)
 		update_big_star(other_config.bingtuanId1star)
 		new_bingtuansuipian2star = other_config.bingtuanId1star + other_config.bingtuanId2star
 		update_small_star(new_bingtuansuipian2star)
 		update_big_star(new_bingtuansuipian2star)
+		temp_addRes("gold",999999999)
 		new_bingtuansuipian3star = new_bingtuansuipian2star + other_config.bingtuanId3star
 		for x in range(3):
 			update_small_star(new_bingtuansuipian3star)
@@ -379,7 +390,7 @@ while True:
 				print str(x) + "已激活" + str(y) + "技能"
 		del_dict_argv("method","teamId","positionId")
 
-		temp_sendItems("3025")
+		temp_sendItems("3025",5000000)
 
 		add_dict_argv(method="Team.upgradeSkill",args="{\"items\":[[3025,100]]}")
 		for x in other_config.bingtuanId:
@@ -445,7 +456,7 @@ while True:
 		Alzheimer_disease(press)
 
 	elif press == "19":
-		temp_addRes("starNum")
+		temp_addRes("starNum",200000)
 
 		add_dict_argv(method="Talent.upTalentChildLv")
 		for x in other_config.magicTalent:
@@ -472,7 +483,7 @@ while True:
 		del_dict_argv("method","teamId")
 
 		for x in other_config.activateAwaking:
-			temp_sendItems("94"+str(x))
+			temp_sendItems("94"+str(x),200000)
 
 		for x in other_config.activateAwaking:
 			add_dict_argv(method="Awaking.upAwakingLevel",teamId=x)
@@ -497,7 +508,9 @@ while True:
 				print "兵团" + str(x) + "已保存天赋" + str(temp_tId)
 				del_dict_argv("method","tId","teamId")
 
-		temp_sendItems("3044,3045,3046,3047,3048")
+		temp_addRes("gem",99999999)
+		temp_addRes("gold",999999999)
+		temp_sendItems("3044,3045,3046,3047,3048",2000000)
 
 		for x in range(input("输入循环次数:\n".decode('utf-8').encode('gbk'))):
 			trainTalent_and_saveTalent(other_config.bingtuanId)
