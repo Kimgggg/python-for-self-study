@@ -4,8 +4,8 @@
     "_it" : NumberInt(1508379881), 
     "uid" : NumberInt(884), 
     "name" : "ÑªÄ§Âó¿Ë¡¤ÀÕË¹", 
-    "_commitId" : NumberInt(23547), 
-    "_lt" : NumberInt(1508817106), 
+    "_commitId" : NumberInt(24523), 
+    "_lt" : NumberInt(1508817694), 
     "uuid" : "59e80ce9e13823078d7332fc", 
     "usid" : "800151145573", 
     "pid" : "aa1e076be521da5367c47e66251ed388", 
@@ -13,7 +13,7 @@
     "score" : NumberInt(10312960), 
     "accelerate" : NumberInt(1), 
     "online" : NumberInt(1), 
-    "onlineTime" : NumberInt(113029), 
+    "onlineTime" : NumberInt(113583), 
     "quit" : NumberInt(1), 
     "renameTime" : NumberInt(0), 
     "guildId" : NumberInt(80011261), 
@@ -26,12 +26,12 @@
     "freeGemTotal" : NumberInt(0), 
     "freeGem" : NumberInt(0), 
     "gold" : 1.0E9, 
-    "texp" : NumberInt(776662070), 
+    "texp" : NumberInt(810079547), 
     "lvl" : NumberInt(100), 
     "formationTeamNum" : NumberInt(8), 
     "payGemTotal" : NumberInt(0), 
-    "payGem" : NumberInt(1199859263), 
-    "crusading" : NumberInt(180), 
+    "payGem" : NumberInt(1199859293), 
+    "crusading" : NumberInt(660), 
     "exp" : NumberInt(0), 
     "physcal" : NumberInt(2100004631), 
     "guildPower" : NumberInt(350), 
@@ -42,7 +42,7 @@
     "guildCoin" : NumberInt(50), 
     "hDuelCoin" : NumberInt(500), 
     "friendCoin" : NumberInt(0), 
-    "leaveTime" : NumberInt(1508817096), 
+    "leaveTime" : NumberInt(1508817672), 
     "banLogin" : NumberInt(0), 
     "banChat" : NumberInt(0), 
     "resetCrusadeCD" : NumberInt(1508446800), 
@@ -2773,14 +2773,14 @@
             "sts75" : NumberInt(3), 
             "sts29" : NumberInt(7), 
             "sts4" : NumberInt(0), 
-            "sts21" : NumberInt(42), 
-            "sts39" : NumberInt(66318), 
+            "sts21" : NumberInt(293), 
+            "sts39" : NumberInt(462647), 
             "sts99" : NumberInt(1579), 
-            "sts40" : NumberInt(1176), 
-            "sts22" : NumberInt(6), 
+            "sts40" : NumberInt(8204), 
+            "sts22" : NumberInt(207), 
             "sts98" : NumberInt(27), 
-            "sts42" : NumberInt(180), 
-            "sts41" : NumberInt(1728), 
+            "sts42" : NumberInt(6210), 
+            "sts41" : NumberInt(59616), 
             "sts20" : NumberInt(15), 
             "sts15" : NumberInt(12160), 
             "sts80" : NumberInt(14250), 
@@ -2795,7 +2795,11 @@
             "sts14" : NumberInt(286), 
             "sts86" : NumberInt(286), 
             "sts76" : NumberInt(113), 
-            "sts72" : NumberInt(83)
+            "sts72" : NumberInt(83), 
+            "sts74" : NumberInt(15), 
+            "sts18" : NumberInt(480), 
+            "sts51" : NumberInt(5), 
+            "sts17" : NumberInt(2)
         }
     }, 
     "heros" : {
@@ -3902,31 +3906,31 @@
             "filter" : ""
         }, 
         "6" : {
-            "g1" : NumberInt(9), 
-            "team1" : NumberInt(704), 
-            "g2" : NumberInt(13), 
-            "team2" : NumberInt(703), 
-            "g3" : NumberInt(0), 
-            "team3" : NumberInt(0), 
-            "g4" : NumberInt(0), 
-            "team4" : NumberInt(0), 
-            "g5" : NumberInt(0), 
-            "team5" : NumberInt(0), 
-            "g6" : NumberInt(0), 
-            "team6" : NumberInt(0), 
-            "g7" : NumberInt(0), 
-            "team7" : NumberInt(0), 
-            "g8" : NumberInt(0), 
-            "team8" : NumberInt(0), 
+            "g1" : NumberInt(16), 
+            "team1" : NumberInt(106), 
+            "g2" : NumberInt(9), 
+            "team2" : NumberInt(907), 
+            "g3" : NumberInt(12), 
+            "team3" : NumberInt(407), 
+            "g4" : NumberInt(8), 
+            "team4" : NumberInt(707), 
+            "g5" : NumberInt(4), 
+            "team5" : NumberInt(306), 
+            "g6" : NumberInt(7), 
+            "team6" : NumberInt(507), 
+            "g7" : NumberInt(11), 
+            "team7" : NumberInt(107), 
+            "g8" : NumberInt(5), 
+            "team8" : NumberInt(607), 
             "weapon1" : NumberInt(0), 
             "weapon2" : NumberInt(0), 
             "weapon3" : NumberInt(0), 
             "weapon4" : NumberInt(0), 
-            "lt" : NumberInt(1508383457), 
+            "lt" : NumberInt(1508817927), 
             "tid" : NumberInt(1), 
-            "heroId" : NumberInt(60102), 
-            "score" : NumberInt(8657270), 
-            "filter" : ""
+            "heroId" : NumberInt(60103), 
+            "score" : NumberInt(10242933), 
+            "filter" : "703,704"
         }, 
         "5" : {
             "g1" : NumberInt(9), 
@@ -4440,28 +4444,28 @@
         "dnum1" : NumberInt(0), 
         "dnum2" : NumberInt(0), 
         "dnum3" : NumberInt(286), 
-        "dnum4" : NumberInt(42), 
-        "dnum5" : NumberInt(6), 
+        "dnum4" : NumberInt(293), 
+        "dnum5" : NumberInt(207), 
         "dnum6" : NumberInt(15), 
-        "dnum7" : NumberInt(0), 
+        "dnum7" : NumberInt(5), 
         "dnum8" : NumberInt(0), 
         "dnum9" : NumberInt(0), 
         "dnum10" : NumberInt(0), 
         "dnum11" : NumberInt(0), 
-        "dnum12" : NumberInt(100000540), 
+        "dnum12" : NumberInt(100000570), 
         "dnum13" : NumberInt(0), 
         "dnum14" : NumberInt(0), 
         "dnum15" : NumberInt(57005), 
         "dnum16" : NumberInt(0), 
         "dnum17" : NumberInt(0), 
         "dnum18" : NumberInt(1152), 
-        "dnum19" : NumberInt(0), 
+        "dnum19" : NumberInt(13), 
         "dnum20" : NumberInt(0), 
         "dnum21" : NumberInt(0), 
         "dnum22" : NumberInt(0), 
         "dnum23" : NumberInt(0), 
         "dnum24" : NumberInt(0), 
-        "dstr1" : "", 
+        "dstr1" : "5,6,7,8,9,10,11,12,13", 
         "snum6" : NumberInt(5), 
         "snum22" : NumberInt(1), 
         "snum21" : NumberInt(1508379905), 
@@ -4473,14 +4477,14 @@
         "snum2" : NumberInt(1285946800), 
         "snum27" : NumberInt(31), 
         "snum30" : NumberInt(15), 
-        "snum4" : NumberInt(80744), 
-        "snum13" : NumberInt(180), 
-        "snum8" : NumberInt(4), 
+        "snum4" : NumberInt(484101), 
+        "snum13" : NumberInt(660), 
+        "snum8" : NumberInt(13), 
         "snum3" : NumberInt(1), 
         "snum12" : NumberInt(1), 
         "snum1" : NumberInt(291), 
         "snum11" : NumberInt(14820), 
-        "snum5" : NumberInt(270)
+        "snum5" : NumberInt(5697)
     }, 
     "handbooks" : {
         "4" : {
@@ -4850,8 +4854,14 @@
                     "prg" : "1", 
                     "status" : NumberInt(1), 
                     "cnt" : "1"
+                }, 
+                "1802" : {
+                    "prg" : "1", 
+                    "status" : NumberInt(1), 
+                    "cnt" : "1"
                 }
-            }
+            }, 
+            "status" : NumberInt(1)
         }, 
         "35" : {
             "tasks" : {
@@ -8251,13 +8261,13 @@
     "active" : {
         "val" : NumberInt(110), 
         "reward1" : NumberInt(1508815835), 
-        "reward2" : NumberInt(0), 
+        "reward2" : NumberInt(1508817721), 
         "reward3" : NumberInt(0), 
         "recordTime" : NumberInt(1508815317)
     }, 
     "grow" : {
-        "val" : NumberInt(7920), 
-        "receive" : NumberInt(18)
+        "val" : NumberInt(9025), 
+        "receive" : NumberInt(19)
     }, 
     "task" : {
         "mainTasks" : {
@@ -9517,9 +9527,9 @@
                 "val2" : "270"
             }, 
             "9908" : {
-                "status" : NumberInt(0), 
+                "status" : NumberInt(1508817705), 
                 "val1" : "350", 
-                "val2" : "0"
+                "val2" : "5697"
             }, 
             "9810" : {
                 "status" : NumberInt(1508816341), 
@@ -9557,9 +9567,9 @@
                 "val2" : "79137"
             }, 
             "9817" : {
-                "status" : NumberInt(0), 
+                "status" : NumberInt(1508817565), 
                 "val1" : "80000", 
-                "val2" : "0"
+                "val2" : "162701"
             }, 
             "9745" : {
                 "status" : NumberInt(1508817116), 
@@ -9625,6 +9635,181 @@
                 "status" : NumberInt(1508817121), 
                 "val1" : "270", 
                 "val2" : "291"
+            }, 
+            "9818" : {
+                "status" : NumberInt(1508817567), 
+                "val1" : "90000", 
+                "val2" : "162701"
+            }, 
+            "9819" : {
+                "status" : NumberInt(1508817568), 
+                "val1" : "100000", 
+                "val2" : "162701"
+            }, 
+            "9820" : {
+                "status" : NumberInt(1508817569), 
+                "val1" : "120000", 
+                "val2" : "162701"
+            }, 
+            "9821" : {
+                "status" : NumberInt(1508817569), 
+                "val1" : "140000", 
+                "val2" : "162701"
+            }, 
+            "9822" : {
+                "status" : NumberInt(1508817570), 
+                "val1" : "160000", 
+                "val2" : "162701"
+            }, 
+            "9823" : {
+                "status" : NumberInt(1508817623), 
+                "val1" : "180000", 
+                "val2" : "484101"
+            }, 
+            "9824" : {
+                "status" : NumberInt(1508817623), 
+                "val1" : "200000", 
+                "val2" : "484101"
+            }, 
+            "9825" : {
+                "status" : NumberInt(1508817624), 
+                "val1" : "220000", 
+                "val2" : "484101"
+            }, 
+            "9826" : {
+                "status" : NumberInt(1508817624), 
+                "val1" : "240000", 
+                "val2" : "484101"
+            }, 
+            "9827" : {
+                "status" : NumberInt(1508817624), 
+                "val1" : "260000", 
+                "val2" : "484101"
+            }, 
+            "9828" : {
+                "status" : NumberInt(1508817625), 
+                "val1" : "280000", 
+                "val2" : "484101"
+            }, 
+            "9829" : {
+                "status" : NumberInt(1508817625), 
+                "val1" : "300000", 
+                "val2" : "484101"
+            }, 
+            "9830" : {
+                "status" : NumberInt(1508817626), 
+                "val1" : "320000", 
+                "val2" : "484101"
+            }, 
+            "9909" : {
+                "status" : NumberInt(1508817705), 
+                "val1" : "450", 
+                "val2" : "5697"
+            }, 
+            "9910" : {
+                "status" : NumberInt(1508817705), 
+                "val1" : "600", 
+                "val2" : "5697"
+            }, 
+            "9911" : {
+                "status" : NumberInt(1508817706), 
+                "val1" : "800", 
+                "val2" : "5697"
+            }, 
+            "9912" : {
+                "status" : NumberInt(1508817706), 
+                "val1" : "1000", 
+                "val2" : "5697"
+            }, 
+            "9913" : {
+                "status" : NumberInt(1508817707), 
+                "val1" : "1200", 
+                "val2" : "5697"
+            }, 
+            "9914" : {
+                "status" : NumberInt(1508817707), 
+                "val1" : "1400", 
+                "val2" : "5697"
+            }, 
+            "9915" : {
+                "status" : NumberInt(1508817708), 
+                "val1" : "1600", 
+                "val2" : "5697"
+            }, 
+            "9916" : {
+                "status" : NumberInt(1508817708), 
+                "val1" : "1800", 
+                "val2" : "5697"
+            }, 
+            "9917" : {
+                "status" : NumberInt(1508817708), 
+                "val1" : "2000", 
+                "val2" : "5697"
+            }, 
+            "9918" : {
+                "status" : NumberInt(1508817709), 
+                "val1" : "2200", 
+                "val2" : "5697"
+            }, 
+            "9919" : {
+                "status" : NumberInt(1508817709), 
+                "val1" : "2400", 
+                "val2" : "5697"
+            }, 
+            "9920" : {
+                "status" : NumberInt(1508817710), 
+                "val1" : "2600", 
+                "val2" : "5697"
+            }, 
+            "9951" : {
+                "status" : NumberInt(1508817710), 
+                "val1" : "2800", 
+                "val2" : "5697"
+            }, 
+            "9952" : {
+                "status" : NumberInt(1508817710), 
+                "val1" : "3000", 
+                "val2" : "5697"
+            }, 
+            "9953" : {
+                "status" : NumberInt(1508817711), 
+                "val1" : "3200", 
+                "val2" : "5697"
+            }, 
+            "9954" : {
+                "status" : NumberInt(1508817711), 
+                "val1" : "3400", 
+                "val2" : "5697"
+            }, 
+            "9955" : {
+                "status" : NumberInt(1508817712), 
+                "val1" : "3600", 
+                "val2" : "5697"
+            }, 
+            "9956" : {
+                "status" : NumberInt(1508817712), 
+                "val1" : "3800", 
+                "val2" : "5697"
+            }, 
+            "9957" : {
+                "status" : NumberInt(1508817713), 
+                "val1" : "4000", 
+                "val2" : "5697"
+            }, 
+            "9958" : {
+                "status" : NumberInt(1508817713), 
+                "val1" : "4200", 
+                "val2" : "5697"
+            }, 
+            "9959" : {
+                "status" : NumberInt(1508817714), 
+                "val1" : "4400", 
+                "val2" : "5697"
+            }, 
+            "9960" : {
+                "status" : NumberInt(1508817714), 
+                "val1" : "4600", 
+                "val2" : "5697"
             }
         }, 
         "detailTasks" : {
@@ -10207,13 +10392,16 @@
                 "buildId" : NumberInt(6)
             }, 
             "6" : {
-                "buildId" : NumberInt(1)
+                "buildId" : NumberInt(1), 
+                "buffList" : "eJxLtDK2qs60MrBOtDKCMDKtDA2MQCQQGxlY14JYKJImUElDkJwRipyRGUwOqLEWAJv0GWs="
             }, 
             "8" : {
-                "buildId" : NumberInt(5)
+                "buildId" : NumberInt(5), 
+                "buyTimes" : NumberInt(2)
             }, 
             "12" : {
-                "buildId" : NumberInt(2)
+                "buildId" : NumberInt(2), 
+                "buffList" : "eJxLtDK2qs60MrBOtDKCMDKtDA3NQCQQmxhY14JYKJKWKJJGyJKWljBJQ+vaWgCdphmN"
             }, 
             "14" : {
                 "buildId" : NumberInt(6)
@@ -10300,10 +10488,10 @@
             "5" : {
                 "rid" : "8001_20", 
                 "formation" : {
-                    "g1" : NumberInt(8), 
-                    "team1" : NumberInt(104), 
-                    "g2" : NumberInt(13), 
-                    "team2" : NumberInt(406), 
+                    "g1" : NumberInt(0), 
+                    "team1" : NumberInt(0), 
+                    "g2" : NumberInt(0), 
+                    "team2" : NumberInt(0), 
                     "g3" : NumberInt(0), 
                     "team3" : NumberInt(0), 
                     "g4" : NumberInt(0), 
@@ -10318,8 +10506,8 @@
                     "team8" : NumberInt(0), 
                     "lt" : NumberInt(1507715908), 
                     "heroId" : NumberInt(60101), 
-                    "score" : NumberInt(5007972), 
-                    "filter" : "", 
+                    "score" : NumberInt(4936665), 
+                    "filter" : "406,104", 
                     "tid" : NumberInt(1), 
                     "weapon1" : NumberInt(0), 
                     "weapon2" : NumberInt(0), 
@@ -10330,15 +10518,16 @@
                 "lv" : NumberInt(90), 
                 "avatar" : NumberInt(4106), 
                 "score" : NumberInt(5007972), 
-                "skin" : NumberInt(26010101)
+                "skin" : NumberInt(26010101), 
+                "siegeBroken" : NumberInt(1)
             }, 
             "7" : {
                 "rid" : "8001_693", 
                 "formation" : {
-                    "g1" : NumberInt(8), 
-                    "team1" : NumberInt(104), 
-                    "g2" : NumberInt(13), 
-                    "team2" : NumberInt(406), 
+                    "g1" : NumberInt(0), 
+                    "team1" : NumberInt(0), 
+                    "g2" : NumberInt(0), 
+                    "team2" : NumberInt(0), 
                     "g3" : NumberInt(0), 
                     "team3" : NumberInt(0), 
                     "g4" : NumberInt(0), 
@@ -10353,8 +10542,8 @@
                     "team8" : NumberInt(0), 
                     "lt" : NumberInt(1502180678), 
                     "heroId" : NumberInt(60001), 
-                    "score" : NumberInt(6115887), 
-                    "filter" : "", 
+                    "score" : NumberInt(6042722), 
+                    "filter" : "406,104", 
                     "tid" : NumberInt(1)
                 }, 
                 "name" : "¹şÀûÂ·ÑÇ", 
@@ -10366,10 +10555,10 @@
             "9" : {
                 "rid" : "8001_876", 
                 "formation" : {
-                    "g1" : NumberInt(8), 
-                    "team1" : NumberInt(106), 
-                    "g2" : NumberInt(5), 
-                    "team2" : NumberInt(102), 
+                    "g1" : NumberInt(0), 
+                    "team1" : NumberInt(0), 
+                    "g2" : NumberInt(0), 
+                    "team2" : NumberInt(0), 
                     "g3" : NumberInt(0), 
                     "team3" : NumberInt(0), 
                     "g4" : NumberInt(0), 
@@ -10389,8 +10578,8 @@
                     "lt" : NumberInt(1507885064), 
                     "tid" : NumberInt(1), 
                     "heroId" : NumberInt(60102), 
-                    "score" : NumberInt(6669361), 
-                    "filter" : ""
+                    "score" : NumberInt(6668457), 
+                    "filter" : "102,106"
                 }, 
                 "name" : "ÄÁÊ¦°¢Â³¡¤¸£ÌØ", 
                 "lv" : NumberInt(80), 
@@ -10401,57 +10590,58 @@
             "11" : {
                 "rid" : "8001_718", 
                 "formation" : {
-                    "g1" : NumberInt(15), 
-                    "team1" : NumberInt(107), 
-                    "g2" : NumberInt(13), 
-                    "team2" : NumberInt(204), 
-                    "g3" : NumberInt(16), 
-                    "team3" : NumberInt(407), 
-                    "g4" : NumberInt(9), 
-                    "team4" : NumberInt(203), 
-                    "g5" : NumberInt(14), 
-                    "team5" : NumberInt(102), 
-                    "g6" : NumberInt(11), 
-                    "team6" : NumberInt(104), 
-                    "g7" : NumberInt(1), 
-                    "team7" : NumberInt(306), 
-                    "g8" : NumberInt(10), 
-                    "team8" : NumberInt(207), 
+                    "g1" : NumberInt(0), 
+                    "team1" : NumberInt(0), 
+                    "g2" : NumberInt(0), 
+                    "team2" : NumberInt(0), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
                     "lt" : NumberInt(1503903035), 
                     "heroId" : NumberInt(60701), 
-                    "score" : NumberInt(6982674), 
-                    "filter" : "", 
+                    "score" : NumberInt(5598473), 
+                    "filter" : "102,207,407,107,203,104,204,306", 
                     "tid" : NumberInt(1)
                 }, 
                 "name" : "Å®»Êµ¤Äá¡¤ÀÕË¹", 
                 "lv" : NumberInt(80), 
                 "avatar" : NumberInt(37012), 
                 "score" : NumberInt(6982674), 
-                "skin" : NumberInt(26070102)
+                "skin" : NumberInt(26070102), 
+                "siegeBroken" : NumberInt(1)
             }, 
             "13" : {
                 "rid" : "8001_696", 
                 "formation" : {
-                    "g1" : NumberInt(15), 
-                    "team1" : NumberInt(107), 
-                    "g2" : NumberInt(13), 
-                    "team2" : NumberInt(204), 
-                    "g3" : NumberInt(16), 
-                    "team3" : NumberInt(407), 
-                    "g4" : NumberInt(9), 
-                    "team4" : NumberInt(203), 
-                    "g5" : NumberInt(14), 
-                    "team5" : NumberInt(102), 
-                    "g6" : NumberInt(11), 
-                    "team6" : NumberInt(104), 
-                    "g7" : NumberInt(1), 
-                    "team7" : NumberInt(306), 
-                    "g8" : NumberInt(10), 
-                    "team8" : NumberInt(207), 
+                    "g1" : NumberInt(0), 
+                    "team1" : NumberInt(0), 
+                    "g2" : NumberInt(0), 
+                    "team2" : NumberInt(0), 
+                    "g3" : NumberInt(0), 
+                    "team3" : NumberInt(0), 
+                    "g4" : NumberInt(0), 
+                    "team4" : NumberInt(0), 
+                    "g5" : NumberInt(0), 
+                    "team5" : NumberInt(0), 
+                    "g6" : NumberInt(0), 
+                    "team6" : NumberInt(0), 
+                    "g7" : NumberInt(0), 
+                    "team7" : NumberInt(0), 
+                    "g8" : NumberInt(0), 
+                    "team8" : NumberInt(0), 
                     "lt" : NumberInt(1503903035), 
                     "heroId" : NumberInt(60701), 
-                    "score" : NumberInt(6982674), 
-                    "filter" : "", 
+                    "score" : NumberInt(5598473), 
+                    "filter" : "207,407,203,306,102,104,204,107", 
                     "tid" : NumberInt(1)
                 }, 
                 "name" : "Î×Ê¦¿Æ¶÷¡¤ÄáËş", 
@@ -10779,12 +10969,16 @@
         "needPcs" : NumberInt(6), 
         "pcsPosition" : "eJxLtDKzqs60MrDOtDKEYhMgNgJiYyg2RRIDsc2tawGYlQ7R", 
         "sweepId" : NumberInt(0), 
-        "lastCrusade" : NumberInt(4), 
+        "lastCrusade" : NumberInt(13), 
         "atkUseMer" : "", 
         "atkUseMerId" : NumberInt(0), 
         "atkRK" : "", 
-        "lastUpTime" : NumberInt(1508383511), 
-        "usePcs" : NumberInt(1)
+        "lastUpTime" : NumberInt(1508817946), 
+        "usePcs" : NumberInt(1), 
+        "buff" : {
+            "104" : NumberInt(1), 
+            "116" : NumberInt(40)
+        }
     }, 
     "mf" : {
         "tasks" : {
@@ -10935,7 +11129,8 @@
         "24" : NumberInt(1), 
         "11" : NumberInt(1), 
         "37" : NumberInt(1), 
-        "28" : NumberInt(1)
+        "28" : NumberInt(1), 
+        "13" : NumberInt(1)
     }, 
     "spellBooks" : {
         "201" : {
@@ -11541,7 +11736,7 @@
             "hRank" : NumberInt(15)
         }, 
         "4" : {
-            "highScore" : NumberInt(66318), 
+            "highScore" : NumberInt(462647), 
             "hRank" : NumberInt(1), 
             "hValue" : {
                 "79001" : NumberInt(1579), 
@@ -11549,12 +11744,12 @@
                 "lvl" : NumberInt(100)
             }, 
             "times" : NumberInt(0), 
-            "lastUpTime" : NumberInt(1508817171), 
+            "lastUpTime" : NumberInt(1508817611), 
             "atkTime" : NumberInt(1508753571), 
             "atkLvl" : NumberInt(100)
         }, 
         "5" : {
-            "highScore" : NumberInt(998149200), 
+            "highScore" : NumberLong(34436147400), 
             "hRank" : NumberInt(1), 
             "hValue" : {
                 "79012" : NumberInt(30), 
@@ -11564,7 +11759,7 @@
                 "lvl" : NumberInt(100)
             }, 
             "times" : NumberInt(0), 
-            "lastUpTime" : NumberInt(1508815767), 
+            "lastUpTime" : NumberInt(1508817691), 
             "atkTime" : NumberInt(1508753769), 
             "atkLvl" : NumberInt(100)
         }, 
@@ -12058,10 +12253,10 @@
             "num" : NumberInt(108)
         }, 
         "310001" : {
-            "num" : NumberInt(5)
+            "num" : NumberInt(15)
         }, 
         "3001" : {
-            "num" : NumberInt(108)
+            "num" : NumberInt(111)
         }, 
         "3004" : {
             "num" : NumberInt(20)
@@ -12089,6 +12284,25 @@
         }, 
         "3303" : {
             "num" : NumberInt(83)
+        }, 
+        "3105" : {
+            "num" : NumberInt(15)
+        }, 
+        "302001" : {
+            "num" : NumberInt(18)
+        }, 
+        "302002" : {
+            "num" : NumberInt(18)
+        }, 
+        "302003" : {
+            "num" : NumberInt(18)
+        }, 
+        "41001" : {
+            "num" : NumberInt(48)
+        }, 
+        "40112" : {
+            "num" : NumberInt(1)
         }
-    }
+    }, 
+    "lastGetMercenary" : NumberInt(1508817906)
 }
