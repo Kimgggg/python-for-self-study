@@ -535,10 +535,7 @@ while True:
 		debug_menu.reward_menu()
 		select_type = raw_input("选择抽卡类型:\n".decode('utf-8').encode('gbk'))
 		if select_type == "1":
-			add_dict_argv(method="Tools.addRes",num=str(number * 2700),type="gem")
-			try_send_requests()
-			del_dict_argv("method","num","type")
-
+			temp_addRes("gem",number*2700)
 			add_dict_argv(method="Team.drawAward",num="10",typeId="2")
 			for x in range(number):
 				try_send_requests()
@@ -546,10 +543,7 @@ while True:
 			del_dict_argv("method","num","typeId")
 			Alzheimer_disease(press)
 		elif select_type == "2":
-			add_dict_argv(method="Tools.addRes",num=str(number * 300),type="gem")
-			try_send_requests()
-			del_dict_argv("method","num","type")
-
+			temp_addRes("gem",number*300)
 			add_dict_argv(method="Team.drawAward",num="1",typeId="2")
 			for x in range(number):
 				try_send_requests()
@@ -557,10 +551,7 @@ while True:
 			del_dict_argv("method","num","typeId")
 			Alzheimer_disease(press)
 		elif select_type == "3":
-			add_dict_argv(method="Tools.sendItems",goodsId="3001",goodsNum=str(number * 10))
-			try_send_requests()
-			del_dict_argv("method","goodsId","goodsNum")
-
+			temp_sendItems("3001",number*10)
 			add_dict_argv(method="Team.drawAward",num="10",typeId="1")
 			for x in range(number):
 				try_send_requests()
@@ -568,10 +559,7 @@ while True:
 			del_dict_argv("method","num","typeId")
 			Alzheimer_disease(press)
 		elif select_type == "4":
-			add_dict_argv(method="Tools.sendItems",goodsId="3001",goodsNum=str(number))
-			try_send_requests()
-			del_dict_argv("method","goodsId","goodsNum")
-
+			temp_sendItems("3001",number)
 			add_dict_argv(method="Team.drawAward",num="1",typeId="1")
 			for x in range(number):
 				try_send_requests()
@@ -579,10 +567,7 @@ while True:
 			del_dict_argv("method","num","typeId")
 			Alzheimer_disease(press)
 		elif select_type == "5":
-			add_dict_argv(method="Tools.addRes",num=str(number * 880),type="gem")
-			try_send_requests()
-			del_dict_argv("method","num","type")
-
+			temp_addRes("gem",number*880)
 			add_dict_argv(method="Hero.drawSpeelBook",num="10",type="2")
 			for x in range(number):
 				try_send_requests()
@@ -590,10 +575,7 @@ while True:
 			del_dict_argv("method","num","type")
 			Alzheimer_disease(press)
 		elif select_type == "6":
-			add_dict_argv(method="Tools.addRes",num=str(number * 100),type="gem")
-			try_send_requests()
-			del_dict_argv("method","num","type")
-
+			temp_addRes("gem",number*100)
 			add_dict_argv(method="Hero.drawSpeelBook",num="1",type="2")
 			for x in range(number):
 				try_send_requests()
@@ -601,10 +583,7 @@ while True:
 			del_dict_argv("method","num","type")
 			Alzheimer_disease(press)
 		elif select_type == "7":
-			add_dict_argv(method="Tools.sendItems",goodsId="40005",goodsNum=str(number * 10))
-			try_send_requests()
-			del_dict_argv("method","goodsId","goodsNum")
-
+			temp_sendItems("40005",number*10)
 			add_dict_argv(method="Hero.drawSpeelBook",num="10",type="1")
 			for x in range(number):
 				try_send_requests()
@@ -612,10 +591,7 @@ while True:
 			del_dict_argv("method","num","type")
 			Alzheimer_disease(press)
 		elif select_type == "8":
-			add_dict_argv(method="Tools.sendItems",goodsId="40005",goodsNum=str(number))
-			try_send_requests()
-			del_dict_argv("method","goodsId","goodsNum")
-
+			temp_sendItems("40005",number)
 			add_dict_argv(method="Hero.drawSpeelBook",num="1",type="1")
 			for x in range(number):
 				try_send_requests()
@@ -623,10 +599,7 @@ while True:
 			del_dict_argv("method","num","type")
 			Alzheimer_disease(press)
 		elif select_type == "9":
-			add_dict_argv(method="Tools.addRes",num=str(number * 880),type="gem")
-			try_send_requests()
-			del_dict_argv("method","num","type")
-
+			temp_addRes("gem",number*880)
 			add_dict_argv(method="Treasure.drewDisTreasure",num="5")
 			for x in range(number):
 				try_send_requests()
@@ -634,10 +607,7 @@ while True:
 			del_dict_argv("method","num")
 			Alzheimer_disease(press)
 		elif select_type == "10":
-			add_dict_argv(method="Tools.addRes",num=str(number * 200),type="gem")
-			try_send_requests()
-			del_dict_argv("method","num","type")
-
+			temp_addRes("gem",number*200)
 			add_dict_argv(method="Treasure.drewDisTreasure",num="1")
 			for x in range(number):
 				try_send_requests()
@@ -646,7 +616,11 @@ while True:
 			Alzheimer_disease(press)
 
 	elif press == "test":
-		pass
+		add_dict_argv(method="chat.sendMessage",message='{"typeCell":"all","text":"1111111"}',type="all")
+		for x in range(10):
+			try_send_requests()
+		del_dict_argv("method","message")
 
 	else:
 		os.exit()
+
