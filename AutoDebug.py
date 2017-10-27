@@ -71,7 +71,7 @@ debug_menu.server_menu()
 dev_select = raw_input("选择服务器:\n".decode('utf-8').encode('gbk'))
 if dev_select == "6":
 	add_dict_argv(pGroup="test")
-elif dev_select == "4" or dev_select == "5":
+elif dev_select == "4" or dev_select == "5" or dev_select == "7":
 	add_dict_argv(pGroup="aqq")
 else:
 	add_dict_argv(pGroup="default")
@@ -336,7 +336,7 @@ while True:
 		dev_select = raw_input("选择服务器:\n".decode('utf-8').encode('gbk'))
 		if dev_select == "6":
 			add_dict_argv(pGroup="test")
-		elif dev_select == "4" or dev_select == "5":
+		elif dev_select == "4" or dev_select == "5" or dev_select == "7":
 			add_dict_argv(pGroup="aqq")
 		else:
 			add_dict_argv(pGroup="default")

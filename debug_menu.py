@@ -25,7 +25,7 @@ def main_menu():
 	main_menu.add_row(["12.","所有兵团升级+兵团装备升级+兵团装备进阶"])  
 	main_menu.add_row(["13.","更换user_rid与服务器"])  
 	main_menu.add_row(["14.","所有兵团升星+激活潜能+解锁技能+技能升级"])  
-	main_menu.add_row(["15.","重置pve玩法次数星下下"])
+	main_menu.add_row(["15.","重置pve玩法次数"])
 	main_menu.add_row(["16.","法术激活升级"])
 	main_menu.add_row(["17.","图鉴解锁+图鉴升级"])  
 	main_menu.add_row(["18.","清除yac"])  
@@ -47,7 +47,9 @@ def server_menu():
 	server_menu.add_row(["3.","开发机3"])  
 	server_menu.add_row(["4.","dev3"])  
 	server_menu.add_row(["5.","dev4"])  
-	server_menu.add_row(["6.","台湾"])  
+	server_menu.add_row(["6.","台湾"])
+	server_menu.add_row(["7.","dev5"])
+
 	print server_menu  
 
 def res_menu():
