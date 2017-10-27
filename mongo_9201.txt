@@ -4,16 +4,16 @@
     "_it" : NumberInt(1509467099), 
     "uid" : NumberInt(36), 
     "name" : "最最最最最最最", 
-    "_commitId" : NumberInt(11604), 
-    "_lt" : NumberInt(1509479040), 
+    "_commitId" : NumberInt(11622), 
+    "_lt" : NumberInt(1509093134), 
     "uuid" : "59f8a3dbecb39a26612bb1c2", 
     "usid" : "920151342176", 
     "pid" : "3300DF85B25DB597DF59E3563DF2DBF6", 
     "hScore" : NumberInt(8280484), 
     "score" : NumberInt(8280484), 
     "accelerate" : NumberInt(1), 
-    "online" : NumberInt(1), 
-    "onlineTime" : NumberInt(3421), 
+    "online" : NumberInt(0), 
+    "onlineTime" : NumberInt(-382341), 
     "quit" : NumberInt(1), 
     "renameTime" : NumberInt(1509478572), 
     "guildId" : NumberInt(92011002), 
@@ -30,7 +30,7 @@
     "lvl" : NumberInt(90), 
     "formationTeamNum" : NumberInt(8), 
     "payGemTotal" : NumberInt(0), 
-    "payGem" : NumberInt(4397), 
+    "payGem" : NumberInt(4357), 
     "crusading" : NumberInt(275), 
     "exp" : NumberInt(0), 
     "physcal" : NumberInt(4680), 
@@ -38,11 +38,11 @@
     "upGPTime" : NumberInt(1509467099), 
     "arrowNum" : NumberInt(50), 
     "currency" : NumberInt(0), 
-    "leagueCoin" : NumberInt(5000), 
+    "leagueCoin" : NumberInt(10793), 
     "guildCoin" : NumberInt(0), 
     "hDuelCoin" : NumberInt(0), 
     "friendCoin" : NumberInt(0), 
-    "leaveTime" : NumberInt(1509479034), 
+    "leaveTime" : NumberInt(1509093291), 
     "banLogin" : NumberInt(0), 
     "banChat" : NumberInt(0), 
     "resetCrusadeCD" : NumberInt(1509483600), 
@@ -56,7 +56,8 @@
     }, 
     "avatarFrame" : NumberInt(1000), 
     "avatarFrames" : {
-        "1000" : NumberInt(0)
+        "1000" : NumberInt(0), 
+        "1002" : NumberInt(0)
     }, 
     "teams" : {
         "106" : {
@@ -2347,6 +2348,16 @@
             "sts62" : NumberInt(1), 
             "sts18" : NumberInt(275), 
             "sts51" : NumberInt(1)
+        }, 
+        "20171101" : {
+            "sts2" : NumberInt(1)
+        }, 
+        "20171027" : {
+            "sts2" : NumberInt(1), 
+            "sts75" : NumberInt(3), 
+            "sts5" : NumberInt(40), 
+            "sts6" : NumberInt(20), 
+            "sts62" : NumberInt(2)
         }
     }, 
     "heros" : {
@@ -3394,7 +3405,7 @@
         "first" : NumberInt(0), 
         "freeFirst" : NumberInt(0), 
         "treasureNum" : NumberInt(95), 
-        "loss" : NumberInt(349557), 
+        "loss" : NumberInt(349537), 
         "fMastery" : NumberInt(1), 
         "mScore" : NumberInt(55), 
         "tDrawNum" : NumberInt(80), 
@@ -4070,7 +4081,7 @@
             "weapon2" : NumberInt(0), 
             "weapon3" : NumberInt(0), 
             "weapon4" : NumberInt(0), 
-            "lt" : NumberInt(1509478609), 
+            "lt" : NumberInt(1509093184), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(7709050), 
@@ -4097,7 +4108,7 @@
             "weapon2" : NumberInt(0), 
             "weapon3" : NumberInt(0), 
             "weapon4" : NumberInt(0), 
-            "lt" : NumberInt(1509478631), 
+            "lt" : NumberInt(1509093282), 
             "tid" : NumberInt(1), 
             "heroId" : NumberInt(60102), 
             "score" : NumberInt(7709050), 
@@ -4163,20 +4174,20 @@
         "day1" : NumberInt(0), 
         "day2" : NumberInt(0), 
         "day3" : NumberInt(0), 
-        "day4" : NumberInt(1), 
+        "day4" : NumberInt(0), 
         "day5" : NumberInt(1), 
         "day6" : NumberInt(1), 
         "day7" : NumberInt(0), 
         "day8" : NumberInt(0), 
         "day9" : NumberInt(0), 
-        "day10" : NumberInt(80), 
+        "day10" : NumberInt(0), 
         "day11" : NumberInt(0), 
         "day12" : NumberInt(0), 
         "day13" : NumberInt(0), 
         "day14" : NumberInt(0), 
         "day15" : NumberInt(0), 
         "day16" : NumberInt(0), 
-        "day17" : NumberInt(0), 
+        "day17" : NumberInt(2), 
         "day18" : NumberInt(0), 
         "day19" : NumberInt(0), 
         "day20" : NumberInt(0), 
@@ -4184,14 +4195,14 @@
         "day22" : NumberInt(0), 
         "day23" : NumberInt(0), 
         "day24" : NumberInt(0), 
-        "day25" : NumberInt(1), 
+        "day25" : NumberInt(0), 
         "day26" : NumberInt(0), 
         "day27" : NumberInt(0), 
         "day28" : NumberInt(0), 
         "day29" : NumberInt(0), 
         "day30" : NumberInt(0), 
-        "day31" : NumberInt(3), 
-        "day32" : NumberInt(109), 
+        "day31" : NumberInt(2), 
+        "day32" : NumberInt(0), 
         "day33" : NumberInt(0), 
         "day34" : NumberInt(0), 
         "day35" : NumberInt(0), 
@@ -4227,11 +4238,11 @@
         "day65" : NumberInt(0), 
         "day66" : NumberInt(0), 
         "day67" : NumberInt(0), 
-        "day68" : NumberInt(1), 
+        "day68" : NumberInt(0), 
         "day69" : NumberInt(0), 
         "day70" : NumberInt(0), 
         "day71" : NumberInt(0), 
-        "restTime" : NumberInt(1509467099)
+        "restTime" : NumberInt(1509483600)
     }, 
     "statis" : {
         "dnum1" : NumberInt(0), 
@@ -4240,26 +4251,26 @@
         "dnum4" : NumberInt(0), 
         "dnum5" : NumberInt(0), 
         "dnum6" : NumberInt(0), 
-        "dnum7" : NumberInt(1), 
+        "dnum7" : NumberInt(0), 
         "dnum8" : NumberInt(0), 
         "dnum9" : NumberInt(0), 
         "dnum10" : NumberInt(0), 
-        "dnum11" : NumberInt(37732), 
-        "dnum12" : NumberInt(1100044626), 
-        "dnum13" : NumberInt(2094894800), 
+        "dnum11" : NumberInt(0), 
+        "dnum12" : NumberInt(0), 
+        "dnum13" : NumberInt(0), 
         "dnum14" : NumberInt(0), 
-        "dnum15" : NumberInt(1100040229), 
+        "dnum15" : NumberInt(40), 
         "dnum16" : NumberInt(0), 
         "dnum17" : NumberInt(0), 
         "dnum18" : NumberInt(0), 
-        "dnum19" : NumberInt(2), 
+        "dnum19" : NumberInt(0), 
         "dnum20" : NumberInt(0), 
         "dnum21" : NumberInt(0), 
         "dnum22" : NumberInt(0), 
         "dnum23" : NumberInt(0), 
-        "dnum24" : NumberInt(3), 
-        "dstr1" : "1,2", 
-        "snum6" : NumberInt(1), 
+        "dnum24" : NumberInt(2), 
+        "dstr1" : "", 
+        "snum6" : NumberInt(2), 
         "snum22" : NumberInt(1), 
         "snum21" : NumberInt(1509468036), 
         "snum29" : NumberInt(21260), 
@@ -7693,14 +7704,14 @@
     }, 
     "offLine" : {
         "exp" : NumberInt(0), 
-        "lt" : NumberInt(1509467099), 
-        "gExp" : NumberInt(0), 
+        "lt" : NumberInt(1509483604), 
+        "gExp" : NumberInt(290), 
         "gGold" : NumberInt(0), 
         "gtExp" : NumberInt(0), 
-        "gExp2" : NumberInt(0), 
+        "gExp2" : NumberInt(290), 
         "gGold2" : NumberInt(0), 
         "gtExp2" : NumberInt(0), 
-        "expCost" : NumberInt(0), 
+        "expCost" : NumberInt(20), 
         "goldCost" : NumberInt(0), 
         "tExpCost" : NumberInt(0)
     }, 
@@ -7736,7 +7747,7 @@
         "reward1" : NumberInt(0), 
         "reward2" : NumberInt(0), 
         "reward3" : NumberInt(0), 
-        "recordTime" : NumberInt(1509467110)
+        "recordTime" : NumberInt(1509483600)
     }, 
     "grow" : {
         "val" : NumberInt(0), 
@@ -7921,11 +7932,6 @@
                 "val1" : "1", 
                 "val2" : "0"
             }, 
-            "9610" : {
-                "status" : NumberInt(0), 
-                "val1" : "1", 
-                "val2" : "0"
-            }, 
             "9605" : {
                 "status" : NumberInt(0), 
                 "val1" : "3", 
@@ -7941,12 +7947,7 @@
                 "val1" : "1", 
                 "val2" : "0"
             }, 
-            "9621" : {
-                "status" : NumberInt(0), 
-                "val1" : "1", 
-                "val2" : "0"
-            }, 
-            "9622" : {
+            "9608" : {
                 "status" : NumberInt(0), 
                 "val1" : "1", 
                 "val2" : "0"
@@ -7956,12 +7957,17 @@
                 "val1" : "1", 
                 "val2" : "0"
             }, 
-            "9608" : {
+            "9610" : {
                 "status" : NumberInt(0), 
                 "val1" : "1", 
                 "val2" : "0"
             }, 
-            "9627" : {
+            "9621" : {
+                "status" : NumberInt(0), 
+                "val1" : "1", 
+                "val2" : "0"
+            }, 
+            "9622" : {
                 "status" : NumberInt(0), 
                 "val1" : "1", 
                 "val2" : "0"
@@ -7990,6 +7996,26 @@
                 "status" : NumberInt(0), 
                 "val1" : "2", 
                 "val2" : "0"
+            }, 
+            "9627" : {
+                "status" : NumberInt(0), 
+                "val1" : "1", 
+                "val2" : "0"
+            }, 
+            "30003" : {
+                "status" : NumberInt(0), 
+                "val1" : "20", 
+                "val2" : "0"
+            }, 
+            "30004" : {
+                "status" : NumberInt(0), 
+                "val1" : "2000000", 
+                "val2" : "0"
+            }, 
+            "30001" : {
+                "status" : NumberInt(0), 
+                "val1" : "20", 
+                "val2" : "0"
             }
         }
     }, 
@@ -8013,7 +8039,7 @@
         "maxDamage6" : NumberInt(0), 
         "maxWaves" : NumberInt(0), 
         "branchNum" : NumberInt(0), 
-        "lastUpTime" : NumberInt(1509467111), 
+        "lastUpTime" : NumberInt(1509093148), 
         "times" : NumberInt(0)
     }, 
     "talent" : {
@@ -9601,10 +9627,10 @@
             "num" : NumberInt(1)
         }, 
         "360901" : {
-            "num" : NumberInt(2)
+            "num" : NumberInt(12)
         }, 
         "3004" : {
-            "num" : NumberInt(30)
+            "num" : NumberInt(60)
         }, 
         "40221" : {
             "num" : NumberInt(1)
@@ -9701,27 +9727,32 @@
         }, 
         "500315" : {
             "num" : NumberInt(1)
+        }, 
+        "3203" : {
+            "num" : NumberInt(3)
         }
     }, 
     "league" : {
-        "currentPoint" : NumberInt(1100), 
-        "currentZone" : NumberInt(2), 
+        "currentPoint" : NumberInt(12179), 
+        "currentZone" : NumberInt(9), 
         "changeReward" : {
             "1" : NumberInt(1), 
-            "2" : NumberInt(2)
+            "2" : NumberInt(2), 
+            "9" : NumberInt(2)
         }, 
-        "changeTime" : NumberInt(1509478631), 
+        "changeTime" : NumberInt(1509093217), 
         "leagueAward" : {
-            "upDateTime" : NumberInt(1509478631), 
-            "sum" : NumberInt(781)
+            "upDateTime" : NumberInt(1509093232), 
+            "sum" : NumberInt(0), 
+            "cs" : NumberInt(0)
         }, 
         "ticket" : {
             "currentCounts" : NumberInt(0), 
-            "upDateTime" : NumberInt(1509478666)
+            "upDateTime" : NumberInt(1509093243)
         }, 
         "schetime" : NumberInt(20171030), 
-        "historyPoint" : NumberInt(1100), 
-        "seq" : "0101010101", 
+        "historyPoint" : NumberInt(12179), 
+        "seq" : "0101010111", 
         "preWin" : NumberInt(1), 
         "leagueZoneList" : {
             "1" : {
@@ -9750,17 +9781,17 @@
             }
         }, 
         "leagueRivalList" : {
-            "rival" : "9202-9202_33", 
-            "time" : NumberInt(1509478631)
+            "rival" : "9202-9202_33,9201-9201_4,9201-9201_31", 
+            "time" : NumberInt(1509093282)
         }, 
-        "win" : NumberInt(1), 
-        "atktime" : NumberInt(1509478631), 
-        "currentWin" : NumberInt(1), 
-        "maxWin" : NumberInt(1)
+        "win" : NumberInt(3), 
+        "atktime" : NumberInt(1509093282), 
+        "currentWin" : NumberInt(3), 
+        "maxWin" : NumberInt(3)
     }, 
-    "leWin" : "9201-league_1,9201-league_2,9201-league_3,9201-league_4,9201-league_5,9201-league_6,9201-league_7,9201-league_8,9201-league_9,9201-league_10,9201-league_11,9202-9202_33,9201-league_13,9201-league_14,9201-league_15,9201-league_16,9201-league_17,9201-league_18,9201-league_19,9201-league_20", 
+    "leWin" : "9201-league_1,9201-league_2,9201-league_3,9201-league_4,9201-league_5,9201-league_6,9201-league_7,9201-league_8,9201-league_9,9201-league_10,9201-9201_31,9201-9201_4,9201-league_13,9201-league_14,9201-league_15,9201-league_16,9201-league_17,9201-league_18,9201-league_19,9201-league_20", 
     "weeklySign" : {
-        "day" : NumberInt(1), 
+        "day" : NumberInt(2), 
         "resetTime" : NumberInt(1509474883)
     }, 
     "bubble" : {
@@ -9775,7 +9806,8 @@
         "11" : NumberInt(1), 
         "7" : NumberInt(1), 
         "13" : NumberInt(1), 
-        "37" : NumberInt(1)
+        "37" : NumberInt(1), 
+        "34" : NumberInt(1)
     }, 
     "heroDuel" : {
         "status" : NumberInt(0), 
@@ -9790,5 +9822,12 @@
             "l" : NumberInt(1), 
             "b" : NumberInt(0)
         }
+    }, 
+    "sign" : {
+        "day" : NumberInt(0), 
+        "rNum" : NumberInt(0), 
+        "monRec" : NumberInt(0), 
+        "resetTime" : NumberInt(1509483604), 
+        "signTime" : NumberInt(0)
     }
 }
