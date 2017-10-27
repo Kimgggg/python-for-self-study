@@ -4,8 +4,8 @@
     "_it" : NumberInt(1509467099), 
     "uid" : NumberInt(36), 
     "name" : "最最最最最最最", 
-    "_commitId" : NumberInt(11622), 
-    "_lt" : NumberInt(1509093134), 
+    "_commitId" : NumberInt(11628), 
+    "_lt" : NumberInt(1509093819), 
     "uuid" : "59f8a3dbecb39a26612bb1c2", 
     "usid" : "920151342176", 
     "pid" : "3300DF85B25DB597DF59E3563DF2DBF6", 
@@ -13,7 +13,7 @@
     "score" : NumberInt(8280484), 
     "accelerate" : NumberInt(1), 
     "online" : NumberInt(0), 
-    "onlineTime" : NumberInt(-382341), 
+    "onlineTime" : NumberInt(-382236), 
     "quit" : NumberInt(1), 
     "renameTime" : NumberInt(1509478572), 
     "guildId" : NumberInt(92011002), 
@@ -42,7 +42,7 @@
     "guildCoin" : NumberInt(0), 
     "hDuelCoin" : NumberInt(0), 
     "friendCoin" : NumberInt(0), 
-    "leaveTime" : NumberInt(1509093291), 
+    "leaveTime" : NumberInt(1509093924), 
     "banLogin" : NumberInt(0), 
     "banChat" : NumberInt(0), 
     "resetCrusadeCD" : NumberInt(1509483600), 
@@ -122,7 +122,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509467099), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473395), 
@@ -160,7 +160,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468066), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473394), 
@@ -198,7 +198,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468067), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473395), 
@@ -236,7 +236,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468067), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473395), 
@@ -350,7 +350,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468068), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473397), 
@@ -388,7 +388,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468068), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473397), 
@@ -502,7 +502,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468069), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473398), 
@@ -578,7 +578,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468069), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473399), 
@@ -616,7 +616,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468070), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473400), 
@@ -654,7 +654,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468070), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473401), 
@@ -768,7 +768,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468070), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473403), 
@@ -844,7 +844,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468071), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473403), 
@@ -958,7 +958,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468071), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473405), 
@@ -996,7 +996,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468071), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473406), 
@@ -1034,7 +1034,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468071), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473406), 
@@ -1072,7 +1072,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468071), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473406), 
@@ -1148,7 +1148,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468072), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473407), 
@@ -1186,7 +1186,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468072), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473408), 
@@ -1224,7 +1224,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468073), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473409), 
@@ -1262,7 +1262,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(0), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "rt" : NumberInt(1509468073), 
             "avn" : NumberInt(1), 
             "st" : NumberInt(1509473409), 
@@ -2474,7 +2474,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(3), 
             "se4" : NumberInt(9), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "st" : NumberInt(1509483119), 
             "skin" : NumberInt(26010301), 
             "score" : NumberInt(277491), 
@@ -2703,7 +2703,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(15), 
             "se4" : NumberInt(12), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "st" : NumberInt(1509483119), 
             "skin" : NumberInt(26060201), 
             "biogra" : {
@@ -2829,7 +2829,7 @@
             "se2" : NumberInt(2), 
             "se3" : NumberInt(7), 
             "se4" : NumberInt(0), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "st" : NumberInt(1509483119), 
             "skin" : NumberInt(26080201), 
             "biogra" : {
@@ -2888,7 +2888,7 @@
             "se2" : NumberInt(9), 
             "se3" : NumberInt(12), 
             "se4" : NumberInt(13), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "st" : NumberInt(1509483119), 
             "skin" : NumberInt(26120101), 
             "biogra" : {
@@ -2982,7 +2982,7 @@
             "se2" : NumberInt(0), 
             "se3" : NumberInt(15), 
             "se4" : NumberInt(12), 
-            "status" : NumberInt(0), 
+            "status" : NumberInt(1), 
             "st" : NumberInt(1509483119), 
             "skin" : NumberInt(26010401), 
             "score" : NumberInt(278078), 
@@ -9116,7 +9116,10 @@
                         "param1" : NumberInt(0), 
                         "param2" : NumberInt(1)
                     }
-                }
+                }, 
+                "teams" : "101,102,103,104", 
+                "heroId" : NumberInt(60602), 
+                "finishTime" : NumberInt(1509095654)
             }, 
             "2" : {
                 "taskId" : NumberInt(2), 
@@ -9132,7 +9135,10 @@
                         "param1" : NumberInt(0), 
                         "param2" : NumberInt(1500)
                     }
-                }
+                }, 
+                "teams" : "201,205,207,202", 
+                "heroId" : NumberInt(60104), 
+                "finishTime" : NumberInt(1509101061)
             }, 
             "3" : {
                 "taskId" : NumberInt(41), 
@@ -9148,7 +9154,10 @@
                         "param1" : NumberInt(0), 
                         "param2" : NumberInt(2280)
                     }
-                }
+                }, 
+                "teams" : "403,404,405,406", 
+                "heroId" : NumberInt(60802), 
+                "finishTime" : NumberInt(1509101068)
             }, 
             "4" : {
                 "taskId" : NumberInt(62), 
@@ -9164,7 +9173,10 @@
                         "param1" : NumberInt(0), 
                         "param2" : NumberInt(2700)
                     }
-                }
+                }, 
+                "teams" : "305,307,301,302", 
+                "heroId" : NumberInt(60103), 
+                "finishTime" : NumberInt(1509101074)
             }, 
             "5" : {
                 "taskId" : NumberInt(80), 
@@ -9180,7 +9192,10 @@
                         "param1" : NumberInt(0), 
                         "param2" : NumberInt(2910)
                     }
-                }
+                }, 
+                "teams" : "501,502,503,504", 
+                "heroId" : NumberInt(61201), 
+                "finishTime" : NumberInt(1509101082)
             }, 
             "6" : {
                 "taskId" : NumberInt(101), 
@@ -9198,7 +9213,8 @@
                     }
                 }
             }
-        }
+        }, 
+        "fTask" : NumberInt(1)
     }, 
     "expCoin" : NumberInt(981000), 
     "openExpShop" : NumberInt(1), 
