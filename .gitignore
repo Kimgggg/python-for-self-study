@@ -6,3 +6,4 @@ no_upload.pyc
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
 .vs/wyn/v15/.suo
+geckodriver.log
