@@ -69,7 +69,7 @@ def try_send_requests():
 user_rid = raw_input("输入rid:\n".decode('utf-8').encode('gbk'))
 debug_menu.server_menu()
 dev_select = raw_input("选择服务器:\n".decode('utf-8').encode('gbk'))
-if dev_select == "6":
+if dev_select == "6" or dev_select == "8":
 	add_dict_argv(pGroup="test")
 elif dev_select == "4" or dev_select == "5" or dev_select == "7":
 	add_dict_argv(pGroup="aqq")
@@ -334,7 +334,7 @@ while True:
 		user_rid = raw_input("输入rid:\n".decode('utf-8').encode('gbk'))
 		debug_menu.server_menu()
 		dev_select = raw_input("选择服务器:\n".decode('utf-8').encode('gbk'))
-		if dev_select == "6":
+		if dev_select == "6" or dev_select == "8":
 			add_dict_argv(pGroup="test")
 		elif dev_select == "4" or dev_select == "5" or dev_select == "7":
 			add_dict_argv(pGroup="aqq")

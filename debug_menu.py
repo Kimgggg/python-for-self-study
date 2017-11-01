@@ -47,8 +47,10 @@ def server_menu():
 	server_menu.add_row(["3.","开发机3"])  
 	server_menu.add_row(["4.","dev3"])  
 	server_menu.add_row(["5.","dev4"])  
-	server_menu.add_row(["6.","台湾"])
+	server_menu.add_row(["6.","台湾104"])
 	server_menu.add_row(["7.","dev5"])
+	server_menu.add_row(["8.","台湾105"])
+
 
 	print server_menu  
 
