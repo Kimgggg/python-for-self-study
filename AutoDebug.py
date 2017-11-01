@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from collections import OrderedDict
 import requests
 import other_config
+import other_config_taiwan
 import os
 import sys
 import random
@@ -13,6 +14,8 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 DEBUG = False
+PLATFROM = other_config
+#默认国内
 temp_dict = {}
 base_parameter_dict = OrderedDict([
 ('mod','http'),
@@ -71,11 +74,14 @@ debug_menu.server_menu()
 dev_select = raw_input("选择服务器:\n".decode('utf-8').encode('gbk'))
 if dev_select == "6" or dev_select == "8":
 	add_dict_argv(pGroup="test")
+	PLATFROM = other_config_taiwan
 elif dev_select == "4" or dev_select == "5" or dev_select == "7":
 	add_dict_argv(pGroup="aqq")
+	PLATFROM = other_config
 else:
 	add_dict_argv(pGroup="default")
-dev_server = other_config.debug_server_requests[int(dev_select) - 1]
+	PLATFROM = other_config
+dev_server = PLATFROM.debug_server_requests[int(dev_select) - 1]
 add_dict_argv(rid=user_rid, sec=user_rid[:4])
 
 while True:
@@ -88,7 +94,7 @@ while True:
 		debug_menu.res_menu()
 		select_type = raw_input("选择资源类型:\n".decode('utf-8').encode('gbk'))
 		if select_type == "1":
-			for x in other_config.resource:
+			for x in PLATFROM.resource:
 				add_dict_argv(type=x)
 				try_send_requests()
 				print x + "发送成功"
@@ -128,9 +134,9 @@ while True:
 	elif press == "4":
 		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.upPotential")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
-			for y in other_config.potentialId:
+			for y in PLATFROM.potentialId:
 				add_dict_argv(potentialId=y)
 				for z in range(41):
 					try_send_requests()
@@ -140,7 +146,7 @@ while True:
 
 	elif press == "5":
 		add_dict_argv(method="Tools.batchPassStage")
-		for x in other_config.stageId:
+		for x in PLATFROM.stageId:
 			add_dict_argv(stageId=x)
 			try_send_requests()
 			print "关卡已调整至" + x
@@ -149,7 +155,7 @@ while True:
 
 	elif press == "6":
 		add_dict_argv(goodsNum=raw_input("输入道具数量:\n".decode('utf-8').encode('gbk')), method="Tools.sendItems")
-		new_list = 	other_config.bingtuansuipianId + "," + other_config.jinjiecailiaoId + "," + other_config.herosuipianId + "," + other_config.baowustr + "," + other_config.otheritem + "," + other_config.fashusuipian
+		new_list = 	PLATFROM.bingtuansuipianId + "," + PLATFROM.jinjiecailiaoId + "," + PLATFROM.herosuipianId + "," + PLATFROM.baowustr + "," + PLATFROM.otheritem + "," + PLATFROM.fashusuipian
 		debug_menu.item_menu()
 		select_type = raw_input("选择道具类型:\n".decode('utf-8').encode('gbk'))
 		if select_type == "1":
@@ -157,40 +163,40 @@ while True:
 			try_send_requests()
 			print "全部物品发送成功"
 		elif select_type == "2":
-			add_dict_argv(goodsId=other_config.bingtuansuipianId)	
+			add_dict_argv(goodsId=PLATFROM.bingtuansuipianId)	
 			try_send_requests()
 			print "发放兵团碎片成功"
 		elif select_type == "3":
-			add_dict_argv(goodsId=other_config.jinjiecailiaoId)
+			add_dict_argv(goodsId=PLATFROM.jinjiecailiaoId)
 			try_send_requests()
 			print "发放进阶材料成功"
 		elif select_type == "4":
-			add_dict_argv(goodsId=other_config.herosuipianId)
+			add_dict_argv(goodsId=PLATFROM.herosuipianId)
 			try_send_requests()
 			print "发放英雄碎片成功"
 		elif select_type == "5":
-			add_dict_argv(goodsId=other_config.baowustr)
+			add_dict_argv(goodsId=PLATFROM.baowustr)
 			try_send_requests()
 			print "发放宝物成功"
 		elif select_type == "6":
-			add_dict_argv(goodsId=other_config.otheritem)
+			add_dict_argv(goodsId=PLATFROM.otheritem)
 			try_send_requests()
 			print "发放杂物成功"
 		elif select_type == "7":
-			add_dict_argv(goodsId=other_config.fashusuipian)
+			add_dict_argv(goodsId=PLATFROM.fashusuipian)
 			try_send_requests()
 			print "发放法术碎片成功"
 		del_dict_argv("goodsNum","goodsId","method")
 		Alzheimer_disease(press)
 
 	elif press == "7":
-		for x in other_config.baowu:
+		for x in PLATFROM.baowu:
 			add_dict_argv(method="Treasure.wearDisTreasure",disId=x,comId=str(x)[2:4],positionId=str(x)[-1])
 			try_send_requests()
 			print str(x) + "已装备"
 			del_dict_argv("method","disId","comId","positionId")
 
-		for x in other_config.baowu:
+		for x in PLATFROM.baowu:
 			add_dict_argv(method="Treasure.activationComTreasure",comId=str(x)[2:4])
 			try_send_requests()
 			print str(x) + "已激活组合宝物"
@@ -200,7 +206,7 @@ while True:
 
 		temp_addRes("gold",999999999)
 		add_dict_argv(method="Treasure.promoteDisTreasure")
-		for x in other_config.baowu:
+		for x in PLATFROM.baowu:
 			add_dict_argv(disId=x, comId=str(x)[2:4])
 			for y in range(21):
 				try_send_requests()
@@ -210,7 +216,7 @@ while True:
 		temp_addRes("starfrag",9999999)
 		temp_addRes("gold",999999999)
 		add_dict_argv(method="Treasure.upStar",num="10")
-		for x in other_config.baowu:
+		for x in PLATFROM.baowu:
 			add_dict_argv(disId=x, comId=str(x)[2:4])
 			for y in range(50):
 				try_send_requests()
@@ -219,7 +225,7 @@ while True:
 
 		temp_addRes("gold",999999999)
 		add_dict_argv(method="Treasure.promoteComTreasure")
-		for x in other_config.baowu:
+		for x in PLATFROM.baowu:
 			add_dict_argv(comId=str(x)[2:4])
 			for y in range(21):
 				try_send_requests()
@@ -229,7 +235,7 @@ while True:
 				
 	elif press == "8":
 		add_dict_argv(method="Tools.sendHero")
-		for x in other_config.heroId:
+		for x in PLATFROM.heroId:
 			add_dict_argv(heroId=x)
 			try_send_requests()
 			print "已发送" + str(x)
@@ -238,7 +244,7 @@ while True:
 
 	elif press == "9":
 		add_dict_argv(method="Hero.upgradeStar")
-		for x in other_config.heroId:
+		for x in PLATFROM.heroId:
 			add_dict_argv(heroId=x)
 			for y in range(4):
 				try_send_requests()
@@ -246,7 +252,7 @@ while True:
 		del_dict_argv("method","heroId")
 
 		add_dict_argv(method="Hero.initHeroSlot")
-		for x in other_config.heroId:
+		for x in PLATFROM.heroId:
 			add_dict_argv(heroId=x)
 			try_send_requests()
 			print "英雄" + str(x) + "已激活刻印孔"
@@ -267,21 +273,21 @@ while True:
 
 		temp_sendItems("3004",5000000)
 		add_dict_argv(method="Hero.heroSkillUpgrade",exMode="1")
-		for x in other_config.heroId:
+		for x in PLATFROM.heroId:
 			add_dict_argv(heroId=x)
-			for y in other_config.skillposition:
+			for y in PLATFROM.skillposition:
 				add_dict_argv(positionId=y)
 				for z in range(22):
 					try_send_requests()
 					print "第" + str(z) + "次升级" + str(x) + " " + str(y) + "技能" 
 		del_dict_argv("method","exMode","heroId","positionId")
 		for x in range(5):
-			refreshMastery(other_config.heroId)
+			refreshMastery(PLATFROM.heroId)
 		Alzheimer_disease(press)
 
 	elif press == "11":
 		add_dict_argv(method="Tools.createTeam")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
 			try_send_requests()
 			print "已发放" + str(x)
@@ -292,7 +298,7 @@ while True:
 
 		temp_addRes("texp",999999999)
 		add_dict_argv(method="Team.upgradeTeam",level="90")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
 			try_send_requests()
 			print "兵团" + str(x) + "已升级"
@@ -301,7 +307,7 @@ while True:
 		temp_addRes("gold",999999999)
 		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.batchUpgradeEquip")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
 			try_send_requests()
 			print "兵团" + str(x) + "装备已升级"
@@ -310,9 +316,9 @@ while True:
 		temp_addRes("gold",999999999)
 		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.upgradeStageEquip")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
-			for y in other_config.skillposition:
+			for y in PLATFROM.skillposition:
 				add_dict_argv(positionId=y)
 				for z in range(14):
 					try_send_requests()
@@ -322,7 +328,7 @@ while True:
 		temp_addRes("gold",999999999)
 		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.upgradeStageTeam")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
 			for y in range(13):
 				try_send_requests()
@@ -336,11 +342,14 @@ while True:
 		dev_select = raw_input("选择服务器:\n".decode('utf-8').encode('gbk'))
 		if dev_select == "6" or dev_select == "8":
 			add_dict_argv(pGroup="test")
+			PLATFROM = other_config_taiwan
 		elif dev_select == "4" or dev_select == "5" or dev_select == "7":
 			add_dict_argv(pGroup="aqq")
+			PLATFROM = other_config
 		else:
 			add_dict_argv(pGroup="default")
-		dev_server = other_config.debug_server_requests[int(dev_select) - 1]
+			PLATFROM = other_config
+		dev_server = PLATFROM.debug_server_requests[int(dev_select) - 1]
 		add_dict_argv(rid=user_rid, sec=user_rid[:4])
 		Alzheimer_disease(press)
 
@@ -363,28 +372,28 @@ while True:
 
 
 		temp_addRes("gold",999999999)
-		update_small_star(other_config.bingtuanId1star)
-		update_big_star(other_config.bingtuanId1star)
-		new_bingtuansuipian2star = other_config.bingtuanId1star + other_config.bingtuanId2star
+		update_small_star(PLATFROM.bingtuanId1star)
+		update_big_star(PLATFROM.bingtuanId1star)
+		new_bingtuansuipian2star = PLATFROM.bingtuanId1star + PLATFROM.bingtuanId2star
 		update_small_star(new_bingtuansuipian2star)
 		update_big_star(new_bingtuansuipian2star)
 		temp_addRes("gold",999999999)
-		new_bingtuansuipian3star = new_bingtuansuipian2star + other_config.bingtuanId3star
+		new_bingtuansuipian3star = new_bingtuansuipian2star + PLATFROM.bingtuanId3star
 		for x in range(3):
 			update_small_star(new_bingtuansuipian3star)
 			update_big_star(new_bingtuansuipian3star)
 
 		add_dict_argv(method="Team.activationPotential")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
 			try_send_requests()
 			print str(x) + "潜能激活完毕"
 		del_dict_argv("method","teamId")
 
 		add_dict_argv(method="Team.openSkill")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
-			for y in other_config.skillposition:
+			for y in PLATFROM.skillposition:
 				add_dict_argv(positionId=y)
 				try_send_requests()
 				print str(x) + "已激活" + str(y) + "技能"
@@ -393,9 +402,9 @@ while True:
 		temp_sendItems("3025",5000000)
 
 		add_dict_argv(method="Team.upgradeSkill",args="{\"items\":[[3025,100]]}")
-		for x in other_config.bingtuanId:
+		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
-			for y in other_config.skillposition:
+			for y in PLATFROM.skillposition:
 				add_dict_argv(positionId=y)
 				try_send_requests()
 				print str(x) + "技能" + str(y) + "已升级"
@@ -412,7 +421,7 @@ while True:
 
 	elif press == "16":
 		add_dict_argv(method="Hero.combineSpellBook")
-		for x in other_config.skillId:
+		for x in PLATFROM.skillId:
 			add_dict_argv(sid=x)
 			try_send_requests()
 			print str(x) + "激活成功"
@@ -420,7 +429,7 @@ while True:
 		Alzheimer_disease(press)
 
 		add_dict_argv(method="Hero.upLevelSpellBook")
-		for x in other_config.skillId:
+		for x in PLATFROM.skillId:
 			add_dict_argv(sid=x)
 			for y in range(5):
 				try_send_requests()
@@ -459,7 +468,7 @@ while True:
 		temp_addRes("starNum",200000)
 
 		add_dict_argv(method="Talent.upTalentChildLv")
-		for x in other_config.magicTalent:
+		for x in PLATFROM.magicTalent:
 			add_dict_argv(tid=x,kind=str(x)[:2])
 			for y in range(10):
 				try_send_requests()
@@ -476,16 +485,16 @@ while True:
 
 	elif press == "21":
 		add_dict_argv(method="Tools.activateAwaking")
-		for x in other_config.activateAwaking:
+		for x in PLATFROM.activateAwaking:
 			add_dict_argv(teamId=x)
 			try_send_requests()
 			print "兵团" + str(x) + "已觉醒"
 		del_dict_argv("method","teamId")
 
-		for x in other_config.activateAwaking:
+		for x in PLATFROM.activateAwaking:
 			temp_sendItems("94"+str(x),200000)
 
-		for x in other_config.activateAwaking:
+		for x in PLATFROM.activateAwaking:
 			add_dict_argv(method="Awaking.upAwakingLevel",teamId=x)
 			for y in range(7):
 				try_send_requests()
@@ -513,7 +522,7 @@ while True:
 		temp_sendItems("3044,3045,3046,3047,3048",2000000)
 
 		for x in range(input("输入循环次数:\n".decode('utf-8').encode('gbk'))):
-			trainTalent_and_saveTalent(other_config.bingtuanId)
+			trainTalent_and_saveTalent(PLATFROM.bingtuanId)
 		Alzheimer_disease(press)
 
 	elif press == "23":
