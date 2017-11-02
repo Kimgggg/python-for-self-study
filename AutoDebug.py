@@ -132,13 +132,14 @@ while True:
 		Alzheimer_disease(press)
 
 	elif press == "4":
+		potentialId = [1,2,3]
 		temp_addRes("gold",999999999)
 		add_dict_argv(method="Team.upPotential")
 		for x in PLATFROM.bingtuanId:
 			add_dict_argv(teamId=x)
-			for y in PLATFROM.potentialId:
+			for y in potentialId:
 				add_dict_argv(potentialId=y)
-				for z in range(41):
+				for z in range(40):
 					try_send_requests()
 					print "兵团" + str(x) + "潜能" + str(y) + "第" + str(z) + "次提升"
 		del_dict_argv("method","teamId","potentialId")
