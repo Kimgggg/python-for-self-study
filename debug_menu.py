@@ -63,6 +63,7 @@ def res_menu():
 	res_menu.add_row(["3.","金币"])  
 	res_menu.add_row(["4.","体力"])  
 	res_menu.add_row(["5.","兵团经验"])   
+	res_menu.add_row(["6.","角色经验"])
 	print res_menu 
 
 def item_menu():
