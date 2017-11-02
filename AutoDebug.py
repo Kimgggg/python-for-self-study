@@ -114,6 +114,10 @@ while True:
 			add_dict_argv(type="texp")
 			try_send_requests()
 			print "texp发送成功"
+		elif select_type == "6":
+			add_dict_argv(type="exp")
+			try_send_requests()
+			print "exp发送成功"
 		del_dict_argv("num","type","method")
 		Alzheimer_disease(press)
 			
