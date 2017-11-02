@@ -147,27 +147,19 @@ while True:
 
 	elif press == "5":
 		temp_stageId = ["710","720"]
-		add_dict_argv(method="Tools.batchPassStage")
 		print "第15章第5小关 则输入 1505\n"
 		stage = raw_input("请输入关卡id:\n".decode('utf-8').encode('gbk'))
 		if int(stage[-2:]) > 15 or int(stage[:2]) > 26:
 			print "关卡id输入错误"
 		else:
-			add_dict_argv(stageId=(temp_stageId[0] + stage))
-			print temp_stageId[0] + stage
+			add_dict_argv(method="Tools.batchPassStage",stageId=(temp_stageId[0] + stage))
+			# print temp_stageId[0] + stage
 			try_send_requests()
 			add_dict_argv(stageId=temp_stageId[1] + str((int(stage[:2]) - 1)) + "05")
-			print str(temp_stageId[1] + str((int(stage[:2]) - 1)) + "05")
+			# print str(temp_stageId[1] + str((int(stage[:2]) - 1)) + "05")
 			try_send_requests()
 			del_dict_argv("method","stageId")
 			Alzheimer_disease(press)
-
-		# for x in PLATFROM.stageId:
-		# 	add_dict_argv(stageId=x)
-		# 	try_send_requests()
-		# 	print "关卡已调整至" + x
-		# del_dict_argv("method","stageId")
-		# Alzheimer_disease(press)
 
 	elif press == "6":
 		add_dict_argv(goodsNum=raw_input("输入道具数量:\n".decode('utf-8').encode('gbk')), method="Tools.sendItems")
