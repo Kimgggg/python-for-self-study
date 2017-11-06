@@ -114,19 +114,25 @@ while True:
 			add_dict_argv(type="texp")
 			try_send_requests()
 			print "texp发送成功"
-		elif select_type == "6":
-			add_dict_argv(type="exp")
-			try_send_requests()
-			print "exp发送成功"
 		del_dict_argv("num","type","method")
 		Alzheimer_disease(press)
 			
 	elif press == "2":
-		add_dict_argv(method="Tools.upgradeLevel", level=raw_input("输入要提升的等级:\n".decode('utf-8').encode('gbk')))
-		try_send_requests()
-		print "等级调整完毕"
-		del_dict_argv("method","level")
-		Alzheimer_disease(press)
+		debug_menu.set_level()
+		select_type = raw_input("select:\n")
+		if select_type == "1":
+			add_dict_argv(method="Tools.upgradeLevel", level=raw_input("输入要提升的等级:\n".decode('utf-8').encode('gbk')))
+			try_send_requests()
+			print "等级调整完毕"
+			del_dict_argv("method","level")
+			Alzheimer_disease(press)
+		elif select_type == "2":
+			add_dict_argv(type="exp",num=raw_input("输入经验:\n".decode('utf-8').encode('gbk')),method="Tools.addRes")
+			try_send_requests()
+			del_dict_argv("method","num","type")
+			print "exp发送成功"
+			Alzheimer_disease(press)
+			
 
 	elif press == "3":
 		add_dict_argv(method="Tools.setVipLevel",level=raw_input("输入要设置的vip等级:\n".decode('utf-8').encode('gbk')))

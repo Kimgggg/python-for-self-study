@@ -96,3 +96,12 @@ def reward_menu():
 	reward_menu.add_row(["9.","宝物5连抽"])
 	reward_menu.add_row(["10.","宝物单抽"])
 	print reward_menu  
+
+def set_level():
+	set_level = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	set_level.align["id"] = "c"# Left align city names
+	set_level.align["类型"] = "l"
+	set_level.padding_width = 1# One space between column edges and contents (default)
+	set_level.add_row(["1.","设置等级"])  
+	set_level.add_row(["2.","设置经验"])
+	print set_level
