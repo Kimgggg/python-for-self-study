@@ -495,11 +495,20 @@ while True:
 		Alzheimer_disease(press)
 
 	elif press == "20":
-		add_dict_argv(method="Tools.clearUserData",type="4")
-		try_send_requests()
-		print "清空背包成功"
-		del_dict_argv("method","type")
-		Alzheimer_disease(press)
+		debug_menu.clear_data()
+		select_type = raw_input("select:\n")
+		if select_type == "1":
+			add_dict_argv(method="Tools.clearUserData",type="4")
+			try_send_requests()
+			print "清空背包成功"
+			del_dict_argv("method","type")
+			Alzheimer_disease(press)
+		elif select_type == "2":
+			add_dict_argv(method="Tools.clearUserData",type="1")
+			try_send_requests()
+			print "每日状态重置成功,需重新登录"
+			del_dict_argv("method","type")
+			Alzheimer_disease(press)
 
 	elif press == "21":
 		add_dict_argv(method="Tools.activateAwaking")

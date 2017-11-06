@@ -10,7 +10,7 @@ def main_menu():
 	main_menu.align["id"] = "c"# Left align city names
 	main_menu.align["选项"] = "l"
 	main_menu.padding_width = 1# One space between column edges and contents (default)
-	main_menu.add_row(["1.","添加金币、钻石、兵团经验、体力、角色经验"])  
+	main_menu.add_row(["1.","添加金币、钻石、兵团经验、体力"])  
 	main_menu.add_row(["2.","玩家升级"])  
 	main_menu.add_row(["3.","设置vip等级"])  
 	main_menu.add_row(["4.","提升全部兵团潜力"])  
@@ -105,3 +105,12 @@ def set_level():
 	set_level.add_row(["1.","设置等级"])  
 	set_level.add_row(["2.","设置经验"])
 	print set_level
+
+def clear_data():
+	clear_data = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	clear_data.align["id"] = "c"# Left align city names
+	clear_data.align["类型"] = "l"
+	clear_data.padding_width = 1# One space between column edges and contents (default)
+	clear_data.add_row(["1.","清空背包"])  
+	clear_data.add_row(["2.","每日重置"])
+	print clear_data
