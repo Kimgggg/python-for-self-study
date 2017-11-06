@@ -29,7 +29,7 @@ def main_menu():
 	main_menu.add_row(["17.","图鉴解锁+图鉴升级"])  
 	main_menu.add_row(["18.","清除yac"])  
 	main_menu.add_row(["19.","英雄天赋升级"])  
-	main_menu.add_row(["20.","清空背包"])  
+	main_menu.add_row(["20.","清空各类数据"])  
 	main_menu.add_row(["21.","觉醒兵团+觉醒强化"])  
 	main_menu.add_row(["22.","全部兵团指定次数随机增加兵团天赋"])  
 	main_menu.add_row(["24.","抽卡测试"])
@@ -49,8 +49,6 @@ def server_menu():
 	server_menu.add_row(["6.","台湾104"])
 	server_menu.add_row(["7.","dev5"])
 	server_menu.add_row(["8.","台湾105"])
-
-
 	print server_menu  
 
 def res_menu():
