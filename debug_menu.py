@@ -24,7 +24,6 @@ def main_menu():
 	main_menu.add_row(["12.","所有兵团升级+兵团装备升级+兵团装备进阶"])  
 	main_menu.add_row(["13.","更换user_rid与服务器"])  
 	main_menu.add_row(["14.","所有兵团升星+激活潜能+解锁技能+技能升级"])  
-	main_menu.add_row(["15.","重置pve玩法次数"])
 	main_menu.add_row(["16.","法术激活升级"])
 	main_menu.add_row(["17.","图鉴解锁+图鉴升级"])  
 	main_menu.add_row(["18.","清除yac"])  
@@ -111,4 +110,6 @@ def clear_data():
 	clear_data.padding_width = 1# One space between column edges and contents (default)
 	clear_data.add_row(["1.","清空背包"])  
 	clear_data.add_row(["2.","每日重置"])
+	clear_data.add_row(["3.","重置账号"])
+	clear_data.add_row(["4.","重置pve玩法次数"])
 	print clear_data

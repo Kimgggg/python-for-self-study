@@ -431,11 +431,7 @@ while True:
 
 
 	elif press == "15":
-		add_dict_argv(method="Tools.resetBoss")
-		try_send_requests()
-		print "pve次数清空完毕"
-		del_dict_argv("method")
-		Alzheimer_disease(press)
+		pass
 
 	elif press == "16":
 		add_dict_argv(method="Hero.combineSpellBook")
@@ -508,6 +504,18 @@ while True:
 			try_send_requests()
 			print "每日状态重置成功,需重新登录"
 			del_dict_argv("method","type")
+			Alzheimer_disease(press)
+		elif select_type == "3":
+			add_dict_argv(method=Tools.clearUser)
+			try_send_requests()
+			del_dict_argv("method")
+			print "账号已重置"
+			Alzheimer_disease(press)
+		elif select_type == "4":
+			add_dict_argv(method="Tools.resetBoss")
+			try_send_requests()
+			print "pve次数清空完毕"
+			del_dict_argv("method")
 			Alzheimer_disease(press)
 
 	elif press == "21":
