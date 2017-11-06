@@ -561,12 +561,7 @@ while True:
 		Alzheimer_disease(press)
 
 	elif press == "23":
-		# 需要判断userid后选择对应服务器的id的csv,当前写死为7服
-		add_dict_argv(method="Tools.autoKeyCopy",rids=user_rid,rid="8001_884")
-		try_send_requests()
-		del_dict_argv("method","rids","rid")
-		add_dict_argv(rid=user_rid)
-		Alzheimer_disease(press)
+		pass
 
 	elif press == "24":
 		print "清空背包中...."
