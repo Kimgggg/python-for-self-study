@@ -6,33 +6,25 @@ import sys
 from prettytable import PrettyTable
 
 def main_menu():
-	main_menu = PrettyTable(['id', "选项"], encoding=sys.stdout.encoding)  
-	main_menu.align["id"] = "c"# Left align city names
+	main_menu = PrettyTable(['id', "选项","id ","选项 "], encoding=sys.stdout.encoding)  
+	main_menu.align["id"] = "c"
+	main_menu.align["id "] = "c"# Left align city names
 	main_menu.align["选项"] = "l"
+	main_menu.align["选项 "] = "l"
 	main_menu.padding_width = 1# One space between column edges and contents (default)
-	main_menu.add_row(["1.","添加金币、钻石、兵团经验、体力"])  
-	main_menu.add_row(["2.","玩家升级"])  
-	main_menu.add_row(["3.","设置vip等级"])  
-	main_menu.add_row(["4.","提升全部兵团潜力"])  
-	main_menu.add_row(["5.","调整副本进度"])  
-	main_menu.add_row(["6.","发送道具"])  
-	main_menu.add_row(["7.","全部宝物进阶+升星"])
-	main_menu.add_row(["8.","发送全部英雄"])
-	main_menu.add_row(["9.","英雄升星+开启法术槽"])  
-	main_menu.add_row(["10.","全部英雄技能升级+随机刷新5次专精"])  
-	main_menu.add_row(["11.","发送全部兵团"])  
-	main_menu.add_row(["12.","所有兵团升级+兵团装备升级+兵团装备进阶"])  
-	main_menu.add_row(["13.","更换user_rid与服务器"])  
-	main_menu.add_row(["14.","所有兵团升星+激活潜能+解锁技能+技能升级"])  
-	main_menu.add_row(["16.","法术激活升级"])
-	main_menu.add_row(["17.","图鉴解锁+图鉴升级"])  
-	main_menu.add_row(["18.","清除yac"])  
-	main_menu.add_row(["19.","英雄天赋升级"])  
-	main_menu.add_row(["20.","清空各类数据"])  
-	main_menu.add_row(["21.","觉醒兵团+觉醒强化"])  
-	main_menu.add_row(["22.","全部兵团指定次数随机增加兵团天赋"])  
-	main_menu.add_row(["24.","抽卡测试"])
-	main_menu.add_row(["q.","退出"])
+	main_menu.add_row(["1.","添加金币、钻石、兵团经验、体力","14.","英雄天赋升级"])  
+	main_menu.add_row(["2.","玩家升级","15.","清空各类数据"])  
+	main_menu.add_row(["3.","设置vip等级","16.","觉醒兵团+觉醒强化"])  
+	main_menu.add_row(["4.","调整副本进度","17.","全部兵团指定次数随机增加兵团天赋"])  
+	main_menu.add_row(["5.","发送道具","18.","抽卡测试"])  
+	main_menu.add_row(["6.","宝物调整","19.","兵营建造+兵营升级(国内)"])  
+	main_menu.add_row(["7.","发送全部英雄","20.","xxxxxxxxxxx"])
+	main_menu.add_row(["8.","英雄调整","21.","xxxxxxxxxxx"])
+	main_menu.add_row(["9.","发送全部兵团","22.","xxxxxxxxxx"])  
+	main_menu.add_row(["10.","兵团调整","23.","xxxxxxxxxxxx"])  
+	main_menu.add_row(["11.","更换user_rid与服务器","24.","xxxxxxxxxxx"])  
+	main_menu.add_row(["12.","法术激活升级","25.","xxxxxxxxxxxxxxxxxxxx"])
+	main_menu.add_row(["13.","图鉴解锁+图鉴升级","q.","退出"])
 	print main_menu  
 
 def server_menu():
@@ -48,6 +40,7 @@ def server_menu():
 	server_menu.add_row(["6.","台湾104"])
 	server_menu.add_row(["7.","dev5"])
 	server_menu.add_row(["8.","台湾105"])
+	server_menu.add_row(["9.","棒子.58"])
 	print server_menu  
 
 def res_menu():
@@ -60,7 +53,7 @@ def res_menu():
 	res_menu.add_row(["3.","金币"])  
 	res_menu.add_row(["4.","体力"])  
 	res_menu.add_row(["5.","兵团经验"])   
-	res_menu.add_row(["6.","角色经验"])
+	res_menu.add_row(["6.","手动输入资源类型"])
 	print res_menu 
 
 def item_menu():
@@ -75,6 +68,7 @@ def item_menu():
 	item_menu.add_row(["5.","发送全部宝物"])  
 	item_menu.add_row(["6.","发送其他道具"])
 	item_menu.add_row(["7.","发送全部法术碎片"])
+	item_menu.add_row(["8.","手动输入道具ID"])
 	print item_menu  
 	
 def reward_menu():
@@ -92,6 +86,7 @@ def reward_menu():
 	reward_menu.add_row(["8.","法术祈愿卷轴单抽"])
 	reward_menu.add_row(["9.","宝物5连抽"])
 	reward_menu.add_row(["10.","宝物单抽"])
+	reward_menu.add_row(["11.","器械钻石5连抽"])
 	print reward_menu  
 
 def set_level():
@@ -112,4 +107,86 @@ def clear_data():
 	clear_data.add_row(["2.","每日重置"])
 	clear_data.add_row(["3.","重置账号"])
 	clear_data.add_row(["4.","重置pve玩法次数"])
+	clear_data.add_row(["5.","清除yac"])
+	clear_data.add_row(["6.","清除退工会cd"])
+	clear_data.add_row(["7.","初始化跨服竞技场数据"])
 	print clear_data
+
+def team_choose():
+	team_choose = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	team_choose.align["id"] = "c"# Left align city names
+	team_choose.align["类型"] = "l"
+	team_choose.padding_width = 1# One space between column edges and contents (default)
+	team_choose.add_row(["1.","修改全部兵团"])  
+	team_choose.add_row(["2.","修改单独兵团"])
+	print team_choose
+	
+def team_type_choose1():
+	team_type_choose1 = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	team_type_choose1.align["id"] = "c"# Left align city names
+	team_type_choose1.align["类型"] = "l"
+	team_type_choose1.padding_width = 1# One space between column edges and contents (default)
+	team_type_choose1.add_row(["1.","兵团升级"])  
+	team_type_choose1.add_row(["2.","兵团装备升级"])
+	team_type_choose1.add_row(["3.","兵团装备进阶"])
+	team_type_choose1.add_row(["4.","兵团进阶"])
+	team_type_choose1.add_row(["5.","兵团升星"])  
+	team_type_choose1.add_row(["6.","激活潜能"])
+	team_type_choose1.add_row(["7.","激活技能"])
+	team_type_choose1.add_row(["8.","技能升级"])
+	team_type_choose1.add_row(["9.","潜能升级"])
+	team_type_choose1.add_row(["10.","以上全部"])
+	print team_type_choose1
+
+def hero_choose():
+	hero_choose = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	hero_choose.align["id"] = "c"# Left align city names
+	hero_choose.align["类型"] = "l"
+	hero_choose.padding_width = 1# One space between column edges and contents (default)
+	hero_choose.add_row(["1.","修改全部英雄"])  
+	hero_choose.add_row(["2.","修改单独英雄"])
+	print hero_choose
+
+def hero_type_choose():
+	hero_type_choose = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	hero_type_choose.align["id"] = "c"# Left align city names
+	hero_type_choose.align["类型"] = "l"
+	hero_type_choose.padding_width = 1# One space between column edges and contents (default)
+	hero_type_choose.add_row(["1.","英雄升星"])  
+	hero_type_choose.add_row(["2.","激活刻印孔"])
+	hero_type_choose.add_row(["3.","刷新专精"])
+	hero_type_choose.add_row(["4.","技能升级"])
+	hero_type_choose.add_row(["5.","以上全部"])
+	print hero_type_choose
+
+def activateAwaking():
+	activateAwaking = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	activateAwaking.align["id"] = "c"# Left align city names
+	activateAwaking.align["类型"] = "l"
+	activateAwaking.padding_width = 1# One space between column edges and contents (default)
+	activateAwaking.add_row(["1.","兵团觉醒"])  
+	activateAwaking.add_row(["2.","觉醒强化"])
+	print activateAwaking
+
+def Treasure():
+	Treasure = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	Treasure.align["id"] = "c"# Left align city names
+	Treasure.align["类型"] = "l"
+	Treasure.padding_width = 1# One space between column edges and contents (default)
+	Treasure.add_row(["1.","装备宝物"])  
+	Treasure.add_row(["2.","激活组合宝物"])
+	Treasure.add_row(["3.","散件宝物进阶"])
+	Treasure.add_row(["4.","组合宝物进阶"])
+	Treasure.add_row(["5.","宝物升星"])
+	print Treasure
+
+def Treasure_menu():
+	Treasure_menu = PrettyTable(['id', "类型"], encoding=sys.stdout.encoding)  
+	Treasure_menu.align["id"] = "c"# Left align city names
+	Treasure_menu.align["类型"] = "l"
+	Treasure_menu.padding_width = 1# One space between column edges and contents (default)
+	Treasure_menu.add_row(["1.","修改全部宝物"])  
+	Treasure_menu.add_row(["2.","修改单独宝物"])
+	print Treasure_menu
+
+

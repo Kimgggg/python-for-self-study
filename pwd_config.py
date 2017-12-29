@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 python_Script_Mac = "/Users/playcrab/Documents/python-for-self-study/" #python脚本路径
-python_Script_Windows = "D:/wyn"#windows系统python脚本库路径
+python_Script_Windows = "D:/QA"#windows系统python脚本库路径
 svn_DebugData = "/data/work/KOF/svn/数据表/数值开发/" #kof svn数值开发路径
 svn_ReleaseData = "/data/work/KOF/svn/数据表/Release/"#kof svn Release数值路径
 svn_Debug_copy = "/Users/playcrab/Documents/kof_debug_excel/" #kof svn复制到本地的路径
@@ -26,3 +26,4 @@ War_svn_design = "E:/war/design"#heros svn内策划配置表路径
 War_svn_configfile = "E:/war/svn"#heros 配置文件路径
 War_CheckList_CSV_Target = "D:/config_git"#heros 本地debug csv对比路径
 War_CheckList_CSV_Source = "E:/war/svn/configCsv/csv"#herossvn内csv路径
+War_LocalCache = "C:/Users/User/AppData/Local/war"

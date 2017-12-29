@@ -1,9 +1,12 @@
 no_upload.py
+pwd_config.py
 no_upload.pyc
 *.pyc
-
+*.spec
 
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
 .vs/wyn/v15/.suo
 geckodriver.log
+build/
+svn/*.pyc

@@ -4,7 +4,7 @@
     "_it" : NumberInt(1508379881), 
     "uid" : NumberInt(884), 
     "name" : "ÑªÄ§Âó¿Ë¡¤ÀÕË¹", 
-    "_commitId" : NumberInt(24523), 
+    "_commitId" : NumberInt(24524), 
     "_lt" : NumberInt(1508817694), 
     "uuid" : "59e80ce9e13823078d7332fc", 
     "usid" : "800151145573", 
@@ -2799,7 +2799,8 @@
             "sts74" : NumberInt(15), 
             "sts18" : NumberInt(480), 
             "sts51" : NumberInt(5), 
-            "sts17" : NumberInt(2)
+            "sts17" : NumberInt(2), 
+            "sts43" : NumberInt(1)
         }
     }, 
     "heros" : {
@@ -4459,13 +4460,13 @@
         "dnum16" : NumberInt(0), 
         "dnum17" : NumberInt(0), 
         "dnum18" : NumberInt(1152), 
-        "dnum19" : NumberInt(13), 
+        "dnum19" : NumberInt(14), 
         "dnum20" : NumberInt(0), 
         "dnum21" : NumberInt(0), 
         "dnum22" : NumberInt(0), 
         "dnum23" : NumberInt(0), 
         "dnum24" : NumberInt(0), 
-        "dstr1" : "5,6,7,8,9,10,11,12,13", 
+        "dstr1" : "5,6,7,8,9,10,11,12,13,14", 
         "snum6" : NumberInt(5), 
         "snum22" : NumberInt(1), 
         "snum21" : NumberInt(1508379905), 
@@ -4479,9 +4480,9 @@
         "snum30" : NumberInt(15), 
         "snum4" : NumberInt(484101), 
         "snum13" : NumberInt(660), 
-        "snum8" : NumberInt(13), 
-        "snum3" : NumberInt(1), 
-        "snum12" : NumberInt(1), 
+        "snum8" : NumberInt(14), 
+        "snum3" : NumberInt(2), 
+        "snum12" : NumberInt(2), 
         "snum1" : NumberInt(291), 
         "snum11" : NumberInt(14820), 
         "snum5" : NumberInt(5697)
@@ -10969,12 +10970,12 @@
         "needPcs" : NumberInt(6), 
         "pcsPosition" : "eJxLtDKzqs60MrDOtDKEYhMgNgJiYyg2RRIDsc2tawGYlQ7R", 
         "sweepId" : NumberInt(0), 
-        "lastCrusade" : NumberInt(13), 
+        "lastCrusade" : NumberInt(14), 
         "atkUseMer" : "", 
         "atkUseMerId" : NumberInt(0), 
         "atkRK" : "", 
-        "lastUpTime" : NumberInt(1508817946), 
-        "usePcs" : NumberInt(1), 
+        "lastUpTime" : NumberInt(1508817999), 
+        "usePcs" : NumberInt(2), 
         "buff" : {
             "104" : NumberInt(1), 
             "116" : NumberInt(40)
